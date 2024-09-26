@@ -19,16 +19,18 @@ redirect_from:
 
 I am currently a Senior undergraduate at Shandong University, based in Qingdao.
 
-I am now working on Text-to-Motion generation, Multimodal reasoning and generation research. If you would like to have an academic discussion or cooperation, please feel free to email me at chatoncws@gmail.com.
+I am now working on Text-to-Motion generation, XAI, Multimodal reasoning and generation research. If you would like to have an academic discussion or cooperation, please feel free to email me at chatoncws@gmail.com.
 
 My research interests include:
 
 - Text-to-Motion Generation
 - Multimodal reasoning and generation
+- XAI
 
 
 
 # 🔥 News
+- *2024.09* One paper of XAI is accepted by **NeurIPS 2024**. Congratulations to the collaborators!
 - *2024.09* I join CUHK(shenzhen) as a RA supervised by Professor [Zhizheng Wu](https://drwuz.com/).
 - *2024.07* One paper of robustness of text-to-motion generation is accepted by **ACM MM 2024**. Congratulations to the collaborators!
 - *2023.12*: I am a remote intern supervised by Professor [Di Wang](https://shao3wangdi.github.io/).
