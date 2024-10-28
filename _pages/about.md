@@ -30,6 +30,7 @@ My research interests include:
 
 
 # 🔥 News
+- *2024.10* I will join Hong Kong University of Science and Technology (Guangzhou) as a PhD student in Fall 2025, supervised by Associate Professor [Yutao Yue](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue).
 - *2024.09* One paper of XAI is accepted by **NeurIPS 2024**. Congratulations to the collaborators!
 - *2024.09* I join CUHK(shenzhen) as a RA supervised by Professor [Zhizheng Wu](https://drwuz.com/).
 - *2024.07* One paper of robustness of text-to-motion generation is accepted by **ACM MM 2024**. Congratulations to the collaborators!
@@ -66,6 +67,15 @@ Lijie Hu#, Songning Lai#, **Wenshuo Chen#**, Hongru Xiao, Hongbin Lin, Lu Yu, Ji
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/time_pre.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**FTS: A FRAMEWORK TO FIND A FAITHFUL TIMESIEVE**
+  
+Songning Lai#, Ninghui Feng#, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, **Wenshuo Chen**, Hang Zhao, Xuming Hu, Yutao Yue
+- Our research provides faithful technical support and theoretical support to the field of time series forecasting, promising to advance the development and reliability of forecasting methods within the industry. Through these efforts, we aim to bolster the trustworthiness of models, ultimately supporting decision-making processes that rely on accurate and consistent predictions.
+</div>
+</div>
 # 🎖 Honors and Awards
 - *2023.10* National first prize in CUMCM-2023 **(Top 0.3%)**
 - *2023.12* National Award for Intelligent Car 5G Communication Outdoor Competition 2023 **(Top 0.2%)**. 
