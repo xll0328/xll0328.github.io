@@ -43,7 +43,7 @@ My research interests include:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/framework.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SATO: Stable Text-to-Motion Framework](https://arxiv.org/abs/2405.01461)
+**[SATO: Stable Text-to-Motion Framework](https://arxiv.org/abs/2405.01461)**
 
 **Wenshuo Chen#**, Hongru Xiao#, Erhang Zhang#, Lijie Hu, Lei Wang, Mengyuan Liu, Chen Chen
 
@@ -70,7 +70,7 @@ Lijie Hu#, Songning Lai#, **Wenshuo Chen#**, Hongru Xiao, Hongbin Lin, Lu Yu, Ji
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/time_pre.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-**FTS: A FRAMEWORK TO FIND A FAITHFUL TIMESIEVE**
+**[FTS: A FRAMEWORK TO FIND A FAITHFUL TIMESIEVE](https://arxiv.org/pdf/2405.19647)**
   
 Songning Lai#, Ninghui Feng#, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, **Wenshuo Chen**, Hang Zhao, Xuming Hu, Yutao Yue
 - Our research provides faithful technical support and theoretical support to the field of time series forecasting, promising to advance the development and reliability of forecasting methods within the industry. Through these efforts, we aim to bolster the trustworthiness of models, ultimately supporting decision-making processes that rely on accurate and consistent predictions.
