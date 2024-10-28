@@ -61,6 +61,9 @@ Lijie Hu#, Songning Lai#, **Wenshuo Chen#**, Hongru Xiao, Hongbin Lin3, Lu Yu, J
 - We proposed an end-to-end framework called Med-MICN, which leverages the strength of different XAI methods such as concept-based models, neural symbolic methods, saliency maps, and concept semantics. Moreover, Med-MICN generates rules and utilizes concept embeddings to complement the intrinsic medical image features, which improves accuracy.
 - Our outputs are interpreted in multiple dimensions, including concept prediction, saliency maps, and concept reasoning rules, making it easier for experts to identify and correct errors.
 - Med-MICN demonstrates superior performance and interpretability compared with other concept-based models and the black-box model baselines.  
+</div>
+</div>
+
 # 🎖 Honors and Awards
 - *2023.10* National first prize in CUMCM-2023 **(Top 0.3%)**
 - *2023.12* National Award for Intelligent Car 5G Communication Outdoor Competition 2023 **(Top 0.2%)**. 
