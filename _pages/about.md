@@ -55,7 +55,12 @@ My research interests include:
 </div>
 </div>
 
-
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/framework_med.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+Lijie Hu#, Songning Lai#, **Wenshuo Chen#**, Hongru Xiao, Hongbin Lin3, Lu Yu, Jingfeng Zhang, and Di Wang
+- We proposed an end-to-end framework called Med-MICN, which leverages the strength of different XAI methods such as concept-based models, neural symbolic methods, saliency maps, and concept semantics. Moreover, Med-MICN generates rules and utilizes concept embeddings to complement the intrinsic medical image features, which improves accuracy.
+- Our outputs are interpreted in multiple dimensions, including concept prediction, saliency maps, and concept reasoning rules, making it easier for experts to identify and correct errors.
+- Med-MICN demonstrates superior performance and interpretability compared with other concept-based models and the black-box model baselines.  
 # 🎖 Honors and Awards
 - *2023.10* National first prize in CUMCM-2023 **(Top 0.3%)**
 - *2023.12* National Award for Intelligent Car 5G Communication Outdoor Competition 2023 **(Top 0.2%)**. 
