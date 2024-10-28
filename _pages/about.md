@@ -36,7 +36,6 @@ My research interests include:
 - *2023.12*: I am a remote intern supervised by Professor [Di Wang](https://shao3wangdi.github.io/).
 - *2023.08*: I am a remote intern supervised by Professor [Chen Chen](https://www.crcv.ucf.edu/chenchen/).
 - *2023.06*: I join Agibot as a reasearch intern.
-. 
 
 # 📝 Publications 
 
