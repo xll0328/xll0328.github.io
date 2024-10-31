@@ -52,7 +52,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 The Twelfth International Conference on Learning Representations (**ICLR2024**). (CCF None)
 
-The demand for transparency in healthcare and finance has led to interpretable machine learning (IML) models, notably the concept bottleneck models (CBMs), valued for their potential in performance and insights into deep neural networks. However, CBM's reliance on manually annotated data poses challenges. Label-free CBMs have emerged to address this, but they remain unstable, affecting their faithfulness as explanatory tools. To address this issue of inherent instability, we introduce a formal definition for an alternative concept called the Faithful Vision-Language Concept (FVLC) model. We present a methodology for constructing an FVLC that satisfies four critical properties. Our extensive experiments on four benchmark datasets using Label-free CBM model architectures demonstrate that our FVLC outperforms other baselines regarding stability against input and concept set perturbations. Our approach incurs minimal accuracy degradation compared to the vanilla CBM, making it a promising solution for reliable and faithful model interpretation.
+We introduce the Faithful Vision-Language Concept (FVLC) model, addressing the instability of label-free Concept Bottleneck Models (CBMs). Our FVLC model demonstrates superior stability against input and concept set perturbations across four benchmark datasets, with minimal accuracy degradation compared to standard CBMs, offering a reliable solution for model interpretation.
 
 </div>
 </div>
