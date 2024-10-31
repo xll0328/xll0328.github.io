@@ -41,7 +41,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - *11.2022:* I am very glad to give an **oral** report at the international conference [CISP-BMEI](http://www.cisp-bmei.cn/) 2022 and win the **Best Paper Award**.
 - *10.2022:* Our paper on Bioinformation has been accepted by CISP-BMEI 2022 (Tsinghua B)
 
-# 📝 Publications (selected)
+# 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/Accepted_ICLR_24_FCBM.pdf' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -259,7 +259,7 @@ We propose a novel decoding strategy using absorbing Markov chains to measure an
 - **Sep 2020 - June 2024:** Shandong University (BSc, EECS)
 
 
-# 💻 Services
+# 💻 Internships
 - Reviewer:  ECAI2024, Expert Systems with Applications, IJCNN2024, ICML2024, KDD2024, ICLR2025, ICASSP2025, ICRA2025, AISTATS2025
 - Monitor of Chongxin College of Shandong University (The class was awarded as **Shandong Provincial Excellent Class** and **Shandong University Top Ten Class**)
 - **Outstanding Volunteer** of Shandong University with a total volunteer time of **130h**.
