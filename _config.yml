@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Songning Lai（赖颂宁）"
-description              : "HKUST(GZ)"
+description              : "Brain disability brings its own benefits."
 repository               : "xll0328/xll0328.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Songning Lai"
   avatar           : "images/zhaopian.png"
-  bio              : "Shandong University"
-  location         : "Qingdao, China"
+  bio              : "HKUST(GZ)"
+  location         : "Guangzhou, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
