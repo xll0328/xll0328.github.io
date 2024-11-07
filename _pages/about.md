@@ -189,9 +189,9 @@ We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learni
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG169.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-**[DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving](https://arxiv.org/pdf/2409.03192)**
+**[DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving](https://arxiv.org/pdf/2409.10330v1)**
 
-Bowen Tian†, **Songning Lai†**, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue~
+**Songning Lai†**, Tianlang Xue†, Hongru Xiao, Lijie Hu, Jiemin Wu, Ruiqiang Xiao, Ninghui Feng, Haicheng Liao, Zhenning Yang, Yutao Yue~
 
 We introduce DRIVE, a framework designed to enhance the dependability and stability of explanations in end-to-end unsupervised autonomous driving models, addressing instability issues and improving trustworthiness through consistent and stable interpretability and output, as demonstrated by empirical evaluations. This framework provides novel metrics for assessing the reliability of concept-based explainable autonomous driving systems, advancing their real-world deployment.
 
