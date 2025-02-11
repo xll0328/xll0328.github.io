@@ -78,7 +78,7 @@ The Conference on Neural Information Processing Systems (**NeurIPS 2024**).(CCF 
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG169.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/WechatIMG169.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **[DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving](https://arxiv.org/pdf/2409.10330v1)**
@@ -93,7 +93,7 @@ We introduce DRIVE, a framework designed to enhance the dependability and stabil
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG168.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/WechatIMG168.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **[PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning](https://arxiv.org/pdf/2409.03192)**
