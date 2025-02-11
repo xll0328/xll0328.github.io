@@ -19,18 +19,22 @@ redirect_from:
 
 Here is **Songning Lai**.( You can call me Sony. )
 
-I am a junior student studying in the School of Information Science and Engineering([**Chongxin College**](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), [**Shandong University**](https://www.sdu.edu.cn/) in China,supervised by Prof. [**Zhi Liu**](https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm). I am also an incoming PhD student (25Spring) at HKUST@AI Thrust&INFO Hub, supervised by Prof. [**Yutao Yue**](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue).
+I am a junior student studying in the School of Information Science and Engineering([**Chongxin College**](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), [**Shandong University**](https://www.sdu.edu.cn/) in China,supervised by Prof. [**Zhi Liu**](https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm). I am also an incoming PhD student (25 Fall) at HKUST@AI Thrust&INFO Hub, supervised by Prof. [**Yutao Yue**](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue).
 
-My research interests are **Explainable AI (XAI)** and **Privacy-preserving AI**. Specifically, my research goal is to build faithful XAI systems which are easily understood by users and are robust in various environments (e.g. **XAI4LLM, XAI4NLP, XAI4MM, XAI4CV, XAI4Security** and so on). I am also interested in applying the XAI to real-world scenarios (e.g. optical systems, recommender systems, and traffic forecasting etc.). At the same time, I am also very interested in the research of AI in the field of **astronomy, environmental science, materials and medicine**.
+My primary research interest lies in the domain of **Trustworthy AI**, encompassing **explainability**, **robustness**, **faithfulness**, and **safety** of AI. Specifically, I have focused extensively on **Concept Bottleneck Models (CBMs)** within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings [(ICLR 2024)](https://openreview.net/forum?id=rp0EdI8X4e), application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs [(Under review)](https://arxiv.org/pdf/2411.17471), as well as the first exploration of CBMs in the context of security, particularly backdoor attacks [(Under review 1;](https://arxiv.org/pdf/2410.04823)[ Under review 2)](https://arxiv.org/pdf/2411.16512). Furthermore, my research has extended to applying CBMs in medical fields [(NIPS 2024;](https://arxiv.org/abs/2410.21494) Under review) and autonomous driving applications [(ICRA 2025)](https://arxiv.org/pdf/2409.10330).
 
-Prior to this, I have also been exposed to bioinformatics, multimodal sentiment analysis, domain generalization and other research areas.
+Beyond my work with CBMs, I have also explored issues related to robustness and faithfulness in time series (Under review), continual learning for time series classification tasks [(Under review)](https://arxiv.org/pdf/2410.15954), and image segmentation tasks [(Under review)](https://arxiv.org/pdf/2412.10834). Prior to these endeavors, my research efforts were directed towards computer vision ([Image and Vison Computing](https://www.sciencedirect.com/science/article/pii/S0262885623002081); [ICASSP 2025](https://arxiv.org/pdf/2409.03192)), multimodal sentiment analysis ([IJCNN 2024](https://arxiv.org/pdf/2305.08473); [Displays](https://www.sciencedirect.com/science/article/abs/pii/S0141938223001968)), and community detection ([Neurocomputing](https://arxiv.org/pdf/2309.11798)).
+
+Looking ahead, I am keen on pursuing **Joint** PhD opportunities starting in 2025 FALL (With HKUST(GZ)). My future research aims to delve deeper into **Trustworthy AI**, particularly focusing on **explainability, robustness, faithfulness**, and **safety**, alongside exploring its applications in **AI4Science**, especially in the **biological** and **medical sectors**.
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *songninglai[at]hkust-gz[dot]edu[dot]cn*.
 
 
 # 🔥 News
-- *09.2024:* Our paper “Towards Multi-dimensional Explanation Alignment for Medical Classification” has been accepted at The Conference on Neural Information Processing Systems **(NeurIPS 2024)**!
-- *07.2024:* Our paper on Time Series has been accepted by **IJCAI 2024 workshop**(CCF A).
+- *01.2025:* Our paper "Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving" has been accepted by **ICRA 2025** (CCF B)!
+- *12.2024:* Our paper "PEPL:Precision-Enhanced Pseudo-Labeling forFine-Grained lmage Classification inSemi-Supervised Learning" has been accepted at **ICASSP 2025** (CCF B)!
+- *09.2024:* Our paper “Towards Multi-dimensional Explanation Alignment for Medical Classification” has been accepted by **(NeurIPS 2024)** (CCF A)!
+- *07.2024:* Our paper on Time Series has been accepted by **IJCAI 2024 workshop** (CCF A).
 - *06.2024:* Our paper on Community Detection has been accepted by [Neurocomputing](https://arxiv.org/pdf/2309.11798)(JCR Q1; CCF C).
 - *03.2024:* I am awarded the honor of **excellent graduate of Shandong Province** and **excellent graduate of Shandong University**.
 - *03.2024:* Our paper on Multimodal Sentiment Analysis has been accepted by [**IJCNN2024**](https://www.google.com/search?q=ijcnn2024&oq=IJCNN&gs_lcrp=EgZjaHJvbWUqBggCECMYJzIGCAAQRRg9MgYIARBFGDsyBggCECMYJzIGCAMQABgeMgYIBBBFGDsyBggFEAAYHjIGCAYQRRg9MgYIBxBFGDzSAQg0MzIyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)(CCF C).
@@ -74,6 +78,34 @@ The Conference on Neural Information Processing Systems (**NeurIPS 2024**).(CCF 
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG169.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving](https://arxiv.org/pdf/2409.10330v1)**
+
+**Songning Lai†**, Tianlang Xue†, Hongru Xiao, Lijie Hu, Jiemin Wu, Ruiqiang Xiao, Ninghui Feng, Haicheng Liao, Zhenning Yang, Yutao Yue~
+
+The Conference on (**ICRA 2025**).(CCF B)
+
+We introduce DRIVE, a framework designed to enhance the dependability and stability of explanations in end-to-end unsupervised autonomous driving models, addressing instability issues and improving trustworthiness through consistent and stable interpretability and output, as demonstrated by empirical evaluations. This framework provides novel metrics for assessing the reliability of concept-based explainable autonomous driving systems, advancing their real-world deployment.
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG168.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning](https://arxiv.org/pdf/2409.03192)**
+
+Bowen Tian†, **Songning Lai†**, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue~
+
+The Conference on (**ICASSP 2025**).(CCF B)
+
+We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learning approach for fine-grained image classification that generates and refines pseudo-labels using Class Activation Maps (CAMs) to capture essential details, significantly improving accuracy and robustness over existing methods on benchmark datasets. The approach consists of initial and semantic-mixed pseudo-label generation phases to enhance the quality of labels and has been open-sourced for public use.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CISP-BMEI 2022</div><img src='images/WechatIMG162.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -173,30 +205,10 @@ We introduce AutoFusion, a framework that dynamically permutes parameters across
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG168.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning](https://arxiv.org/pdf/2409.03192)**
-
-Bowen Tian†, **Songning Lai†**, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue~
-
-We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learning approach for fine-grained image classification that generates and refines pseudo-labels using Class Activation Maps (CAMs) to capture essential details, significantly improving accuracy and robustness over existing methods on benchmark datasets. The approach consists of initial and semantic-mixed pseudo-label generation phases to enhance the quality of labels and has been open-sourced for public use.
-
-</div>
-</div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG169.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving](https://arxiv.org/pdf/2409.10330v1)**
 
-**Songning Lai†**, Tianlang Xue†, Hongru Xiao, Lijie Hu, Jiemin Wu, Ruiqiang Xiao, Ninghui Feng, Haicheng Liao, Zhenning Yang, Yutao Yue~
 
-We introduce DRIVE, a framework designed to enhance the dependability and stability of explanations in end-to-end unsupervised autonomous driving models, addressing instability issues and improving trustworthiness through consistent and stable interpretability and output, as demonstrated by empirical evaluations. This framework provides novel metrics for assessing the reliability of concept-based explainable autonomous driving systems, advancing their real-world deployment.
-
-</div>
-</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG170.jpg' alt="sym" width="100%"></div></div>
@@ -241,6 +253,7 @@ We propose a novel decoding strategy using absorbing Markov chains to measure an
 
 
 # 🎖 Honors and Awards
+- NIPS 2024 Travel Awards
 - First Prize in Contemporary Undergraduate Mathematical Contest in Modeling National（**Top 0.6%**）
 - First Prize in MathorCup University Mathematical Modeling Challenge National（**Top 3%**）
 - Second Prize in National Undergraduate Electronic Design Contest ( Shandong Province )
@@ -252,14 +265,13 @@ We propose a novel decoding strategy using absorbing Markov chains to measure an
 
 
 # 📖 Educations
-- **Feb 2025 - Future:** Hong Kong University of Science and Technology (Guangzhou) (Incoming AI Phd, supervised by [Prof. Yutao Yue](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue))
-- **Sep 2024 - Future:** University of Macau (RA)
-- **Apr 2024 - Feb 2025:** HKUST(GZ) (Intern)
+- **Sep 2025 - Future:** Hong Kong University of Science and Technology (Guangzhou) (Incoming AI Phd, supervised by [Prof. Yutao Yue](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue))
+- **Apr 2024 - Sep 2025:** HKUST(GZ) (Intern)
 - **Apr 2023 - Mar 2024:** KAUST (Visiting Student)
 - **Sep 2020 - June 2024:** Shandong University (BSc, EECS)
 
 
 # 💻 Internships
-- Reviewer:  ECAI2024, Expert Systems with Applications, IJCNN2024, ICML2024, KDD2024, ICLR2025, ICASSP2025, ICRA2025, AISTATS2025
+- Reviewer:  ECAI2024, Expert Systems with Applications, IJCNN2024, ICML2024, KDD2024, ICLR2025, ICASSP2025, ICRA2025, AISTATS2025, CVPR2025, ICML2025, IJCAI2025, WWW2025
 - Monitor of Chongxin College of Shandong University (The class was awarded as **Shandong Provincial Excellent Class** and **Shandong University Top Ten Class**)
 - **Outstanding Volunteer** of Shandong University with a total volunteer time of **130h**.
