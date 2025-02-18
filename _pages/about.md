@@ -107,7 +107,7 @@ We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learni
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CISP-BMEI 2022</div><img src='images/WechatIMG162.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CISP-BMEI 2022</div><img src='images/bestpaper.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Predicting Lysine Phosphoglycerylation Sites using Bidirectional Encoder Representations with Transformers & Protein Feature Extraction and Selection](https://ieeexplore.ieee.org/abstract/document/9979871/)**
@@ -250,10 +250,115 @@ We propose a novel decoding strategy using absorbing Markov chains to measure an
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG425.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[RMDM: Radio Map Diffusion Model with Physics Informed](https://arxiv.org/pdf/2501.19160)**
+
+Haozhe Jia, Wenshuo Chen, Zhihui Huang, Hongru Xiao, Nanqian Jia, Keming Wu, **Songning Lai**, Yutao Yue
+
+Radio map reconstruction is essen- tial for enabling advanced applications, yet chal- lenges such as complex signal propagation and sparse data hinder accurate reconstruction. To ad- dress these issues, we propose the Radio Map Diffusion Model (RMDM), a physics-informed framework that integrates Physics-Informed Neu- ral Networks (PINNs) to incorporate constraints like the Helmholtz equation. RMDM employs a dual U-Net architecture: the first ensures physical consistency by minimizing PDE residuals, bound- ary conditions, and source constraints, while the second refines predictions via diffusion-based de- noising. By leveraging physical laws, RMDM sig- nificantly enhances accuracy, robustness, and gen- eralization. 
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/T2M.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[Free-T2M: Frequency Enhanced Text-to-Motion Diffusion Model With Consistency Loss](https://arxiv.org/pdf/2501.18232)**
+
+Wenshuo Chen, Haozhe Jia, **Songning Lai**, Keming Wu, Hongru Xiao, Lijie Hu, Yutao Yue
+
+Rapid progress in text-to-motion generation has been largely driven by diffusion models. However, existing methods focus solely on temporal modeling, thereby overlooking frequency-domain analysis. We identify two key phases in motion denoising: the **semantic planning stage** and the **fine-grained improving stage**. To address these phases effectively, we propose **Fre**quency **e**nhanced **t**ext-**to**-**m**otion diffusion model (**Free-T2M**), incorporating stage-specific consistency losses that enhance the robustness of static features and improve fine-grained accuracy. 
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/SeqACIL.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[SegACIL: Solving the Stability-Plasticity Dilemma in Class-Incremental Semantic Segmentation](https://arxiv.org/pdf/2412.10834)**
+
+Jiaxu Li†, **Songning Lai†**, Rui Li, Di Fang, Kejia Fan, Jianheng Tang, Yuhan Zhao, Rongchang Zhao, Dongzhan Zhou, Yutao Yue, Huiping Zhuang
+
+We propose SegACIL, a novel continual learning method for semantic segmentation using a linear closed-form solution, requiring only a single epoch and reducing computational costs. SegACIL achieves performance on par with joint learning, effectively balancing stability and plasticity by retaining prior knowledge while adapting to new data, addressing the stability-plasticity dilemma.
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/CONCIL.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[Learning New Concepts, Remembering the Old: A Novel Continual Learning](https://arxiv.org/pdf/2411.17471)**
+
+Songning Lai, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Yutao Yue
+
+To enhance Concept Bottleneck Models (CBMs) for evolving data streams, we propose CONceptual Continual Incremental Learning (CONCIL), a framework that accumulates new concepts and classes while preventing catastrophic forgetting. CONCIL reformulates updates as linear regression problems, eliminating gradient-based updates and requiring only recursive matrix operations, ensuring computational efficiency. Suitable for real-time and large-scale applications, CONCIL achieves "absolute knowledge memory" and outperforms traditional CBMs in concept- and class-incremental settings, setting new benchmarks for continual learning.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/STA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[Beyond Task Vectors: Selective Task Arithmetic Based on Importance Metrics](https://arxiv.org/pdf/2411.16139)**
+
+Tian Bowen†, **Lai Songning†**, Wu Jiemin, Shuai Zhihao, Ge Shiming, Yue Yutao
+
+
+This paper introduces Selective Task Arithmetic (STA), a training-free framework enhancing multi-task performance via task-specific parameter fusion. STA addresses parameter importance diversity using a loss-sensitive metric from a first-order Taylor expansion, reduces over-reliance on hyperparameter tuning by improving task vector sparsity, and mitigates task forgetting more effectively by leveraging parameter importance to minimize noisy elements, improving model generalization and robustness.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/STA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[Guarding the Gate: ConceptGuard Battles Concept-Level Backdoors in Concept Bottleneck Models](https://arxiv.org/pdf/2411.16512)**
+
+Songning Lai, Yu Huang, Jiayu Yang, Gaoxiang Huang, Wenshuo Chen, Yutao Yue
+
+Our contributions are threefold: (i) we present ConceptGuard as the first defense mechanism tailored for concept-level backdoor attacks in CBMs; (ii) we provide theoretical guarantees that ConceptGuard can effectively defend against such attacks within a certain trigger size threshold, ensuring robustness; and (iii) we demonstrate that ConceptGuard maintains the high performance and interpretability of CBMs, crucial for trustworthiness. 
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DRIVE.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[DRIVE: Dual-Robustness via Information Variability and Entropic Consistency in Source-Free Unsupervised Domain Adaptation](https://arxiv.org/pdf/2411.15976)**
+
+Ruiqiang Xiao†, **Songning Lai†**, Yijun Yang, Jiemin Wu, Yutao Yue, Lei Zhu
+
+
+To address challenges in Source-Free Unsupervised Domain Adaptation (SFUDA), we propose DRIVE, a dual-model framework leveraging mutual information and entropy. DRIVE uses two identically initialized models; one is perturbed via PGD guided by mutual information to focus on high-uncertainty regions, while an entropy-aware pseudo-labeling strategy adjusts label weights based on prediction uncertainty. DRIVE's two-stage adaptation process first aligns models on stable features using mutual information consistency loss, then dynamically adjusts perturbation levels to enhance generalization and robustness. Evaluations show DRIVE outperforms existing methods in adaptation accuracy and stability across complex domains.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/TSACIL.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[TS-ACL: A Time Series Analytic Continual Learning Framework for Privacy-Preserving and Class-Incremental Pattern Recognition](https://arxiv.org/pdf/2410.15954)**
+
+Kejia Fan†, Jiaxu Li†, **Songning Lai†**, Linpu Lv, Anfeng Liu, Jianheng Tang, Houbing Herbert Song, Huiping Zhuang
+
+
+To tackle catastrophic forgetting in class-incremental time series pattern recognition, we propose TS-ACL, a privacy-preserving, gradient-free continual learning framework. TS-ACL uses a pre-trained frozen encoder for embedding extraction and updates an analytic classifier recursively with a closed-form solution, avoiding catastrophic forgetting without storing historical data. This lightweight approach ensures non-forgetting, privacy preservation, and efficiency, suitable for edge computing. Experiments on five benchmarks demonstrate superior performance compared to existing methods.
+</div>
+</div>
+
+
+
 
 
 # 🎖 Honors and Awards
 - NIPS 2024 Travel Awards
+- IEEE/EI ( CISP-BMEI 2022) **Best Paper Award**
 - First Prize in Contemporary Undergraduate Mathematical Contest in Modeling National（**Top 0.6%**）
 - First Prize in MathorCup University Mathematical Modeling Challenge National（**Top 3%**）
 - Second Prize in National Undergraduate Electronic Design Contest ( Shandong Province )
@@ -261,7 +366,6 @@ We propose a novel decoding strategy using absorbing Markov chains to measure an
 - More than **40** university-level awards, including academic competition, social practice, innovation and entrepreneurship, sports, aesthetic education, volunteer, scholarship and other aspects, are not displayed here.
 - Outstanding graduates of Shandong Province
 - Outstanding graduate of Shandong University
-- IEEE/EI ( CISP-BMEI 2022) **Best Paper Award**
 
 
 # 📖 Educations
@@ -272,6 +376,6 @@ We propose a novel decoding strategy using absorbing Markov chains to measure an
 
 
 # 💻 Internships
-- Reviewer:  ECAI2024, Expert Systems with Applications, IJCNN2024, ICML2024, KDD2024, ICLR2025, ICASSP2025, ICRA2025, AISTATS2025, CVPR2025, ICML2025, IJCAI2025, WWW2025
+- Reviewer:  ECAI2024, Expert Systems with Applications, IJCNN2024, ICML2024, KDD2024, ICLR2025, ICASSP2025, ICRA2025, AISTATS2025, CVPR2025, ICML2025, IJCAI2025, WWW2025, ICCV2025, NIPS2025
 - Monitor of Chongxin College of Shandong University (The class was awarded as **Shandong Provincial Excellent Class** and **Shandong University Top Ten Class**)
 - **Outstanding Volunteer** of Shandong University with a total volunteer time of **130h**.
