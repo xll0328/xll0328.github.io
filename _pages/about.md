@@ -47,7 +47,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/Accepted_ICLR_24_FCBM.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/FVLC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **[Faithful Vision-Language Interpretation via Concept Bottleneck Models](https://openreview.net/forum?id=rp0EdI8X4e)**
@@ -61,7 +61,7 @@ We introduce the Faithful Vision-Language Concept (FVLC) model, addressing the i
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/NeurIPS_24_Multi_dimensional_Explanation (1).pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/medicn.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **[Towards Multi-dimensional Explanation Alignment for Medical Classification](https://arxiv.org/abs/2410.21494)**
@@ -275,7 +275,7 @@ Rapid progress in text-to-motion generation has been largely driven by diffusion
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/SeqACIL.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/SegACIL.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **[SegACIL: Solving the Stability-Plasticity Dilemma in Class-Incremental Semantic Segmentation](https://arxiv.org/pdf/2412.10834)**
@@ -313,7 +313,7 @@ This paper introduces Selective Task Arithmetic (STA), a training-free framework
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/STA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/CGard.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **[Guarding the Gate: ConceptGuard Battles Concept-Level Backdoors in Concept Bottleneck Models](https://arxiv.org/pdf/2411.16512)**
