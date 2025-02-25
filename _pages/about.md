@@ -52,7 +52,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 **[Faithful Vision-Language Interpretation via Concept Bottleneck Models](https://openreview.net/forum?id=rp0EdI8X4e)**
 
-**Songning Lai†**, Lijie Hu†, Junxiao Wang, Laure Berti and Di Wang
+**Songning Lai**, Lijie Hu, Junxiao Wang, Laure Berti and Di Wang
 
 The Twelfth International Conference on Learning Representations (**ICLR2024**). (CCF None)
 
@@ -83,7 +83,7 @@ The Conference on Neural Information Processing Systems (**NeurIPS 2024**).(CCF 
   
 **[DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving](https://arxiv.org/pdf/2409.10330v1)**
 
-**Songning Lai†**, Tianlang Xue†, Hongru Xiao, Lijie Hu, Jiemin Wu, Ruiqiang Xiao, Ninghui Feng, Haicheng Liao, Zhenning Yang, Yutao Yue~
+**Songning Lai†**, Tianlang Xue, Hongru Xiao, Lijie Hu, Jiemin Wu, Ruiqiang Xiao, Ninghui Feng, Haicheng Liao, Zhenning Yang, Yutao Yue~
 
 The Conference on (**ICRA 2025**).(CCF B)
 
@@ -126,7 +126,7 @@ We developed a model using protein feature acquisition, F_Score selection, KNN c
 
 **[Shared and private information learning in multimodal sentiment analysis with deep modal alignment and self-supervised multi-task learning](https://arxiv.org/pdf/2305.08473)**
 
-**Songning Lai†**, Jiakang Li†, Guinan Guo, Xifeng Hu, Yulong Li, Yuan Tan, Zichen Song, Yutong Liu, Zhaoxia Ren~, Chun Wang~, Danmin Miao~ and Zhi Liu~
+**Songning La†**, Jiakang Li, Guinan Guo, Xifeng Hu, Yulong Li, Yuan Tan, Zichen Song, Yutong Liu, Zhaoxia Ren~, Chun Wang~, Danmin Miao~ and Zhi Liu~
 
 International Joint Conference on Neural Networks (**IJCNN 2024**). (CCF C)
 
@@ -184,7 +184,7 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 **[CAT: Concept-level backdoor ATtacks for Concept Bottleneck Models](https://arxiv.org/abs/2410.04823)**
 
-**Songning Lai†**, Jiayu Yang†, Yu Huang†, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Yutao Yue~
+**Songning Lai**, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Yutao Yue~
 
 We introduce CAT and CAT+, methodologies for concept-level backdoor attacks on Concept Bottleneck Models (CBMs), which use conceptual representations to embed triggers during training, allowing for controlled manipulation of predictions; our evaluation shows high attack success rates and stealthiness, highlighting potential security risks in CBMs.
 
@@ -231,7 +231,7 @@ This paper introduces TimeSieve, an innovative time series forecasting model tha
   
 **[FTS: A FRAMEWORK TO FIND A FAITHFUL TIMESIEVE](https://arxiv.org/pdf/2405.19647)**
   
-**Songning Lai†**, Ninghui Feng†, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Hang Zhao, Xuming Hu, Yutao Yue~
+**Songning Lai**, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Hang Zhao, Xuming Hu, Yutao Yue~
 
 - Our research provides faithful technical support and theoretical support to the field of time series forecasting, promising to advance the development and reliability of forecasting methods within the industry. Through these efforts, we aim to bolster the trustworthiness of models, ultimately supporting decision-making processes that rely on accurate and consistent predictions.
 </div>
