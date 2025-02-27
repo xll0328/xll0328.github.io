@@ -16,7 +16,9 @@ layout: compress
 
     <div id="main" role="main">
       {% include sidebar.html %}
-    
+
+
+  
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
@@ -28,6 +30,6 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=n&d=IgQL9QGAfLyXjhIDmxW85nc1z5VA7Nonfs5YuUet8As"></script>
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wJYZpwBP434icsmpcV3qQj8O7zHxFRZNb7avDdOcn8E&cl=ffffff&w=a"></script>
   </body>
 </html>
