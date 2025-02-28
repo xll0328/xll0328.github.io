@@ -180,7 +180,7 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA</div><img src='images/WechatIMG166.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA</div><img src='images/ESWA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment**
