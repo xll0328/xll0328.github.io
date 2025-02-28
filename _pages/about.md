@@ -31,6 +31,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
+- *02.2025:* Our paper "Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment" has been accepted by **Expert Systems With Applications**(JCR Q1, IF:8.4, CCF C).
 - *01.2025:* Our paper "Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving" has been accepted by **ICRA 2025** (CCF B)!
 - *12.2024:* Our paper "PEPL:Precision-Enhanced Pseudo-Labeling forFine-Grained lmage Classification inSemi-Supervised Learning" has been accepted at **ICASSP 2025** (CCF B)!
 - *09.2024:* Our paper “Towards Multi-dimensional Explanation Alignment for Medical Classification” has been accepted by **(NeurIPS 2024)** (CCF A)!
@@ -177,6 +178,23 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA</div><img src='images/WechatIMG166.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment**
+
+Guinan Guo, **Songning Lai**, Qingyang Wu,, Yuntao Shou, and Wenxu Shi
+
+**Expert Systems With Applications** (JCR Q1 (IF:8.4) CCF C)
+
+This study proposes MIC-MGA, a deep learning approach combining Multi-Granularity Alignment and Masked Image Consistency, to enhance cross-domain generalization in plant disease detection. The method improves object detector architecture while integrating domain adaptation and style-augmented training to address feature distribution shifts across different environmental conditions. Experimental results demonstrate state-of-the-art performance in cross-domain detection tasks (highest mAP), showing significant potential for improving disease prevention and sustainable agriculture.
+
+</div>
+</div>
+
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG167.jpg' alt="sym" width="100%"></div></div>
