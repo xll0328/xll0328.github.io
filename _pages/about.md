@@ -23,19 +23,22 @@ I am a junior student studying in the School of Information Science and Engineer
 
 My primary research interest lies in the domain of **Trustworthy AI**, encompassing **explainability**, **robustness**, **faithfulness**, and **safety** of AI. Specifically, I have focused extensively on **Concept Bottleneck Models (CBMs)** within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings [(ICLR 2024)](https://openreview.net/forum?id=rp0EdI8X4e), application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs [(Under review)](https://arxiv.org/pdf/2411.17471), as well as the first exploration of CBMs in the context of security, particularly backdoor attacks [(Under review 1;](https://arxiv.org/pdf/2410.04823)[ Under review 2)](https://arxiv.org/pdf/2411.16512). Furthermore, my research has extended to applying CBMs in medical fields [(NIPS 2024;](https://arxiv.org/abs/2410.21494) Under review) and autonomous driving applications [(ICRA 2025)](https://arxiv.org/pdf/2409.10330).
 
-Beyond my work with CBMs, I have also explored issues related to robustness and faithfulness in time series (Under review), continual learning for time series classification tasks [(Under review)](https://arxiv.org/pdf/2410.15954), and image segmentation tasks [(Under review)](https://arxiv.org/pdf/2412.10834). Prior to these endeavors, my research efforts were directed towards computer vision ([Image and Vison Computing](https://www.sciencedirect.com/science/article/pii/S0262885623002081); [ICASSP 2025](https://arxiv.org/pdf/2409.03192)), multimodal sentiment analysis ([IJCNN 2024](https://arxiv.org/pdf/2305.08473); [Displays](https://www.sciencedirect.com/science/article/abs/pii/S0141938223001968)), and community detection ([Neurocomputing](https://arxiv.org/pdf/2309.11798)).
+Beyond my work with CBMs, I have also explored issues related to robustness and faithfulness in time series (ICML 2025; Under review), continual learning for time series classification tasks [(Under review)](https://arxiv.org/pdf/2410.15954), and image segmentation tasks [(Under review)](https://arxiv.org/pdf/2412.10834). Prior to these endeavors, my research efforts were directed towards computer vision ([Image and Vison Computing](https://www.sciencedirect.com/science/article/pii/S0262885623002081); [ICASSP 2025](https://arxiv.org/pdf/2409.03192)), multimodal sentiment analysis ([IJCNN 2024](https://arxiv.org/pdf/2305.08473); [Displays](https://www.sciencedirect.com/science/article/abs/pii/S0141938223001968)), and community detection ([Neurocomputing](https://arxiv.org/pdf/2309.11798)).
 
-Looking ahead, I am keen on pursuing **Joint** PhD opportunities starting in 2025 FALL (With HKUST(GZ)). My future research aims to delve deeper into **Trustworthy AI**, particularly focusing on **explainability, robustness, faithfulness**, and **safety**, alongside exploring its applications in **AI4Science**, especially in the **biological** and **medical sectors**.
+Looking ahead, I am keen on pursuing **Joint** PhD opportunities starting in 2025 FALL (With HKUST(GZ)). My future research aims to delve deeper into **Trustworthy AI** [ICLR24], particularly focusing on **explainability, robustness, faithfulness**, and **safety**, alongside exploring its applications in **AI4Science** [NIPS24], **autonomous driving** [ICRA25;IJCAI25], **Time Series** [ICML25] and **Embodied AI**.
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *songninglai[at]hkust-gz[dot]edu[dot]cn*.
 
 
 # 🔥 News
+- *04/2025:* Our paper "IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction" has been accepted by **ICML 2025** (CCF A)!
+- *04/2025:* Our paper "Class Incremental Semantic Segmentation Based on Linear Closed-form Solution" has been accepted by **CVPR 2025 workshop BASE**!
+- *04.2025:* Our paper "Beyond Patterns:HarnessingCausal Logic for Autonomous DrivingTrajectory Prediction" has been accepted by **IJCAI 2025** (CCF A)!
 - *02.2025:* Our paper "Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment" has been accepted by **Expert Systems With Applications**(JCR Q1, IF:8.4, CCF C).
 - *01.2025:* Our paper "Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving" has been accepted by **ICRA 2025** (CCF B)!
 - *12.2024:* Our paper "PEPL:Precision-Enhanced Pseudo-Labeling forFine-Grained lmage Classification inSemi-Supervised Learning" has been accepted at **ICASSP 2025** (CCF B)!
 - *09.2024:* Our paper “Towards Multi-dimensional Explanation Alignment for Medical Classification” has been accepted by **(NeurIPS 2024)** (CCF A)!
-- *07.2024:* Our paper on Time Series has been accepted by **IJCAI 2024 workshop** (CCF A).
+- *07.2024:* Our paper on Time Series has been accepted by **IJCAI 2024 workshop**.
 - *06.2024:* Our paper on Community Detection has been accepted by [Neurocomputing](https://arxiv.org/pdf/2309.11798)(JCR Q1; CCF C).
 - *03.2024:* I am awarded the honor of **excellent graduate of Shandong Province** and **excellent graduate of Shandong University**.
 - *03.2024:* Our paper on Multimodal Sentiment Analysis has been accepted by [**IJCNN2024**](https://www.google.com/search?q=ijcnn2024&oq=IJCNN&gs_lcrp=EgZjaHJvbWUqBggCECMYJzIGCAAQRRg9MgYIARBFGDsyBggCECMYJzIGCAMQABgeMgYIBBBFGDsyBggFEAAYHjIGCAYQRRg9MgYIBxBFGDzSAQg0MzIyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)(CCF C).
@@ -195,180 +198,6 @@ This study proposes MIC-MGA, a deep learning approach combining Multi-Granularit
 </div>
 
 
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG167.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[CAT: Concept-level backdoor ATtacks for Concept Bottleneck Models](https://arxiv.org/abs/2410.04823)**
-
-**Songning Lai**, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Yutao Yue~
-
-We introduce CAT and CAT+, methodologies for concept-level backdoor attacks on Concept Bottleneck Models (CBMs), which use conceptual representations to embed triggers during training, allowing for controlled manipulation of predictions; our evaluation shows high attack success rates and stealthiness, highlighting potential security risks in CBMs.
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG172.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**[Wolf2Pack: The AutoFusion Framework for Dynamic Parameter Fusion](https://arxiv.org/abs/2410.05746?context=cs.CV)**
-
-Bowen Tian†, **Songning Lai†**, Yutao Yue
-
-We introduce AutoFusion, a framework that dynamically permutes parameters across layers of models with the same architecture, enabling multi-task learning without pre-training, and showing superior performance on benchmark datasets compared to methods like Weight Interpolation and Git Re-Basin. This framework provides a scalable solution for integrating models, suitable for advancing research and practical use.
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG170.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[TimeSieve: Extracting Temporal Dynamics through Information Bottleneck](https://arxiv.org/pdf/2406.05036)**
-
-Ninghui Feng†, **Songning Lai†**, Fobao Zhou, Zhenxiao Yin, Hang Zhao~
-
-This paper introduces TimeSieve, an innovative time series forecasting model that uses wavelet transforms and information bottleneck theory to capture multi-scale features and filter redundant information, significantly improving accuracy and generalization without manual hyperparameter tuning, thus outperforming existing methods in most cases.
-
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/time_pre.png' alt="sym" width="100%"></div></div>
-
-<div class='paper-box-text' markdown="1">
-  
-**[FTS: A FRAMEWORK TO FIND A FAITHFUL TIMESIEVE](https://arxiv.org/pdf/2405.19647)**
-  
-**Songning Lai**, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Hang Zhao, Xuming Hu, Yutao Yue~
-
-- Our research provides faithful technical support and theoretical support to the field of time series forecasting, promising to advance the development and reliability of forecasting methods within the industry. Through these efforts, we aim to bolster the trustworthiness of models, ultimately supporting decision-making processes that rely on accurate and consistent predictions.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG171.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[Maintaining Informative Coherence: Migrating Hallucinations in Large Language Models via Absorbing Markov Chains](https://arxiv.org/pdf/2410.20340)**
-
-Jiemin Wu, **Songning Lai**, Ruiqiang Xiao, Tianlang Xue, Jiayu Yang, Yutao Yue
-
-We propose a novel decoding strategy using absorbing Markov chains to measure and enhance the fidelity of contextual information in Large Language Models (LLMs), reducing hallucinations without additional training, and demonstrating superior performance in maintaining accuracy on benchmarks like TruthfulQA and FACTOR.
-
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/WechatIMG425.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[RMDM: Radio Map Diffusion Model with Physics Informed](https://arxiv.org/pdf/2501.19160)**
-
-Haozhe Jia, Wenshuo Chen, Zhihui Huang, Hongru Xiao, Nanqian Jia, Keming Wu, **Songning Lai**, Yutao Yue
-
-Radio map reconstruction is essen- tial for enabling advanced applications, yet chal- lenges such as complex signal propagation and sparse data hinder accurate reconstruction. To ad- dress these issues, we propose the Radio Map Diffusion Model (RMDM), a physics-informed framework that integrates Physics-Informed Neu- ral Networks (PINNs) to incorporate constraints like the Helmholtz equation. RMDM employs a dual U-Net architecture: the first ensures physical consistency by minimizing PDE residuals, bound- ary conditions, and source constraints, while the second refines predictions via diffusion-based de- noising. By leveraging physical laws, RMDM sig- nificantly enhances accuracy, robustness, and gen- eralization. 
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/T2M.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[Free-T2M: Frequency Enhanced Text-to-Motion Diffusion Model With Consistency Loss](https://arxiv.org/pdf/2501.18232)**
-
-Wenshuo Chen, Haozhe Jia, **Songning Lai**, Keming Wu, Hongru Xiao, Lijie Hu, Yutao Yue
-
-Rapid progress in text-to-motion generation has been largely driven by diffusion models. However, existing methods focus solely on temporal modeling, thereby overlooking frequency-domain analysis. We identify two key phases in motion denoising: the **semantic planning stage** and the **fine-grained improving stage**. To address these phases effectively, we propose **Fre**quency **e**nhanced **t**ext-**to**-**m**otion diffusion model (**Free-T2M**), incorporating stage-specific consistency losses that enhance the robustness of static features and improve fine-grained accuracy. 
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/SegACIL.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[SegACIL: Solving the Stability-Plasticity Dilemma in Class-Incremental Semantic Segmentation](https://arxiv.org/pdf/2412.10834)**
-
-Jiaxu Li†, **Songning Lai†**, Rui Li, Di Fang, Kejia Fan, Jianheng Tang, Yuhan Zhao, Rongchang Zhao, Dongzhan Zhou, Yutao Yue, Huiping Zhuang
-
-We propose SegACIL, a novel continual learning method for semantic segmentation using a linear closed-form solution, requiring only a single epoch and reducing computational costs. SegACIL achieves performance on par with joint learning, effectively balancing stability and plasticity by retaining prior knowledge while adapting to new data, addressing the stability-plasticity dilemma.
-</div>
-</div>
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/CONCIL.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[Learning New Concepts, Remembering the Old: A Novel Continual Learning](https://arxiv.org/pdf/2411.17471)**
-
-Songning Lai, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Yutao Yue
-
-To enhance Concept Bottleneck Models (CBMs) for evolving data streams, we propose CONceptual Continual Incremental Learning (CONCIL), a framework that accumulates new concepts and classes while preventing catastrophic forgetting. CONCIL reformulates updates as linear regression problems, eliminating gradient-based updates and requiring only recursive matrix operations, ensuring computational efficiency. Suitable for real-time and large-scale applications, CONCIL achieves "absolute knowledge memory" and outperforms traditional CBMs in concept- and class-incremental settings, setting new benchmarks for continual learning.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/STA.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[Beyond Task Vectors: Selective Task Arithmetic Based on Importance Metrics](https://arxiv.org/pdf/2411.16139)**
-
-Tian Bowen†, **Lai Songning†**, Wu Jiemin, Shuai Zhihao, Ge Shiming, Yue Yutao
-
-
-This paper introduces Selective Task Arithmetic (STA), a training-free framework enhancing multi-task performance via task-specific parameter fusion. STA addresses parameter importance diversity using a loss-sensitive metric from a first-order Taylor expansion, reduces over-reliance on hyperparameter tuning by improving task vector sparsity, and mitigates task forgetting more effectively by leveraging parameter importance to minimize noisy elements, improving model generalization and robustness.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/CGard.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[Guarding the Gate: ConceptGuard Battles Concept-Level Backdoors in Concept Bottleneck Models](https://arxiv.org/pdf/2411.16512)**
-
-Songning Lai, Yu Huang, Jiayu Yang, Gaoxiang Huang, Wenshuo Chen, Yutao Yue
-
-Our contributions are threefold: (i) we present ConceptGuard as the first defense mechanism tailored for concept-level backdoor attacks in CBMs; (ii) we provide theoretical guarantees that ConceptGuard can effectively defend against such attacks within a certain trigger size threshold, ensuring robustness; and (iii) we demonstrate that ConceptGuard maintains the high performance and interpretability of CBMs, crucial for trustworthiness. 
-
-</div>
-</div>
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/DRIVE.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[DRIVE: Dual-Robustness via Information Variability and Entropic Consistency in Source-Free Unsupervised Domain Adaptation](https://arxiv.org/pdf/2411.15976)**
-
-Ruiqiang Xiao†, **Songning Lai†**, Yijun Yang, Jiemin Wu, Yutao Yue, Lei Zhu
-
-
-To address challenges in Source-Free Unsupervised Domain Adaptation (SFUDA), we propose DRIVE, a dual-model framework leveraging mutual information and entropy. DRIVE uses two identically initialized models; one is perturbed via PGD guided by mutual information to focus on high-uncertainty regions, while an entropy-aware pseudo-labeling strategy adjusts label weights based on prediction uncertainty. DRIVE's two-stage adaptation process first aligns models on stable features using mutual information consistency loss, then dynamically adjusts perturbation levels to enhance generalization and robustness. Evaluations show DRIVE outperforms existing methods in adaptation accuracy and stability across complex domains.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/TSACIL.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[TS-ACL: A Time Series Analytic Continual Learning Framework for Privacy-Preserving and Class-Incremental Pattern Recognition](https://arxiv.org/pdf/2410.15954)**
-
-Kejia Fan†, Jiaxu Li†, **Songning Lai†**, Linpu Lv, Anfeng Liu, Jianheng Tang, Houbing Herbert Song, Huiping Zhuang
-
-
-To tackle catastrophic forgetting in class-incremental time series pattern recognition, we propose TS-ACL, a privacy-preserving, gradient-free continual learning framework. TS-ACL uses a pre-trained frozen encoder for embedding extraction and updates an analytic classifier recursively with a closed-form solution, avoiding catastrophic forgetting without storing historical data. This lightweight approach ensures non-forgetting, privacy preservation, and efficiency, suitable for edge computing. Experiments on five benchmarks demonstrate superior performance compared to existing methods.
-</div>
-</div>
 
 
 
