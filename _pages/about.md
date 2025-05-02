@@ -49,7 +49,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - *11.2022:* I am very glad to give an **oral** report at the international conference [CISP-BMEI](http://www.cisp-bmei.cn/) 2022 and win the **Best Paper Award**.
 - *10.2022:* Our paper on Bioinformation has been accepted by CISP-BMEI 2022 (Tsinghua B)
 
-# 📝 Publications
+# 📝 Publications (Selected)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/FVLC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
