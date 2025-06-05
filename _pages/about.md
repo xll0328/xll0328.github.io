@@ -31,24 +31,25 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
-- *05.2025*:  🎉 Our paper “Stable Vision Concept Transformers for Medical Diagnosis” has been accepted at ECML-PKDD 2025!
-- *04.2025:* Our paper "IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction" has been accepted by **ICML 2025** (CCF A)!
-- *04.2025:* Our paper "Class Incremental Semantic Segmentation Based on Linear Closed-form Solution" has been accepted by **CVPR 2025 workshop BASE**!
-- *04.2025:* Our paper "Beyond Patterns:HarnessingCausal Logic for Autonomous DrivingTrajectory Prediction" has been accepted by **IJCAI 2025** (CCF A)!
-- *02.2025:* Our paper "Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment" has been accepted by **Expert Systems With Applications**(JCR Q1, IF:8.4, CCF C).
-- *01.2025:* Our paper "Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving" has been accepted by **ICRA 2025** (CCF B)!
-- *12.2024:* Our paper "PEPL:Precision-Enhanced Pseudo-Labeling forFine-Grained lmage Classification inSemi-Supervised Learning" has been accepted at **ICASSP 2025** (CCF B)!
-- *09.2024:* Our paper “Towards Multi-dimensional Explanation Alignment for Medical Classification” has been accepted by **(NeurIPS 2024)** (CCF A)!
-- *07.2024:* Our paper on Time Series has been accepted by **IJCAI 2024 workshop**.
-- *06.2024:* Our paper on Community Detection has been accepted by [Neurocomputing](https://arxiv.org/pdf/2309.11798)(JCR Q1; CCF C).
+- *06.2025*: 🎉 Our paper “Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method” has been accepted at **Automation in Construction** (JCR Q1, IF:9.6)!
+- *05.2025*: 🎉 Our paper “Stable Vision Concept Transformers for Medical Diagnosis” has been accepted at **ECML-PKDD 2025** (CCF B)!
+- *04.2025:* 🎉 Our paper "IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction" has been accepted by **ICML 2025** (CCF A)!
+- *04.2025:* 🎉 Our paper "Class Incremental Semantic Segmentation Based on Linear Closed-form Solution" has been accepted by **CVPR 2025 workshop BASE**!
+- *04.2025:* 🎉 Our paper "Beyond Patterns:HarnessingCausal Logic for Autonomous DrivingTrajectory Prediction" has been accepted by **IJCAI 2025** (CCF A)!
+- *02.2025:* 🎉 Our paper "Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment" has been accepted by **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
+- *01.2025:* 🎉 Our paper "Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving" has been accepted by **ICRA 2025** (CCF B)!
+- *12.2024:* 🎉 Our paper "PEPL:Precision-Enhanced Pseudo-Labeling forFine-Grained lmage Classification inSemi-Supervised Learning" has been accepted at **ICASSP 2025** (CCF B)!
+- *09.2024:* 🎉 Our paper “Towards Multi-dimensional Explanation Alignment for Medical Classification” has been accepted by **(NeurIPS 2024)** (CCF A)!
+- *07.2024:* 🎉 Our paper on Time Series has been accepted by **IJCAI 2024 workshop**.
+- *06.2024:* 🎉 Our paper on Community Detection has been accepted by [Neurocomputing](https://arxiv.org/pdf/2309.11798)(JCR Q1; CCF C).
 - *03.2024:* I am awarded the honor of **excellent graduate of Shandong Province** and **excellent graduate of Shandong University**.
-- *03.2024:* Our paper on Multimodal Sentiment Analysis has been accepted by [**IJCNN2024**](https://www.google.com/search?q=ijcnn2024&oq=IJCNN&gs_lcrp=EgZjaHJvbWUqBggCECMYJzIGCAAQRRg9MgYIARBFGDsyBggCECMYJzIGCAMQABgeMgYIBBBFGDsyBggFEAAYHjIGCAYQRRg9MgYIBxBFGDzSAQg0MzIyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)(CCF C).
-- *01.2024:* Our paper “Faithful Vision-Language Interpretation via Concept Bottleneck Models” has been accepted at The 12th International Conference on Learning Representations **(ICLR 2024)**!.
-- *10.2023:* Our paper on Multimodal Sentiment Analysis has been accepted by the journal [**Displays**](https://www.sciencedirect.com/journal/displays) (JCR Q1).
-- *10.2023:* Our paper on Computer Vison has been accepted by the journal [**Image and Vison Computing**](https://www.sciencedirect.com/journal/image-and-vision-computing) (JCR Q1; CCF C).
+- *03.2024:* 🎉 Our paper on Multimodal Sentiment Analysis has been accepted by [**IJCNN2024**](https://www.google.com/search?q=ijcnn2024&oq=IJCNN&gs_lcrp=EgZjaHJvbWUqBggCECMYJzIGCAAQRRg9MgYIARBFGDsyBggCECMYJzIGCAMQABgeMgYIBBBFGDsyBggFEAAYHjIGCAYQRRg9MgYIBxBFGDzSAQg0MzIyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8)(CCF C).
+- *01.2024:* 🎉 Our paper “Faithful Vision-Language Interpretation via Concept Bottleneck Models” has been accepted at The 12th International Conference on Learning Representations **(ICLR 2024)**!.
+- *10.2023:* 🎉 Our paper on Multimodal Sentiment Analysis has been accepted by the journal [**Displays**](https://www.sciencedirect.com/journal/displays) (JCR Q1).
+- *10.2023:* 🎉 Our paper on Computer Vison has been accepted by the journal [**Image and Vison Computing**](https://www.sciencedirect.com/journal/image-and-vision-computing) (JCR Q1; CCF C).
 - *11.2022:* Get the **First Prize** in Contemporary Undergraduate Mathematical Contest in Modeling National (top 0.6%).
 - *11.2022:* I am very glad to give an **oral** report at the international conference [CISP-BMEI](http://www.cisp-bmei.cn/) 2022 and win the **Best Paper Award**.
-- *10.2022:* Our paper on Bioinformation has been accepted by CISP-BMEI 2022 (Tsinghua B)
+- *10.2022:* 🎉 Our paper on Bioinformation has been accepted by CISP-BMEI 2022 (Tsinghua B)
 
 # 📝 Publications (Selected)
 
