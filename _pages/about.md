@@ -31,6 +31,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
+- *07.2025*: 🎉 Our paper "Generative Knowledge-Guided Review System for Construction Disclosure Documents" has been accepted at **Advanced engineering informatics** (JCR Q1, IF: 9.9)!
 - *06.2025*: 🎉 Our paper “Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method” has been accepted at **Automation in Construction** (JCR Q1, IF:9.6)!
 - *05.2025*: 🎉 Our paper “Stable Vision Concept Transformers for Medical Diagnosis” has been accepted at **ECML-PKDD 2025** (CCF B)!
 - *04.2025:* 🎉 Our paper "IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction" has been accepted by **ICML 2025** (CCF A)!
