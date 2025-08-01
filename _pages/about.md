@@ -33,7 +33,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 # 🔥 News
 - *08.2025*: 🎉 Our 3 papers have been accepted at **ACM MM 2025 BNI Track** (CCF A, BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will apear in the main proceedings)!
 - *07.2025*: 🎉 Our 4 papers have been accepted at **ACM MM 2025** (CCF A)!
-- *07.2025*: 🎉 Our paper have been accepted at **ICCV 2025 workshop VQualA** (CCF A)!
+- *07.2025*: 🎉 Our paper has been accepted at **ICCV 2025 workshop VQualA** (CCF A)!
 - *07.2025*: 🎉 Our paper "Generative Knowledge-Guided Review System for Construction Disclosure Documents" has been accepted at **Advanced engineering informatics** (JCR Q1, IF: 9.9)!
 - *06.2025*: 🎉 Our paper “Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method” has been accepted at **Automation in Construction** (JCR Q1, IF:9.6)!
 - *05.2025*: 🎉 Our paper “Stable Vision Concept Transformers for Medical Diagnosis” has been accepted at **ECML-PKDD 2025** (CCF B)!
@@ -58,6 +58,82 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 # 📝 Publications (Selected)
 
 ## 2025
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/CONCIL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models](https://arxiv.org/pdf/2411.17471?)**
+
+**Songning Lai**, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue~
+
+The Conference on (**ACM MM 2025 BNI Track**).(**Oral**, CCF A, BNI Papers are considered **outstanding** ACM MM full papers, and accepted BNI papers will apear in the main proceedings)
+
+This paper defines the continuous learning problem of CBM for the first time, and proposes a framework CONCIL to continuously learn concept and label simultaneously. Theoretical and experimental results verify the efficiency and absolute memory property of the framework.
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/FTS.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve]()**
+
+**Songning Lai**, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Lijie Hu, Hang Zhao, Xuming Hu, Yutao Yue
+
+The Conference on (**ACM MM 2025k**).(CCF A)
+
+Study of time series forecasting models.
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/WechatIMG169.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving](https://arxiv.org/pdf/2409.10330v1)**
+
+**Songning Lai**, Tianlang Xue, Hongru Xiao, Lijie Hu, Jiemin Wu, Ruiqiang Xiao, Ninghui Feng, Haicheng Liao, Zhenning Yang, Yutao Yue~
+
+The Conference on (**ICRA 2025**).(CCF B)
+
+We introduce DRIVE, a framework designed to enhance the dependability and stability of explanations in end-to-end unsupervised autonomous driving models, addressing instability issues and improving trustworthiness through consistent and stable interpretability and output, as demonstrated by empirical evaluations. This framework provides novel metrics for assessing the reliability of concept-based explainable autonomous driving systems, advancing their real-world deployment.
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECML-PKDD 2025</div><img src='images/SVCT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[Stable Vision Concept Transformers for Medical Diagnosis](https://arxiv.org/pdf/2506.05286?)**
+
+Lijie Hu†, **Songning Lai†**, Yuan Hua, Shu Yang, Jingfeng Zhang, Di Wang
+
+The Conference on (**ECML-PKDD 2025**).(CCF B)
+
+The paper introduces Vision Concept Transformer (VCT) and its stable variant SVCT, which integrate vision transformers with concept features and denoised diffusion smoothing to preserve medical imaging accuracy while providing robust, interpretable explanations resilient to perturbations.
+
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/WechatIMG168.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning](https://arxiv.org/pdf/2409.03192)**
+
+Bowen Tian†, **Songning Lai†**, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue~
+
+The Conference on (**ICASSP 2025**).(CCF B)
+
+We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learning approach for fine-grained image classification that generates and refines pseudo-labels using Class Activation Maps (CAMs) to capture essential details, significantly improving accuracy and robustness over existing methods on benchmark datasets. The approach consists of initial and semantic-mixed pseudo-label generation phases to enhance the quality of labels and has been open-sourced for public use.
+
+</div>
+</div>
+
 
 
 ## 2024
@@ -91,36 +167,6 @@ The Conference on Neural Information Processing Systems (**NeurIPS 2024**).(CCF 
 </div>
 </div>
 
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/WechatIMG169.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving](https://arxiv.org/pdf/2409.10330v1)**
-
-**Songning Lai†**, Tianlang Xue, Hongru Xiao, Lijie Hu, Jiemin Wu, Ruiqiang Xiao, Ninghui Feng, Haicheng Liao, Zhenning Yang, Yutao Yue~
-
-The Conference on (**ICRA 2025**).(CCF B)
-
-We introduce DRIVE, a framework designed to enhance the dependability and stability of explanations in end-to-end unsupervised autonomous driving models, addressing instability issues and improving trustworthiness through consistent and stable interpretability and output, as demonstrated by empirical evaluations. This framework provides novel metrics for assessing the reliability of concept-based explainable autonomous driving systems, advancing their real-world deployment.
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/WechatIMG168.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**[PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning](https://arxiv.org/pdf/2409.03192)**
-
-Bowen Tian†, **Songning Lai†**, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue~
-
-The Conference on (**ICASSP 2025**).(CCF B)
-
-We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learning approach for fine-grained image classification that generates and refines pseudo-labels using Class Activation Maps (CAMs) to capture essential details, significantly improving accuracy and robustness over existing methods on benchmark datasets. The approach consists of initial and semantic-mixed pseudo-label generation phases to enhance the quality of labels and has been open-sourced for public use.
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CISP-BMEI 2022</div><img src='images/bestpaper.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -194,21 +240,6 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA</div><img src='images/ESWA.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment**
-
-Guinan Guo, **Songning Lai**, Qingyang Wu,, Yuntao Shou, and Wenxu Shi
-
-**Expert Systems With Applications** (JCR Q1 (IF:8.4) CCF C)
-
-This study proposes MIC-MGA, a deep learning approach combining Multi-Granularity Alignment and Masked Image Consistency, to enhance cross-domain generalization in plant disease detection. The method improves object detector architecture while integrating domain adaptation and style-augmented training to address feature distribution shifts across different environmental conditions. Experimental results demonstrate state-of-the-art performance in cross-domain detection tasks (highest mAP), showing significant potential for improving disease prevention and sustainable agriculture.
-
-</div>
-</div>
-
-
 
 
 
@@ -216,6 +247,7 @@ This study proposes MIC-MGA, a deep learning approach combining Multi-Granularit
 
 # 🎖 Honors and Awards
 - NIPS 2024 Travel Awards
+- ICRA 2025 Travel Awards
 - IEEE/EI ( CISP-BMEI 2022) **Best Paper Award**
 - First Prize in Contemporary Undergraduate Mathematical Contest in Modeling National（**Top 0.6%**）
 - First Prize in MathorCup University Mathematical Modeling Challenge National（**Top 3%**）
@@ -226,14 +258,13 @@ This study proposes MIC-MGA, a deep learning approach combining Multi-Granularit
 - Outstanding graduate of Shandong University
 
 
-# 📖 Educations
-- **Sep 2025 - Future:** Hong Kong University of Science and Technology (Guangzhou) (Incoming AI Phd, supervised by [Prof. Yutao Yue](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue))
-- **Apr 2024 - Sep 2025:** HKUST(GZ) (Intern)
+# 📖 Educations and Experiences
+- **Apr 2024 - Sep 2025:** HKUST(GZ) (RA)
 - **Apr 2023 - Mar 2024:** KAUST (Visiting Student)
 - **Sep 2020 - June 2024:** Shandong University (BSc, EECS)
 
 
 # 💻 Internships
-- Reviewer:  ECAI2024, Expert Systems with Applications, IJCNN2024, ICML2024, KDD2024, ICLR2025, ICASSP2025, ICRA2025, AISTATS2025, CVPR2025, ICML2025, IJCAI2025, WWW2025, ICCV2025, NIPS2025
+- Reviewer:  ECAI2024, Expert Systems with Applications, IJCNN2024, ICML2024, KDD2024, ICLR2025, ICASSP2025, ICRA2025, AISTATS2025, CVPR2025, ICML2025, IJCAI2025, WWW2025, ICCV2025, NIPS2025, ACM MM 2025, ICCV 2025
 - Monitor of Chongxin College of Shandong University (The class was awarded as **Shandong Provincial Excellent Class** and **Shandong University Top Ten Class**)
 - **Outstanding Volunteer** of Shandong University with a total volunteer time of **130h**.
