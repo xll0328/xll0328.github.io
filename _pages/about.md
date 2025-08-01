@@ -21,7 +21,7 @@ Here is **Songning Lai**.( You can call me Sony. )
 
 I received my undergraduate degree from the School of Information Science and Engineering([**Chongxin College**](https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin)), [**Shandong University**](https://www.sdu.edu.cn/) in China,supervised by Prof. [**Zhi Liu**](https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm). I am also an RA at HKUST@AI Thrust&INFO Hub, supervised by Prof. [**Yutao Yue**](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue).
 
-My primary research interest lies in the domain of **Trustworthy AI**, encompassing **explainability**, **robustness**, **faithfulness**, and **safety** of AI. Specifically, I have focused extensively on **Concept Bottleneck Models (CBMs)** within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings [(ICLR 2024)](https://openreview.net/forum?id=rp0EdI8X4e), application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs [(Under review)](https://arxiv.org/pdf/2411.17471), as well as the first exploration of CBMs in the context of security, particularly backdoor attacks [(Under review 1;](https://arxiv.org/pdf/2410.04823)[ Under review 2)](https://arxiv.org/pdf/2411.16512). Furthermore, my research has extended to applying CBMs in medical fields [(NIPS 2024;](https://arxiv.org/abs/2410.21494) ECML 2025) and autonomous driving applications [(ICRA 2025)](https://arxiv.org/pdf/2409.10330).
+My primary research interest lies in the domain of **Trustworthy AI**, encompassing **explainability**, **robustness**, **faithfulness**, and **safety** of AI. Specifically, I have focused extensively on **Concept Bottleneck Models (CBMs)** within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings [(ICLR 2024)](https://openreview.net/forum?id=rp0EdI8X4e), application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs [(ACM MM 2025)](https://arxiv.org/pdf/2411.17471), as well as the first exploration of CBMs in the context of security, particularly backdoor attacks [(Under review 1;](https://arxiv.org/pdf/2410.04823)[ Under review 2)](https://arxiv.org/pdf/2411.16512). Furthermore, my research has extended to applying CBMs in medical fields [(NIPS 2024;](https://arxiv.org/abs/2410.21494) ECML 2025) and autonomous driving applications [(ICRA 2025)](https://arxiv.org/pdf/2409.10330).
 
 Beyond my work with CBMs, I have also explored issues related to robustness and faithfulness in time series (ICML 2025; ACM MM 2025), continual learning for time series classification tasks [(Under review)](https://arxiv.org/pdf/2410.15954), and image segmentation tasks [(ACM MM25)](https://arxiv.org/pdf/2412.10834). Prior to these endeavors, my research efforts were directed towards computer vision ([Image and Vison Computing](https://www.sciencedirect.com/science/article/pii/S0262885623002081); [ICASSP 2025](https://arxiv.org/pdf/2409.03192)), multimodal sentiment analysis ([IJCNN 2024](https://arxiv.org/pdf/2305.08473); [Displays](https://www.sciencedirect.com/science/article/abs/pii/S0141938223001968)), and community detection ([Neurocomputing](https://arxiv.org/pdf/2309.11798)).
 
@@ -31,7 +31,9 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
+- *08.2025*: 🎉 Our 3 papers have been accepted at **ACM MM 2025 BNI Track** (CCF A, BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will apear in the main proceedings)!
 - *07.2025*: 🎉 Our 4 papers have been accepted at **ACM MM 2025** (CCF A)!
+- *07.2025*: 🎉 Our paper have been accepted at **ICCV 2025 workshop VQualA** (CCF A)!
 - *07.2025*: 🎉 Our paper "Generative Knowledge-Guided Review System for Construction Disclosure Documents" has been accepted at **Advanced engineering informatics** (JCR Q1, IF: 9.9)!
 - *06.2025*: 🎉 Our paper “Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method” has been accepted at **Automation in Construction** (JCR Q1, IF:9.6)!
 - *05.2025*: 🎉 Our paper “Stable Vision Concept Transformers for Medical Diagnosis” has been accepted at **ECML-PKDD 2025** (CCF B)!
@@ -54,6 +56,11 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - *10.2022:* 🎉 Our paper on Bioinformation has been accepted by CISP-BMEI 2022 (Tsinghua B)
 
 # 📝 Publications (Selected)
+
+## 2025
+
+
+## 2024
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/FVLC.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
