@@ -65,7 +65,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 **Songning Lai**, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue~
 
-The Conference on (**ACM MM 2025 BNI Track**).(**Oral**, CCF A, BNI Papers are considered **outstanding** ACM MM full papers, and accepted BNI papers will apear in the main proceedings)
+The Conference on **ACM MM 2025 BNI Track**(**Oral**, CCF A, BNI Papers are considered **outstanding** ACM MM full papers, and accepted BNI papers will apear in the main proceedings).
 
 This paper defines the continuous learning problem of CBM for the first time, and proposes a framework CONCIL to continuously learn concept and label simultaneously. Theoretical and experimental results verify the efficiency and absolute memory property of the framework.
 
@@ -80,7 +80,7 @@ This paper defines the continuous learning problem of CBM for the first time, an
 
 **Songning Lai**, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Lijie Hu, Hang Zhao, Xuming Hu, Yutao Yue
 
-The Conference on (**ACM MM 2025k**).(CCF A)
+The Conference on **ACM MM 2025**(CCF A).
 
 Study of time series forecasting models.
 
@@ -96,7 +96,7 @@ Study of time series forecasting models.
 
 **Songning Lai**, Tianlang Xue, Hongru Xiao, Lijie Hu, Jiemin Wu, Ruiqiang Xiao, Ninghui Feng, Haicheng Liao, Zhenning Yang, Yutao Yue~
 
-The Conference on (**ICRA 2025**).(CCF B)
+The Conference on **ICRA 2025**(CCF B).
 
 We introduce DRIVE, a framework designed to enhance the dependability and stability of explanations in end-to-end unsupervised autonomous driving models, addressing instability issues and improving trustworthiness through consistent and stable interpretability and output, as demonstrated by empirical evaluations. This framework provides novel metrics for assessing the reliability of concept-based explainable autonomous driving systems, advancing their real-world deployment.
 
@@ -111,7 +111,7 @@ We introduce DRIVE, a framework designed to enhance the dependability and stabil
 
 Lijie Hu†, **Songning Lai†**, Yuan Hua, Shu Yang, Jingfeng Zhang, Di Wang
 
-The Conference on (**ECML-PKDD 2025**).(CCF B)
+The Conference on **ECML-PKDD 2025**(CCF B).
 
 The paper introduces Vision Concept Transformer (VCT) and its stable variant SVCT, which integrate vision transformers with concept features and denoised diffusion smoothing to preserve medical imaging accuracy while providing robust, interpretable explanations resilient to perturbations.
 
@@ -127,7 +127,7 @@ The paper introduces Vision Concept Transformer (VCT) and its stable variant SVC
 
 Bowen Tian†, **Songning Lai†**, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue~
 
-The Conference on (**ICASSP 2025**).(CCF B)
+The Conference on **ICASSP 2025**(CCF B).
 
 We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learning approach for fine-grained image classification that generates and refines pseudo-labels using Class Activation Maps (CAMs) to capture essential details, significantly improving accuracy and robustness over existing methods on benchmark datasets. The approach consists of initial and semantic-mixed pseudo-label generation phases to enhance the quality of labels and has been open-sourced for public use.
 
@@ -145,7 +145,7 @@ We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learni
 
 **Songning Lai**, Lijie Hu, Junxiao Wang, Laure Berti and Di Wang
 
-The Twelfth International Conference on Learning Representations (**ICLR2024**). (CCF None)
+The Twelfth International Conference on Learning Representations **ICLR2024**(CCF None).
 
 We introduce the Faithful Vision-Language Concept (FVLC) model, addressing the instability of label-free Concept Bottleneck Models (CBMs). Our FVLC model demonstrates superior stability against input and concept set perturbations across four benchmark datasets, with minimal accuracy degradation compared to standard CBMs, offering a reliable solution for model interpretation.
 
@@ -159,7 +159,7 @@ We introduce the Faithful Vision-Language Concept (FVLC) model, addressing the i
 
 Lijie Hu†, **Songning Lai†**, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang
 
-The Conference on Neural Information Processing Systems (**NeurIPS 2024**).(CCF A)
+The Conference on Neural Information Processing Systems **NeurIPS 2024**(CCF A).
 
 - We proposed an end-to-end framework called Med-MICN, which leverages the strength of different XAI methods such as concept-based models, neural symbolic methods, saliency maps, and concept semantics.
 - Our outputs are interpreted in multiple dimensions, including concept prediction, saliency maps, and concept reasoning rules, making it easier for experts to identify and correct errors.
@@ -175,7 +175,7 @@ The Conference on Neural Information Processing Systems (**NeurIPS 2024**).(CCF 
 
 **Songning Lai**, Xifeng Hu, Jing Han, Chun Wang, Subhas Mukhopadhyay, Zhi Liu~ and Lan Ye~
 
-2022 15th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (**CISP-BMEI 2022**).(Tsinghua B)
+2022 15th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics **CISP-BMEI 2022**(Tsinghua B).
 
 We developed a model using protein feature acquisition, F_Score selection, KNN cleaning, and SMOTE for positive sample synthesis, combined with BERT classification based on Transformer, achieving an accuracy of up to 99.61% and an MCC of 99.1%, surpassing previous models. This work demonstrates significant potential for future applications.
 
@@ -189,7 +189,7 @@ We developed a model using protein feature acquisition, F_Score selection, KNN c
 
 **Songning La†**, Jiakang Li, Guinan Guo, Xifeng Hu, Yulong Li, Yuan Tan, Zichen Song, Yutong Liu, Zhaoxia Ren~, Chun Wang~, Danmin Miao~ and Zhi Liu~
 
-International Joint Conference on Neural Networks (**IJCNN 2024**). (CCF C)
+International Joint Conference on Neural Networks **IJCNN 2024**(CCF C).
 
 We propose a deep learning module that captures shared information across modalities using a covariance matrix and introduces a self-supervised label generation module to extract modality-specific private information, enhancing multimodal sentiment analysis performance through multi-task learning. Extensive experiments on benchmark datasets demonstrate the model's effectiveness in capturing subtle multimodal sentiments.
 
