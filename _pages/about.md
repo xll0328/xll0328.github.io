@@ -57,6 +57,8 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 # 📝 Publications (Selected)
 
+*CCF A * 11, CCF B * 3, CCF C * 4*
+
 ## 2025
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/CONCIL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
