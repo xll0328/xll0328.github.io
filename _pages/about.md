@@ -245,7 +245,7 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 ---
 
-*CCF A * 11, ICLR * 1, CCF B * 4, CCF C * 5, JCR Q1 * 8*
+*CCF A * 11, ICLR * 1, CCF B * 4, CCF C * 5, JCR Q1 * 9*
 
 ---
 
