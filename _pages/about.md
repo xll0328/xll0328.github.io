@@ -279,11 +279,13 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 - Boosting Expertise and Efficiencyin LLM:A Knowledge-Enhanced Framework for Construction Support, Bin Yang, Hongru Xiao, Zixuan Zenga, **Songning Lai**, Jiale Han, Yanke Tana and Yiqing Ni, **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
 
+- Boosting Expertise and Efficiencyin LLM:A Knowledge-Enhanced Framework for Construction Support, Hongru Xiao, ..., **Songning Lai**, **Alexandria Engineering Journal** (JCR Q1, IF: 6.8)!
+
 - Generative Knowledge-Guided Review System for Construction Disclosure Documents, Hongru Xiao, Jiankun Zhuanga, Bin Yanga, Jiale Hanb, Yantao Yu and **Songning Lai**, **Advanced engineering informatics** (JCR Q1, IF: 9.9, CCF B).
 
 - Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method, Hongru Xiao, Bin Yang, Yujie Lu, Wenshuo Chen, **Songning Lai**, Biaoli Gao, **Automation in Construction** (JCR Q1, IF:9.6).
 
-- Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method, Guinan Guo, **Songning Lai**, Qingyang Wu, Yuntao Shou, Wenxu Shi, **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
+- Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity AlignmentCCF C, Guinan Guo, **Songning Lai**, Qingyang Wu, Yuntao Shou, Wenxu Shi, **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
 
 ## 2024
 
