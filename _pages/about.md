@@ -249,7 +249,7 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 ---
 
-### 2025
+## 2025
 
 - Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models, **Songning Lai**, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue, **ACM MM 2025 Brave New Idea Track** (CCF A, Core A*) <BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will apear in the main proceedings>.
 
@@ -285,7 +285,7 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 - Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method, Guinan Guo, **Songning Lai**, Qingyang Wu, Yuntao Shou, Wenxu Shi, **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
 
-### 2024
+## 2024
 
 - Faithful Vision-Language Interpretation via Concept Bottleneck Models, **Songning Lai**, Lijie Hu, Junxiao Wang, Laure Berti and Di Wang, The Twelfth International Conference on Learning Representations **ICLR2024**(CCF None).
 
