@@ -31,6 +31,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
+- *10.2025*: 🎉 Our paper "Orientation-Aware Detection System for Real-Time Monitoring of Cracks in Steel Structures" has been accepted at **Expert Systems With Applications** (JCR Q1, IF: 7.5)!
 - *09.2025*：🎉 Our paper "Boosting Expertise and Efficiencyin LLM:A Knowledge-Enhanced Framework for Construction Support" has been accepted at **Alexandria Engineering Journal** (JCR Q1, IF: 6.8)!
 - *08.2025*: 🎉 Our 3 papers have been accepted at **ACM MM 2025 BNI Track** (CCF A, oral, BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will apear in the main proceedings)! ("Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models"; "Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction"; "Can Audio Language Models Listen Between the Lines? A Study on Metaphorical Reasoning via Unspoken")
 - *07.2025*: 🎉 Our 4 papers have been accepted at **ACM MM 2025** (CCF A, oral)!("From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve"; "ANT: Adaptive Neural Temporal-Aware Text-to-Motion Model"; "Text2Weight: Bridging Natural Language and Neural Network Weight Spaces"; "CFSSeg: Closed-Form Solution for Class-Incremental Semantic Segmentation of 2D Images and 3D Point Clouds")
@@ -57,8 +58,6 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - *10.2022:* 🎉 Our paper "Predicting lysine phosphoglycerylation sites using bidirectional encoder representations with transformers & protein feature extraction and selection" has been accepted by CISP-BMEI 2022 (Tsinghua B)
 
 # 📝 Publications (Selected)
-
-*CCF A * 11, ICLR * 1, CCF B * 3, CCF C * 4, JCR Q1 * 7*
 
 ## 2025
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/CONCIL.png' alt="sym" width="100%"></div></div>
@@ -243,6 +242,58 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 </div>
 
 
+*CCF A * 11, ICLR * 1, CCF B * 4, CCF C * 5, JCR Q1 * 8*
+
+### 2025
+
+Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models, **Songning Lai**, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue, **ACM MM 2025 Brave New Idea Track** (CCF A, Core A*) <BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will apear in the main proceedings>.
+
+From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve, **Songning Lai**, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Hang Zhao, Xuming Hu, Yutao Yue, **ACM MM 2025** (CCF A, Core A*).
+
+DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving, **Songning Lai**, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Hang Zhao, Xuming Hu, Yutao Yue, **ICRA 2025** (CCF B, Core A*).
+
+Stable Vision Concept Transformers for Medical Diagnosis, Lijie Hu†, **Songning Lai†**, Yuan Hua†, Jingfeng Zhang, Pan Zhou, Di Wang, **ECML-PKDD 2025** (CCF B, Core A).
+
+PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning, Bowen Tian†, **Songning Lai†**, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue, **ICASSP 2025** (CCF B, Core B).
+
+IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction, Zhangyi Hu, Jiemin Wu, Hua Xu, Minqian Liao, Ninghui Feng, Bo Gao, **Songning Lai**, Yutao Yue, **ICML 2025** (CCF A, Core A*).
+
+Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction, Jia Haozhe, Wenshuo Chen, Huang Zhihui, Lei Wang, Hongru Xiao, Jia Nanqian, Keming Wu, **Songning Lai**, Bowen Tian, Yutao Yue, **ACM MM 2025 Brave New Idea Track** (CCF A, Core A*) <BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will apear in the main proceedings>.
+
+Can Audio Language Models Listen Between the Lines? A Study on Metaphorical Reasoning via Unspoken, Hongru Xiao, Xiang Li, Duyi Pan, Longfei Zhang, ZhixueSong, Jiale Han, **Songning Lai**, Wenshuo Chen, Jing Tang, Benyou Wang, **ACM MM 2025 Brave New Idea Track** (CCF A, Core A*) <BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will apear in the main proceedings>.
+
+IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction, Zhangyi Hu, Jiemin Wu, Hua Xu, Minqian Liao, Ninghui Feng, Bo Gao, **Songning Lai**, Yutao Yue, **ICML 2025** (CCF A, Core A*).
+
+ANT: Adaptive Neural Temporal-Aware Text-to-Motion Model, Wenshuo Chen, Kuimou Yu, Jia Haozhe, Kaishen Yuan, Zexu Huang, Bowen Tian, **Songning Lai**, Hongru Xiao, Erhang Zhang, Lei Wang, Yutao Yue, **ACM MM 2025** (CCF A, Core A*). 
+
+Text2Weight: Bridging Natural Language and Neural Network Weight Spaces, Bowen Tian, Wenshuo Chen, Zexi Li, **Songning Lai**, Jiemin Wu, Yutao Yue, **ACM MM 2025** (CCF A, Core A*).
+
+CFSSeg: Closed-Form Solution for Class-Incremental Semantic Segmentation of 2D Images and 3D Point Clouds, Jiaxu Li, Rui Li, Jianyu Qi, **Songning Lai**, Linpu Lv, Kejia Fan, Jianheng Tang, Yutao Yue, Dongzhan Zhou, Yunhuai Liu, Huiping Zhuang, **ACM MM 2025** (CCF A, Core A*).
+
+Beyond Patterns: Harnessing Causal Logic for Autonomous Driving Trajectory Prediction, Bonan Wang, Haicheng Liao, Chengyue Wang, Bin Rao, Yanchen Guan, Guyang Yu, Jiaxun Zhang, **Songning Lai**, Chengzhong Xu, Zhenning Li, **IJCAI 2025** (CCF A, Core A*).
+
+Boosting Expertise and Efficiencyin LLM:A Knowledge-Enhanced Framework for Construction Support, Bin Yang, Hongru Xiao, Zixuan Zenga, **Songning Lai**, Jiale Han, Yanke Tana and Yiqing Ni, **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
+
+Generative Knowledge-Guided Review System for Construction Disclosure Documents, Hongru Xiao, Jiankun Zhuanga, Bin Yanga, Jiale Hanb, Yantao Yu and **Songning Lai**, **Advanced engineering informatics** (JCR Q1, IF: 9.9, CCF B).
+
+Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method, Hongru Xiao, Bin Yang, Yujie Lu, Wenshuo Chen, **Songning Lai**, Biaoli Gao, **Automation in Construction** (JCR Q1, IF:9.6).
+
+Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method, Guinan Guo, **Songning Lai**, Qingyang Wu, Yuntao Shou, Wenxu Shi, **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
+
+### 2024
+Faithful Vision-Language Interpretation via Concept Bottleneck Models, **Songning Lai**, Lijie Hu, Junxiao Wang, Laure Berti and Di Wang, The Twelfth International Conference on Learning Representations **ICLR2024**(CCF None).
+
+Towards Multi-dimensional Explanation Alignment for Medical Classification, Lijie Hu†, **Songning Lai†**, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang, Lijie Hu†, **Songning Lai†**, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang, The Conference on Neural Information Processing Systems **NeurIPS 2024**(CCF A).
+
+Shared and private information learning in multimodal sentiment analysis with deep modal alignment and self-supervised multi-task learning, **Songning La†**, Jiakang Li, Guinan Guo, Xifeng Hu, Yulong Li, Yuan Tan, Zichen Song, Yutong Liu, Zhaoxia Ren~, Chun Wang~, Danmin Miao~ and Zhi Liu~, International Joint Conference on Neural Networks **IJCNN 2024**(CCF C).
+
+A Comprehensive Review of Community Detection in Graphs, Jiakang Li†, **Songning Lai†**, Zhihao Shuai, Yuan Tan, Yifan Jia, Mianyang Yu, Zichen Song, Xiaokang Peng, Ziyang Xu, Yongxin Ni, Haifeng Qiu, Jiayu Yang, Yutong Liu, Yonggang Lu~, **Neurocomputing** (JCR Q1 (IF: 6.0) CCF C).
+
+Multimodal Sentiment Analysis: A Survey, **Songning Lai**, Haoxuan Xu, Xifeng Hu, Zhaoxia Ren~ and Zhi Liu~, **Displays** (JCR Q1 (IF: 4.3)).
+
+Cross-domain car detection model with integrated convolutional block attention mechanism, Haoxuan Xu†, **Songning Lai†** and Yang Yang~, **Image and Vision Computing** (JCR Q1 (IF:4.7) CCF C).
+
+Predicting Lysine Phosphoglycerylation Sites using Bidirectional Encoder Representations with Transformers & Protein Feature Extraction and Selection, **Songning Lai**, Xifeng Hu, Jing Han, Chun Wang, Subhas Mukhopadhyay, Zhi Liu~ and Lan Ye~, 2022 15th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics **CISP-BMEI 2022**(Tsinghua B).
 
 
 
