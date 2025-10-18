@@ -330,3 +330,21 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 - Reviewer:  ECAI2024, Expert Systems with Applications, IJCNN2024, ICML2024, KDD2024, ICLR2025, ICASSP2025, ICRA2025, AISTATS2025, CVPR2025, ICML2025, IJCAI2025, WWW2025, ICCV2025, NIPS2025, ACM MM 2025, ICCV 2025
 - Monitor of Chongxin College of Shandong University (The class was awarded as **Shandong Provincial Excellent Class** and **Shandong University Top Ten Class**)
 - **Outstanding Volunteer** of Shandong University with a total volunteer time of **130h**.
+
+# 🧑‍🤝‍🧑 Fridends
+
+[Jiayu Yang](https://yjywdzh.github.io/)
+
+[Wenshuo CHen](https://chatonz.github.io)
+
+[Jiemin Wu](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scholar.google.com.hk/citations%3Fuser%3DINre9KUAAAAJ%26hl%3Den&ved=2ahUKEwjax_-Wi62QAxXrslYBHf-_FkYQFnoECBYQAQ&usg=AOvVaw1jkqmPpNIt9Xn1q4vXBmPX)
+
+[Weilin Ruan](https://rwlinno.github.io)
+
+[Xinmin Li](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scholar.google.com/citations%3Fuser%3DpD_SnqMAAAAJ%26hl%3Dzh-CN&ved=2ahUKEwidqfWsj62QAxVsZvUHHf9qKQQQFnoECB8QAQ&usg=AOvVaw0FEvdkonT5WHbpJD9UimpQ)
+
+[Jiakang Li](https://jiakanglee.github.io)
+
+
+
+
