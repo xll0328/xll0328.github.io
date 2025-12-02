@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Songning Lai"
-  avatar           : "images/zhaopian.png"
-  bio              : "HKUST(GZ)"
-  location         : "Guangzhou, China"
+  avatar           : "images/photo_sony.jpg"
+  bio              : "JoinQuant"
+  location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=gRXN-rMAAAAJ"
-  email            : "songninglai@hkust-gz.edu.cn"
+  email            : "lais0328eee@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
