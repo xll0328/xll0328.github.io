@@ -27,7 +27,7 @@ Beyond my work with CBMs, I have also explored issues related to robustness and 
 
 
 
-If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *songninglai[at]hkust-gz[dot]edu[dot]cn*.
+If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *lais0328eee@gmail.com*.
 
 
 # 🔥 News
