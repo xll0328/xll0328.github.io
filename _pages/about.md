@@ -31,6 +31,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
+- *12.2025*  🎉 Our paper "Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding" has been accepted at IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY **TCSVT**. (IF: 11.1, JCR Q1, CCF B)!
 - *10.2025*: 🎉 Our paper "Mimicking the Physicist's Eye : A VLM-centric Approach for Physics Formula Discovery" has been accepted at **NeurIPS 2025 Workshop on Efficient Reasoning** with **spotlight** (CCF A)!
 - *10.2025*: 🎉 Our paper "Orientation-Aware Detection System for Real-Time Monitoring of Cracks in Steel Structures" has been accepted at **Expert Systems With Applications** (JCR Q1, IF: 7.5)!
 - *09.2025*：🎉 Our paper "Boosting Expertise and Efficiencyin LLM:A Knowledge-Enhanced Framework for Construction Support" has been accepted at **Alexandria Engineering Journal** (JCR Q1, IF: 6.8)!
