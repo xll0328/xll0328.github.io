@@ -31,6 +31,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
+- *01.2026*  🎉 Our paper "TPTD: A Tursted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing" has been accepted at Knowledge-Based Systems **KBS**. (IF: 7.2, JCR Q1, CCF C)!
 - *12.2025*  🎉 Our paper "Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding" has been accepted at IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY **TCSVT**. (IF: 11.1, JCR Q1, CCF B)!
 - *10.2025*: 🎉 Our paper "Mimicking the Physicist's Eye : A VLM-centric Approach for Physics Formula Discovery" has been accepted at **NeurIPS 2025 Workshop on Efficient Reasoning** with **spotlight** (CCF A)!
 - *10.2025*: 🎉 Our paper "Orientation-Aware Detection System for Real-Time Monitoring of Cracks in Steel Structures" has been accepted at **Expert Systems With Applications** (JCR Q1, IF: 7.5)!
@@ -247,9 +248,12 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 ---
 
-*CCF A * 11, ICLR * 1, CCF B * 4, CCF C * 5, JCR Q1 * 9*
+*CCF A * 11, ICLR * 1, CCF B * 5, CCF C * 6, JCR Q1 * 11*
 
 ---
+## 2026
+- TPTD: A Tursted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing, Yajiang Huang, ..., **Songning Lai**, ..., Houbing Herbert Song, **Knowledge-Based Systems(KBS)** (JCR Q1, IF: 7.2).
+
 
 ## 2025
 
@@ -287,7 +291,9 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 - Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method, Hongru Xiao, Bin Yang, Yujie Lu, Wenshuo Chen, **Songning Lai**, Biaoli Gao, **Automation in Construction** (JCR Q1, IF:9.6).
 
-- Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity AlignmentCCF C, Guinan Guo, **Songning Lai**, Qingyang Wu, Yuntao Shou, Wenxu Shi, **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
+- Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment, Guinan Guo, **Songning Lai**, Qingyang Wu, Yuntao Shou, Wenxu Shi, **Expert Systems With Applications** (JCR Q1, IF:8.4, CCF C).
+
+- Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding, Runwei Guan, ...., **Songning Lai**, ... ,Hui Xiong, IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY **TCSVT**. (IF: 11.1, JCR Q1, CCF B)
 
 
 ## 2024
