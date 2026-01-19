@@ -31,14 +31,16 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
+- *01.2026*  🎉 Our paper "TOWARDS RELIABLE TIME SERIESFORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS" has been accepted at **ICASSP**. (CCF B)!
+- *01.2026*  🎉 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" has been accepted at **ACM TheWebConf 2026 (WWW2026) Workshop TIME**!
 - *01.2026*  🎉 Our paper "TPTD: A Tursted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing" has been accepted at Knowledge-Based Systems **KBS**. (IF: 7.2, JCR Q1, CCF C)!
 - *12.2025*  🎉 Our paper "Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding" has been accepted at IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY **TCSVT**. (IF: 11.1, JCR Q1, CCF B)!
-- *10.2025*: 🎉 Our paper "Mimicking the Physicist's Eye : A VLM-centric Approach for Physics Formula Discovery" has been accepted at **NeurIPS 2025 Workshop on Efficient Reasoning** with **spotlight** (CCF A)!
+- *10.2025*: 🎉 Our paper "Mimicking the Physicist's Eye : A VLM-centric Approach for Physics Formula Discovery" has been accepted at **NeurIPS 2025 Workshop on Efficient Reasoning** with **spotlight**!
 - *10.2025*: 🎉 Our paper "Orientation-Aware Detection System for Real-Time Monitoring of Cracks in Steel Structures" has been accepted at **Expert Systems With Applications** (JCR Q1, IF: 7.5)!
 - *09.2025*：🎉 Our paper "Boosting Expertise and Efficiencyin LLM:A Knowledge-Enhanced Framework for Construction Support" has been accepted at **Alexandria Engineering Journal** (JCR Q1, IF: 6.8)!
 - *08.2025*: 🎉 Our 3 papers have been accepted at **ACM MM 2025 BNI Track** (CCF A, oral, BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will apear in the main proceedings)! ("Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models"; "Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction"; "Can Audio Language Models Listen Between the Lines? A Study on Metaphorical Reasoning via Unspoken")
 - *07.2025*: 🎉 Our 4 papers have been accepted at **ACM MM 2025** (CCF A, oral)!("From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve"; "ANT: Adaptive Neural Temporal-Aware Text-to-Motion Model"; "Text2Weight: Bridging Natural Language and Neural Network Weight Spaces"; "CFSSeg: Closed-Form Solution for Class-Incremental Semantic Segmentation of 2D Images and 3D Point Clouds")
-- *07.2025*: 🎉 Our paper "VQualA 2025 Challenge on Face Image Quality Assessment: Methods and Results" has been accepted at **ICCV 2025 workshop VQualA** (CCF A)!
+- *07.2025*: 🎉 Our paper "VQualA 2025 Challenge on Face Image Quality Assessment: Methods and Results" has been accepted at **ICCV 2025 workshop VQualA**!
 - *07.2025*: 🎉 Our paper "Generative Knowledge-Guided Review System for Construction Disclosure Documents" has been accepted at **Advanced engineering informatics** (JCR Q1, IF: 9.9)!
 - *06.2025*: 🎉 Our paper “Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method” has been accepted at **Automation in Construction** (JCR Q1, IF:9.6)!
 - *05.2025*: 🎉 Our paper “Stable Vision Concept Transformers for Medical Diagnosis” has been accepted at **ECML-PKDD 2025** (CCF B)!
@@ -248,11 +250,13 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 ---
 
-*CCF A * 11, ICLR * 1, CCF B * 5, CCF C * 6, JCR Q1 * 11*
+*CCF A * 11, ICLR * 1, CCF B * 6, CCF C * 6, JCR Q1 * 11*
 
 ---
 ## 2026
+- TOWARDS RELIABLE TIME SERIESFORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS, Ninghui Feng†, **Songning Lai†**, Xin Zou, ...,Hang Zhao, **ICASSP** (CCF B)
 - TPTD: A Tursted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing, Yajiang Huang, ..., **Songning Lai**, ..., Houbing Herbert Song, **Knowledge-Based Systems(KBS)** (JCR Q1, IF: 7.2).
+
 
 
 ## 2025
