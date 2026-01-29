@@ -26,9 +26,9 @@ bash run_server.sh
 cd /Users/sony/Desktop/xll0328.github.io
 
 # 如果使用 VPN，先设置代理（可选）
-export https_proxy=http://127.0.0.1:33210
-export http_proxy=http://127.0.0.1:33210
-export all_proxy=socks5://127.0.0.1:33211
+export https_proxy=your_proxy_address
+export http_proxy=your_proxy_address
+export all_proxy=your_proxy_address
 
 # 启动服务器
 bundle exec jekyll serve --livereload

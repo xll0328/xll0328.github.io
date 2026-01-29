@@ -5,10 +5,10 @@
 
 cd "$(dirname "$0")"
 
-# 设置代理（如果 VPN 开启）
-export https_proxy=http://127.0.0.1:33210
-export http_proxy=http://127.0.0.1:33210
-export all_proxy=socks5://127.0.0.1:33211
+# 设置代理（如果需要，请取消注释并修改为你的代理地址）
+# export https_proxy=http://127.0.0.1:your_port
+# export http_proxy=http://127.0.0.1:your_port
+# export all_proxy=socks5://127.0.0.1:your_port
 
 echo "🚀 启动 Jekyll 本地服务器..."
 echo ""
