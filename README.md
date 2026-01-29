@@ -131,13 +131,15 @@
 
 ### 代理设置（如需要）
 
-如果网络访问受限，可以在 `start_server.sh` 中配置代理：
+如果网络访问受限，可以在 `start_server.sh` 中配置代理环境变量：
 
 ```bash
-export https_proxy=http://127.0.0.1:33210
-export http_proxy=http://127.0.0.1:33210
-export all_proxy=socks5://127.0.0.1:33211
+export https_proxy=your_proxy_address
+export http_proxy=your_proxy_address
+export all_proxy=your_proxy_address
 ```
+
+请根据你的实际代理配置修改相应的地址和端口。
 
 ## 项目特色
 
