@@ -51,11 +51,11 @@ redirect_from:
     </div>
 </div>
 
-<p data-i18n-content="about_intro">Here is <strong>Songning Lai</strong>.( You can call me Sony. )</p>
+Here is <strong>Songning Lai</strong>.( You can call me Sony. )
 
-<p data-i18n-content="about_text">I received my undergraduate degree from the School of Information Science and Engineering(<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a> in China,supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>. I was also an RA at HKUST@AI Thrust&INFO Hub, supervised by Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>. And now I am a Quant Research Intern in <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a>, supervised by <a href="https://dc.simuwang.com/manager/PL00003YUZ.html"><strong>Rui Xiao</strong></a>.</p>
+I received my undergraduate degree from the School of Information Science and Engineering(<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a> in China,supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>. I was also an RA at HKUST@AI Thrust&INFO Hub, supervised by Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>. And now I am a Quant Research Intern in <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a>, supervised by <a href="https://dc.simuwang.com/manager/PL00003YUZ.html"><strong>Rui Xiao</strong></a>.
 
-<p data-i18n-content="research_interest">My primary research interest lies in the domain of <strong>Trustworthy AI</strong> <span class="icon-emoji">🤖</span>, encompassing <strong>explainability</strong> <span class="icon-emoji">🔍</span>, <strong>robustness</strong> <span class="icon-emoji">🛡️</span>, <strong>faithfulness</strong> <span class="icon-emoji">✅</span>, and <strong>safety</strong> <span class="icon-emoji">🔒</span> of AI.</p> Specifically, I have focused extensively on <strong>Concept Bottleneck Models (CBMs)</strong> within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings <a href="https://openreview.net/forum?id=rp0EdI8X4e">(ICLR 2024)</a>, application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs <a href="https://arxiv.org/pdf/2411.17471">(ACM MM 2025)</a>, as well as the first exploration of CBMs in the context of security, particularly backdoor attacks <a href="https://arxiv.org/pdf/2410.04823">(Under review 1;</a><a href="https://arxiv.org/pdf/2411.16512"> Under review 2)</a>. Furthermore, my research has extended to applying CBMs in medical fields <a href="https://arxiv.org/abs/2410.21494">(NIPS 2024;</a> <a href="https://arxiv.org/pdf/2506.05286?">ECML 2025</a>) and autonomous driving applications <a href="https://arxiv.org/pdf/2409.10330">(ICRA 2025)</a>.
+My primary research interest lies in the domain of <strong>Trustworthy AI</strong> <span class="icon-emoji">🤖</span>, encompassing <strong>explainability</strong> <span class="icon-emoji">🔍</span>, <strong>robustness</strong> <span class="icon-emoji">🛡️</span>, <strong>faithfulness</strong> <span class="icon-emoji">✅</span>, and <strong>safety</strong> <span class="icon-emoji">🔒</span> of AI. Specifically, I have focused extensively on <strong>Concept Bottleneck Models (CBMs)</strong> within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings <a href="https://openreview.net/forum?id=rp0EdI8X4e">(ICLR 2024)</a>, application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs <a href="https://arxiv.org/pdf/2411.17471">(ACM MM 2025)</a>, as well as the first exploration of CBMs in the context of security, particularly backdoor attacks <a href="https://arxiv.org/pdf/2410.04823">(Under review 1;</a><a href="https://arxiv.org/pdf/2411.16512"> Under review 2)</a>. Furthermore, my research has extended to applying CBMs in medical fields <a href="https://arxiv.org/abs/2410.21494">(NIPS 2024;</a> <a href="https://arxiv.org/pdf/2506.05286?">ECML 2025</a>) and autonomous driving applications <a href="https://arxiv.org/pdf/2409.10330">(ICRA 2025)</a>.
 
 Beyond my work with CBMs, I have also explored issues related to robustness and faithfulness in time series (<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=gRXN-rMAAAAJ&sortby=pubdate&citation_for_view=gRXN-rMAAAAJ:blknAaTinKkC">ICML 2025</a>; <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=gRXN-rMAAAAJ&citation_for_view=gRXN-rMAAAAJ:KlAtU1dfN6UC">ACM MM 2025</a>,<a href="https://arxiv.org/pdf/2503.19656">ICASSP 2026</a>), continual learning<a href="https://arxiv.org/pdf/2412.10834">(ACM MM25)</a> and explainability for LLM (<a href="https://arxiv.org/pdf/2510.07896?">ICLR 2026</a>). Prior to these endeavors, my research efforts were directed towards computer vision (<a href="https://www.sciencedirect.com/science/article/pii/S0262885623002081">Image and Vison Computing</a>; <a href="https://arxiv.org/pdf/2409.03192">ICASSP 2025</a>), multimodal sentiment analysis (<a href="https://arxiv.org/pdf/2305.08473">IJCNN 2024</a>; <a href="https://www.sciencedirect.com/science/article/abs/pii/S0141938223001968">Displays</a>), and community detection (<a href="https://arxiv.org/pdf/2309.11798">Neurocomputing</a>).
 
@@ -66,7 +66,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <div class="section-divider"></div>
 
 <span class='anchor' id='news'></span>
-# 🔥 <span data-i18n="sections.news">News</span>
+# 🔥 News
 
 <div class="news-scroll-container">
 
@@ -110,7 +110,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <div class="section-divider"></div>
 
 <span class='anchor' id='publications'></span>
-# 📝 <span data-i18n="sections.publications">Publications (Selected)</span>
+# 📝 Publications (Selected)
 
 <div class="publications-scroll-container">
 
@@ -258,7 +258,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='complete-publications'></span>
-# 📚 <span data-i18n="sections.complete_publications">Complete Publications</span>
+# 📚 Complete Publications
 
 <div class="publication-stats">
 <strong>Publication Statistics:</strong> CCF A: 11 | ICLR: 2 | CCF B: 6 | CCF C: 6 | JCR Q1: 11
@@ -322,7 +322,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='honors-and-awards'></span>
-# 🎖 <span data-i18n="sections.honors_and_awards">Honors and Awards</span>
+# 🎖 Honors and Awards
 
 <div class="honors-container">
 <div class="honor-card">
@@ -411,7 +411,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='educations'></span>
-# 📖 <span data-i18n="sections.educations">Educations and Experiences</span>
+# 📖 Educations and Experiences
 
 <div class="timeline-container">
 <div class="timeline-item">
@@ -446,7 +446,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='internships'></span>
-# 💻 <span data-i18n="sections.internships">Internships</span>
+# 💻 Internships
 
 <div class="internship-container">
 <div class="internship-card">
