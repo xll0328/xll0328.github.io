@@ -8,13 +8,13 @@
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" data-i18n-nav="{{ link.title | downcase | replace: ' ', '_' }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item language-switcher">
-            <button id="lang-switch-btn" class="lang-btn" title="Switch Language">
-              <span id="lang-switch-text">中文</span>
-            </button>
-          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
+        <div class="language-switcher">
+          <button id="lang-switch-btn" class="lang-btn" title="Switch Language">
+            <span id="lang-switch-text">中文</span>
+          </button>
+        </div>
       </nav>
     </div>
   </div>

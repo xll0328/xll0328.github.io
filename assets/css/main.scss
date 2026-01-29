@@ -886,9 +886,13 @@ li {
     }
 }
 
-/* 语言切换按钮样式 */
+/* 语言切换按钮样式 - 固定在导航栏右侧 */
 .language-switcher {
-    margin-left: 1em;
+    position: absolute;
+    right: 50px; /* 在greedy-nav按钮左侧留出空间 */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
     
     .lang-btn {
         background: linear-gradient(135deg, #1e88e5 0%, #43a047 50%, #ff9800 100%);
@@ -901,6 +905,7 @@ li {
         cursor: pointer;
         transition: all 0.3s ease;
         box-shadow: 0 2px 6px rgba(30, 136, 229, 0.3);
+        white-space: nowrap;
         
         &:hover {
             transform: translateY(-2px);
