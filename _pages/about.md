@@ -31,7 +31,8 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 
 
 # 🔥 News
-- *01.2026*  🎉 Our paper "TOWARDS RELIABLE TIME SERIESFORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS" has been accepted at **ICASSP**. (CCF B)!
+- *01.2026*  🎉 Our paper "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall" has been accepted at **ICLR 2026**. (CCF None)!
+- *01.2026*  🎉 Our paper "TOWARDS RELIABLE TIME SERIESFORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS" has been accepted at **ICASSP 2026**. (CCF B)!
 - *01.2026*  🎉 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" has been accepted at **ACM TheWebConf 2026 (WWW2026) Workshop TIME**!
 - *01.2026*  🎉 Our paper "TPTD: A Tursted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing" has been accepted at Knowledge-Based Systems **KBS**. (IF: 7.2, JCR Q1, CCF C)!
 - *12.2025*  🎉 Our paper "Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding" has been accepted at IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY **TCSVT**. (IF: 11.1, JCR Q1, CCF B)!
@@ -63,6 +64,36 @@ If you are interested in any aspect of me, I would love to chat and collaborate,
 - *10.2022:* 🎉 Our paper "Predicting lysine phosphoglycerylation sites using bidirectional encoder representations with transformers & protein feature extraction and selection" has been accepted by CISP-BMEI 2022 (Tsinghua B)
 
 # 📝 Publications (Selected)
+
+## 2026
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/ACE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall](https://arxiv.org/pdf/2510.07896?)**
+
+Jiayu Yang†, Yuxuan Fan†, **Songning Lai†**, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue.
+
+International Conference on Learning Representations **ICLR2026** (CCF None).
+
+In this paper, we propose ACE, a knowledge editing framework based on neuron attribution control. By locating and correcting the key neuron pathways in the Transformer internal inference chain, ACE solves the problem of intermediate implicit subject failure when multi-hop knowledge updating in large language models, and reveals the cognitive mechanism of query neuron driving semantic accumulation.
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/ICASSP26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**[Towards Reliable Time Series Forecasting under Future Uncertainty: Ambiguity and Novelty Rejection Mechanisms]()**
+
+Ninghui Feng†, **Songning Lai†**, Xin Zhou, Jiayu Yang, Kunlong Feng, Zhenxiao Yin, Fobao Zhou, Zhangyi Hu, Yutao Yue, Yuxuan Liang, Boyu Wang, Hang Zhao
+
+The Conference on **ICASSP 2026**(CCF B).
+
+We propose a dual rejection framework combining ambiguity rejection (using prediction error variance) and novelty rejection (leveraging VAEs and Mahalanobis distance) to enhance time series forecasting reliability by abstaining from low-confidence predictions and detecting distribution shifts, effectively reducing errors in dynamic environments. This approach addresses underfitting and out-of-distribution challenges without requiring future ground truth, advancing robust forecasting in complex real-world scenarios.
+
+</div>
+</div>
 
 ## 2025
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/CONCIL.png' alt="sym" width="100%"></div></div>
@@ -250,11 +281,12 @@ We propose a Cross-Domain Car Detection Model with an integrated convolutional b
 
 ---
 
-*CCF A * 11, ICLR * 1, CCF B * 6, CCF C * 6, JCR Q1 * 11*
+*CCF A * 11, ICLR * 2, CCF B * 6, CCF C * 6, JCR Q1 * 11*
 
 ---
 ## 2026
-- TOWARDS RELIABLE TIME SERIESFORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS, Ninghui Feng†, **Songning Lai†**, Xin Zou, ...,Hang Zhao, **ICASSP** (CCF B)
+- ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall, Jiayu Yang†, Yuxuan Fan†, **Songning Lai†**, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue, **ICLR 2026** (CCF None).
+- TOWARDS RELIABLE TIME SERIESFORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS, Ninghui Feng†, **Songning Lai†**, Xin Zou, ...,Hang Zhao, **ICASSP 2026** (CCF B).
 - TPTD: A Tursted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing, Yajiang Huang, ..., **Songning Lai**, ..., Houbing Herbert Song, **Knowledge-Based Systems(KBS)** (JCR Q1, IF: 7.2).
 
 
