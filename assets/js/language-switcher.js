@@ -95,10 +95,18 @@
         // 翻译导航栏链接
         document.querySelectorAll('[data-i18n-nav]').forEach(el => {
             const key = el.getAttribute('data-i18n-nav');
-            if (t.nav[key]) {
-                el.textContent = t.nav[key];
+            // 将导航标题转换为翻译键（如 "About Me" -> "about_me"）
+            const navKey = key.toLowerCase().replace(/\s+/g, '_');
+            if (t.nav[navKey]) {
+                el.textContent = t.nav[navKey];
             }
         });
+        
+        // 翻译Homepage链接
+        const homepageLink = document.querySelector('a[href="#about-me"][data-i18n]');
+        if (homepageLink && t.nav.homepage) {
+            homepageLink.textContent = t.nav.homepage;
+        }
         
         // 翻译section标题（带span的）
         document.querySelectorAll('h1 span[data-i18n], h2 span[data-i18n]').forEach(el => {
