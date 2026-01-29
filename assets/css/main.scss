@@ -886,6 +886,39 @@ li {
     }
 }
 
+/* 语言切换按钮样式 */
+.language-switcher {
+    margin-left: 1em;
+    
+    .lang-btn {
+        background: linear-gradient(135deg, #1e88e5 0%, #43a047 50%, #ff9800 100%);
+        color: white;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 6px rgba(30, 136, 229, 0.3);
+        
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(30, 136, 229, 0.4);
+            background: linear-gradient(135deg, #1976d2 0%, #388e3c 50%, #f57c00 100%);
+        }
+        
+        &:active {
+            transform: translateY(0);
+        }
+        
+        #lang-switch-text {
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
 .greedy-nav {
     a {
         position: relative;
