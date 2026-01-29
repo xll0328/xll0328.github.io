@@ -1,72 +1,211 @@
-
-<h1 align="center">
-AcadHomepage
-</h1>
+# 个人学术主页
 
 <div align="center">
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-在线访问-blue)](https://xll0328.github.io)
+[![Jekyll](https://img.shields.io/badge/Jekyll-静态站点生成器-red)](https://jekyllrb.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 </div>
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+<p align="center">一个现代化、响应式的个人学术主页</p>
 
 <p align="center">
     <br>
-    <img src="docs/screenshot.png" width="100%"/>
+    <strong>在线访问：</strong> <a href="https://xll0328.github.io">https://xll0328.github.io</a>
     <br>
 </p>
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+## 项目简介
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+这是一个基于 Jekyll 构建的个人学术主页，展示了作者的研究成果、教育经历、工作经历等信息。网站采用现代化的设计风格，包含丰富的动画效果和交互体验。
 
-## Quick Start
+## 主要特性
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+- 🎨 **现代化设计**：采用羽毛球主题的渐变色彩方案，视觉效果优雅
+- ✨ **动态效果**：全屏漂浮图标动画，增强页面活力
+- 📱 **响应式布局**：自动适配不同屏幕尺寸和设备
+- 🔄 **自动更新**：通过 GitHub Actions 自动更新 Google Scholar 引用数据
+- 🎯 **SEO 优化**：支持搜索引擎优化，提高网站可见性
+- 📊 **数据分析**：支持 Google Analytics 流量统计
+- 🖼️ **背景装饰**：李梓嘉主题背景图片，低透明度装饰效果
+- 🎭 **交互体验**：丰富的悬停效果和动画过渡
 
-## Debug Locally
+## 快速开始
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+### 1. Fork 并重命名仓库
 
-# Acknowledges
+1. Fork 本仓库
+2. 将仓库重命名为 `USERNAME.github.io`，其中 `USERNAME` 是你的 GitHub 用户名
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+### 2. 配置 Google Scholar 引用统计
+
+1. 在 Google Scholar 主页找到你的用户 ID（URL 中的 `user=SCHOLAR_ID`）
+2. 在仓库的 `Settings -> Secrets -> Actions` 中添加新的 secret：
+   - Name: `GOOGLE_SCHOLAR_ID`
+   - Value: 你的 Google Scholar ID
+3. 在仓库的 `Actions` 页面启用 workflows
+4. GitHub Action 会在 `google-scholar-stats` 分支生成 `gs_data.json` 文件
+5. 每天 08:00 UTC 自动更新，或当主分支更新时触发
+
+### 3. 配置网站信息
+
+编辑 `_config.yml` 文件，修改以下配置：
+
+- `title`: 网站标题
+- `description`: 网站描述
+- `repository`: 仓库名称（格式：USER_NAME/REPO_NAME）
+- `author`: 作者信息（姓名、头像、简介、位置、工作单位等）
+- `google_analytics_id`: Google Analytics ID（可选）
+- SEO 相关配置（可选）
+
+### 4. 添加个人内容
+
+编辑 `_pages/about.md` 文件，添加你的个人信息：
+
+- 关于我
+- 新闻动态
+- 发表论文
+- 荣誉奖项
+- 教育经历
+- 工作经历
+- 朋友链接
+
+你可以使用 HTML + Markdown 语法，支持显示论文引用数：
+
+```html
+<span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
+```
+
+> **如何获取 Google Scholar 论文 ID？**  
+> 访问你的 Google Scholar 主页，点击论文名称，在 URL 中找到 `citation_for_view=XXXX`，其中 `XXXX` 就是论文 ID。
+
+### 5. 生成 Favicon
+
+使用 [favicon-generator](https://redketchup.io/favicon-generator) 生成网站图标，将所有生成的文件下载到 `images/` 目录。
+
+### 6. 发布网站
+
+提交更改并推送到 GitHub，网站会自动发布到 `https://USERNAME.github.io`。
+
+## 本地调试
+
+### 环境要求
+
+- Ruby（推荐 2.6+）
+- RubyGems
+- GCC 和 Make
+- Bundler
+
+### 安装步骤
+
+1. **克隆仓库到本地**
+   ```bash
+   git clone https://github.com/xll0328/xll0328.github.io.git
+   cd xll0328.github.io
+   ```
+
+2. **安装 Jekyll 依赖**
+   ```bash
+   bash setup_jekyll.sh
+   ```
+   或者手动安装：
+   ```bash
+   bundle install
+   ```
+
+3. **启动本地服务器**
+   ```bash
+   bash start_server.sh
+   ```
+   或者：
+   ```bash
+   bundle exec jekyll serve --livereload --host 127.0.0.1 --port 4000
+   ```
+
+4. **访问网站**
+   在浏览器中打开 http://127.0.0.1:4000
+
+5. **实时预览**
+   修改源代码后，livereload 服务器会自动刷新页面
+
+### 代理设置（如需要）
+
+如果网络访问受限，可以在 `start_server.sh` 中配置代理：
+
+```bash
+export https_proxy=http://127.0.0.1:33210
+export http_proxy=http://127.0.0.1:33210
+export all_proxy=socks5://127.0.0.1:33211
+```
+
+## 项目特色
+
+### 羽毛球主题设计
+
+- 采用羽毛球主题的渐变色彩方案（蓝色、绿色、橙色）
+- 李梓嘉主题背景图片装饰
+- 动态渐变分隔线
+- 统一的悬停效果和过渡动画
+
+### 全屏漂浮动画
+
+- 30+ 种图标（羽毛球、AI、研究、学术等）
+- 多种动画方向（向上、向下、左右）
+- 不同速度的动画效果
+- 低透明度设计，不干扰内容阅读
+
+### 优化的内容展示
+
+- **新闻动态**：可滚动容器，卡片式布局
+- **发表论文**：支持 CCF、Core、IF 等学术指标展示
+- **荣誉奖项**：网格卡片布局，图标和徽章
+- **教育经历**：时间轴布局，清晰的视觉层次
+- **工作经历**：卡片式展示，标签和统计信息
+
+## 文件结构
+
+```
+.
+├── _config.yml          # Jekyll 配置文件
+├── _data/               # 数据文件（导航等）
+├── _includes/           # 包含文件（头部、脚本等）
+├── _layouts/            # 布局模板
+├── _pages/              # 页面内容
+│   └── about.md        # 主页内容
+├── assets/              # 静态资源
+│   ├── css/            # 样式文件
+│   └── js/             # JavaScript 文件
+├── images/              # 图片资源
+│   └── lee_zii_jia/    # 李梓嘉主题图片
+├── setup_jekyll.sh      # Jekyll 环境安装脚本
+└── start_server.sh     # 服务器启动脚本
+```
+
+## 技术栈
+
+- **Jekyll**: 静态站点生成器
+- **SCSS**: CSS 预处理器
+- **JavaScript**: 动态效果和交互
+- **GitHub Pages**: 网站托管
+- **GitHub Actions**: 自动化工作流
+
+## 致谢
+
+- 本网站基于 [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io) 模板构建
+- 使用了 [Font Awesome](https://fontawesome.com/) 图标库
+- 受到 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) 和 [academicpages](https://github.com/academicpages/academicpages.github.io) 的启发
+
+## 许可证
+
+本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
+
+## 联系方式
+
+- **网站**: https://xll0328.github.io
+- **GitHub**: https://github.com/xll0328
+- **Google Scholar**: https://scholar.google.com/citations?user=gRXN-rMAAAAJ
+
+---
+
+<p align="center">⭐ 如果这个项目对你有帮助，欢迎 Star！</p>
