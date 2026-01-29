@@ -20,34 +20,34 @@ redirect_from:
 <!-- 李梓嘉图片装饰元素 - 从页面开始显示，内容结束后截断 -->
 <div class="lee-decorative-gallery">
     <div class="decorative-item" style="display: block; opacity: 1;">
-        <img src="/images/lee_zii_jia/微信图片_20240916120048_605_8.jpg" alt="Lee Zii Jia" style="display: block; opacity: 1;">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20240916120048_605_8.jpg' | relative_url }}" alt="Lee Zii Jia" style="display: block; opacity: 1;">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165205_438_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165205_438_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165206_439_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165206_439_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165207_440_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165207_440_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165208_441_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165208_441_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165208_442_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165208_442_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165209_443_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165209_443_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165210_444_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165210_444_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165211_445_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165211_445_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
     <div class="decorative-item">
-        <img src="/images/lee_zii_jia/微信图片_20260129165212_446_54.jpg" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165212_446_54.jpg' | relative_url }}" alt="Lee Zii Jia">
     </div>
 </div>
 
