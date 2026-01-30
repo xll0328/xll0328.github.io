@@ -66,7 +66,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <div class="section-divider"></div>
 
 <span class='anchor' id='news'></span>
-# 🔥 News
+# <span data-typewriter>🔥 News</span>
 
 <div class="news-scroll-container">
 
@@ -110,7 +110,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <div class="section-divider"></div>
 
 <span class='anchor' id='publications'></span>
-# 📝 Publications (Selected)
+# <span data-typewriter>📝 Publications (Selected)</span>
 
 <div class="publications-scroll-container">
 
