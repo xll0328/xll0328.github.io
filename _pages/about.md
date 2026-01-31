@@ -545,6 +545,49 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 </div>
 </div>
 
+---
 
+<span class='anchor' id='guestbook'></span>
+## 💬 留言板 / Guestbook
 
+<div class="like-section">
+  <div class="like-counter">
+    <button id="like-btn" class="like-btn" aria-label="点赞">
+      <span class="like-icon">❤️</span>
+      <span class="like-text">点赞</span>
+      <span class="like-count" id="like-count">0</span>
+    </button>
+    <div class="like-message" id="like-message"></div>
+  </div>
+</div>
+
+<div class="guestbook-intro">
+  <p>欢迎留下你的想法、建议或祝福！你可以：</p>
+  <ul>
+    <li>💬 分享你的想法和反馈</li>
+    <li>🎉 留下祝福和鼓励</li>
+    <li>🤝 提出合作或交流建议</li>
+    <li>📝 分享你的学术见解</li>
+  </ul>
+  <p><strong>注意</strong>：留言功能需要 GitHub 账号登录。如果你还没有启用 GitHub Discussions，请按照下面的说明进行配置。</p>
+</div>
+
+<div class="giscus-container">
+  <script src="https://giscus.app/client.js"
+    data-repo="xll0328/xll0328.github.io"
+    data-repo-id="R_kgDONIgIgQ"
+    data-category="Announcements"
+    data-category-id="DIC_kwDONIgIgc4C1r_r"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="1"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="zh-CN"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
 

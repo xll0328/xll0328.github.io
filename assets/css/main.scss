@@ -212,7 +212,7 @@
             max-width: 60%;
             order: 2;
         }
-        
+
         align-items: flex-start;
     }
 }
@@ -2342,6 +2342,221 @@ a {
     50% {
         transform: translateY(-10px) scale(1.01);
         opacity: 0.15;
+    }
+}
+
+/* ==========================================================================
+   留言板和点赞功能样式
+   ========================================================================== */
+
+/* 点赞区域 */
+.like-section {
+    margin: 3em 0 2em;
+    padding: 2em;
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.1), rgba(255, 142, 142, 0.1));
+    border-radius: 16px;
+    border: 2px solid rgba(255, 107, 107, 0.2);
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.like-section:hover {
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.2);
+    transform: translateY(-2px);
+}
+
+.like-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.like-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 1em 2em;
+    background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.like-btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.like-btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.like-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 25px rgba(255, 107, 107, 0.4);
+}
+
+.like-btn:active {
+    transform: translateY(-1px) scale(0.98);
+}
+
+.like-btn.liked {
+    background: linear-gradient(135deg, #4caf50, #66bb6a);
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+}
+
+.like-btn.liked:hover {
+    box-shadow: 0 6px 25px rgba(76, 175, 80, 0.4);
+}
+
+.like-icon {
+    font-size: 1.3em;
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+.like-btn.liked .like-icon {
+    animation: none;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    10%, 30% {
+        transform: scale(1.1);
+    }
+    20%, 40% {
+        transform: scale(1);
+    }
+}
+
+.like-text {
+    font-size: 1em;
+}
+
+.like-count {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0.3em 0.8em;
+    border-radius: 20px;
+    font-size: 0.9em;
+    min-width: 2.5em;
+    display: inline-block;
+}
+
+.like-message {
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-top: 0.5em;
+}
+
+.like-message.success {
+    background: rgba(76, 175, 80, 0.2);
+    color: #2e7d32;
+}
+
+.like-message.info {
+    background: rgba(33, 150, 243, 0.2);
+    color: #1565c0;
+}
+
+/* 留言板介绍 */
+.guestbook-intro {
+    margin: 2em 0;
+    padding: 1.5em;
+    background: linear-gradient(135deg, rgba(30, 136, 229, 0.05), rgba(67, 160, 71, 0.05));
+    border-radius: 12px;
+    border-left: 4px solid #1e88e5;
+}
+
+.guestbook-intro p {
+    margin: 0.5em 0;
+    line-height: 1.6;
+}
+
+.guestbook-intro ul {
+    margin: 1em 0;
+    padding-left: 1.5em;
+}
+
+.guestbook-intro li {
+    margin: 0.5em 0;
+    line-height: 1.6;
+}
+
+.guestbook-intro strong {
+    color: #1e88e5;
+}
+
+/* Giscus 容器 */
+.giscus-container {
+    margin: 3em 0;
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.giscus-container::before {
+    content: '💬';
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    opacity: 0.6;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .like-section {
+        padding: 1.5em;
+        margin: 2em 0;
+    }
+
+    .like-btn {
+        padding: 0.8em 1.5em;
+        font-size: 1em;
+    }
+
+    .guestbook-intro {
+        padding: 1em;
+    }
+
+    .giscus-container {
+        padding: 1em;
+    }
+}
+
+/* 点赞粒子动画 */
+.like-particle {
+    animation: like-particle-float 0.8s ease-out forwards;
+}
+
+@keyframes like-particle-float {
+    to {
+        opacity: 0;
+        transform: translateY(-50px) scale(0);
     }
 }
 
