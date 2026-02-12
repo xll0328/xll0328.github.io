@@ -12,6 +12,10 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<!-- 预加载关键资源 -->
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="dns-prefetch" href="https://giscus.app">
 
 <meta http-equiv="cleartype" content="on">
 <head>

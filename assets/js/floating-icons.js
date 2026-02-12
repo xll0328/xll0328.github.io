@@ -88,27 +88,38 @@
         
         // 动画结束后移除元素（节省内存）
         const animationDuration = selected.speed === 'fast' ? 15000 : 20000;
-        setTimeout(() => {
+        const removeTimeout = setTimeout(() => {
             if (icon.parentNode) {
                 icon.parentNode.removeChild(icon);
             }
         }, animationDuration + delay * 1000 + 2000);
+        
+        // 使用 requestAnimationFrame 优化动画性能
+        icon.style.willChange = 'transform, opacity';
     }
     
     // 初始化：创建初始图标
     function initFloatingIcons() {
-        // 立即创建大量图标，快速填充屏幕（30-40个）
-        const initialCount = 30 + Math.floor(Math.random() * 11);
+        // 根据设备性能调整初始图标数量
+        const isMobile = window.innerWidth < 768;
+        const isLowEndDevice = navigator.hardwareConcurrency && navigator.hardwareConcurrency < 4;
+        const initialCount = isMobile || isLowEndDevice ? 15 : 25; // 移动设备或低端设备减少图标数量
+        
         for (let i = 0; i < initialCount; i++) {
             setTimeout(() => {
                 createFloatingIcon();
             }, i * 200); // 每0.2秒创建一个，快速填充
         }
         
-        // 持续创建新图标，保持动态效果
+        // 持续创建新图标，保持动态效果（根据设备性能调整频率）
+        const createInterval = isMobile || isLowEndDevice ? 2000 : 1500; // 移动设备降低创建频率
         setInterval(() => {
-            createFloatingIcon();
-        }, 1200); // 每1.2秒创建一个新图标
+            // 限制同时存在的图标数量，避免性能问题
+            const container = document.getElementById('floating-icons-container');
+            if (container && container.children.length < (isMobile ? 20 : 35)) {
+                createFloatingIcon();
+            }
+        }, createInterval);
     }
     
     // 页面加载完成后初始化

@@ -22,7 +22,7 @@
                 audioContext = new (window.AudioContext || window.webkitAudioContext)();
                 // 创建主音量控制节点
                 masterGainNode = audioContext.createGain();
-                masterGainNode.gain.value = isEnabled ? 0.6 : 0; // 默认音量60%
+                masterGainNode.gain.value = isEnabled ? 0.3 : 0; // 默认音量30%（进一步降低）
                 masterGainNode.connect(audioContext.destination);
             } catch (e) {
                 console.warn('Web Audio API not supported');
@@ -35,7 +35,7 @@
     // 更新主音量
     function updateMasterVolume(enabled) {
         if (masterGainNode) {
-            masterGainNode.gain.value = enabled ? 0.6 : 0;
+            masterGainNode.gain.value = enabled ? 0.3 : 0; // 进一步降低整体音量
         }
         isEnabled = enabled;
         localStorage.setItem('sound-effects-enabled', enabled.toString());
@@ -58,19 +58,32 @@
         const oscillator = ctx.createOscillator();
         const gainNode = ctx.createGain();
         const filter = ctx.createBiquadFilter();
+        const filter2 = ctx.createBiquadFilter(); // 第二层滤波器，进一步柔化
         
         oscillator.type = type;
         oscillator.frequency.value = frequency;
         
-        // 添加滤波器（可选，用于音色调整）
+        // 添加多层滤波器，让声音更柔和自然
         if (options.filterType) {
             filter.type = options.filterType;
-            filter.frequency.value = options.filterFreq || 2000;
-            filter.Q.value = options.filterQ || 1;
+            filter.frequency.value = options.filterFreq || 1500;
+            filter.Q.value = options.filterQ || 0.5;
+            
+            // 第二层低通滤波器，进一步去除高频
+            filter2.type = 'lowpass';
+            filter2.frequency.value = Math.min(options.filterFreq || 1500, 1200);
+            filter2.Q.value = 0.3;
+            
+            oscillator.connect(filter);
+            filter.connect(filter2);
+            filter2.connect(gainNode);
+        } else {
+            // 即使没有指定滤波器，也添加默认的低通滤波器
+            filter.type = 'lowpass';
+            filter.frequency.value = 1200;
+            filter.Q.value = 0.3;
             oscillator.connect(filter);
             filter.connect(gainNode);
-        } else {
-            oscillator.connect(gainNode);
         }
         
         gainNode.connect(masterGainNode);
@@ -97,31 +110,84 @@
         };
     }
     
-    // 生成更真实的按钮点击声（短促的"咔"声）
-    function playClickSound() {
-        const ctx = initAudioContext();
-        if (!ctx) return;
+    // 生成自然的点击声（使用白噪声+滤波器，模拟真实点击）
+    function playNaturalClick() {
+        if (!isEnabled || activeSounds >= MAX_CONCURRENT_SOUNDS) return;
         
-        // 使用两个频率叠加，模拟真实按钮声
-        playTone(800, 0.03, 'sine', 0.12, { attack: 0.001, release: 0.02 });
-        setTimeout(() => {
-            playTone(1200, 0.02, 'square', 0.08, { attack: 0.001, release: 0.015 });
-        }, 5);
+        const ctx = initAudioContext();
+        if (!ctx || !masterGainNode) return;
+        
+        if (ctx.state === 'suspended') {
+            ctx.resume();
+        }
+        
+        activeSounds++;
+        
+        const bufferSize = ctx.sampleRate * 0.02; // 20ms
+        const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+        const data = buffer.getChannelData(0);
+        
+        // 生成白噪声
+        for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+        }
+        
+        const source = ctx.createBufferSource();
+        const gainNode = ctx.createGain();
+        const filter = ctx.createBiquadFilter();
+        const filter2 = ctx.createBiquadFilter();
+        
+        source.buffer = buffer;
+        
+        // 多层低通滤波器，去除高频，只保留低频的"砰"声
+        filter.type = 'lowpass';
+        filter.frequency.value = 800;
+        filter.Q.value = 0.5;
+        
+        filter2.type = 'lowpass';
+        filter2.frequency.value = 600;
+        filter2.Q.value = 0.3;
+        
+        source.connect(filter);
+        filter.connect(filter2);
+        filter2.connect(gainNode);
+        gainNode.connect(masterGainNode);
+        
+        const now = ctx.currentTime;
+        const duration = 0.02;
+        
+        // 快速起音，快速衰减
+        gainNode.gain.setValueAtTime(0, now);
+        gainNode.gain.linearRampToValueAtTime(0.04, now + 0.001);
+        gainNode.gain.exponentialRampToValueAtTime(0.001, now + duration);
+        
+        source.start(now);
+        source.stop(now + duration);
+        
+        source.onended = () => {
+            activeSounds = Math.max(0, activeSounds - 1);
+        };
     }
     
-    // 生成更柔和的悬停声（轻柔的"叮"声）
+    // 生成更柔和的按钮点击声（使用自然噪声）
+    function playClickSound() {
+        playNaturalClick();
+    }
+    
+    // 生成更柔和的悬停声（非常轻柔的低频提示）
     function playHoverSound() {
-        playTone(600, 0.06, 'triangle', 0.06, { 
-            attack: 0.02, 
+        playTone(300, 0.1, 'sine', 0.03, { 
+            attack: 0.05, 
             decay: 0.02, 
-            sustain: 0.5, 
-            release: 0.02,
+            sustain: 0.3, 
+            release: 0.03,
             filterType: 'lowpass',
-            filterFreq: 3000
+            filterFreq: 800,
+            filterQ: 0.4
         });
     }
     
-    // 生成成功声（上升音调，更悦耳）
+    // 生成成功声（柔和的低音提示）
     function playSuccessSound() {
         const ctx = initAudioContext();
         if (!ctx) return;
@@ -130,103 +196,118 @@
             ctx.resume();
         }
         
-        // 上升音调序列（C大调和弦）
-        const frequencies = [523.25, 659.25, 783.99]; // C5, E5, G5
+        // 使用更低的频率，更柔和
+        const frequencies = [200, 250, 300]; // 低音序列
         frequencies.forEach((freq, index) => {
             setTimeout(() => {
-                playTone(freq, 0.2, 'triangle', 0.1, {
-                    attack: 0.01,
-                    decay: 0.05,
-                    sustain: 0.6,
-                    release: 0.14
-                });
-            }, index * 60);
-        });
-    }
-    
-    // 生成滚动声（更自然的"沙沙"声）
-    function playScrollSound() {
-        // 使用噪声+低音，模拟滚动摩擦声
-        const ctx = initAudioContext();
-        if (!ctx) return;
-        
-        if (ctx.state === 'suspended') {
-            ctx.resume();
-        }
-        
-        // 低沉的基音
-        playTone(150, 0.08, 'sawtooth', 0.03, {
-            attack: 0.01,
-            release: 0.07,
-            filterType: 'lowpass',
-            filterFreq: 500
-        });
-    }
-    
-    // 生成链接点击声（清脆的"叮"声）
-    function playLinkSound() {
-        playTone(1000, 0.05, 'sine', 0.1, {
-            attack: 0.005,
-            release: 0.045,
-            filterType: 'highpass',
-            filterFreq: 800
-        });
-    }
-    
-    // 生成卡片翻转声（更真实的翻页声）
-    function playCardFlipSound() {
-        const ctx = initAudioContext();
-        if (!ctx) return;
-        
-        if (ctx.state === 'suspended') {
-            ctx.resume();
-        }
-        
-        // 模拟纸张翻页：低音+高音组合
-        playTone(300, 0.12, 'sawtooth', 0.08, {
-            attack: 0.01,
-            decay: 0.04,
-            sustain: 0.5,
-            release: 0.07,
-            filterType: 'bandpass',
-            filterFreq: 800,
-            filterQ: 2
-        });
-        setTimeout(() => {
-            playTone(600, 0.08, 'triangle', 0.06, {
-                attack: 0.01,
-                release: 0.07
-            });
-        }, 30);
-    }
-    
-    // 生成通知声（温和的提示音）
-    function playNotificationSound() {
-        const frequencies = [523.25, 659.25]; // C5, E5
-        frequencies.forEach((freq, index) => {
-            setTimeout(() => {
-                playTone(freq, 0.15, 'sine', 0.08, {
+                playTone(freq, 0.15, 'sine', 0.05, {
                     attack: 0.02,
-                    release: 0.13
-                });
-            }, index * 100);
-        });
-    }
-    
-    // 生成错误声（下降音调）
-    function playErrorSound() {
-        const frequencies = [400, 300]; // 下降音调
-        frequencies.forEach((freq, index) => {
-            setTimeout(() => {
-                playTone(freq, 0.15, 'sawtooth', 0.1, {
-                    attack: 0.01,
-                    release: 0.14
+                    decay: 0.03,
+                    sustain: 0.5,
+                    release: 0.1,
+                    filterType: 'lowpass',
+                    filterFreq: 600,
+                    filterQ: 0.4
                 });
             }, index * 80);
         });
     }
     
-    // 生成页面加载完成声（更悦耳的和弦）
+    // 生成滚动声（非常轻微的低频噪声）
+    function playScrollSound() {
+        if (!isEnabled || activeSounds >= MAX_CONCURRENT_SOUNDS) return;
+        
+        const ctx = initAudioContext();
+        if (!ctx || !masterGainNode) return;
+        
+        if (ctx.state === 'suspended') {
+            ctx.resume();
+        }
+        
+        activeSounds++;
+        
+        const bufferSize = ctx.sampleRate * 0.05; // 50ms
+        const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate);
+        const data = buffer.getChannelData(0);
+        
+        // 生成白噪声
+        for (let i = 0; i < bufferSize; i++) {
+            data[i] = Math.random() * 2 - 1;
+        }
+        
+        const source = ctx.createBufferSource();
+        const gainNode = ctx.createGain();
+        const filter = ctx.createBiquadFilter();
+        
+        source.buffer = buffer;
+        
+        // 强低通滤波，只保留非常低的频率
+        filter.type = 'lowpass';
+        filter.frequency.value = 200;
+        filter.Q.value = 0.2;
+        
+        source.connect(filter);
+        filter.connect(gainNode);
+        gainNode.connect(masterGainNode);
+        
+        const now = ctx.currentTime;
+        const duration = 0.05;
+        
+        gainNode.gain.setValueAtTime(0, now);
+        gainNode.gain.linearRampToValueAtTime(0.015, now + 0.01);
+        gainNode.gain.exponentialRampToValueAtTime(0.001, now + duration);
+        
+        source.start(now);
+        source.stop(now + duration);
+        
+        source.onended = () => {
+            activeSounds = Math.max(0, activeSounds - 1);
+        };
+    }
+    
+    // 生成链接点击声（使用自然点击声）
+    function playLinkSound() {
+        playNaturalClick();
+    }
+    
+    // 生成卡片翻转声（使用自然点击声）
+    function playCardFlipSound() {
+        playNaturalClick();
+    }
+    
+    // 生成通知声（柔和的低音提示）
+    function playNotificationSound() {
+        const frequencies = [250, 300]; // 低音
+        frequencies.forEach((freq, index) => {
+            setTimeout(() => {
+                playTone(freq, 0.12, 'sine', 0.04, {
+                    attack: 0.03,
+                    release: 0.09,
+                    filterType: 'lowpass',
+                    filterFreq: 600,
+                    filterQ: 0.4
+                });
+            }, index * 120);
+        });
+    }
+    
+    // 生成错误声（柔和的低音下降）
+    function playErrorSound() {
+        const frequencies = [250, 200]; // 低音下降
+        frequencies.forEach((freq, index) => {
+            setTimeout(() => {
+                playTone(freq, 0.12, 'sine', 0.05, {
+                    attack: 0.02,
+                    release: 0.1,
+                    filterType: 'lowpass',
+                    filterFreq: 500,
+                    filterQ: 0.4
+                });
+            }, index * 100);
+        });
+    }
+    
+    // 生成页面加载完成声（柔和的低音和弦）
     function playPageLoadSound() {
         const ctx = initAudioContext();
         if (!ctx) return;
@@ -237,16 +318,19 @@
         
         // 延迟播放，避免与页面加载冲突
         setTimeout(() => {
-            const frequencies = [523.25, 659.25, 783.99]; // C major chord
+            const frequencies = [200, 250, 300]; // 低音和弦
             frequencies.forEach((freq, index) => {
                 setTimeout(() => {
-                    playTone(freq, 0.4, 'triangle', 0.07, {
+                    playTone(freq, 0.3, 'sine', 0.04, {
                         attack: 0.05,
-                        decay: 0.1,
-                        sustain: 0.6,
-                        release: 0.25
+                        decay: 0.08,
+                        sustain: 0.5,
+                        release: 0.17,
+                        filterType: 'lowpass',
+                        filterFreq: 600,
+                        filterQ: 0.4
                     });
-                }, index * 50);
+                }, index * 80);
             });
         }, 800);
     }
@@ -422,8 +506,12 @@
                 playHoverSound();
             });
             input.addEventListener('keydown', (e) => {
-                if (e.key.length === 1) { // 只对字符键播放
-                    playClickSound();
+                // 只对字符键播放，使用自然点击声
+                if (e.key.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey) {
+                    // 使用非常轻微的自然点击声
+                    if (isEnabled && activeSounds < MAX_CONCURRENT_SOUNDS) {
+                        playNaturalClick();
+                    }
                 }
             });
         });

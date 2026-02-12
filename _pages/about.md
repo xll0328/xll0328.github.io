@@ -20,34 +20,34 @@ redirect_from:
 <!-- 李梓嘉图片装饰元素 - 从页面开始显示，内容结束后截断 -->
 <div class="lee-decorative-gallery">
     <div class="decorative-item" style="display: block; opacity: 1;">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20240916120048_605_8.jpg' | relative_url }}" alt="Lee Zii Jia" style="display: block; opacity: 1;">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20240916120048_605_8.jpg' | relative_url }}" alt="Lee Zii Jia" loading="eager" style="display: block; opacity: 1;" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165205_438_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165205_438_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165206_439_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165206_439_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165207_440_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165207_440_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165208_441_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165208_441_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165208_442_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165208_442_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165209_443_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165209_443_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165210_444_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165210_444_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165211_445_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165211_445_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
     <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165212_446_54.jpg' | relative_url }}" alt="Lee Zii Jia">
+        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165212_446_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
     </div>
 </div>
 
@@ -115,7 +115,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <div class="publications-scroll-container">
 
 <h2>2026</h2>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/ACE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/ACE.png' alt="ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
 <strong><a href="https://arxiv.org/pdf/2510.07896?">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall</a></strong>
@@ -130,7 +130,7 @@ International Conference on Learning Representations <strong>ICLR2026</strong> <
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/ICASSP26.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/ICASSP26.png' alt="Towards Reliable Time Series Forecasting under Future Uncertainty" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
 <strong>[Towards Reliable Time Series Forecasting under Future Uncertainty: Ambiguity and Novelty Rejection Mechanisms]()</strong>
@@ -145,7 +145,7 @@ The Conference on <strong>ICASSP 2026</strong> <span class="venue-badge ccf-b">C
 </div>
 
 <h2>2025</h2>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/CONCIL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/CONCIL.png' alt="Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
 <strong><a href="https://arxiv.org/pdf/2411.17471?">Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models</a></strong>
@@ -160,7 +160,7 @@ The Conference on <strong>ACM MM 2025 BNI Track</strong> <span class="venue-badg
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/FTS.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/FTS.png' alt="From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
 <strong>[From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve]()</strong>
@@ -176,7 +176,7 @@ The Conference on <strong>ACM MM 2025</strong> <span class="venue-badge ccf-a">C
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/WechatIMG169.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/WechatIMG169.jpg' alt="DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
 <strong><a href="https://arxiv.org/pdf/2409.10330v1">DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving</a></strong>
@@ -191,7 +191,7 @@ The Conference on <strong>ICRA 2025</strong> <span class="venue-badge ccf-b">CCF
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECML-PKDD 2025</div><img src='images/SVCT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECML-PKDD 2025</div><img src='images/SVCT.png' alt="Stable Vision Concept Transformers for Medical Diagnosis" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
 <strong><a href="https://arxiv.org/pdf/2506.05286?">Stable Vision Concept Transformers for Medical Diagnosis</a></strong>
@@ -207,7 +207,7 @@ The Conference on <strong>ECML-PKDD 2025</strong> <span class="venue-badge ccf-b
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/WechatIMG168.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2025</div><img src='images/WechatIMG168.jpg' alt="PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
 <strong><a href="https://arxiv.org/pdf/2409.03192">PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning</a></strong>
@@ -225,7 +225,7 @@ The Conference on <strong>ICASSP 2025</strong> <span class="venue-badge ccf-b">C
 
 <h2>2024</h2>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/FVLC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/FVLC.jpg' alt="Faithful Vision-Language Interpretation via Concept Bottleneck Models" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <strong><a href="https://openreview.net/forum?id=rp0EdI8X4e">Faithful Vision-Language Interpretation via Concept Bottleneck Models</a></strong>
@@ -239,7 +239,7 @@ The Twelfth International Conference on Learning Representations <strong>ICLR202
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/medicn.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/medicn.jpg' alt="Towards Multi-dimensional Explanation Alignment for Medical Classification" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
 <strong><a href="https://arxiv.org/abs/2410.21494">Towards Multi-dimensional Explanation Alignment for Medical Classification</a></strong>

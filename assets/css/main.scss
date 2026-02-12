@@ -69,24 +69,34 @@
             max-width: 400px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+            
+            &:hover {
+                transform: scale(1.02);
+                box-shadow: 0 8px 20px rgba(30, 136, 229, 0.3);
+            }
         }
         
         /* Badge样式 */
         .badge {
-            padding: .3em .6em;
+            padding: .4em .8em;
             position: absolute;
             top: .5em;
             left: -.5em;
             color: white;
-            background-color: var(--badminton-primary);
+            background: linear-gradient(135deg, #1e88e5 0%, #43a047 50%, #ff9800 100%);
             font-size: .8em;
-            border-radius: 4px;
+            font-weight: 600;
+            border-radius: 6px;
             z-index: 10;
-            box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 8px rgba(30, 136, 229, 0.4);
             transition: all 0.3s ease;
+            letter-spacing: 0.5px;
             
             &:hover {
-                transform: scale(1.05);
+                transform: scale(1.08) translateY(-2px);
+                box-shadow: 0 4px 12px rgba(30, 136, 229, 0.6);
             }
         }
     }
@@ -252,28 +262,30 @@ h1:before, .anchor:before {
     border: 1px solid rgba(30, 136, 229, 0.1);
     animation: news-container-glow 5s ease-in-out infinite;
     
-    /* 自定义滚动条样式 */
+    /* 自定义滚动条样式 - 羽毛球主题 */
     &::-webkit-scrollbar {
-        width: 8px;
+        width: 10px;
     }
     
     &::-webkit-scrollbar-track {
-        background: #f1f1f1;
-        border-radius: 4px;
+        background: rgba(248, 249, 250, 0.5);
+        border-radius: 5px;
     }
     
     &::-webkit-scrollbar-thumb {
-        background: #888;
-        border-radius: 4px;
+        background: linear-gradient(135deg, #1e88e5 0%, #43a047 50%, #ff9800 100%);
+        border-radius: 5px;
+        transition: all 0.3s ease;
         
         &:hover {
-            background: #555;
+            background: linear-gradient(135deg, #1976d2 0%, #388e3c 50%, #f57c00 100%);
+            box-shadow: 0 0 8px rgba(30, 136, 229, 0.5);
         }
     }
     
     /* Firefox 滚动条样式 */
     scrollbar-width: thin;
-    scrollbar-color: #888 #f1f1f1;
+    scrollbar-color: #1e88e5 rgba(248, 249, 250, 0.5);
     
     /* 列表样式 */
     ul {
@@ -391,28 +403,30 @@ h1:before, .anchor:before {
     margin: 2em 0;
     background-color: transparent;
     
-    /* 自定义滚动条样式 */
+    /* 自定义滚动条样式 - 羽毛球主题 */
     &::-webkit-scrollbar {
-        width: 8px;
+        width: 10px;
     }
     
     &::-webkit-scrollbar-track {
-        background: #f1f1f1;
-        border-radius: 4px;
+        background: rgba(248, 249, 250, 0.5);
+        border-radius: 5px;
     }
     
     &::-webkit-scrollbar-thumb {
-        background: #888;
-        border-radius: 4px;
+        background: linear-gradient(135deg, #1e88e5 0%, #43a047 50%, #ff9800 100%);
+        border-radius: 5px;
+        transition: all 0.3s ease;
         
         &:hover {
-            background: #555;
+            background: linear-gradient(135deg, #1976d2 0%, #388e3c 50%, #f57c00 100%);
+            box-shadow: 0 0 8px rgba(30, 136, 229, 0.5);
         }
     }
     
     /* Firefox 滚动条样式 */
     scrollbar-width: thin;
-    scrollbar-color: #888 #f1f1f1;
+    scrollbar-color: #1e88e5 rgba(248, 249, 250, 0.5);
     
     h2 {
         margin-top: 2em;
@@ -941,6 +955,36 @@ li {
 /* 平滑滚动 */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* 为固定导航栏留出空间 */
+}
+
+/* 全局滚动条样式优化 - 羽毛球主题 */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(248, 249, 250, 0.8);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #1e88e5 0%, #43a047 50%, #ff9800 100%);
+    border-radius: 6px;
+    border: 2px solid rgba(248, 249, 250, 0.8);
+    transition: all 0.3s ease;
+    
+    &:hover {
+        background: linear-gradient(135deg, #1976d2 0%, #388e3c 50%, #f57c00 100%);
+        box-shadow: 0 0 10px rgba(30, 136, 229, 0.6);
+    }
+}
+
+/* Firefox 全局滚动条 */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #1e88e5 rgba(248, 249, 250, 0.8);
 }
 
 /* Anchor 偏移调整 */

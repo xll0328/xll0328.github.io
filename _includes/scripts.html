@@ -1,16 +1,27 @@
-<script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/floating-icons.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/sound-effects.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/piano-keyboard.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/mouse-particles.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/scroll-progress.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/click-ripple.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/typewriter-effect.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/3d-card-tilt.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/daily-quote.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/music-generator.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/background-music.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/like-button.js' | relative_url }}"></script>
+<!-- 关键脚本：立即加载 -->
+<script src="{{ '/assets/js/main.min.js' | relative_url }}" defer></script>
+<!-- 非关键脚本：延迟加载，提升首屏性能 -->
+<script src="{{ '/assets/js/floating-icons.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/typewriter-effect.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/scroll-progress.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/3d-card-tilt.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/like-button.js' | relative_url }}" defer></script>
+<!-- 交互增强脚本 -->
+<script src="{{ '/assets/js/back-to-top.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/image-zoom.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/copy-email.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/smooth-scroll-enhance.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/reading-time.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/keyboard-shortcuts.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/touch-optimize.js' | relative_url }}" defer></script>
+<!-- 交互性脚本：按需加载 -->
+<script src="{{ '/assets/js/sound-effects.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/piano-keyboard.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/mouse-particles.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/click-ripple.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/daily-quote.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/music-generator.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/background-music.js' | relative_url }}" defer></script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
