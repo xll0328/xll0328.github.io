@@ -49,9 +49,9 @@
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
     margin-bottom: 1.5em;
-    border: 2px solid transparent; /* 透明边框 */
-    background: transparent; /* 默认无背景 */
-    box-shadow: none; /* 默认无阴影 */
+    border: 2px solid transparent; /* Transparent border */
+    background: transparent; /* Default no background */
+    box-shadow: none; /* Default no shadow */
     border-radius: 12px;
     transition: all 0.3s ease;
     
@@ -78,7 +78,7 @@
             }
         }
         
-        /* Badge样式 */
+        /* Badge style */
         .badge {
             padding: .4em .8em;
             position: absolute;
@@ -107,7 +107,7 @@
         display: flex;
         flex-direction: column;
         
-        /* 标题样式 */
+        /* Title style */
         > strong {
             display: block;
             margin-bottom: 0.8em;
@@ -125,7 +125,7 @@
             }
         }
         
-        /* 作者信息 */
+        /* Author info */
         > p:first-of-type,
         > p:not(.paper-description):first-of-type {
             color: #555;
@@ -134,7 +134,7 @@
             line-height: 1.6;
         }
         
-        /* Venue信息 */
+        /* Venue info */
         > p:has(.venue-badge),
         > p:not(.paper-description):nth-of-type(2) {
             margin-bottom: 1em;
@@ -145,26 +145,26 @@
         }
     }
     
-    /* 介绍段落 - 默认折叠，悬停展开 */
+    /* Comment */
     .paper-description {
         margin-top: 0.8em;
         margin-bottom: 0;
         line-height: 1.7;
         color: #555;
-        flex: 0 0 auto; /* 不自动扩展 */
+        flex: 0 0 auto; /* No auto expand */
         
-        /* 默认状态：只显示2行 */
+        /* Default state: show 2 lines only */
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
-        max-height: 3.4em; /* 2行的高度 */
+        max-height: 3.4em; /* Comment */
         transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
         position: relative;
         word-wrap: break-word;
         
-        /* 添加渐变遮罩 */
+        /* Add gradient mask */
         &::after {
             content: '';
             position: absolute;
@@ -182,20 +182,20 @@
         }
     }
     
-    /* 悬停时：显示边框和背景色，内容展开 */
+    /* Hover: show border and background, expand content */
     &:hover {
         transform: translateY(-2px);
-        border: 2px solid var(--badminton-primary); /* 悬停时显示边框 */
+        border: 2px solid var(--badminton-primary); /* Comment */
         background: linear-gradient(135deg, 
             rgba(30, 136, 229, 0.05) 0%, 
             rgba(67, 160, 71, 0.05) 50%,
-            rgba(255, 152, 0, 0.05) 100%); /* 悬停时显示背景色 */
-        box-shadow: 0 8px 24px rgba(30, 136, 229, 0.2); /* 悬停时显示阴影 */
-        border-bottom: 1px #efefef solid; /* 保持底部边框 */
+            rgba(255, 152, 0, 0.05) 100%); /* Comment */
+        box-shadow: 0 8px 24px rgba(30, 136, 229, 0.2); /* Comment */
+        border-bottom: 1px #efefef solid; /* Comment */
         
         .paper-description {
             -webkit-line-clamp: unset !important;
-            max-height: 500px !important; /* 展开时允许更多内容 */
+            max-height: 500px !important; /* Comment */
             overflow: visible !important;
             
             &::after {
@@ -233,7 +233,7 @@ h1:before, .anchor:before {
     display: block; 
     position: relative; 
     width: 0; 
-    height: 100px; /* 导航栏高度 + 间距 */
+    height: 100px; /* Comment */
     margin-top: -100px;
 }
 
@@ -262,7 +262,7 @@ h1:before, .anchor:before {
     border: 1px solid rgba(30, 136, 229, 0.1);
     animation: news-container-glow 5s ease-in-out infinite;
     
-    /* 自定义滚动条样式 - 羽毛球主题 */
+    /* Comment */
     &::-webkit-scrollbar {
         width: 10px;
     }
@@ -283,11 +283,11 @@ h1:before, .anchor:before {
         }
     }
     
-    /* Firefox 滚动条样式 */
+    /* Comment */
     scrollbar-width: thin;
     scrollbar-color: #1e88e5 rgba(248, 249, 250, 0.5);
     
-    /* 列表样式 */
+    /* Comment */
     ul {
         margin: 0;
         padding-left: 1.5em;
@@ -308,7 +308,7 @@ h1:before, .anchor:before {
             margin-bottom: 0;
         }
         
-        /* 时间按钮样式 - 类似venue-badge但饱和度低 */
+        /* Comment */
         em {
             display: inline-block;
             padding: 0.2em 0.6em;
@@ -341,7 +341,7 @@ h1:before, .anchor:before {
     margin: 1em 0;
     background-color: transparent;
     
-    /* 确保标题正常渲染 */
+    /* Comment */
     h2 {
         margin-top: 1.5em;
         margin-bottom: 1em;
@@ -351,7 +351,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* 自定义滚动条样式 */
+    /* Comment */
     &::-webkit-scrollbar {
         width: 8px;
     }
@@ -370,11 +370,11 @@ h1:before, .anchor:before {
         }
     }
     
-    /* Firefox 滚动条样式 */
+    /* Comment */
     scrollbar-width: thin;
     scrollbar-color: #888 #f1f1f1;
     
-    /* 确保 paper-box 样式正常 */
+    /* Comment */
     .paper-box {
         margin: 0;
     }
@@ -395,6 +395,261 @@ h1:before, .anchor:before {
     }
 }
 
+/* Publication filter container - Modern design, referencing badge and tag styles */
+.publication-filter-container {
+    margin: 2.5em 0 2em 0;
+    padding: 2em 1.8em;
+    position: relative;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border: 2px solid rgba(30, 136, 229, 0.15);
+    border-radius: 20px;
+    box-shadow: 
+        0 8px 32px rgba(30, 136, 229, 0.12),
+        0 4px 16px rgba(30, 136, 229, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: visible;
+    
+    /* Top gradient decorative bar */
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: var(--badminton-gradient);
+        border-radius: 20px 20px 0 0;
+        box-shadow: 0 2px 8px rgba(30, 136, 229, 0.4);
+    }
+    
+    /* Background glow decoration */
+    &::after {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: -100px;
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(circle, rgba(30, 136, 229, 0.1) 0%, transparent 60%);
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 0;
+        animation: filter-bg-glow 4s ease-in-out infinite;
+    }
+    
+    &:hover {
+        border-color: rgba(30, 136, 229, 0.3);
+        box-shadow: 
+            0 12px 40px rgba(30, 136, 229, 0.18),
+            0 6px 20px rgba(30, 136, 229, 0.12),
+            inset 0 1px 0 rgba(255, 255, 255, 1);
+        transform: translateY(-3px);
+    }
+    
+    .filter-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        margin-bottom: 1.5em;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .filter-btn {
+        padding: 0.85em 1.6em;
+        border: 2px solid rgba(30, 136, 229, 0.25);
+        background: #ffffff;
+        border-radius: 30px;
+        font-size: 0.95em;
+        font-weight: 700;
+        color: #555;
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        white-space: nowrap;
+        user-select: none;
+        position: relative;
+        box-shadow: 
+            0 3px 8px rgba(0, 0, 0, 0.1),
+            0 1px 3px rgba(0, 0, 0, 0.08);
+        letter-spacing: 0.3px;
+        
+        /* Button border glow */
+        &::before {
+            content: '';
+            position: absolute;
+            inset: -3px;
+            border-radius: 33px;
+            background: var(--badminton-gradient);
+            opacity: 0;
+            z-index: -1;
+            transition: opacity 0.3s ease;
+            filter: blur(8px);
+        }
+        
+        &:hover {
+            transform: translateY(-4px) scale(1.05);
+            border-color: var(--badminton-primary);
+            background: linear-gradient(135deg, rgba(30, 136, 229, 0.12) 0%, rgba(67, 160, 71, 0.12) 100%);
+            box-shadow: 
+                0 6px 20px rgba(30, 136, 229, 0.3),
+                0 3px 10px rgba(30, 136, 229, 0.2),
+                0 0 0 3px rgba(30, 136, 229, 0.1);
+            color: var(--badminton-primary);
+            
+            &::before {
+                opacity: 0.6;
+            }
+        }
+        
+        &.active {
+            background: var(--badminton-gradient);
+            color: white;
+            border-color: transparent;
+            box-shadow: 
+                0 6px 24px rgba(30, 136, 229, 0.5),
+                0 3px 12px rgba(30, 136, 229, 0.4),
+                0 0 0 4px rgba(30, 136, 229, 0.15),
+                inset 0 2px 4px rgba(255, 255, 255, 0.3),
+                inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            
+            /* Active state outer glow */
+            &::after {
+                content: '';
+                position: absolute;
+                inset: -4px;
+                border-radius: 34px;
+                background: var(--badminton-gradient);
+                opacity: 0.4;
+                z-index: -1;
+                animation: filter-active-glow 2s ease-in-out infinite;
+                filter: blur(10px);
+            }
+            
+            &:hover {
+                transform: translateY(-5px) scale(1.08);
+                box-shadow: 
+                    0 8px 28px rgba(30, 136, 229, 0.6),
+                    0 4px 16px rgba(30, 136, 229, 0.5),
+                    0 0 0 5px rgba(30, 136, 229, 0.2),
+                    inset 0 2px 6px rgba(255, 255, 255, 0.4),
+                    inset 0 -2px 6px rgba(0, 0, 0, 0.15);
+            }
+        }
+    }
+    
+    .filter-info {
+        text-align: center;
+        padding-top: 1.2em;
+        margin-top: 1.2em;
+        position: relative;
+        z-index: 1;
+        
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background: var(--badminton-gradient);
+            border-radius: 3px;
+            box-shadow: 0 2px 6px rgba(30, 136, 229, 0.4);
+        }
+        
+        #filter-count {
+            display: inline-block;
+            padding: 0.7em 1.4em;
+            background: linear-gradient(135deg, rgba(30, 136, 229, 0.15) 0%, rgba(67, 160, 71, 0.15) 100%);
+            border: 2px solid rgba(30, 136, 229, 0.2);
+            border-radius: 16px;
+            font-size: 0.95em;
+            font-weight: 700;
+            color: var(--badminton-primary);
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(30, 136, 229, 0.15);
+            
+            &:hover {
+                background: linear-gradient(135deg, rgba(30, 136, 229, 0.2) 0%, rgba(67, 160, 71, 0.2) 100%);
+                border-color: rgba(30, 136, 229, 0.3);
+                transform: scale(1.08) translateY(-2px);
+                box-shadow: 0 4px 12px rgba(30, 136, 229, 0.25);
+            }
+        }
+    }
+}
+
+/* Background glow animation */
+@keyframes filter-bg-glow {
+    0%, 100% {
+        opacity: 0.1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.15;
+        transform: scale(1.1);
+    }
+}
+
+/* Active button outer glow animation */
+@keyframes filter-active-glow {
+    0%, 100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.6;
+        transform: scale(1.1);
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .publication-filter-container {
+        padding: 1.8em 1.2em;
+        margin: 2em 0 1.5em 0;
+        border-radius: 16px;
+        
+        &::before {
+            border-radius: 16px 16px 0 0;
+        }
+        
+        .filter-buttons {
+            gap: 0.7em;
+        }
+        
+        .filter-btn {
+            padding: 0.7em 1.3em;
+            font-size: 0.88em;
+            border-radius: 25px;
+            
+            &::before {
+                border-radius: 28px;
+            }
+            
+            &.active {
+                &::after {
+                    border-radius: 29px;
+                }
+            }
+        }
+        
+        .filter-info {
+            #filter-count {
+                font-size: 0.88em;
+                padding: 0.6em 1.2em;
+            }
+        }
+    }
+}
+
 .complete-publications-container {
     max-height: 600px;
     overflow-y: auto;
@@ -403,7 +658,7 @@ h1:before, .anchor:before {
     margin: 2em 0;
     background-color: transparent;
     
-    /* 自定义滚动条样式 - 羽毛球主题 */
+    /* Comment */
     &::-webkit-scrollbar {
         width: 10px;
     }
@@ -424,7 +679,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* Firefox 滚动条样式 */
+    /* Comment */
     scrollbar-width: thin;
     scrollbar-color: #1e88e5 rgba(248, 249, 250, 0.5);
     
@@ -455,7 +710,7 @@ h1:before, .anchor:before {
             transition: all 0.3s ease;
             
             &:before {
-                content: "📄";
+                content: "[Paper]";
                 position: absolute;
                 left: 0.8em;
                 top: 1em;
@@ -481,7 +736,7 @@ h1:before, .anchor:before {
     }
 }
 
-/* Section 分隔和美化 - 羽毛球主题（李梓嘉风格：力量与精准） */
+/* Comment */
 .section-divider {
     height: 2px;
     margin: 4em 0 3em 0;
@@ -509,18 +764,18 @@ h1:before, .anchor:before {
     }
 }
 
-/* 页面内容美化 */
+/* Comment */
 .page__inner-wrap {
-    position: relative; /* 为背景图片提供定位上下文 */
-    z-index: 1; /* 确保内容在漂浮图标之上 */
-    overflow: hidden; /* 截断超出内容区域的背景图片 */
+    position: relative; /* Comment */
+    z-index: 1; /* Comment */
+    overflow: hidden; /* Comment */
 }
 
 .page__content {
     position: relative;
-    z-index: 1; /* 确保内容在背景图片和漂浮图标之上 */
+    z-index: 1; /* Comment */
     
-    /* About Me 部分美化 - 首段样式（移除蓝框） */
+    /* Comment */
     > p:first-of-type {
         font-size: 1.15em;
         line-height: 1.9;
@@ -534,7 +789,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* 段落美化 */
+    /* Comment */
     p {
         line-height: 1.85;
         color: #444;
@@ -545,13 +800,13 @@ h1:before, .anchor:before {
             color: var(--badminton-primary);
             font-weight: 600;
             transition: all 0.3s ease;
-            background: transparent; /* 移除背景色 */
+            background: transparent; /* Comment */
             padding: 0.15em 0.4em;
             border-radius: 4px;
             
             &:hover {
                 color: var(--badminton-accent);
-                background: transparent; /* 悬停时也保持透明 */
+                background: transparent; /* Comment */
             }
         }
         
@@ -559,7 +814,7 @@ h1:before, .anchor:before {
             color: var(--badminton-accent);
             font-style: normal;
             font-weight: 500;
-            background: transparent; /* 移除背景色 */
+            background: transparent; /* Comment */
             padding: 0.1em 0.3em;
             border-radius: 3px;
         }
@@ -591,7 +846,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* 主要标题样式 - Section标题美化 */
+    /* Title style */
     h1 {
         position: relative;
         margin-top: 2.5em;
@@ -614,7 +869,7 @@ h1:before, .anchor:before {
             margin-top: 1.5em;
         }
         
-        /* 背景装饰光效 */
+        /* Comment */
         &::before {
             content: '';
             position: absolute;
@@ -633,7 +888,7 @@ h1:before, .anchor:before {
             left: 100%;
         }
         
-        /* 底部装饰线 - 动态渐变 */
+        /* Comment */
         &::after {
             content: '';
             position: absolute;
@@ -653,7 +908,7 @@ h1:before, .anchor:before {
             box-shadow: 0 2px 8px rgba(30, 136, 229, 0.4);
         }
         
-        /* 图标动画效果 - 添加闪烁和跳动 */
+        /* Comment */
         emoji, 
         span[role="img"] {
             display: inline-block;
@@ -678,7 +933,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* 图标闪烁动画 */
+    /* Comment */
     @keyframes icon-glow {
         0%, 100% {
             filter: drop-shadow(0 0 2px rgba(30, 136, 229, 0.3));
@@ -690,7 +945,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* 图标跳动动画 */
+    /* Comment */
     @keyframes icon-bounce {
         0%, 100% {
             transform: translateY(0) scale(1.2) rotate(5deg);
@@ -700,7 +955,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* 渐变动画 */
+    /* Comment */
     @keyframes gradient-shift {
         0%, 100% {
             background-position: 0% 50%;
@@ -710,7 +965,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* 二级标题样式 */
+    /* Title style */
     h2 {
         position: relative;
         margin-top: 2em;
@@ -731,7 +986,7 @@ h1:before, .anchor:before {
         }
     }
     
-    /* 列表样式优化 */
+    /* Comment */
     ul, ol {
         margin: 1.5em 0;
         padding-left: 2em;
@@ -743,16 +998,16 @@ h1:before, .anchor:before {
     }
 }
 
-/* 羽毛球主题色彩 - 李梓嘉风格（力量、速度、精准） */
+/* Comment */
 :root {
-    --badminton-primary: #1e88e5;      /* 羽毛球蓝 - 代表精准 */
-    --badminton-secondary: #43a047;     /* 球场绿 - 代表活力 */
-    --badminton-accent: #ff9800;        /* 活力橙 - 代表力量 */
-    --badminton-light: #e8f5e9;        /* 浅绿背景 */
+    --badminton-primary: #1e88e5;      /* Comment */
+    --badminton-secondary: #43a047;     /* Comment */
+    --badminton-accent: #ff9800;        /* Comment */
+    --badminton-light: #e8f5e9;        /* Comment */
     --badminton-gradient: linear-gradient(135deg, #1e88e5 0%, #43a047 50%, #ff9800 100%);
 }
 
-/* 美化链接颜色 - 使用羽毛球主题色 */
+/* Comment */
 a {
     color: var(--badminton-primary);
     transition: all 0.3s ease;
@@ -764,7 +1019,7 @@ a {
     }
 }
 
-/* 美化strong标签 - 使用羽毛球主题色（全局样式，page__content内的会被更具体的样式覆盖） */
+/* Comment */
 strong {
     color: var(--badminton-primary);
     font-weight: 600;
@@ -773,7 +1028,7 @@ strong {
     border-radius: 3px;
 }
 
-/* Section 容器美化 - 羽毛球主题 */
+/* Comment */
 .news-scroll-container,
 .publications-scroll-container,
 .complete-publications-container {
@@ -781,12 +1036,12 @@ strong {
     transition: all 0.3s ease;
     border-radius: 8px;
     
-    /* 使用 box-shadow 实现全容器覆盖的悬停效果 */
+    /* Comment */
     box-shadow: 0 0 0 0 rgba(30, 136, 229, 0);
     transition: box-shadow 0.3s ease, background-color 0.3s ease;
     
     &:hover {
-        /* 羽毛球轨迹感的阴影效果 - 覆盖整个容器 */
+        /* Comment */
         box-shadow: 
             0 0 0 2px rgba(30, 136, 229, 0.15),
             0 0 0 4px rgba(67, 160, 71, 0.1),
@@ -794,7 +1049,7 @@ strong {
         background-color: rgba(30, 136, 229, 0.02);
     }
     
-    /* 顶部装饰线 - 使用伪元素但固定在顶部 */
+    /* Comment */
     &::before {
         content: '';
         position: sticky;
@@ -814,7 +1069,7 @@ strong {
     }
 }
 
-/* 统计信息框美化 - 羽毛球主题 */
+/* Comment */
 .publication-stats {
     background: linear-gradient(135deg, #e8f5e9 0%, #e3f2fd 100%);
     box-shadow: 0 2px 8px rgba(30, 136, 229, 0.15);
@@ -826,7 +1081,102 @@ strong {
     }
 }
 
-/* Badge 美化 - 羽毛球主题 - 添加脉冲动画 */
+/* 统计标签样式 - 让Tag看起来更像可点击的按钮 */
+.stat-tag {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0 0.3em;
+    background: #ffffff;
+    border: 2px solid #1e88e5;
+    border-radius: 12px;
+    color: #1e88e5;
+    font-weight: 700;
+    font-size: 0.95em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    user-select: none;
+    position: relative;
+    box-shadow: 0 2px 6px rgba(30, 136, 229, 0.2);
+    
+    /* 添加点击提示图标（伪元素） */
+    &::before {
+        content: '👆';
+        margin-right: 0.3em;
+        font-size: 0.9em;
+        opacity: 0.7;
+        transition: opacity 0.2s ease;
+    }
+    
+    /* 悬停效果 - 更明显 */
+    &:hover {
+        background: #1e88e5;
+        color: white;
+        border-color: #1565c0;
+        transform: translateY(-3px) scale(1.08);
+        box-shadow: 0 6px 16px rgba(30, 136, 229, 0.4);
+        
+        &::before {
+            opacity: 1;
+        }
+    }
+    
+    /* 激活状态 */
+    &.active {
+        background: linear-gradient(135deg, #1e88e5 0%, #43a047 100%);
+        border-color: #1e88e5;
+        color: white;
+        font-weight: 700;
+        box-shadow: 0 4px 12px rgba(30, 136, 229, 0.5);
+        transform: scale(1.05);
+        
+        &::before {
+            opacity: 1;
+            content: '✓';
+        }
+        
+        &:hover {
+            transform: translateY(-2px) scale(1.1);
+            box-shadow: 0 6px 20px rgba(30, 136, 229, 0.6);
+        }
+    }
+    
+    /* 总计标签特殊样式 */
+    &.stat-tag-total {
+        background: #fff3e0;
+        border-color: #ff9800;
+        color: #e65100;
+        font-weight: 800;
+        
+        &::before {
+            content: '📊';
+        }
+        
+        &:hover {
+            background: #ff9800;
+            color: white;
+            border-color: #f57c00;
+            box-shadow: 0 6px 16px rgba(255, 152, 0, 0.4);
+        }
+        
+        &.active {
+            background: linear-gradient(135deg, #ff9800 0%, #ffc107 100%);
+            border-color: #ff9800;
+            color: white;
+            
+            &::before {
+                content: '✓';
+            }
+        }
+    }
+    
+    /* 点击动画效果 */
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+/* Comment */
 .badge {
     background: var(--badminton-gradient) !important;
     box-shadow: 0 2px 6px rgba(30, 136, 229, 0.3);
@@ -862,19 +1212,19 @@ strong {
     }
 }
 
-/* 整体页面美化 - 羽毛球主题 */
+/* Comment */
 body {
-    /* 添加微妙的背景渐变 */
+    /* Comment */
     background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
 }
 
-/* 段落间距优化 */
+/* Comment */
 p {
     margin-bottom: 1.2em;
     line-height: 1.8;
 }
 
-/* 列表项美化 */
+/* Comment */
 li {
     transition: all 0.2s ease;
     
@@ -883,10 +1233,10 @@ li {
     }
 }
 
-/* 导航栏美化 - 羽毛球主题（李梓嘉风格） */
+/* Comment */
 .masthead {
     position: relative;
-    z-index: 100; /* 确保导航栏在漂浮图标之上 */
+    z-index: 100; /* Comment */
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
     box-shadow: 0 2px 8px rgba(30, 136, 229, 0.1);
     border-bottom: 2px solid transparent;
@@ -916,7 +1266,7 @@ li {
             transform: translateY(-2px);
         }
         
-        /* 羽毛球风格的底部装饰线 */
+        /* Comment */
         &::before {
             content: '';
             position: absolute;
@@ -952,13 +1302,13 @@ li {
     }
 }
 
-/* 平滑滚动 */
+/* Comment */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 80px; /* 为固定导航栏留出空间 */
+    scroll-padding-top: 80px; /* Comment */
 }
 
-/* 全局滚动条样式优化 - 羽毛球主题 */
+/* Comment */
 ::-webkit-scrollbar {
     width: 12px;
     height: 12px;
@@ -981,55 +1331,55 @@ html {
     }
 }
 
-/* Firefox 全局滚动条 */
+/* Comment */
 * {
     scrollbar-width: thin;
     scrollbar-color: #1e88e5 rgba(248, 249, 250, 0.8);
 }
 
-/* Anchor 偏移调整 */
+/* Comment */
 .anchor {
     display: block;
     position: relative;
-    top: -80px; /* 导航栏高度 + 一些间距 */
+    top: -80px; /* Comment */
     visibility: hidden;
 }
 
-/* 李梓嘉主题装饰图片 - 背景层，跟随页面滚动，高度匹配内容 */
+/* Comment */
 .lee-decorative-gallery {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    height: 100%; /* 高度100%匹配父容器（page__inner-wrap） */
-    pointer-events: none; /* 不阻挡鼠标事件 */
-    z-index: 0; /* 在内容后面但在页面背景前面 */
+    height: 100%; /* Comment */
+    pointer-events: none; /* Comment */
+    z-index: 0; /* Comment */
     padding: 2em 0;
     display: flex;
     flex-direction: column;
-    align-items: center; /* 居中显示 */
+    align-items: center; /* Comment */
     gap: 4em;
-    opacity: 0.12; /* 低透明度作为背景 */
-    overflow: hidden; /* 超出父容器的部分隐藏，实现截断 */
-    /* 确保不会被JavaScript或其他样式影响 */
+    opacity: 0.12; /* Comment */
+    overflow: hidden; /* Comment */
+    /* Comment */
     max-height: none !important;
     min-height: auto !important;
     
     .decorative-item {
-        width: 85%; /* 页面宽度的85% */
-        max-width: 1200px; /* 限制最大宽度 */
-        height: auto; /* 自动高度，保持图片原始比例 */
+        width: 85%; /* Comment */
+        max-width: 1200px; /* Comment */
+        height: auto; /* Comment */
         border-radius: 12px;
         overflow: hidden;
         flex-shrink: 0;
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
         position: relative;
-        opacity: 1 !important; /* 确保图片可见，不被其他样式覆盖 */
-        display: block !important; /* 确保显示，不被隐藏 */
-        visibility: visible !important; /* 确保可见性 */
+        opacity: 1 !important; /* Comment */
+        display: block !important; /* Comment */
+        visibility: visible !important; /* Comment */
         
-        /* 边缘渐变遮罩效果 - 四边渐变透明，范围更大 */
+        /* Comment */
         &::before {
             content: '';
             position: absolute;
@@ -1038,7 +1388,7 @@ html {
             right: 0;
             bottom: 0;
             background: 
-                /* 上边渐变 - 范围扩大到35% */
+                /* Comment */
                 linear-gradient(to bottom, 
                     rgba(255, 255, 255, 1) 0%,
                     rgba(255, 255, 255, 0.95) 5%,
@@ -1050,7 +1400,7 @@ html {
                     rgba(255, 255, 255, 0.05) 33%,
                     transparent 35%
                 ),
-                /* 下边渐变 - 范围扩大到35% */
+                /* Comment */
                 linear-gradient(to top, 
                     rgba(255, 255, 255, 1) 0%,
                     rgba(255, 255, 255, 0.95) 5%,
@@ -1062,7 +1412,7 @@ html {
                     rgba(255, 255, 255, 0.05) 33%,
                     transparent 35%
                 ),
-                /* 左边渐变 - 范围扩大到35% */
+                /* Comment */
                 linear-gradient(to right, 
                     rgba(255, 255, 255, 1) 0%,
                     rgba(255, 255, 255, 0.95) 5%,
@@ -1074,7 +1424,7 @@ html {
                     rgba(255, 255, 255, 0.05) 33%,
                     transparent 35%
                 ),
-                /* 右边渐变 - 范围扩大到35% */
+                /* Comment */
                 linear-gradient(to left, 
                     rgba(255, 255, 255, 1) 0%,
                     rgba(255, 255, 255, 0.95) 5%,
@@ -1095,14 +1445,14 @@ html {
         
         img {
             width: 100%;
-            height: auto; /* 自动高度，保持原始比例 */
-            object-fit: contain; /* 完整显示图片 */
+            height: auto; /* Comment */
+            object-fit: contain; /* Comment */
             display: block !important;
-            opacity: 1 !important; /* 确保图片完全不透明（父容器控制整体透明度） */
-            visibility: visible !important; /* 确保可见性 */
+            opacity: 1 !important; /* Comment */
+            visibility: visible !important; /* Comment */
         }
         
-        /* 确保第一张图片正常显示 */
+        /* Comment */
         &:first-child {
             opacity: 1 !important;
             display: block !important;
@@ -1118,10 +1468,10 @@ html {
 }
 
 
-/* Profile卡片美化 - 羽毛球主题 */
+/* Comment */
 .profile_box {
     position: relative;
-    z-index: 10; /* 确保sidebar在漂浮图标之上 */
+    z-index: 10; /* Comment */
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.95) 100%);
     border-radius: 16px;
     padding: 1.5em;
@@ -1136,7 +1486,7 @@ html {
     }
 }
 
-/* 头像美化 */
+/* Comment */
 .author__avatar {
     text-align: center;
     margin-bottom: 1em;
@@ -1157,7 +1507,7 @@ html {
     }
 }
 
-/* 姓名美化 */
+/* Comment */
 .author__name {
     background: linear-gradient(135deg, #1e88e5 0%, #43a047 50%, #ff9800 100%);
     -webkit-background-clip: text;
@@ -1169,7 +1519,7 @@ html {
     text-align: center;
 }
 
-/* Bio美化 */
+/* Comment */
 .author__bio {
     color: #555;
     font-style: italic;
@@ -1181,7 +1531,7 @@ html {
     text-align: center;
 }
 
-/* 联系链接美化 - 统一所有元素样式 */
+/* Comment */
 .author__urls {
     list-style: none !important;
     padding: 0 !important;
@@ -1193,17 +1543,17 @@ html {
         transition: all 0.3s ease !important;
         white-space: normal !important;
         
-        /* 统一所有li的样式，无论是否有链接 */
+        /* Comment */
         display: flex !important;
         align-items: center !important;
         padding: 0.6em 0.8em !important;
         border-radius: 8px;
         color: #555;
-        min-height: 2.8em; /* 统一高度 */
+        min-height: 2.8em; /* Comment */
         width: 100%;
         box-sizing: border-box;
         
-        /* 图标统一样式 - 所有图标（包括直接子元素和a内的） */
+        /* Comment */
         i,
         > i,
         i.fa,
@@ -1211,7 +1561,7 @@ html {
         i.fab,
         i.ai {
             width: 20px !important;
-            min-width: 20px !important; /* 确保图标宽度一致 */
+            min-width: 20px !important; /* Comment */
             margin-right: 0.8em !important;
             color: var(--badminton-primary) !important;
             transition: all 0.3s ease !important;
@@ -1220,7 +1570,7 @@ html {
             display: inline-block;
         }
         
-        /* 有链接的元素 */
+        /* Comment */
         a {
             display: flex !important;
             align-items: center !important;
@@ -1242,22 +1592,22 @@ html {
             }
         }
         
-        /* 没有链接的文本（如location, employer）- 直接文本 */
+        /* Comment */
         &:not(:has(a)) {
             color: #555;
             cursor: default;
             
-            /* 确保文本对齐 */
+            /* Comment */
             > *:not(i) {
                 flex: 1;
             }
             
-            /* JoinQuant特殊悬停效果 */
+            /* Comment */
             &:has-text("JoinQuant") {
                 position: relative;
                 
                 &::after {
-                    content: '💼';
+                    content: '[Briefcase]';
                     position: absolute;
                     right: 0;
                     opacity: 0;
@@ -1267,13 +1617,13 @@ html {
             }
         }
         
-        /* JoinQuant悬停效果 - 通过文本内容匹配 */
+        /* Comment */
         &:has-text("JoinQuant"),
         &:contains("JoinQuant") {
             position: relative;
             
             &::after {
-                content: '💼';
+                content: '[Briefcase]';
                 position: absolute;
                 right: 0.5em;
                 opacity: 0;
@@ -1287,30 +1637,30 @@ html {
             }
         }
         
-        /* 悬停效果 - 应用到整个li（包括有链接和没链接的） */
+        /* Comment */
         &:hover {
             background: linear-gradient(135deg, rgba(30, 136, 229, 0.1) 0%, rgba(67, 160, 71, 0.1) 100%) !important;
             color: var(--badminton-primary) !important;
             transform: translateX(5px);
             
-            /* 所有图标悬停效果 */
+            /* Comment */
             i {
                 transform: scale(1.2) !important;
                 color: var(--badminton-accent) !important;
             }
             
-            /* 链接文字悬停效果 */
+            /* Comment */
             a {
                 color: var(--badminton-primary) !important;
             }
             
-            /* 非链接文字悬停效果 */
+            /* Comment */
             &:not(:has(a)) {
                 color: var(--badminton-primary) !important;
             }
         }
         
-        /* JoinQuant特殊悬停动画 - 通过类名和属性选择器 */
+        /* Comment */
         &.employer-item,
         &[data-employer*="JoinQuant"],
         &[data-employer*="joinquant"] {
@@ -1318,7 +1668,7 @@ html {
             overflow: visible;
             
             &::after {
-                content: '💼';
+                content: '[Briefcase]';
                 position: absolute;
                 right: 0.5em;
                 opacity: 0;
@@ -1336,7 +1686,7 @@ html {
     }
 }
 
-/* 描述文字美化 */
+/* Comment */
 .author__urls li div {
     color: #666;
     font-size: 0.9em;
@@ -1346,16 +1696,14 @@ html {
     border-radius: 8px;
 }
 
-/* 移动端隐藏装饰图片 */
+/* Comment */
 @media (max-width: 1200px) {
     .lee-decorative-gallery {
         display: none;
     }
 }
 
-/* ============================================
-   Publication部分 - 学术指标徽章美化
-   ============================================ */
+/* Comment */
 .venue-badge {
     display: inline-block;
     padding: 0.25em 0.6em;
@@ -1373,7 +1721,7 @@ html {
     }
 }
 
-/* CCF等级徽章 */
+/* Comment */
 .venue-badge.ccf-a {
     background: linear-gradient(135deg, #d32f2f 0%, #f44336 100%);
     color: white;
@@ -1394,7 +1742,7 @@ html {
     color: white;
 }
 
-/* Tier等级徽章 */
+/* Comment */
 .venue-badge.tier-top {
     background: linear-gradient(135deg, #1e88e5 0%, #43a047 100%);
     color: white;
@@ -1405,7 +1753,7 @@ html {
     color: white;
 }
 
-/* Core等级徽章 */
+/* Comment */
 .venue-badge.core-a-star {
     background: linear-gradient(135deg, #9c27b0 0%, #ba68c8 100%);
     color: white;
@@ -1423,7 +1771,7 @@ html {
     color: white;
 }
 
-/* 特殊徽章 - 增强闪烁效果 */
+/* Comment */
 .venue-badge.oral {
     background: linear-gradient(135deg, #e91e63 0%, #f06292 100%);
     color: white;
@@ -1456,9 +1804,7 @@ html {
     }
 }
 
-/* ============================================
-   About Me部分 - 图标和元素美化
-   ============================================ */
+/* Comment */
 .icon-emoji {
     display: inline-block;
     margin: 0 0.2em;
@@ -1491,13 +1837,13 @@ html {
     }
 }
 
-/* JoinQuant链接悬停效果 */
+/* Comment */
 .joinquant-link {
     position: relative;
     transition: all 0.3s ease;
     
     &::after {
-        content: '💼';
+        content: '[Briefcase]';
         position: absolute;
         right: -1.5em;
         opacity: 0;
@@ -1516,9 +1862,7 @@ html {
     }
 }
 
-/* ============================================
-   Honors and Awards部分 - 卡片式布局
-   ============================================ */
+/* Comment */
 .honors-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -1620,9 +1964,7 @@ html {
     font-style: italic;
 }
 
-/* ============================================
-   Educations and Experiences部分 - 时间轴样式
-   ============================================ */
+/* Comment */
 .timeline-container {
     position: relative;
     padding: 2em 0;
@@ -1734,9 +2076,7 @@ html {
     line-height: 1.5;
 }
 
-/* ============================================
-   Internships部分 - 卡片和标签样式
-   ============================================ */
+/* Comment */
 .internship-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -1874,34 +2214,32 @@ html {
     box-shadow: 0 2px 6px rgba(30, 136, 229, 0.3);
 }
 
-/* ============================================
-   全屏漂浮动画 - 羽毛球主题图标
-   ============================================ */
+/* Comment */
 .floating-icons-container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none; /* 不阻挡鼠标事件 */
-    z-index: 9999; /* 确保在最上层，但通过pointer-events: none不阻挡交互 */
+    pointer-events: none; /* Comment */
+    z-index: 9999; /* Comment */
     overflow: hidden;
 }
 
 .floating-icon {
     position: absolute;
     font-size: 2em;
-    opacity: 0.18; /* 稍微提高透明度，但保持不干扰内容 */
+    opacity: 0.18; /* Comment */
     user-select: none;
-    pointer-events: none; /* 确保不阻挡鼠标事件 */
+    pointer-events: none; /* Comment */
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    filter: blur(0.3px); /* 减少模糊，更清晰 */
+    filter: blur(0.3px); /* Comment */
     transition: opacity 0.3s ease;
-    z-index: 9999; /* 确保在最上层 */
+    z-index: 9999; /* Comment */
 }
 
-/* 漂浮动画 - 从下往上（快速版本） */
+/* Comment */
 @keyframes float-up-fast {
     0% {
         transform: translateY(110vh) translateX(0) rotate(0deg);
@@ -1919,7 +2257,7 @@ html {
     }
 }
 
-/* 漂浮动画 - 从下往上（中速版本） */
+/* Comment */
 @keyframes float-up-medium {
     0% {
         transform: translateY(110vh) translateX(0) rotate(0deg);
@@ -1937,7 +2275,7 @@ html {
     }
 }
 
-/* 下坠动画 - 从上往下（快速版本） */
+/* Comment */
 @keyframes float-down-fast {
     0% {
         transform: translateY(-10vh) translateX(0) rotate(0deg);
@@ -1955,7 +2293,7 @@ html {
     }
 }
 
-/* 下坠动画 - 从上往下（中速版本） */
+/* Comment */
 @keyframes float-down-medium {
     0% {
         transform: translateY(-10vh) translateX(0) rotate(0deg);
@@ -1973,7 +2311,7 @@ html {
     }
 }
 
-/* 左右漂浮动画（快速版本） */
+/* Comment */
 @keyframes float-side-fast {
     0% {
         transform: translateX(-10vw) translateY(0) rotate(0deg);
@@ -1991,7 +2329,7 @@ html {
     }
 }
 
-/* 左右漂浮动画（中速版本） */
+/* Comment */
 @keyframes float-side-medium {
     0% {
         transform: translateX(-10vw) translateY(0) rotate(0deg);
@@ -2009,7 +2347,7 @@ html {
     }
 }
 
-/* 不同速度的动画类 - 统一从边缘开始，加快速度 */
+/* Comment */
 .float-up-fast {
     animation: float-up-fast 15s linear infinite;
 }
@@ -2034,9 +2372,7 @@ html {
     animation: float-side-medium 25s linear infinite;
 }
 
-/* ============================================
-   Friends部分 - 卡片式布局
-   ============================================ */
+/* Comment */
 .friends-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -2124,9 +2460,7 @@ html {
     font-style: italic;
 }
 
-/* ============================================
-   About Me部分进一步优化
-   ============================================ */
+/* Comment */
 .page__content > p {
     position: relative;
     padding: 1em 1.2em;
@@ -2143,13 +2477,11 @@ html {
     }
     
     &:first-of-type {
-        background: transparent; /* 移除首段背景色 */
+        background: transparent; /* Comment */
     }
 }
 
-/* ============================================
-   索引头部分优化美化
-   ============================================ */
+/* Comment */
 .masthead {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.95) 100%) !important;
     backdrop-filter: blur(10px);
@@ -2180,7 +2512,7 @@ html {
         }
         
         &::before {
-            display: none; /* 移除之前的装饰线 */
+            display: none; /* Comment */
         }
     }
     
@@ -2199,11 +2531,9 @@ html {
     }
 }
 
-/* ============================================
-   新增动画效果
-   ============================================ */
+/* Comment */
 
-/* News容器发光动画 */
+/* Comment */
 @keyframes news-container-glow {
     0%, 100% {
         box-shadow: 0 0 0 rgba(30, 136, 229, 0);
@@ -2215,7 +2545,7 @@ html {
     }
 }
 
-/* News图标闪烁动画 */
+/* Comment */
 @keyframes news-icon-twinkle {
     0%, 100% {
         filter: drop-shadow(0 0 2px rgba(30, 136, 229, 0.3));
@@ -2234,7 +2564,7 @@ html {
     }
 }
 
-/* 导航栏首页按钮发光 */
+/* Comment */
 @keyframes nav-home-glow {
     0%, 100% {
         box-shadow: 0 0 0 rgba(30, 136, 229, 0);
@@ -2253,7 +2583,7 @@ html {
     }
 }
 
-/* 卡片进入动画 */
+/* Comment */
 .paper-box,
 .honor-card,
 .timeline-item,
@@ -2263,7 +2593,7 @@ html {
     animation-fill-mode: both;
 }
 
-/* 为不同元素添加不同的延迟 */
+/* Comment */
 .paper-box:nth-child(1) { animation-delay: 0.1s; }
 .paper-box:nth-child(2) { animation-delay: 0.2s; }
 .paper-box:nth-child(3) { animation-delay: 0.3s; }
@@ -2302,7 +2632,7 @@ html {
     }
 }
 
-/* 链接闪烁效果 - 移到page__content外部 */
+/* Comment */
 a {
     position: relative;
     transition: all 0.3s ease;
@@ -2333,7 +2663,7 @@ a {
     }
 }
 
-/* 背景装饰图片微妙动画 */
+/* Comment */
 .lee-decorative-gallery .decorative-item {
     animation: decorative-float 20s ease-in-out infinite;
 }
@@ -2389,11 +2719,9 @@ a {
     }
 }
 
-/* ==========================================================================
-   留言板和点赞功能样式
-   ========================================================================== */
+/* Comment */
 
-/* 点赞区域 */
+/* Comment */
 .like-section {
     margin: 3em 0 2em;
     padding: 2em;
@@ -2524,7 +2852,7 @@ a {
     color: #1565c0;
 }
 
-/* 留言板介绍 */
+/* Comment */
 .guestbook-intro {
     margin: 2em 0;
     padding: 1.5em;
@@ -2552,7 +2880,7 @@ a {
     color: #1e88e5;
 }
 
-/* Giscus 容器 */
+/* Comment */
 .giscus-container {
     margin: 3em 0;
     padding: 2em;
@@ -2563,7 +2891,7 @@ a {
 }
 
 .giscus-container::before {
-    content: '💬';
+    content: '[Chat]';
     display: block;
     text-align: center;
     font-size: 2em;
@@ -2571,7 +2899,7 @@ a {
     opacity: 0.6;
 }
 
-/* 响应式设计 */
+/* Responsive design */
 @media (max-width: 768px) {
     .like-section {
         padding: 1.5em;
@@ -2592,7 +2920,7 @@ a {
     }
 }
 
-/* 点赞粒子动画 */
+/* Comment */
 .like-particle {
     animation: like-particle-float 0.8s ease-out forwards;
 }
