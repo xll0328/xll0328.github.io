@@ -28,7 +28,7 @@ The domain of time series forecasting has gained significant attention due to it
 ## Key Contributions
 
 1. **Comprehensive Faithfulness Assessment** — In-depth analysis of TimeSieve identifying factors that affect its faithfulness (random seeds, input/layer/parameter perturbations).
-2. **Definition of Faithful TimeSieve** — Rigorous $(\alpha_1, \alpha_2, \beta, \delta, R_1, R_2)$-Faithful definition with three attributes: **Sib**, **Cps**, **Snp**.
+2. **Definition of Faithful TimeSieve** — Rigorous (α₁, α₂, β, δ, R₁, R₂)-Faithful definition with three attributes: **Sib**, **Cps**, **Snp**.
 3. **Multimedia-aware Robustness Framework** — Min-max optimization with PGD and content-adaptive stabilization; framework transfers to other time series models (e.g. PatchTST).
 4. **Theoretical and Experimental Validation** — Bounds for Sib/Cps/Snp and extensive experiments on Wiki, ETTh1, Exchange; FTS achieves SOTA and strong robustness.
 
@@ -44,9 +44,12 @@ The domain of time series forecasting has gained significant attention due to it
 
 ## FTS: Three Attributes (formal)
 
-1. **Similarity in IB Space (Sib):** $D_1(\hat{\pi}_a(x(t)), \hat{\pi}_a(x(t)+\delta)) \leq \beta$ and similarly for $\hat{\pi}_d$, for all $\|\delta\| \leq R_1$.
-2. **Consistency in Prediction Space (Cps):** $D_2(y(x(t), \tilde{\omega}), y(x(t), \omega)) \leq \alpha_1$ for fine-tuned weights $\tilde{\omega}$ and original $\omega$.
-3. **Stability in Noise Perturbations (Snp):** $D_3(y(x(t), \tilde{\omega}), y(x(t)+\delta, \tilde{\omega})) \leq \alpha_2$ for all $\|\delta\| \leq R_2$.
+1. **Similarity in IB Space (Sib):** Distance D₁ between approximation/detail representations under perturbation is at most β, for all ‖δ‖ ≤ R₁:
+   $$D_1(\hat{\pi}_a(x(t)), \hat{\pi}_a(x(t)+\delta)) \leq \beta \quad \text{(and similarly for } \hat{\pi}_d\text{).}$$
+2. **Consistency in Prediction Space (Cps):** Distance D₂ between predictions under fine-tuned weights and original weights is at most α₁:
+   $$D_2(y(x(t), \tilde{\omega}), y(x(t), \omega)) \leq \alpha_1.$$
+3. **Stability in Noise Perturbations (Snp):** Distance D₃ between predictions under x(t) and x(t)+δ is at most α₂ for all ‖δ‖ ≤ R₂:
+   $$D_3(y(x(t), \tilde{\omega}), y(x(t)+\delta, \tilde{\omega})) \leq \alpha_2.$$
 
 ---
 
@@ -72,7 +75,7 @@ Ten different random seeds are selected to train TimeSieve (TS) and Faithful Tim
 
 ### Table 1: Forecasting results (no perturbation)
 
-Forecast length $H \in \{48, 96, 144, 192\}$, lookback $T = 2H$. **Bold** = best, *second best*.
+Forecast length H ∈ {48, 96, 144, 192}, lookback T = 2H. **Bold** = best, *second best*.
 
 | Dataset | H | FTS (MAE / MSE) | TS (MAE / MSE) | Koopa | PatchTST | TSMixer | DLinear | NSTformer | LightTS | Autoformer |
 |---------|---|------------------|----------------|-------|----------|---------|---------|-----------|---------|------------|
@@ -134,7 +137,7 @@ Intermediate layer tensors on Exchange dataset (MSE). Nper vs Oper shows effecti
 ## Experimental settings (from paper)
 
 - **Datasets:** Wiki pageviews (top 10 hot words 2015–2016), ETTh1, Exchange.
-- **Lookback:** $T = 2H$ (twice forecast length $H$).
+- **Lookback:** T = 2H (twice forecast length H).
 - **Seeds:** 10 distinct seeds (2021–2030); 2021 as base.
 - **Perturbations:** Input noise (sequence-decomposition residual); IFCB layer parameter noise (Gaussian).
 - **Hardware:** NVIDIA RTX 4090, Intel Xeon E5-2686 v4. **Training:** 10 epochs, batch size 32, learning rate 0.0001.
@@ -147,43 +150,43 @@ The following presents the proofs for **Theorem 1** (upper bound for Sib) and **
 
 ### Theorem 1 (Upper bound for Sib)
 
-Under (α₁, α₂, β, δ, R₁, R₂)-Faithful TimeSieve, for the decoder \(f(\cdot)\) we have: if \(\beta \leq \|\hat{\pi}_i(x(t)) - \hat{\pi}_i(x(t)+\delta)\|\) with \(i \in \{a,d\}\), then for all \(x(t)' = x(t)+\delta\) with \(\|x(t)-x(t)'\| \leq R_1\),
+Under (α₁, α₂, β, δ, R₁, R₂)-Faithful TimeSieve, for the decoder *f*: if the distance between IB representations at *x*(t) and *x*(t)+δ is at least β (for *i* ∈ {*a*, *d*}), then for all *x*(t)′ = *x*(t)+δ with ‖*x*(t)−*x*(t)′‖ ≤ R₁,
 
 $$\|f(z, \hat{\pi}_i; \theta_d) - f(z, \hat{\pi}_i'; \theta_d)\| \leq c\delta,$$
 
-where \(\hat{\pi}_i' = \hat{\pi}_i(x(t)+\delta)\) and \(c\) is a constant.
+where the primed representation is at *x*(t)+δ and *c* is a constant.
 
-**Proof.** The approximation and detail coefficients \(\pi_a\), \(\pi_d\) are defined in the main text (wavelet decomposition). For convenience we omit the argument \(t\). Write
+**Proof.** The approximation and detail coefficients π_a, π_d are defined in the main text (wavelet decomposition). For convenience we omit the argument *t*. Write
 
 $$\pi_i' = \pi_i(x(t)+\delta) = \int_{-\infty}^{\infty} (x(t)+\delta)\, \phi(t)\, dt.$$
 
-For all \(\|\delta\| \leq R_1\),
+For all ‖δ‖ ≤ R₁,
 
 $$
 \|\pi_a - \pi_a'\| = \left\| \int_{-\infty}^{\infty} x(t)\phi(t)\,dt - \int_{-\infty}^{\infty} (x(t)+\delta)\phi(t)\,dt \right\| = \left\| \int_{-\infty}^{\infty} \delta\,\phi(t)\,dt \right\|.
 $$
 
-By normalization of the scaling function, \(\int_{-\infty}^{\infty} \phi(t)\,dt = 1\), so
+By normalization of the scaling function, the integral of the scaling function equals 1, so
 
 $$\left\| \int_{-\infty}^{\infty} \delta\,\phi(t)\,dt \right\| \leq \|\delta\|.$$
 
-The same argument applies to \(\pi_d\). □
+The same argument applies to π_d. □
 
 ---
 
 ### Theorem 2 (Lower bound for Sib)
 
-Under (α₁, α₂, β, δ, R₁, R₂)-Faithful TimeSieve, with IB space measured by Rényi divergence \(D_\mu\) and norm \(\|\cdot\|\), if \(\delta \sim \mathcal{N}(0,\sigma^2)\), then for any \(\mu \in (1,\infty)\) and input \(x(t)\),
+Under (α₁, α₂, β, δ, R₁, R₂)-Faithful TimeSieve, with IB space measured by Rényi divergence *D*_μ and norm ‖·‖, if δ ∼ N(0, σ²), then for any μ ∈ (1, ∞) and input *x*(t),
 
 $$\sigma^2 \geq \max\left\{ \delta,\; \frac{\mu R_1^2}{2\beta} \right\}.$$
 
-**Proof.** The Rényi divergence between \(\mathcal{N}(0,\sigma^2 I_d)\) and \(\mathcal{N}(\delta,\sigma^2 I_d)\) is bounded by \(\frac{\mu \|\delta\|^2}{2\sigma^2}\). Thus
+**Proof.** The Rényi divergence between N(0, σ² I_d) and N(δ, σ² I_d) is bounded by μ‖δ‖²/(2σ²). Thus
 
 $$
 D_\mu\bigl(\hat{\pi}_i(x(t)),\, \hat{\pi}_i(x(t)+\delta)\bigr) \leq \frac{\mu \|x(t)-(x(t)+\delta)\|^2}{2\sigma^2} \leq \frac{\mu R_1^2}{2\sigma^2}.
 $$
 
-When \(\frac{\mu R_1^2}{2\sigma^2} \leq \beta\), the FTS framework satisfies **Similarity in IB Space (Sib)**. □
+When μ R₁²/(2σ²) ≤ β, the FTS framework satisfies **Similarity in IB Space (Sib)**. □
 
 ---
 
@@ -200,9 +203,13 @@ The **Preference (%)** in the seed-stability table quantifies how much FTS is pr
 
 $$\Delta V_{\mathrm{fts}} = |V_{\mathrm{ftsb}} - V_{\mathrm{ftsc}}|, \qquad \Delta V_{\mathrm{ts}} = |V_{\mathrm{tsb}} - V_{\mathrm{tsc}}|.$$
 
-**Step 2 — Ratio of changes:** \(\displaystyle \frac{\Delta V_{\mathrm{fts}}}{\Delta V_{\mathrm{ts}}}\).
+**Step 2 — Ratio of changes:**
 
-**Step 3 — Adjustment by baseline:** \(\displaystyle \frac{\Delta V_{\mathrm{fts}}}{\Delta V_{\mathrm{ts}}} \times \frac{V_{\mathrm{tsb}}}{V_{\mathrm{ftsb}}}\).
+$$\frac{\Delta V_{\mathrm{fts}}}{\Delta V_{\mathrm{ts}}}.$$
+
+**Step 3 — Adjustment by baseline:**
+
+$$\frac{\Delta V_{\mathrm{fts}}}{\Delta V_{\mathrm{ts}}} \times \frac{V_{\mathrm{tsb}}}{V_{\mathrm{ftsb}}}.$$
 
 **Step 4 — Preference percentage:**
 
