@@ -121,10 +121,12 @@ Full combination **L_total** = L_reg + L_IB + λ₁·L_sib + λ₂·L_cps + λ�
 Intermediate layer tensors on Exchange dataset (MSE). Nper vs Oper shows effectiveness of optimization.
 
 <p align="center">
-  <img src="{{ '/images/fts/heatmaps_48.png' | relative_url }}" alt="H=48" style="max-width:24%; height:auto; display:inline-block;">
-  <img src="{{ '/images/fts/heatmaps_96.png' | relative_url }}" alt="H=96" style="max-width:24%; height:auto; display:inline-block;">
-  <img src="{{ '/images/fts/heatmaps_144.png' | relative_url }}" alt="H=144" style="max-width:24%; height:auto; display:inline-block;">
-  <img src="{{ '/images/fts/heatmaps_192.png' | relative_url }}" alt="H=192" style="max-width:24%; height:auto; display:inline-block;">
+  <img src="{{ '/images/fts/heatmaps_48.png' | relative_url }}" alt="H=48" style="max-width:48%; height:auto; display:inline-block;">
+  <img src="{{ '/images/fts/heatmaps_96.png' | relative_url }}" alt="H=96" style="max-width:48%; height:auto; display:inline-block;">
+</p>
+<p align="center">
+  <img src="{{ '/images/fts/heatmaps_144.png' | relative_url }}" alt="H=144" style="max-width:48%; height:auto; display:inline-block;">
+  <img src="{{ '/images/fts/heatmaps_192.png' | relative_url }}" alt="H=192" style="max-width:48%; height:auto; display:inline-block;">
 </p>
 
 ---
@@ -136,6 +138,77 @@ Intermediate layer tensors on Exchange dataset (MSE). Nper vs Oper shows effecti
 - **Seeds:** 10 distinct seeds (2021–2030); 2021 as base.
 - **Perturbations:** Input noise (sequence-decomposition residual); IFCB layer parameter noise (Gaussian).
 - **Hardware:** NVIDIA RTX 4090, Intel Xeon E5-2686 v4. **Training:** 10 epochs, batch size 32, learning rate 0.0001.
+
+---
+
+## Appendix: Theoretical Derivations
+
+The following presents the proofs for **Theorem 1** (upper bound for Sib) and **Theorem 2** (lower bound for Sib), and the **derivation of the Preference formula** used in the main paper.
+
+### Theorem 1 (Upper bound for Sib)
+
+Under (α₁, α₂, β, δ, R₁, R₂)-Faithful TimeSieve, for the decoder \(f(\cdot)\) we have: if \(\beta \leq \|\hat{\pi}_i(x(t)) - \hat{\pi}_i(x(t)+\delta)\|\) with \(i \in \{a,d\}\), then for all \(x(t)' = x(t)+\delta\) with \(\|x(t)-x(t)'\| \leq R_1\),
+
+$$\|f(z, \hat{\pi}_i; \theta_d) - f(z, \hat{\pi}_i'; \theta_d)\| \leq c\delta,$$
+
+where \(\hat{\pi}_i' = \hat{\pi}_i(x(t)+\delta)\) and \(c\) is a constant.
+
+**Proof.** The approximation and detail coefficients \(\pi_a\), \(\pi_d\) are defined in the main text (wavelet decomposition). For convenience we omit the argument \(t\). Write
+
+$$\pi_i' = \pi_i(x(t)+\delta) = \int_{-\infty}^{\infty} (x(t)+\delta)\, \phi(t)\, dt.$$
+
+For all \(\|\delta\| \leq R_1\),
+
+$$
+\|\pi_a - \pi_a'\| = \left\| \int_{-\infty}^{\infty} x(t)\phi(t)\,dt - \int_{-\infty}^{\infty} (x(t)+\delta)\phi(t)\,dt \right\| = \left\| \int_{-\infty}^{\infty} \delta\,\phi(t)\,dt \right\|.
+$$
+
+By normalization of the scaling function, \(\int_{-\infty}^{\infty} \phi(t)\,dt = 1\), so
+
+$$\left\| \int_{-\infty}^{\infty} \delta\,\phi(t)\,dt \right\| \leq \|\delta\|.$$
+
+The same argument applies to \(\pi_d\). □
+
+---
+
+### Theorem 2 (Lower bound for Sib)
+
+Under (α₁, α₂, β, δ, R₁, R₂)-Faithful TimeSieve, with IB space measured by Rényi divergence \(D_\mu\) and norm \(\|\cdot\|\), if \(\delta \sim \mathcal{N}(0,\sigma^2)\), then for any \(\mu \in (1,\infty)\) and input \(x(t)\),
+
+$$\sigma^2 \geq \max\left\{ \delta,\; \frac{\mu R_1^2}{2\beta} \right\}.$$
+
+**Proof.** The Rényi divergence between \(\mathcal{N}(0,\sigma^2 I_d)\) and \(\mathcal{N}(\delta,\sigma^2 I_d)\) is bounded by \(\frac{\mu \|\delta\|^2}{2\sigma^2}\). Thus
+
+$$
+D_\mu\bigl(\hat{\pi}_i(x(t)),\, \hat{\pi}_i(x(t)+\delta)\bigr) \leq \frac{\mu \|x(t)-(x(t)+\delta)\|^2}{2\sigma^2} \leq \frac{\mu R_1^2}{2\sigma^2}.
+$$
+
+When \(\frac{\mu R_1^2}{2\sigma^2} \leq \beta\), the FTS framework satisfies **Similarity in IB Space (Sib)**. □
+
+---
+
+### Derivation of Preference Formula
+
+The **Preference (%)** in the seed-stability table quantifies how much FTS is preferred over TS when changing the random seed. Notation:
+
+- **V_ftsb**: MSE of FTS under baseline seed (e.g. 2021)
+- **V_tsb**: MSE of TS under baseline seed
+- **V_ftsc**: MSE of FTS under current seed
+- **V_tsc**: MSE of TS under current seed
+
+**Step 1 — MSE change:**
+
+$$\Delta V_{\mathrm{fts}} = |V_{\mathrm{ftsb}} - V_{\mathrm{ftsc}}|, \qquad \Delta V_{\mathrm{ts}} = |V_{\mathrm{tsb}} - V_{\mathrm{tsc}}|.$$
+
+**Step 2 — Ratio of changes:** \(\displaystyle \frac{\Delta V_{\mathrm{fts}}}{\Delta V_{\mathrm{ts}}}\).
+
+**Step 3 — Adjustment by baseline:** \(\displaystyle \frac{\Delta V_{\mathrm{fts}}}{\Delta V_{\mathrm{ts}}} \times \frac{V_{\mathrm{tsb}}}{V_{\mathrm{ftsb}}}\).
+
+**Step 4 — Preference percentage:**
+
+$$\text{Preference }(\%) = \left(1 - \frac{|V_{\mathrm{ftsb}} - V_{\mathrm{ftsc}}|}{|V_{\mathrm{tsb}} - V_{\mathrm{tsc}}|} \times \frac{V_{\mathrm{tsb}}}{V_{\mathrm{ftsb}}}\right) \times 100\%.$$
+
+Higher preference indicates that FTS is more stable (smaller change when varying the seed) and/or better in MSE relative to TS under the baseline.
 
 ---
 
