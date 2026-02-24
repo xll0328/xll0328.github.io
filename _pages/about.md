@@ -207,6 +207,9 @@ The Conference on <strong>ECML-PKDD 2025</strong> <span class="venue-badge ccf-b
 
 <p class="paper-description">The paper introduces Vision Concept Transformer (VCT) and its stable variant SVCT, which integrate vision transformers with concept features and denoised diffusion smoothing to preserve medical imaging accuracy while providing robust, interpretable explanations resilient to perturbations.</p>
 
+<a href="https://xll0328.github.io/svct/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
+<strong><a href="https://xll0328.github.io/svct/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/-ECML-2025-SVCT">Code</a></strong>
+
 </div>
 </div>
 

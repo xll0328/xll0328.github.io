@@ -1,0 +1,3 @@
+# PNGs: intro-figure.png, framework.png, concept_visualization.png, intervention.png
+# Generate from LaTeX: run (ECML 2025) SVCT/scripts/figures_from_latex.py
+# and it will copy here if xll0328.github.io is a sibling of the SVCT repo.
