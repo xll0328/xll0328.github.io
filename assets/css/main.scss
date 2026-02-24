@@ -710,11 +710,14 @@ h1:before, .anchor:before {
             transition: all 0.3s ease;
             
             &:before {
-                content: "[Paper]";
+                content: "\f15c"; /* Font Awesome fa-file-alt 文档图标 */
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
                 position: absolute;
                 left: 0.8em;
                 top: 1em;
                 font-size: 1em;
+                color: var(--badminton-primary, #1e88e5);
                 transition: transform 0.3s ease;
             }
             
