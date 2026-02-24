@@ -11,6 +11,14 @@ author_profile: true
 
 ---
 
+## Framework (from paper)
+
+<img src="{{ '/images/fts/framework.png' | relative_url }}" alt="FTS framework" style="max-width: 95%; height: auto;" />
+
+**Framework of our proposed Faithful TimeSieve (FTS).**
+
+---
+
 ## Abstract
 
 The domain of time series forecasting has gained significant attention due to its critical applications in multimedia-rich web traffic (video streaming workloads, dynamic content delivery) and cross-platform advertisement click predictions. While **TimeSieve** has demonstrated strong capabilities in predicting web visitation metrics, it suffers from critical **unfaithfulness** issues: sensitivity to random seeds, input noise, layer noise, and parameter perturbations. We propose **Faithful TimeSieve (FTS)**, an enhanced framework that systematically detects and mitigates unfaithfulness in TimeSieve, significantly enhancing its stability and consistency. Experimental results demonstrate that FTS substantially improves the model's faithfulness and achieves **SOTA** on multiple datasets, setting a new standard for temporal forecasting methods. This advancement is particularly crucial for web traffic forecasting where prediction accuracy directly impacts operational decisions.
@@ -48,11 +56,7 @@ The total training objective is:
 
 $$\mathcal{L} = \mathcal{L}_{\mathrm{reg}} + \mathcal{L}_{\mathrm{IB}} + \lambda_1 \mathcal{L}_{\mathrm{sib}} + \lambda_2 \mathcal{L}_{\mathrm{cps}} + \lambda_3 \mathcal{L}_{\mathrm{snp}}$$
 
-where $\mathcal{L}_{\mathrm{reg}}$ is the regression loss, $\mathcal{L}_{\mathrm{IB}}$ is the TimeSieve IB loss, and $\mathcal{L}_{\mathrm{sib}}$, $\mathcal{L}_{\mathrm{cps}}$, $\mathcal{L}_{\mathrm{snp}}$ are the faithfulness auxiliary losses (tied to $D_1$, $D_2$, $D_3$ above). PGD is used to find worst-case $\delta$, then $\tilde{\omega}$ is updated by gradient descent.
-
-**Figure: Framework of our proposed Faithful TimeSieve (FTS)** — from paper.
-
-<img src="{{ '/images/fts/framework.png' | relative_url }}" alt="FTS framework" style="max-width: 95%; height: auto;" />
+Here **L_reg** is the regression loss, **L_IB** is the TimeSieve IB loss, and **L_sib**, **L_cps**, **L_snp** are the faithfulness auxiliary losses (tied to D₁, D₂, D₃ above). PGD is used to find worst-case perturbation δ, then the fine-tuned weights are updated by gradient descent.
 
 ---
 
@@ -108,7 +112,7 @@ Under **input perturbation (IP)** and **intermediate-layer perturbation (ILP)**,
 
 ### Loss ablation
 
-Full combination $\mathcal{L}_{\mathrm{total}} = \mathcal{L}_{\mathrm{reg}} + \mathcal{L}_{\mathrm{IB}} + \lambda_1 \mathcal{L}_{\mathrm{sib}} + \lambda_2 \mathcal{L}_{\mathrm{cps}} + \lambda_3 \mathcal{L}_{\mathrm{snp}}$ achieves best. Removing $\mathcal{L}_{\mathrm{snp}}$, $\mathcal{L}_{\mathrm{cps}}$, or $\mathcal{L}_{\mathrm{sib}}$ degrades robustness (paper Table 4).
+Full combination **L_total** = L_reg + L_IB + λ₁·L_sib + λ₂·L_cps + λ₃·L_snp achieves best. Removing L_snp, L_cps, or L_sib degrades robustness (paper Table 4).
 
 ---
 
