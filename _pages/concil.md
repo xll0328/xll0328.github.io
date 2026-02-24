@@ -17,7 +17,7 @@ Concept Bottleneck Models (CBMs) enhance the interpretability of AI systems by b
 
 ## Task: CICIL
 
-The CICIL task: sequential phases with growing concept and class sets. Each task provides training/test data with inputs $\mathbf{x}$, concept vectors $\mathbf{c}$, and labels $y$.
+The CICIL task: sequential phases with growing concept and class sets. Each task provides training/test data with inputs **x**, concept vectors **c**, and labels **y**.
 
 <img src="{{ '/images/concil/intro-figure.png' | relative_url }}" alt="CICIL task definition" style="max-width: 90%; height: auto;" />
 

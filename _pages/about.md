@@ -156,7 +156,10 @@ The Conference on <strong>ACM MM 2025 BNI Track</strong> <span class="venue-badg
 
 <p class="paper-description">This paper defines the continuous learning problem of CBM for the first time, and proposes a framework CONCIL to continuously learn concept and label simultaneously. Theoretical and experimental results verify the efficiency and absolute memory property of the framework.</p>
 
-<p><strong><a href="https://xll0328.github.io/concil/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/CONCIL---ACM-MM-2025-BNI-Track-">Code</a></strong></p>
+<p>
+<a href="https://xll0328.github.io/concil/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
+<strong><a href="https://xll0328.github.io/concil/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/CONCIL---ACM-MM-2025-BNI-Track-">Code</a></strong>
+</p>
 
 </div>
 </div>
