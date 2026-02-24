@@ -192,6 +192,9 @@ The Conference on <strong>ICRA 2025</strong> <span class="venue-badge ccf-b">CCF
 
 <p class="paper-description">We introduce DRIVE, a framework designed to enhance the dependability and stability of explanations in end-to-end unsupervised autonomous driving models, addressing instability issues and improving trustworthiness through consistent and stable interpretability and output, as demonstrated by empirical evaluations. This framework provides novel metrics for assessing the reliability of concept-based explainable autonomous driving systems, advancing their real-world deployment.</p>
 
+<a href="https://xll0328.github.io/drive/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
+<strong><a href="https://xll0328.github.io/drive/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/ICRA25-DRIVE">Code</a></strong>
+
 </div>
 </div>
 
