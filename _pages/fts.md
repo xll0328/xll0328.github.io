@@ -20,7 +20,7 @@ The domain of time series forecasting has gained significant attention due to it
 ## Key Contributions
 
 1. **Comprehensive Faithfulness Assessment** — In-depth analysis of TimeSieve identifying factors that affect its faithfulness (random seeds, input/layer/parameter perturbations).
-2. **Definition of Faithful TimeSieve** — Rigorous \((\alpha_1, \alpha_2, \beta, \delta, R_1, R_2)\)-Faithful definition with three attributes: **Sib**, **Cps**, **Snp**.
+2. **Definition of Faithful TimeSieve** — Rigorous $(\alpha_1, \alpha_2, \beta, \delta, R_1, R_2)$-Faithful definition with three attributes: **Sib**, **Cps**, **Snp**.
 3. **Multimedia-aware Robustness Framework** — Min-max optimization with PGD and content-adaptive stabilization; framework transfers to other time series models (e.g. PatchTST).
 4. **Theoretical and Experimental Validation** — Bounds for Sib/Cps/Snp and extensive experiments on Wiki, ETTh1, Exchange; FTS achieves SOTA and strong robustness.
 
@@ -36,9 +36,9 @@ The domain of time series forecasting has gained significant attention due to it
 
 ## FTS: Three Attributes (formal)
 
-1. **Similarity in IB Space (Sib):** \(D_1(\hat{\pi}_a(x(t)), \hat{\pi}_a(x(t)+\delta)) \leq \beta\) and similarly for \(\hat{\pi}_d\), for all \(\|\delta\| \leq R_1\).
-2. **Consistency in Prediction Space (Cps):** \(D_2(y(x(t), \tilde{\omega}), y(x(t), \omega)) \leq \alpha_1\) for fine-tuned weights \(\tilde{\omega}\) and original \(\omega\).
-3. **Stability in Noise Perturbations (Snp):** \(D_3(y(x(t), \tilde{\omega}), y(x(t)+\delta, \tilde{\omega})) \leq \alpha_2\) for all \(\|\delta\| \leq R_2\).
+1. **Similarity in IB Space (Sib):** $D_1(\hat{\pi}_a(x(t)), \hat{\pi}_a(x(t)+\delta)) \leq \beta$ and similarly for $\hat{\pi}_d$, for all $\|\delta\| \leq R_1$.
+2. **Consistency in Prediction Space (Cps):** $D_2(y(x(t), \tilde{\omega}), y(x(t), \omega)) \leq \alpha_1$ for fine-tuned weights $\tilde{\omega}$ and original $\omega$.
+3. **Stability in Noise Perturbations (Snp):** $D_3(y(x(t), \tilde{\omega}), y(x(t)+\delta, \tilde{\omega})) \leq \alpha_2$ for all $\|\delta\| \leq R_2$.
 
 ---
 
@@ -46,25 +46,21 @@ The domain of time series forecasting has gained significant attention due to it
 
 The total training objective is:
 
-\[
-\mathcal{L} = \mathcal{L}_{\mathrm{reg}} + \mathcal{L}_{\mathrm{IB}} + \lambda_1 \mathcal{L}_{\mathrm{sib}} + \lambda_2 \mathcal{L}_{\mathrm{cps}} + \lambda_3 \mathcal{L}_{\mathrm{snp}}
-\]
+$$\mathcal{L} = \mathcal{L}_{\mathrm{reg}} + \mathcal{L}_{\mathrm{IB}} + \lambda_1 \mathcal{L}_{\mathrm{sib}} + \lambda_2 \mathcal{L}_{\mathrm{cps}} + \lambda_3 \mathcal{L}_{\mathrm{snp}}$$
 
-where \(\mathcal{L}_{\mathrm{reg}}\) is the regression loss, \(\mathcal{L}_{\mathrm{IB}}\) is the TimeSieve IB loss, and \(\mathcal{L}_{\mathrm{sib}}\), \(\mathcal{L}_{\mathrm{cps}}\), \(\mathcal{L}_{\mathrm{snp}}\) are the faithfulness auxiliary losses (tied to \(D_1\), \(D_2\), \(D_3\) above). PGD is used to find worst-case \(\delta\), then \(\tilde{\omega}\) is updated by gradient descent.
+where $\mathcal{L}_{\mathrm{reg}}$ is the regression loss, $\mathcal{L}_{\mathrm{IB}}$ is the TimeSieve IB loss, and $\mathcal{L}_{\mathrm{sib}}$, $\mathcal{L}_{\mathrm{cps}}$, $\mathcal{L}_{\mathrm{snp}}$ are the faithfulness auxiliary losses (tied to $D_1$, $D_2$, $D_3$ above). PGD is used to find worst-case $\delta$, then $\tilde{\omega}$ is updated by gradient descent.
 
-**Framework overview:**
+**Figure: Framework of our proposed Faithful TimeSieve (FTS)** — from paper.
 
-<img src="{{ '/images/fts/model.png' | relative_url }}" alt="FTS framework" style="max-width: 95%; height: auto;" />
-
-*Framework of Faithful TimeSieve (FTS).*
+<img src="{{ '/images/fts/framework.png' | relative_url }}" alt="FTS framework" style="max-width: 95%; height: auto;" />
 
 ---
 
-## Figure: TS vs FTS under 10 random seeds
+## Figure 1: TS vs FTS under 10 random seeds (from paper)
 
-Ten different random seeds are used to train TimeSieve (TS) and Faithful TimeSieve (FTS) respectively. FTS maintains more consistent performance across seeds.
+Ten different random seeds are selected to train TimeSieve (TS) and Faithful TimeSieve (FTS) respectively. FTS maintains more consistent performance across seeds.
 
-<img src="{{ '/images/fts/first_per.png' | relative_url }}" alt="TS vs FTS under 10 random seeds" style="max-width: 95%; height: auto;" />
+<img src="{{ '/images/fts/fig1.png' | relative_url }}" alt="TS vs FTS under 10 random seeds" style="max-width: 95%; height: auto;" />
 
 ---
 
@@ -72,7 +68,7 @@ Ten different random seeds are used to train TimeSieve (TS) and Faithful TimeSie
 
 ### Table 1: Forecasting results (no perturbation)
 
-Forecast length \(H \in \{48, 96, 144, 192\}\), lookback \(T = 2H\). **Bold** = best, *second best*.
+Forecast length $H \in \{48, 96, 144, 192\}$, lookback $T = 2H$. **Bold** = best, *second best*.
 
 | Dataset | H | FTS (MAE / MSE) | TS (MAE / MSE) | Koopa | PatchTST | TSMixer | DLinear | NSTformer | LightTS | Autoformer |
 |---------|---|------------------|----------------|-------|----------|---------|---------|-----------|---------|------------|
@@ -112,20 +108,13 @@ Under **input perturbation (IP)** and **intermediate-layer perturbation (ILP)**,
 
 ### Loss ablation
 
-Full combination \(\mathcal{L}_{\mathrm{total}} = \mathcal{L}_{\mathrm{reg}} + \mathcal{L}_{\mathrm{IB}} + \lambda_1 \mathcal{L}_{\mathrm{sib}} + \lambda_2 \mathcal{L}_{\mathrm{cps}} + \lambda_3 \mathcal{L}_{\mathrm{snp}}\) achieves best. Removing \(\mathcal{L}_{\mathrm{snp}}\), \(\mathcal{L}_{\mathrm{cps}}\), or \(\mathcal{L}_{\mathrm{sib}}\) degrades robustness (paper Table 4).
+Full combination $\mathcal{L}_{\mathrm{total}} = \mathcal{L}_{\mathrm{reg}} + \mathcal{L}_{\mathrm{IB}} + \lambda_1 \mathcal{L}_{\mathrm{sib}} + \lambda_2 \mathcal{L}_{\mathrm{cps}} + \lambda_3 \mathcal{L}_{\mathrm{snp}}$ achieves best. Removing $\mathcal{L}_{\mathrm{snp}}$, $\mathcal{L}_{\mathrm{cps}}$, or $\mathcal{L}_{\mathrm{sib}}$ degrades robustness (paper Table 4).
 
 ---
 
-## Faithful vs Unfaithful (illustration)
+## Heatmaps (from paper): prediction length 48, 96, 144, 192
 
-<img src="{{ '/images/fts/Faithful.png' | relative_url }}" alt="Faithful" style="max-width:48%; height:auto; display:inline-block;">
-<img src="{{ '/images/fts/Unfaithful.png' | relative_url }}" alt="Unfaithful" style="max-width:48%; height:auto; display:inline-block;">
-
-*Left: Faithful forecasting. Right: Unfaithful (sensitive to seeds/perturbations).*
-
----
-
-## Heatmaps (Wiki, prediction horizons 48, 96, 144, 192)
+Intermediate layer tensors on Exchange dataset (MSE). Nper vs Oper shows effectiveness of optimization.
 
 <p align="center">
   <img src="{{ '/images/fts/heatmaps_48.png' | relative_url }}" alt="H=48" style="max-width:24%; height:auto; display:inline-block;">
@@ -139,7 +128,7 @@ Full combination \(\mathcal{L}_{\mathrm{total}} = \mathcal{L}_{\mathrm{reg}} + \
 ## Experimental settings (from paper)
 
 - **Datasets:** Wiki pageviews (top 10 hot words 2015–2016), ETTh1, Exchange.
-- **Lookback:** \(T = 2H\) (twice forecast length \(H\)).
+- **Lookback:** $T = 2H$ (twice forecast length $H$).
 - **Seeds:** 10 distinct seeds (2021–2030); 2021 as base.
 - **Perturbations:** Input noise (sequence-decomposition residual); IFCB layer parameter noise (Gaussian).
 - **Hardware:** NVIDIA RTX 4090, Intel Xeon E5-2686 v4. **Training:** 10 epochs, batch size 32, learning rate 0.0001.
