@@ -168,13 +168,16 @@ The Conference on <strong>ACM MM 2025 BNI Track</strong> <span class="venue-badg
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/FTS.png' alt="From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
-<strong>[From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve]()</strong>
+<strong><a href="https://dl.acm.org/doi/10.1145/3746027.3754963">From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve</a></strong>
 
 <strong>Songning Lai</strong>, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Lijie Hu, Hang Zhao, Xuming Hu, Yutao Yue
 
 The Conference on <strong>ACM MM 2025</strong> <span class="venue-badge ccf-a">CCF A</span> <span class="venue-badge tier-top">Top Tier</span> <span class="venue-badge core-a-star">Core A*</span>.
 
-<p class="paper-description">Study of time series forecasting models.</p>
+<p class="paper-description">We propose Faithful TimeSieve (FTS), an enhanced framework that systematically detects and mitigates unfaithfulness in TimeSieve (sensitivity to random seeds, input/layer/parameter perturbations), improving prediction reliability and robustness for multimedia web forecasting. FTS achieves SOTA on multiple benchmarks while significantly improving stability and consistency.</p>
+
+<a href="https://xll0328.github.io/fts/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
+<strong><a href="https://xll0328.github.io/fts/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/MM25-FTS">Code</a></strong>
 
 </div>
 </div>
