@@ -72,10 +72,10 @@ $$\mathcal{I}_{\mathrm{query}} = v \cdot fc1^l_k, \qquad \mathcal{I}_{\mathrm{qu
 
 ### Multi-hop accuracy (MQuAKE-3K subset, few-shot)
 
-**Avg.** = average over GPT-J and Qwen3-8B. **# Edits** = number of facts edited in the chain (1–4).
+**Avg.** = average over GPT-J and Qwen3-8B. **# Edits** = number of facts edited in the chain (1–4). Columns 3–6 = GPT-J (1- to 4-edit), 7–10 = Qwen3-8B (1- to 4-edit).
 
-| Editor | Avg. (GPT / Qwen) | GPT-J / # Edits = 1 | 2 | 3 | 4 | Qwen3-8B / # Edits = 1 | 2 | 3 | 4 |
-|--------|-------------------|---------------------|---|---|---|-------------------------|---|---|---|
+| Editor | Avg. (GPT / Qwen) | GJ 1-edit | GJ 2-edit | GJ 3-edit | GJ 4-edit | Qw 1-edit | Qw 2-edit | Qw 3-edit | Qw 4-edit |
+|--------|-------------------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | Base | 98.42 / 99.17 | 99.7 | 95.48 | 97.51 | 97.23 | 99.81 | 97.46 | 98.14 | 97.64 |
 | FT | 3.54 / 2.18 | 4.17 | 2.63 | 0.00 | 0.00 | 3.14 | 2.79 | 0.00 | 0.00 |
 | ROME | 35.04 / 28.79 | 44.51 | 38.93 | 17.52 | 5.06 | 35.09 | 32.48 | 18.97 | 7.08 |
@@ -101,11 +101,11 @@ Skipping the top query or value layers significantly hurts performance. “Edito
 
 | Editor | Avg. (GPT-J-6B) | Avg. (Qwen3-8B) |
 |--------|------------------|------------------|
-| \(f^{\#1}_q\) | 43.26 (↓6.87%) | 52.61 (↓9.67%) |
-| \(f^{\#1,2}_q\) | 41.19 (↓11.32%) | 47.34 (↓18.71%) |
-| \(f^{\#1,2,3}_q\) | 38.78 (↓16.51%) | 45.26 (↓22.29%) |
-| \(f^{\#1}_v\) | 42.14 (↓9.28%) | 51.39 (↓11.76%) |
-| \(f^{\#1,2}_v\) | 33.97 (↓26.87%) | 34.68 (↓40.45%) |
+| Skip #1 query | 43.26 (↓6.87%) | 52.61 (↓9.67%) |
+| Skip #1,2 query | 41.19 (↓11.32%) | 47.34 (↓18.71%) |
+| Skip #1,2,3 query | 38.78 (↓16.51%) | 45.26 (↓22.29%) |
+| Skip #1 value | 42.14 (↓9.28%) | 51.39 (↓11.76%) |
+| Skip #1,2 value | 33.97 (↓26.87%) | 34.68 (↓40.45%) |
 
 ---
 
