@@ -126,6 +126,9 @@ International Conference on Learning Representations <strong>ICLR2026</strong> <
 
 <p class="paper-description">In this paper, we propose ACE, a knowledge editing framework based on neuron attribution control. By locating and correcting the key neuron pathways in the Transformer internal inference chain, ACE solves the problem of intermediate implicit subject failure when multi-hop knowledge updating in large language models, and reveals the cognitive mechanism of query neuron driving semantic accumulation.</p>
 
+<a href="https://xll0328.github.io/ace/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
+<strong><a href="https://xll0328.github.io/ace/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/ICLR26-ACE">Code</a></strong>
+
 </div>
 </div>
 
