@@ -7,7 +7,7 @@ author_profile: true
 
 **This paper was accepted at NeurIPS 2024** (Conference on Neural Information Processing Systems). [**Paper (arXiv)**](https://arxiv.org/abs/2410.21494) · [**Code (GitHub)**](https://github.com/xll0328/NeurIPS24-Med_MICN)
 
-**Authors:** Lijie Hu, Songning Lai, Wenshuo Chen, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, Di Wang
+**Authors:** Lijie Hu†, Songning Lai†, Wenshuo Chen† (equal contribution), Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, Di Wang
 
 ---
 
@@ -53,17 +53,21 @@ Average pooling gives concept score $s_i = \frac{1}{H \cdot W} \sum_{h,w} P_{h,w
 
 $$f(x_m) = \Theta_b(x_m), \quad f_c(x_m), \hat{C}_m = \Theta_c(f(x_m)).$$
 
-Concept loss: $\mathcal{L}_c = \text{BCE}(\hat{c}, c)$.
+Concept loss:
+
+$$\mathcal{L}_c = \mathrm{BCE}(\hat{c}, c).$$
 
 **Neural-symbolic layer.** For each class $j$, concept polarity $I_{o,i,j}$ and relevance $I_{r,i,j}$ are combined (fuzzy logic):
 
 $$\hat{y}_j = \land_{i=1}^{N} ( \neg I_{o, i, j} \lor I_{r, i, j} ) = \min_{i \in [N]} \{ \max\{1-I_{o, i, j} , I_{r, i, j}\} \}.$$
 
-**Final prediction and loss.** Fused prediction $\tilde{y}_m = W_F \cdot \text{Concat}(f(x_m), f_c(x_m))$. Overall loss:
+**Final prediction and loss.** Fused prediction $\tilde{y}_m = W_F \cdot \mathrm{Concat}(f(x_m), f_c(x_m))$. Overall loss:
 
-$$\mathcal{L} = \mathcal{L}_{task} + \lambda_1 \cdot \mathcal{L}_{c} + \lambda_2 \cdot \mathcal{L}_{neural},$$
+$$\mathcal{L} = \mathcal{L}_{\mathrm{task}} + \lambda_1 \cdot \mathcal{L}_{c} + \lambda_2 \cdot \mathcal{L}_{\mathrm{neural}},$$
 
-where $\mathcal{L}_{task} = \text{CE}(\tilde{y}, y)$, $\mathcal{L}_{neural} = \text{BCE}(\hat{y}_{neural}, y)$. We use $\lambda_1 = \lambda_2 = 0.1$.
+where
+
+$$\mathcal{L}_{\mathrm{task}} = \mathrm{CE}(\tilde{y}, y), \quad \mathcal{L}_{\mathrm{neural}} = \mathrm{BCE}(\hat{y}_{\mathrm{neural}}, y), \quad \lambda_1 = \lambda_2 = 0.1.$$
 
 ---
 
@@ -77,7 +81,7 @@ Comparison of single-dimensional and multi-dimensional interpretability methods.
 
 ## Main results
 
-### Table: Utility results (Acc.% / F1%)
+### Utility results (Acc.% / F1%)
 
 | Method | Backbone | COVID-CT | DDI | Chest X-Ray | Fitzpatrick17k | Interpretability |
 |--------|----------|----------|-----|-------------|----------------|------------------|
@@ -90,9 +94,30 @@ Comparison of single-dimensional and multi-dimensional interpretability methods.
 | **Ours** | VGG19 | 83.05 / 84.37 | **82.58** / **78.07** | **88.30** / **88.16** | 77.34 / 77.53 | ✓ |
 | **Ours** | DenseNet169 | **86.44** / **87.15** | 79.55 / 69.79 | 73.88 / 65.70 | 80.79 / **81.11** | ✓ |
 
-### Ablation (Table from paper)
+### Ablation study
 
-Ablation on $\mathcal{L}_c$ and $\mathcal{L}_{neural}$ (ResNet50): using both yields the best Acc./AUC across COVID-CT, DDI, Chest X-Ray, and Fitzpatrick17k. For example on DDI, $\mathcal{L}_c$ only gives +3.79% AUC; $\mathcal{L}_{neural}$ only does not notably improve; both together give +8.71% AUC.
+Ablation on $\mathcal{L}_c$ and $\mathcal{L}_{\mathrm{neural}}$ (ResNet50): using both yields the best Acc./AUC across COVID-CT, DDI, Chest X-Ray, and Fitzpatrick17k. For example on DDI, $\mathcal{L}_c$ only gives +3.79% AUC; $\mathcal{L}_{\mathrm{neural}}$ only does not notably improve; both together give +8.71% AUC.
+
+**Ablation table (Acc.% / Precision% / Recall% / F1% / AUC%).** Checkmarks indicate the loss term is used.
+
+| Dataset | $\mathcal{L}_c$ | $\mathcal{L}_{\mathrm{neural}}$ | ACC | Precision | Recall | F1 | AUC | Interpretability |
+|---------|-----------------|----------------------------------|-----|-----------|--------|-----|-----|-------------------|
+| **COVID-CT** | | | 82.20 | 82.92 | 82.21 | 82.55 | 82.64 | |
+| | ✓ | | 83.05 | 83.62 | 83.16 | 83.01 | 83.16 | |
+| | | ✓ | 81.36 | 82.11 | 81.38 | 81.70 | 81.81 | |
+| | ✓ | ✓ | **84.75** | **84.77** | **84.88** | **84.75** | **84.77** | ✓ |
+| **DDI** | | | 78.03 | 74.97 | 66.88 | 69.24 | 67.41 | |
+| | ✓ | | 79.55 | 75.36 | 71.47 | 72.73 | 71.20 | |
+| | | ✓ | 78.79 | 76.38 | 66.29 | 68.69 | 67.64 | |
+| | ✓ | ✓ | **81.82** | **76.56** | **76.17** | **76.33** | **76.12** | ✓ |
+| **Chest X-Ray** | | | 68.59 | 69.63 | 61.11 | 61.02 | 62.05 | |
+| | ✓ | | 72.28 | 77.63 | 64.15 | 63.72 | 64.15 | |
+| | | ✓ | 70.03 | 73.83 | 61.84 | 61.25 | 62.39 | |
+| | ✓ | ✓ | **78.37** | **80.38** | **73.12** | **74.42** | **73.12** | ✓ |
+| **Fitzpatrick17k** | | | 78.33 | 79.50 | 78.32 | 78.91 | 79.06 | |
+| | ✓ | | 79.80 | 80.60 | 79.81 | 80.20 | 80.31 | |
+| | | ✓ | 80.79 | 81.28 | 80.82 | 81.28 | 81.07 | |
+| | ✓ | ✓ | **82.76** | **82.84** | **83.23** | **83.03** | **82.99** | ✓ |
 
 ---
 

@@ -261,7 +261,7 @@ The Twelfth International Conference on Learning Representations <strong>ICLR202
   
 <strong><a href="https://arxiv.org/abs/2410.21494">Towards Multi-dimensional Explanation Alignment for Medical Classification</a></strong>
 
-Lijie Hu†, <strong>Songning Lai†</strong>, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang
+Lijie Hu†, <strong>Songning Lai†</strong>, Wenshuo Chen† (equal contribution), Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang
 
 The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</strong> <span class="venue-badge ccf-a">CCF A</span> <span class="venue-badge tier-top">Top Tier</span> <span class="venue-badge core-a-star">Core A*</span>.
 
