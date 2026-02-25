@@ -126,7 +126,6 @@ International Conference on Learning Representations <strong>ICLR2026</strong> <
 
 <p class="paper-description">In this paper, we propose ACE, a knowledge editing framework based on neuron attribution control. By locating and correcting the key neuron pathways in the Transformer internal inference chain, ACE solves the problem of intermediate implicit subject failure when multi-hop knowledge updating in large language models, and reveals the cognitive mechanism of query neuron driving semantic accumulation.</p>
 
-<a href="https://xll0328.github.io/ace/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
 <strong><a href="https://xll0328.github.io/ace/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/ICLR26-ACE">Code</a></strong>
 
 </div>
@@ -160,7 +159,6 @@ The Conference on <strong>ACM MM 2025 BNI Track</strong> <span class="venue-badg
 <p class="paper-description">This paper defines the continuous learning problem of CBM for the first time, and proposes a framework CONCIL to continuously learn concept and label simultaneously. Theoretical and experimental results verify the efficiency and absolute memory property of the framework.</p>
 
 <p>
-<a href="https://xll0328.github.io/concil/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
 <strong><a href="https://xll0328.github.io/concil/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/CONCIL---ACM-MM-2025-BNI-Track-">Code</a></strong>
 </p>
 
@@ -179,7 +177,6 @@ The Conference on <strong>ACM MM 2025</strong> <span class="venue-badge ccf-a">C
 
 <p class="paper-description">We propose Faithful TimeSieve (FTS), an enhanced framework that systematically detects and mitigates unfaithfulness in TimeSieve (sensitivity to random seeds, input/layer/parameter perturbations), improving prediction reliability and robustness for multimedia web forecasting. FTS achieves SOTA on multiple benchmarks while significantly improving stability and consistency.</p>
 
-<a href="https://xll0328.github.io/fts/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
 <strong><a href="https://xll0328.github.io/fts/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/MM25-FTS">Code</a></strong>
 
 </div>
@@ -198,7 +195,6 @@ The Conference on <strong>ICRA 2025</strong> <span class="venue-badge ccf-b">CCF
 
 <p class="paper-description">We introduce DRIVE, a framework designed to enhance the dependability and stability of explanations in end-to-end unsupervised autonomous driving models, addressing instability issues and improving trustworthiness through consistent and stable interpretability and output, as demonstrated by empirical evaluations. This framework provides novel metrics for assessing the reliability of concept-based explainable autonomous driving systems, advancing their real-world deployment.</p>
 
-<a href="https://xll0328.github.io/drive/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
 <strong><a href="https://xll0328.github.io/drive/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/ICRA25-DRIVE">Code</a></strong>
 
 </div>
@@ -216,7 +212,6 @@ The Conference on <strong>ECML-PKDD 2025</strong> <span class="venue-badge ccf-b
 
 <p class="paper-description">The paper introduces Vision Concept Transformer (VCT) and its stable variant SVCT, which integrate vision transformers with concept features and denoised diffusion smoothing to preserve medical imaging accuracy while providing robust, interpretable explanations resilient to perturbations.</p>
 
-<a href="https://xll0328.github.io/svct/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
 <strong><a href="https://xll0328.github.io/svct/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/-ECML-2025-SVCT">Code</a></strong>
 
 </div>
@@ -253,7 +248,6 @@ The Twelfth International Conference on Learning Representations <strong>ICLR202
 
 <p class="paper-description">We introduce the Faithful Vision-Language Concept (FVLC) model, addressing the instability of label-free Concept Bottleneck Models (CBMs). Our FVLC model demonstrates superior stability against input and concept set perturbations across four benchmark datasets, with minimal accuracy degradation compared to standard CBMs, offering a reliable solution for model interpretation.</p>
 
-<a href="https://xll0328.github.io/fvlc/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
 <strong><a href="https://xll0328.github.io/fvlc/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/FVLC">Code</a></strong>
 
 </div>
@@ -270,7 +264,6 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <p class="paper-description">We proposed an end-to-end framework called Med-MICN, which leverages the strength of different XAI methods such as concept-based models, neural symbolic methods, saliency maps, and concept semantics. Our outputs are interpreted in multiple dimensions, including concept prediction, saliency maps, and concept reasoning rules, making it easier for experts to identify and correct errors. Med-MICN demonstrates superior performance and interpretability compared with other concept-based models and the black-box model baselines.</p>
 
-<a href="https://xll0328.github.io/medmicn/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
 <strong><a href="https://xll0328.github.io/medmicn/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/NeurIPS24-Med_MICN">Code</a></strong>
 
 </div>
