@@ -96,11 +96,11 @@ Comparison of single-dimensional and multi-dimensional interpretability methods.
 
 ### Ablation study
 
-Ablation on $\mathcal{L}_c$ and $\mathcal{L}_{\mathrm{neural}}$ (ResNet50): using both yields the best Acc./AUC across COVID-CT, DDI, Chest X-Ray, and Fitzpatrick17k. For example on DDI, $\mathcal{L}_c$ only gives +3.79% AUC; $\mathcal{L}_{\mathrm{neural}}$ only does not notably improve; both together give +8.71% AUC.
+Ablation (ResNet50): using both the concept loss and the neural loss yields the best Acc./AUC across COVID-CT, DDI, Chest X-Ray, and Fitzpatrick17k. For example on DDI, using only the concept loss gives +3.79% AUC; using only the neural loss does not notably improve; both together give +8.71% AUC.
 
 **Ablation table (Acc.% / Precision% / Recall% / F1% / AUC%).** Checkmarks indicate the loss term is used.
 
-| Dataset | $\mathcal{L}_c$ | $\mathcal{L}_{\mathrm{neural}}$ | ACC | Precision | Recall | F1 | AUC | Interpretability |
+| Dataset | Concept loss | Neural loss | ACC | Precision | Recall | F1 | AUC | Interpretability |
 |---------|-----------------|----------------------------------|-----|-----------|--------|-----|-----|-------------------|
 | **COVID-CT** | | | 82.20 | 82.92 | 82.21 | 82.55 | 82.64 | |
 | | ✓ | | 83.05 | 83.62 | 83.16 | 83.01 | 83.16 | |
