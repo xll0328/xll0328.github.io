@@ -265,7 +265,11 @@ Lijie Hu†, <strong>Songning Lai†</strong>, Wenshuo Chen†, Hongru Xiao, Hon
 
 The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</strong> <span class="venue-badge ccf-a">CCF A</span> <span class="venue-badge tier-top">Top Tier</span> <span class="venue-badge core-a-star">Core A*</span>.
 
-<p class="paper-description">We proposed an end-to-end framework called Med-MICN, which leverages the strength of different XAI methods such as concept-based models, neural symbolic methods, saliency maps, and concept semantics. Our outputs are interpreted in multiple dimensions, including concept prediction, saliency maps, and concept reasoning rules, making it easier for experts to identify and correct errors. Med-MICN demonstrates superior performance and interpretability compared with other concept-based models and the black-box model baselines.</p>  
+<p class="paper-description">We proposed an end-to-end framework called Med-MICN, which leverages the strength of different XAI methods such as concept-based models, neural symbolic methods, saliency maps, and concept semantics. Our outputs are interpreted in multiple dimensions, including concept prediction, saliency maps, and concept reasoning rules, making it easier for experts to identify and correct errors. Med-MICN demonstrates superior performance and interpretability compared with other concept-based models and the black-box model baselines.</p>
+
+<a href="https://xll0328.github.io/medmicn/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
+<strong><a href="https://xll0328.github.io/medmicn/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/NeurIPS24-Med_MICN">Code</a></strong>
+
 </div>
 </div>
 
