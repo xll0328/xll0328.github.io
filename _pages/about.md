@@ -250,6 +250,9 @@ The Twelfth International Conference on Learning Representations <strong>ICLR202
 
 <p class="paper-description">We introduce the Faithful Vision-Language Concept (FVLC) model, addressing the instability of label-free Concept Bottleneck Models (CBMs). Our FVLC model demonstrates superior stability against input and concept set perturbations across four benchmark datasets, with minimal accuracy degradation compared to standard CBMs, offering a reliable solution for model interpretation.</p>
 
+<a href="https://xll0328.github.io/fvlc/" class="project-web-btn" style="display:inline-block; margin:6px 8px 6px 0; padding:6px 14px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none; font-weight:600;">Project Web</a>
+<strong><a href="https://xll0328.github.io/fvlc/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/FVLC">Code</a></strong>
+
 </div>
 </div>
 
