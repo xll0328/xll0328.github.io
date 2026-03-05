@@ -210,18 +210,23 @@
     }
     
     @include breakpoint($medium) {
+        flex-wrap: nowrap;
+
         .paper-box-image {
             justify-content: left;
             min-width: 200px;
             max-width: 40%;
+            width: auto;
+            flex-shrink: 0;
             order: 1;
             margin-right: 1.5em;
         }
         
         .paper-box-text {
             justify-content: left;
-            padding-left: 4em;
-            max-width: 60%;
+            padding-left: 0;
+            flex: 1;
+            min-width: 0;
             order: 2;
         }
 
