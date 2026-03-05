@@ -71,6 +71,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <div class="news-scroll-container">
 
 <ul>
+<li><em>03.2026</em>  🏆 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" won the <strong><a href="https://time.griffith.edu.au/workshop/time2026/pages/media.html">Best Paper Runner-Up Award</a></strong> at <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong>!</li>
 <li><em>01.2026</em>  🎉 Our paper "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall" has been accepted at <strong>ICLR 2026</strong>. (CCF None)!</li>
 <li><em>01.2026</em>  🎉 Our paper "TOWARDS RELIABLE TIME SERIESFORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS" has been accepted at <strong>ICASSP 2026</strong>. (CCF B)!</li>
 
@@ -355,6 +356,14 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="honor-content">
 <strong>ICRA 2025 Travel Awards</strong>
 <span class="honor-badge">Conference Award</span>
+</div>
+</div>
+
+<div class="honor-card highlight">
+<span class="honor-icon">⭐</span>
+<div class="honor-content">
+<strong><a href="https://time.griffith.edu.au/workshop/time2026/pages/media.html">ACM TheWebConf 2026 (WWW2026) Workshop TIME Best Paper Runner-Up Award</a></strong>
+<span class="honor-badge best-paper">Best Paper Runner-Up</span>
 </div>
 </div>
 
