@@ -5,11 +5,11 @@ excerpt: "TMLR 2026 — Official project page"
 author_profile: true
 ---
 
-**This paper is accepted at TMLR 2026** (Transactions on Machine Learning Research).  
+**This paper is under review at TMLR** (Transactions on Machine Learning Research, Decision pending).  
 [**Paper (OpenReview)**](https://openreview.net/forum?id=bntZBG9fBY) · **Code (coming soon)**
 
 **Title:** Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models  
-**Authors:** Songning Lai, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Yutao Yue
+**Authors:** Songning Lai, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue
 
 ---
 
@@ -70,7 +70,7 @@ Crucially, we validate our approach through a rigorous **two-stage evaluation fr
 ```bibtex
 @article{lai2026cat,
   title={Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models},
-  author={Lai, Songning and Yang, Jiayu and Huang, Yu and Hu, Lijie and Xue, Tianlang and Hu, Zhangyi and Li, Jiaxu and Liao, Haicheng and Yue, Yutao},
+  author={Lai, Songning and Yang, Jiayu and Huang, Yu and Hu, Lijie and Xue, Tianlang and Hu, Zhangyi and Li, Jiaxu and Liao, Haicheng and Liu, Zongyang and Yue, Yutao},
   journal={Transactions on Machine Learning Research},
   year={2026}
 }
