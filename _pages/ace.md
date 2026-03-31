@@ -5,7 +5,7 @@ excerpt: "ICLR 2026 — Official project page and code"
 author_profile: true
 ---
 
-**This paper was accepted at ICLR 2026** (International Conference on Learning Representations). CCF None, Top Tier, Core A\* · [**Code (GitHub)**](https://github.com/xll0328/ICLR26-ACE)
+**This paper was accepted at ICLR 2026** (International Conference on Learning Representations). CCF A, Top Tier, Core A\* · [**Code (GitHub)**](https://github.com/xll0328/ICLR26-ACE)
 
 **Authors:** Jiayu Yang†, Yuxuan Fan†, Songning Lai†, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue
 
