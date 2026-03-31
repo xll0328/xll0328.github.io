@@ -9,6 +9,9 @@ main:
   - title: "Publications"
     url: "/#publications"
 
+  - title: "CAT (TMLR 2026)"
+    url: "/cat/"
+
   - title: "Complete Publications"
     url: "/#complete-publications"
 
