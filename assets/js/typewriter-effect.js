@@ -1,6 +1,9 @@
 // 打字机效果
 (function() {
     'use strict';
+
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) return;
     
     // 为带有 data-typewriter 属性的元素添加打字机效果
     function initTypewriter() {

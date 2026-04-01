@@ -1,6 +1,9 @@
 // 3D卡片倾斜效果
 (function() {
     'use strict';
+
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) return;
     
     // 为卡片添加3D倾斜效果
     const cards = document.querySelectorAll('.paper-box, .honor-card, .internship-card, .friend-card, .timeline-item');

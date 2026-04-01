@@ -5,7 +5,20 @@ excerpt: "ACM MM 2025 — Official project page and code"
 author_profile: true
 ---
 
-**ACM MM 2025 (BNI Track, Oral)** · [arXiv](https://arxiv.org/pdf/2411.17471) · [**Code (GitHub)**](https://github.com/xll0328/CONCIL---ACM-MM-2025-BNI-Track-)
+<div class="project-hero">
+<p class="project-kicker">ACM MM 2025 · BNI Track · Oral</p>
+<h1>CONCIL: Continual Learning for Multimodal Concept Bottleneck Models</h1>
+<p class="project-subtitle">Official project page</p>
+<div class="project-hero-actions">
+<a class="project-btn primary" href="https://arxiv.org/pdf/2411.17471">Paper</a>
+<a class="project-btn secondary" href="https://github.com/xll0328/CONCIL---ACM-MM-2025-BNI-Track-">Code</a>
+</div>
+</div>
+
+<div class="project-tldr">
+<p class="project-tldr-label">TL;DR</p>
+<p>CONCIL formulates concept/class incremental updates in CBMs as recursive analytic solutions, reducing forgetting while remaining efficient for continual multimodal learning.</p>
+</div>
 
 ---
 

@@ -5,7 +5,21 @@ excerpt: "ICRA 2025 — Official project page and code"
 author_profile: true
 ---
 
-**This paper was accepted at ICRA 2025** (IEEE International Conference on Robotics and Automation 2025). CCF B, Core A\* · [**Paper (arXiv)**](https://arxiv.org/abs/2409.10330) · [**Code (GitHub)**](https://github.com/xll0328/ICRA25-DRIVE) · [**Dataset (Comma2k19)**](https://github.com/commaai/comma2k19)
+<div class="project-hero">
+<p class="project-kicker">ICRA 2025 · CCF B · Core A*</p>
+<h1>DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving</h1>
+<p class="project-subtitle">Official project page</p>
+<div class="project-hero-actions">
+<a class="project-btn primary" href="https://arxiv.org/abs/2409.10330">Paper</a>
+<a class="project-btn secondary" href="https://github.com/xll0328/ICRA25-DRIVE">Code</a>
+<a class="project-btn secondary" href="https://github.com/commaai/comma2k19">Dataset</a>
+</div>
+</div>
+
+<div class="project-tldr">
+<p class="project-tldr-label">TL;DR</p>
+<p>DRIVE improves reliability of concept-based autonomous driving by enforcing consistent and stable interpretability/output, with dedicated metrics and robust empirical validation.</p>
+</div>
 
 **Authors:** Songning Lai~, Tianlang Xue~, Hongru Xiao, Lijie Hu, Jiemin Wu, Ninghui Feng, Runwei Guan, Haicheng Liao, Zhenning Li, Yutao Yue†  
 **Affiliation:** HKUST(GZ), Tongji University, KAUST, University of Macau

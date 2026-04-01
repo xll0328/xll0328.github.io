@@ -5,7 +5,20 @@ excerpt: "ICLR 2026 — Official project page and code"
 author_profile: true
 ---
 
-**This paper was accepted at ICLR 2026** (International Conference on Learning Representations). CCF A, Top Tier, Core A\* · [**Code (GitHub)**](https://github.com/xll0328/ICLR26-ACE)
+<div class="project-hero">
+<p class="project-kicker">ICLR 2026 · CCF A · Core A*</p>
+<h1>ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall</h1>
+<p class="project-subtitle">Official project page</p>
+<div class="project-hero-actions">
+<a class="project-btn primary" href="https://arxiv.org/pdf/2510.07896?">Paper</a>
+<a class="project-btn secondary" href="https://github.com/xll0328/ICLR26-ACE">Code</a>
+</div>
+</div>
+
+<div class="project-tldr">
+<p class="project-tldr-label">TL;DR</p>
+<p>ACE uses neuron-level attribution to locate and edit key query–value pathways for multi-hop factual recall, substantially improving editing effectiveness on GPT-J and Qwen3-8B.</p>
+</div>
 
 **Authors:** Jiayu Yang†, Yuxuan Fan†, Songning Lai†, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue
 

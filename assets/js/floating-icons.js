@@ -1,6 +1,9 @@
 // 全屏漂浮图标动画
 (function() {
     'use strict';
+
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) return;
     
     // 根据网页内容提取的图标列表
     const icons = [

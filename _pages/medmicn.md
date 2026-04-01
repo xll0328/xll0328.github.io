@@ -5,7 +5,20 @@ excerpt: "NeurIPS 2024 — Official project page and code"
 author_profile: true
 ---
 
-**This paper was accepted at NeurIPS 2024** (Conference on Neural Information Processing Systems). [**Paper (arXiv)**](https://arxiv.org/abs/2410.21494) · [**Code (GitHub)**](https://github.com/xll0328/NeurIPS24-Med_MICN)
+<div class="project-hero">
+<p class="project-kicker">NeurIPS 2024 · CCF A</p>
+<h1>Med-MICN: Towards Multi-dimensional Explanation Alignment for Medical Classification</h1>
+<p class="project-subtitle">Official project page</p>
+<div class="project-hero-actions">
+<a class="project-btn primary" href="https://arxiv.org/abs/2410.21494">Paper</a>
+<a class="project-btn secondary" href="https://github.com/xll0328/NeurIPS24-Med_MICN">Code</a>
+</div>
+</div>
+
+<div class="project-tldr">
+<p class="project-tldr-label">TL;DR</p>
+<p>Med-MICN aligns concept semantics, neural-symbolic reasoning, and saliency explanations in one medical framework, delivering strong performance with multi-dimensional interpretability.</p>
+</div>
 
 **Authors:** Lijie Hu†, Songning Lai†, Wenshuo Chen† (equal contribution), Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, Di Wang
 

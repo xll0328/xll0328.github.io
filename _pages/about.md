@@ -51,13 +51,25 @@ redirect_from:
     </div>
 </div>
 
-Hi, I'm <strong>Songning Lai</strong> (you can call me Sony).
+<div class="about-hero-card">
+  <div class="about-hero-main">
+    <p class="about-hero-greeting">Hi, I'm</p>
+    <h1 class="about-hero-name">Songning Lai <span>(Sony)</span></h1>
+    <p class="about-hero-role">Quant Researcher at <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a> · Trustworthy AI / CBM / Robustness</p>
+  </div>
+  <div class="about-hero-chips">
+    <span class="about-chip">Trustworthy AI</span>
+    <span class="about-chip">Concept Bottleneck Models</span>
+    <span class="about-chip">Explainability</span>
+    <span class="about-chip">Robustness</span>
+    <span class="about-chip">Safety</span>
+    <span class="about-chip">Faithfulness</span>
+  </div>
+</div>
 
-I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a> in China, supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>. I was also an RA at HKUST@AI Thrust & INFO Hub, supervised by Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>. I am currently a Quant Researcher at <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a>.
+My primary research interest lies in the domain of <strong>Trustworthy AI</strong> <span class="icon-emoji">🤖</span>, encompassing <strong>explainability</strong> <span class="icon-emoji">🔍</span>, <strong>robustness</strong> <span class="icon-emoji">🛡️</span>, <strong>faithfulness</strong> <span class="icon-emoji">✅</span>, and <strong>safety</strong> <span class="icon-emoji">🔒</span> of AI. Specifically, I have focused extensively on <strong>Concept Bottleneck Models (CBMs)</strong> within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings <a href="https://openreview.net/forum?id=rp0EdI8X4e">(ICLR 2024)</a>, application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs <a href="https://arxiv.org/pdf/2411.17471">(ACM MM 2025)</a>, as well as the first exploration of CBMs in the context of security, particularly backdoor attacks <a href="https://openreview.net/forum?id=bntZBG9fBY">(TMLR 2026)</a>. Furthermore, my research has extended to applying CBMs in medical fields <a href="https://arxiv.org/abs/2410.21494">(NeurIPS 2024;</a> <a href="https://arxiv.org/pdf/2506.05286">ECML 2025</a>) and autonomous driving applications <a href="https://arxiv.org/pdf/2409.10330">(ICRA 2025)</a>.
 
-My primary research interest lies in the domain of <strong>Trustworthy AI</strong> <span class="icon-emoji">🤖</span>, encompassing <strong>explainability</strong> <span class="icon-emoji">🔍</span>, <strong>robustness</strong> <span class="icon-emoji">🛡️</span>, <strong>faithfulness</strong> <span class="icon-emoji">✅</span>, and <strong>safety</strong> <span class="icon-emoji">🔒</span> of AI. Specifically, I have focused extensively on <strong>Concept Bottleneck Models (CBMs)</strong> within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings <a href="https://openreview.net/forum?id=rp0EdI8X4e">(ICLR 2024)</a>, application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs <a href="https://arxiv.org/pdf/2411.17471">(ACM MM 2025)</a>, as well as the first exploration of CBMs in the context of security, particularly backdoor attacks <a href="https://openreview.net/forum?id=bntZBG9fBY">(TMLR 2026)</a>. Furthermore, my research has extended to applying CBMs in medical fields <a href="https://arxiv.org/abs/2410.21494">(NIPS 2024;</a> <a href="https://arxiv.org/pdf/2506.05286?">ECML 2025</a>) and autonomous driving applications <a href="https://arxiv.org/pdf/2409.10330">(ICRA 2025)</a>.
-
-Beyond my work with CBMs, I have also explored issues related to robustness and faithfulness in time series (<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=gRXN-rMAAAAJ&sortby=pubdate&citation_for_view=gRXN-rMAAAAJ:blknAaTinKkC">ICML 2025</a>; <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=gRXN-rMAAAAJ&citation_for_view=gRXN-rMAAAAJ:KlAtU1dfN6UC">ACM MM 2025</a>,<a href="https://arxiv.org/pdf/2503.19656">ICASSP 2026</a>), continual learning <a href="https://arxiv.org/pdf/2412.10834">(ACM MM 2025)</a> and explainability for LLMs (<a href="https://arxiv.org/pdf/2510.07896?">ICLR 2026</a>). Prior to these endeavors, my research efforts were directed towards computer vision (<a href="https://www.sciencedirect.com/science/article/pii/S0262885623002081">Image and Vision Computing</a>; <a href="https://arxiv.org/pdf/2409.03192">ICASSP 2025</a>), multimodal sentiment analysis (<a href="https://arxiv.org/pdf/2305.08473">IJCNN 2024</a>; <a href="https://www.sciencedirect.com/science/article/abs/pii/S0141938223001968">Displays</a>), and community detection (<a href="https://arxiv.org/pdf/2309.11798">Neurocomputing</a>).
+Beyond my work with CBMs, I have also explored issues related to robustness and faithfulness in time series (<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=gRXN-rMAAAAJ&sortby=pubdate&citation_for_view=gRXN-rMAAAAJ:blknAaTinKkC">ICML 2025</a>; <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=gRXN-rMAAAAJ&citation_for_view=gRXN-rMAAAAJ:KlAtU1dfN6UC">ACM MM 2025</a>, <a href="https://arxiv.org/pdf/2503.19656">ICASSP 2026</a>), continual learning <a href="https://arxiv.org/pdf/2412.10834">(ACM MM 2025)</a> and explainability for LLMs (<a href="https://arxiv.org/pdf/2510.07896">ICLR 2026</a>). Prior to these endeavors, my research efforts were directed towards computer vision (<a href="https://www.sciencedirect.com/science/article/pii/S0262885623002081">Image and Vision Computing</a>; <a href="https://arxiv.org/pdf/2409.03192">ICASSP 2025</a>), multimodal sentiment analysis (<a href="https://arxiv.org/pdf/2305.08473">IJCNN 2024</a>; <a href="https://www.sciencedirect.com/science/article/abs/pii/S0141938223001968">Displays</a>), and community detection (<a href="https://arxiv.org/pdf/2309.11798">Neurocomputing</a>).
 
 
 
@@ -70,8 +82,12 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 
 <div class="news-scroll-container">
 
-<ul>
-<li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been updated on OpenReview (Decision pending at <strong>TMLR</strong>). <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong></li>
+<div class="news-toolbar">
+  <button id="news-toggle-btn" class="news-toggle-btn" type="button" aria-expanded="false">Show full news archive</button>
+</div>
+
+<ul id="news-list" class="news-list is-collapsed">
+<li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been <strong>accepted at TMLR 2026</strong>. <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong></li>
 <li><em>03.2026</em>  🏆 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" won the <strong><a href="https://time.griffith.edu.au/workshop/time2026/pages/media.html">Best Paper Runner-Up Award</a></strong> at <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong>!</li>
 <li><em>01.2026</em>  🎉 Our paper "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall" has been accepted at <strong>ICLR 2026</strong>. (CCF A)!</li>
 <li><em>01.2026</em>  🎉 Our paper "TOWARDS RELIABLE TIME SERIES FORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS" has been accepted at <strong>ICASSP 2026</strong>. (CCF B)!</li>
@@ -81,7 +97,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <li><em>12.2025</em>  🎉 Our paper "Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding" has been accepted at IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY <strong>TCSVT</strong>. (IF: 11.1, JCR Q1, CCF B)!</li>
 <li><em>10.2025</em>: 🎉 Our paper "Mimicking the Physicist's Eye : A VLM-centric Approach for Physics Formula Discovery" has been accepted at <strong>NeurIPS 2025 Workshop on Efficient Reasoning</strong> with <strong>spotlight</strong>!</li>
 <li><em>10.2025</em>: 🎉 Our paper "Orientation-Aware Detection System for Real-Time Monitoring of Cracks in Steel Structures" has been accepted at <strong>Expert Systems With Applications</strong> (JCR Q1, IF: 7.5)!</li>
-<li><em>09.2025</em>：🎉 Our paper "Boosting Expertise and Efficiency in LLM:A Knowledge-Enhanced Framework for Construction Support" has been accepted at <strong>Alexandria Engineering Journal</strong> (JCR Q1, IF: 6.8)!</li>
+<li><em>09.2025</em>：🎉 Our paper "Boosting Expertise and Efficiency in LLM: A Knowledge-Enhanced Framework for Construction Support" has been accepted at <strong>Alexandria Engineering Journal</strong> (JCR Q1, IF: 6.8)!</li>
 <li><em>08.2025</em>: 🎉 Our 3 papers have been accepted at <strong>ACM MM 2025 BNI Track</strong> (CCF A, oral, BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will appear in the main proceedings)! ("Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models"; "Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction"; "Can Audio Language Models Listen Between the Lines? A Study on Metaphorical Reasoning via Unspoken")</li>
 <li><em>07.2025</em>: 🎉 Our 4 papers have been accepted at <strong>ACM MM 2025</strong> (CCF A, oral)!("From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve"; "ANT: Adaptive Neural Temporal-Aware Text-to-Motion Model"; "Text2Weight: Bridging Natural Language and Neural Network Weight Spaces"; "CFSSeg: Closed-Form Solution for Class-Incremental Semantic Segmentation of 2D Images and 3D Point Clouds")</li>
 <li><em>07.2025</em>: 🎉 Our paper "VQualA 2025 Challenge on Face Image Quality Assessment: Methods and Results" has been accepted at <strong>ICCV 2025 workshop VQualA</strong>!</li>
@@ -102,8 +118,8 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <li><em>01.2024:</em> 🎉 Our paper "Faithful Vision-Language Interpretation via Concept Bottleneck Models" has been accepted at The 12th International Conference on Learning Representations <strong>(ICLR 2024)</strong>!.</li>
 <li><em>10.2023:</em> 🎉 Our paper "Multimodal sentiment analysis: A survey" has been accepted by the journal <a href="https://www.sciencedirect.com/journal/displays"><strong>Displays</strong></a> (JCR Q1).</li>
 <li><em>10.2023:</em> 🎉 Our paper "Cross-domain car detection model with integrated convolutional block attention mechanism" has been accepted by the journal <a href="https://www.sciencedirect.com/journal/image-and-vision-computing"><strong>Image and Vision Computing</strong></a> (JCR Q1; CCF C).</li>
-<li><em>11.2022:</em> 🎉Get the <strong>First Prize</strong> in Contemporary Undergraduate Mathematical Contest in Modeling National (top 0.6%).</li>
-<li><em>11.2022:</em> 🎉I am very glad to give an <strong>oral</strong> report at the international conference <a href="http://www.cisp-bmei.cn/">CISP-BMEI</a> 2022 and win the <strong>Best Paper Award</strong>.</li>
+<li><em>11.2022:</em> 🎉 Get the <strong>First Prize</strong> in Contemporary Undergraduate Mathematical Contest in Modeling National (top 0.6%).</li>
+<li><em>11.2022:</em> 🎉 I am very glad to give an <strong>oral</strong> report at the international conference <a href="http://www.cisp-bmei.cn/">CISP-BMEI</a> 2022 and win the <strong>Best Paper Award</strong>.</li>
 <li><em>10.2022:</em> 🎉 Our paper "Predicting lysine phosphoglycerylation sites using bidirectional encoder representations with transformers & protein feature extraction and selection" has been accepted by CISP-BMEI 2022 (Tsinghua B)</li>
 </ul>
 
@@ -136,11 +152,11 @@ Transactions on Machine Learning Research <strong>TMLR 2026</strong>.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/ACE.png' alt="ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
-<strong><a href="https://arxiv.org/pdf/2510.07896?">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall</a></strong>
+<strong><a href="https://arxiv.org/pdf/2510.07896">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall</a></strong>
 
 Jiayu Yang†, Yuxuan Fan†, <strong>Songning Lai†</strong>, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue.
 
-International Conference on Learning Representations <strong>ICLR2026</strong> <span class="venue-badge ccf-a">CCF A</span> <span class="venue-badge tier-top">Top Tier</span> <span class="venue-badge core-a-star">Core A*</span>.
+International Conference on Learning Representations <strong>ICLR 2026</strong> <span class="venue-badge ccf-a">CCF A</span> <span class="venue-badge tier-top">Top Tier</span> <span class="venue-badge core-a-star">Core A*</span>.
 
 <p class="paper-description">In this paper, we propose ACE, a knowledge editing framework based on neuron attribution control. By locating and correcting the key neuron pathways in the Transformer internal inference chain, ACE solves the problem of intermediate implicit subject failure when multi-hop knowledge updating in large language models, and reveals the cognitive mechanism of query neuron driving semantic accumulation.</p>
 
@@ -153,7 +169,7 @@ International Conference on Learning Representations <strong>ICLR2026</strong> <
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2026</div><img src='images/ICASSP26.png' alt="Towards Reliable Time Series Forecasting under Future Uncertainty" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
-<strong>[Towards Reliable Time Series Forecasting under Future Uncertainty: Ambiguity and Novelty Rejection Mechanisms]()</strong>
+<strong><a href="https://arxiv.org/pdf/2503.19656">Towards Reliable Time Series Forecasting under Future Uncertainty: Ambiguity and Novelty Rejection Mechanisms</a></strong>
 
 Ninghui Feng†, <strong>Songning Lai†</strong>, Xin Zhou, Jiayu Yang, Kunlong Feng, Zhenxiao Yin, Fobao Zhou, Zhangyi Hu, Yutao Yue, Yuxuan Liang, Boyu Wang, Hang Zhao
 
@@ -168,7 +184,7 @@ The Conference on <strong>ICASSP 2026</strong> <span class="venue-badge ccf-b">C
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/CONCIL.png' alt="Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
-<strong><a href="https://arxiv.org/pdf/2411.17471?">Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models</a></strong>
+<strong><a href="https://arxiv.org/pdf/2411.17471">Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models</a></strong>
 
 <strong>Songning Lai</strong>, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue~
 
@@ -222,7 +238,7 @@ The Conference on <strong>ICRA 2025</strong> <span class="venue-badge ccf-b">CCF
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECML-PKDD 2025</div><img src='images/SVCT.png' alt="Stable Vision Concept Transformers for Medical Diagnosis" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
-<strong><a href="https://arxiv.org/pdf/2506.05286?">Stable Vision Concept Transformers for Medical Diagnosis</a></strong>
+<strong><a href="https://arxiv.org/pdf/2506.05286">Stable Vision Concept Transformers for Medical Diagnosis</a></strong>
 
 Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua, Shu Yang, Jingfeng Zhang, Di Wang
 
@@ -303,7 +319,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h2>2026</h2>
 <ul class="publication-list">
-<li data-tags="tmlr">Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models, <strong>Songning Lai</strong>, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue, <strong>TMLR 2026</strong> (Decision pending).</li>
+<li data-tags="tmlr">Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models, <strong>Songning Lai</strong>, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue, <strong>TMLR 2026</strong> (Accepted).</li>
 <li data-tags="iclr">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall, Jiayu Yang†, Yuxuan Fan†, <strong>Songning Lai†</strong>, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue, <strong>ICLR 2026</strong> (CCF A).</li>
 <li data-tags="ccf-b core-a">TOWARDS RELIABLE TIME SERIES FORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS, Ninghui Feng†, <strong>Songning Lai†</strong>, Xin Zou, ...,Hang Zhao, <strong>ICASSP 2026</strong> (CCF B).</li>
 <li data-tags="jcr-q1">TPTD: A Trusted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing, Yajiang Huang, ..., <strong>Songning Lai</strong>, ..., Houbing Herbert Song, <strong>Knowledge-Based Systems(KBS)</strong> (JCR Q1, IF: 7.2).</li>
@@ -327,8 +343,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <li data-tags="ccf-a core-a-star">Text2Weight: Bridging Natural Language and Neural Network Weight Spaces, Bowen Tian, Wenshuo Chen, Zexi Li, <strong>Songning Lai</strong>, Jiemin Wu, Yutao Yue, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-a core-a-star">CFSSeg: Closed-Form Solution for Class-Incremental Semantic Segmentation of 2D Images and 3D Point Clouds, Jiaxu Li, Rui Li, Jianyu Qi, <strong>Songning Lai</strong>, Linpu Lv, Kejia Fan, Jianheng Tang, Yutao Yue, Dongzhan Zhou, Yunhuai Liu, Huiping Zhuang, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-a core-a-star">Beyond Patterns: Harnessing Causal Logic for Autonomous Driving Trajectory Prediction, Bonan Wang, Haicheng Liao, Chengyue Wang, Bin Rao, Yanchen Guan, Guyang Yu, Jiaxun Zhang, <strong>Songning Lai</strong>, Chengzhong Xu, Zhenning Li, <strong>IJCAI 2025</strong> (CCF A, Core A*).</li>
-<li data-tags="jcr-q1 ccf-c">Boosting Expertise and Efficiency in LLM:A Knowledge-Enhanced Framework for Construction Support, Bin Yang, Hongru Xiao, Zixuan Zenga, <strong>Songning Lai</strong>, Jiale Han, Yanke Tana and Yiqing Ni, <strong>Expert Systems With Applications</strong> (JCR Q1, IF:8.4, CCF C).</li>
-<li data-tags="jcr-q1">Boosting Expertise and Efficiency in LLM:A Knowledge-Enhanced Framework for Construction Support, Hongru Xiao, ..., <strong>Songning Lai</strong>, <strong>Alexandria Engineering Journal</strong> (JCR Q1, IF: 6.8)!</li>
+<li data-tags="jcr-q1 ccf-c">Boosting Expertise and Efficiency in LLM: A Knowledge-Enhanced Framework for Construction Support, Bin Yang, Hongru Xiao, Zixuan Zenga, <strong>Songning Lai</strong>, Jiale Han, Yanke Tana and Yiqing Ni, <strong>Expert Systems With Applications</strong> (JCR Q1, IF:8.4, CCF C).</li>
+<li data-tags="jcr-q1">Boosting Expertise and Efficiency in LLM: A Knowledge-Enhanced Framework for Construction Support, Hongru Xiao, ..., <strong>Songning Lai</strong>, <strong>Alexandria Engineering Journal</strong> (JCR Q1, IF: 6.8)!</li>
 <li data-tags="jcr-q1 ccf-b">Generative Knowledge-Guided Review System for Construction Disclosure Documents, Hongru Xiao, Jiankun Zhuanga, Bin Yanga, Jiale Hanb, Yantao Yu and <strong>Songning Lai</strong>, <strong>Advanced engineering informatics</strong> (JCR Q1, IF: 9.9, CCF B).</li>
 <li data-tags="jcr-q1">Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method, Hongru Xiao, Bin Yang, Yujie Lu, Wenshuo Chen, <strong>Songning Lai</strong>, Biaoli Gao, <strong>Automation in Construction</strong> (JCR Q1, IF:9.6).</li>
 <li data-tags="jcr-q1 ccf-c">Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment, Guinan Guo, <strong>Songning Lai</strong>, Qingyang Wu, Yuntao Shou, Wenxu Shi, <strong>Expert Systems With Applications</strong> (JCR Q1, IF:8.4, CCF C).</li>

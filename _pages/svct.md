@@ -5,7 +5,20 @@ excerpt: "ECML-PKDD 2025 — Official project page and code"
 author_profile: true
 ---
 
-**ECML-PKDD 2025 (CCF B)** · [arXiv](https://arxiv.org/pdf/2506.05286) · [**Code (GitHub)**](https://github.com/xll0328/-ECML-2025-SVCT)
+<div class="project-hero">
+<p class="project-kicker">ECML-PKDD 2025 · CCF B</p>
+<h1>SVCT: Stable Vision Concept Transformers for Medical Diagnosis</h1>
+<p class="project-subtitle">Official project page</p>
+<div class="project-hero-actions">
+<a class="project-btn primary" href="https://arxiv.org/pdf/2506.05286">Paper</a>
+<a class="project-btn secondary" href="https://github.com/xll0328/-ECML-2025-SVCT">Code</a>
+</div>
+</div>
+
+<div class="project-tldr">
+<p class="project-tldr-label">TL;DR</p>
+<p>SVCT combines concept-enhanced ViT with denoised diffusion smoothing to retain diagnostic accuracy and produce stable concept-level explanations under perturbations.</p>
+</div>
 
 ---
 

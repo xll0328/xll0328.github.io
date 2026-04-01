@@ -5,8 +5,20 @@ excerpt: "TMLR 2026 — Official project page"
 author_profile: true
 ---
 
-**This paper is under review at TMLR** (Transactions on Machine Learning Research, Decision pending).  
-[**Paper (OpenReview)**](https://openreview.net/forum?id=bntZBG9fBY) · **Code (coming soon)**
+<div class="project-hero">
+<p class="project-kicker">TMLR 2026 · Accepted</p>
+<h1>Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models</h1>
+<p class="project-subtitle">Official project page</p>
+<div class="project-hero-actions">
+<a class="project-btn primary" href="https://openreview.net/forum?id=bntZBG9fBY">Paper</a>
+<a class="project-btn secondary" href="/">Code (Coming Soon)</a>
+</div>
+</div>
+
+<div class="project-tldr">
+<p class="project-tldr-label">TL;DR</p>
+<p>We reveal and optimize concept-level backdoor attacks on CBMs (CAT/CAT+), achieving high attack success while preserving clean performance, and validate practical end-to-end feasibility via Image2Trigger_c.</p>
+</div>
 
 **Title:** Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models  
 **Authors:** Songning Lai, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue

@@ -5,7 +5,20 @@ excerpt: "ACM MM 2025 — Official project page and code"
 author_profile: true
 ---
 
-**This paper was accepted at ACM MM 2025** (33rd ACM International Conference on Multimedia, October 27–31, 2025, Dublin, Ireland). CCF A, Core A\* · [**Code (GitHub)**](https://github.com/xll0328/MM25-FTS)
+<div class="project-hero">
+<p class="project-kicker">ACM MM 2025 · CCF A · Core A*</p>
+<h1>FTS: From Guesswork to Guarantee — Faithful Multimedia Web Forecasting with TimeSieve</h1>
+<p class="project-subtitle">Official project page</p>
+<div class="project-hero-actions">
+<a class="project-btn primary" href="https://dl.acm.org/doi/10.1145/3746027.3754963">Paper</a>
+<a class="project-btn secondary" href="https://github.com/xll0328/MM25-FTS">Code</a>
+</div>
+</div>
+
+<div class="project-tldr">
+<p class="project-tldr-label">TL;DR</p>
+<p>FTS strengthens TimeSieve with faithfulness-aware optimization (Sib/Cps/Snp), improving forecasting robustness to seed/input/layer perturbations while maintaining SOTA accuracy.</p>
+</div>
 
 **Authors:** Songning Lai, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Lijie Hu, Hang Zhao, Xuming Hu, Yutao Yue
 

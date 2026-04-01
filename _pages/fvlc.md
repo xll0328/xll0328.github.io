@@ -5,7 +5,20 @@ excerpt: "ICLR 2024 — Official project page and code"
 author_profile: true
 ---
 
-**This paper was accepted at ICLR 2024** (The Twelfth International Conference on Learning Representations). [**Paper (OpenReview)**](https://openreview.net/pdf?id=rp0EdI8X4e) · [**Code (GitHub)**](https://github.com/xll0328/FVLC)
+<div class="project-hero">
+<p class="project-kicker">ICLR 2024 · CCF A</p>
+<h1>FVLC: Faithful Vision-Language Interpretation via Concept Bottleneck Models</h1>
+<p class="project-subtitle">Official project page</p>
+<div class="project-hero-actions">
+<a class="project-btn primary" href="https://openreview.net/pdf?id=rp0EdI8X4e">Paper</a>
+<a class="project-btn secondary" href="https://github.com/xll0328/FVLC">Code</a>
+</div>
+</div>
+
+<div class="project-tldr">
+<p class="project-tldr-label">TL;DR</p>
+<p>FVLC formalizes and optimizes faithful label-free CBMs, significantly improving concept/prediction stability under perturbations with minimal utility drop.</p>
+</div>
 
 **Authors:** Songning Lai, Lijie Hu, Junxiao Wang, Laure Berti-Equille, Di Wang
 
