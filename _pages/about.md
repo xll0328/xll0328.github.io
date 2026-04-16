@@ -89,7 +89,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
-<li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been <strong>accepted at TMLR 2026</strong>. <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong></li>
+<li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been <strong>accepted at TMLR 2026</strong>. <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong> <strong><a href="https://github.com/xll0328/CAT_CBM-Backdoor">[Code]</a></strong></li>
 <li><em>03.2026</em>  🏆 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" won the <strong><a href="https://time.griffith.edu.au/workshop/time2026/pages/media.html">Best Paper Runner-Up Award</a></strong> at <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong>!</li>
 <li><em>01.2026</em>  🎉 Our paper "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall" has been accepted at <strong>ICLR 2026</strong>. (CCF A)!</li>
 <li><em>01.2026</em>  🎉 Our paper "TOWARDS RELIABLE TIME SERIES FORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS" has been accepted at <strong>ICASSP 2026</strong>. (CCF B)!</li>
@@ -146,7 +146,7 @@ Transactions on Machine Learning Research <strong>TMLR 2026</strong>.
 
 <p class="paper-description">We present CAT and CAT+, the first concept-level backdoor attacks on Concept Bottleneck Models, revealing that multimodal interpretability pipelines can still be maliciously manipulated while preserving clean performance. We further validate end-to-end feasibility with Image2Trigger_c and show that conventional defenses such as Neural Cleanse struggle to detect these semantic attacks.</p>
 
-<strong><a href="https://xll0328.github.io/cat/">Project Page</a></strong> · <strong><a href="https://openreview.net/forum?id=bntZBG9fBY">Paper</a></strong>
+<strong><a href="https://xll0328.github.io/cat/">Project Page</a></strong> · <strong><a href="https://github.com/xll0328/CAT_CBM-Backdoor">Code</a></strong>
 
 </div>
 </div>

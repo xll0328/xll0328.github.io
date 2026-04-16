@@ -11,7 +11,7 @@ author_profile: true
 <p class="project-subtitle">Official project page</p>
 <div class="project-hero-actions">
 <a class="project-btn primary" href="https://openreview.net/forum?id=bntZBG9fBY">Paper</a>
-<a class="project-btn secondary" href="/">Code (Coming Soon)</a>
+<a class="project-btn secondary" href="https://github.com/xll0328/CAT_CBM-Backdoor">Code</a>
 </div>
 </div>
 
@@ -21,7 +21,8 @@ author_profile: true
 </div>
 
 **Title:** Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models  
-**Authors:** Songning Lai, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue
+**Authors:** Songning Lai, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue  
+**Links:** [Paper](https://openreview.net/forum?id=bntZBG9fBY) · [Code](https://github.com/xll0328/CAT_CBM-Backdoor)
 
 ---
 
@@ -62,6 +63,21 @@ With Image2Trigger_c, concept-level trigger manipulation can be translated into 
 <img src="{{ '/images/cat/nc_defense_demo.png' | relative_url }}" alt="Neural Cleanse defense analysis" style="max-width: 90%; height: auto;" />
 
 Conventional defenses such as Neural Cleanse show limited capability in detecting these semantic backdoor patterns.
+
+---
+
+## Open-source code
+
+The official implementation is available at:
+
+- **GitHub**: [xll0328/CAT_CBM-Backdoor](https://github.com/xll0328/CAT_CBM-Backdoor)
+
+The repository includes:
+
+- clean CBM training scripts,
+- CAT / CAT+ attack implementations,
+- random-trigger attack baselines,
+- data preprocessing for CUB and AwA2.
 
 ---
 
