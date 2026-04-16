@@ -12,6 +12,7 @@ author_profile: true
 <div class="project-hero-actions">
 <a class="project-btn primary" href="https://openreview.net/forum?id=bntZBG9fBY">Paper</a>
 <a class="project-btn secondary" href="https://github.com/xll0328/CAT_CBM-Backdoor">Code</a>
+<a class="project-btn secondary" href="https://xll0328.github.io/cat/">Project Page</a>
 </div>
 </div>
 
@@ -70,6 +71,8 @@ Conventional defenses such as Neural Cleanse show limited capability in detectin
 
 The official implementation is available at:
 
+- **Project page**: [xll0328.github.io/cat](https://xll0328.github.io/cat/)
+- **Paper**: [OpenReview](https://openreview.net/forum?id=bntZBG9fBY)
 - **GitHub**: [xll0328/CAT_CBM-Backdoor](https://github.com/xll0328/CAT_CBM-Backdoor)
 
 The repository includes:
