@@ -9,14 +9,9 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="{% if page.permalink and page.permalink != '/' %}project-page{% endif %} page{{ page.permalink | replace: '/', '-' }}">
+  <body class="academic-refresh {% if page.permalink and page.permalink != '/' %}project-page{% else %}home-page{% endif %} page{{ page.permalink | replace: '/', '-' }}">
 
     {% include browser-upgrade.html %}
-
-    {% if page.permalink == '/' %}
-    <!-- 首页漂浮动画容器 -->
-    <div id="floating-icons-container" class="floating-icons-container"></div>
-    {% endif %}
 
     {% include masthead.html %}
 

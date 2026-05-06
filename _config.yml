@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Songning Lai（赖颂宁）"
-description              : "Brain disability brings its own benefits."
+description              : "Quant Researcher | Trustworthy AI, Concept Bottleneck Models, Reliable ML"
 repository               : "xll0328/xll0328.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,8 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Songning Lai"
-  avatar           : "images/lee_zii_jia/lzj.jpg"
-  bio              : "JoinQuant"
+  avatar           : "images/zhaopian.png"
+  bio              : "Quant Researcher<br>JoinQuant"
   location         : "Beijing, China"
   employer         : "JoinQuant"
   pubmed           : 
@@ -44,8 +44,8 @@ author:
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  dblp             : "https://dblp.org/pid/347/3526.html"
+  orcid            : "https://orcid.org/0009-0007-3132-9414"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

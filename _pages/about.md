@@ -17,40 +17,6 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<!-- 李梓嘉图片装饰元素 - 从页面开始显示，内容结束后截断 -->
-<div class="lee-decorative-gallery">
-    <div class="decorative-item" style="display: block; opacity: 1;">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20240916120048_605_8.jpg' | relative_url }}" alt="Lee Zii Jia" loading="eager" style="display: block; opacity: 1;" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165205_438_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165206_439_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165207_440_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165208_441_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165208_442_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165209_443_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165210_444_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165211_445_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-    <div class="decorative-item">
-        <img src="{{ '/images/lee_zii_jia/微信图片_20260129165212_446_54.jpg' | relative_url }}" alt="Lee Zii Jia" loading="lazy" width="400" height="300">
-    </div>
-</div>
-
 <div class="about-hero-card">
   <div class="about-hero-main">
     <p class="about-hero-greeting">Hi, I'm</p>
@@ -75,12 +41,31 @@ Beyond my work with CBMs, I have also explored issues related to robustness and 
 
 
 
-If you are interested in any aspect of me, I would love to chat and collaborate <span class="icon-emoji">💬</span>, please email me at - <em>lais0328eee@gmail.com</em> <span class="icon-emoji">📧</span>.
+If you are interested in any aspect of me, I would love to chat and collaborate. Please email me at <em>lais0328eee@gmail.com</em>.
+
+<span class='anchor' id='research'></span>
+
+# Research
+
+<div class="research-focus-grid">
+  <div class="research-focus-card">
+    <h3>Trustworthy AI</h3>
+    <p>Explainability, robustness, faithfulness, and safety for learning systems whose decisions need to be inspected and trusted.</p>
+  </div>
+  <div class="research-focus-card">
+    <h3>Concept Bottleneck Models</h3>
+    <p>Reliable concept-level interfaces for vision, language, multimodal, medical, autonomous-driving, and security settings.</p>
+  </div>
+  <div class="research-focus-card">
+    <h3>Reliable Time Series</h3>
+    <p>Forecasting systems that expose uncertainty, reject unreliable predictions, and remain useful under distribution shift.</p>
+  </div>
+</div>
 
 <div class="section-divider"></div>
 
 <span class='anchor' id='news'></span>
-# <span data-typewriter>🔥 News</span>
+# News
 
 <div class="news-scroll-container">
 
@@ -130,7 +115,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate 
 <div class="section-divider"></div>
 
 <span class='anchor' id='publications'></span>
-# <span data-typewriter>📝 Publications (Selected)</span>
+# Publications (Selected)
 
 <div class="publications-scroll-container">
 
@@ -652,4 +637,3 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
     async>
   </script>
 </div>
-
