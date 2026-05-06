@@ -21,7 +21,10 @@ redirect_from:
   <div class="about-hero-main">
     <p class="about-hero-greeting">Hi, I'm</p>
     <h1 class="about-hero-name">Songning Lai <span>(Sony)</span></h1>
-    <p class="about-hero-role">Quant Researcher at <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a> · Trustworthy AI / CBM / Robustness</p>
+    <p class="about-hero-role">
+      <span class="about-hero-role-line">Quant Researcher at <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a></span>
+      <span class="about-hero-role-line">Trustworthy AI / CBM / Robustness</span>
+    </p>
   </div>
   <div class="about-hero-chips">
     <span class="about-chip">Trustworthy AI</span>
