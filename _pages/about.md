@@ -19,19 +19,12 @@ redirect_from:
 
 <div class="about-hero-card">
   <div class="about-hero-main">
-    <p class="about-hero-greeting">Research Profile</p>
+    <p class="about-hero-greeting">Hi, I'm</p>
     <h1 class="about-hero-name">Songning Lai <span>(Sony)</span></h1>
     <p class="about-hero-role">
       <span class="about-hero-role-line">Quant Researcher at <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a></span>
-      <span class="about-hero-role-line">Trustworthy AI / Concept Bottleneck Models / Reliable Forecasting</span>
+      <span class="about-hero-role-line">Trustworthy AI / CBM / Robustness</span>
     </p>
-    <p class="about-hero-summary">I work on reliable and interpretable learning systems, with a focus on concept bottleneck models, trustworthy multimodal AI, and robust time-series forecasting.</p>
-    <div class="about-hero-actions">
-      <a class="about-action primary" href="mailto:lais0328eee@gmail.com">Email</a>
-      <a class="about-action" href="https://scholar.google.com/citations?user=gRXN-rMAAAAJ">Scholar</a>
-      <a class="about-action" href="https://github.com/xll0328">GitHub</a>
-      <a class="about-action" href="{{ '/cat/' | relative_url }}">Featured Project</a>
-    </div>
   </div>
   <div class="about-hero-chips">
     <span class="about-chip">Trustworthy AI</span>
@@ -40,11 +33,6 @@ redirect_from:
     <span class="about-chip">Robustness</span>
     <span class="about-chip">Safety</span>
     <span class="about-chip">Faithfulness</span>
-  </div>
-  <div class="about-hero-meta">
-    <span>Current role: JoinQuant</span>
-    <span>Representative venues: ICLR, NeurIPS, ICML, ACM MM, TMLR, ECML-PKDD</span>
-    <span>Open to collaboration in reliable ML, interpretability, and multimodal AI</span>
   </div>
 </div>
 
@@ -83,7 +71,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 <div class="news-scroll-container">
 
 <div class="news-toolbar">
-  <button id="news-toggle-btn" class="news-toggle-btn" type="button" aria-expanded="false">Expand news archive</button>
+  <button id="news-toggle-btn" class="news-toggle-btn" type="button" aria-expanded="false">Show full news archive</button>
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">

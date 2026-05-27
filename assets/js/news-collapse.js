@@ -22,7 +22,7 @@
             });
             list.classList.toggle('is-collapsed', collapsed);
             button.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
-            button.textContent = collapsed ? 'Expand news archive' : 'Show recent highlights';
+            button.textContent = collapsed ? 'Show full news archive' : 'Show recent highlights only';
         }
 
         applyCollapsed(true);
