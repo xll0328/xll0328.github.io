@@ -19,12 +19,19 @@ redirect_from:
 
 <div class="about-hero-card">
   <div class="about-hero-main">
-    <p class="about-hero-greeting">Hi, I'm</p>
+    <p class="about-hero-greeting">Research Profile</p>
     <h1 class="about-hero-name">Songning Lai <span>(Sony)</span></h1>
     <p class="about-hero-role">
       <span class="about-hero-role-line">Quant Researcher at <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a></span>
-      <span class="about-hero-role-line">Trustworthy AI / CBM / Robustness</span>
+      <span class="about-hero-role-line">Trustworthy AI / Concept Bottleneck Models / Reliable Forecasting</span>
     </p>
+    <p class="about-hero-summary">I work on reliable and interpretable learning systems, with a focus on concept bottleneck models, trustworthy multimodal AI, and robust time-series forecasting.</p>
+    <div class="about-hero-actions">
+      <a class="about-action primary" href="mailto:lais0328eee@gmail.com">Email</a>
+      <a class="about-action" href="https://scholar.google.com/citations?user=gRXN-rMAAAAJ">Scholar</a>
+      <a class="about-action" href="https://github.com/xll0328">GitHub</a>
+      <a class="about-action" href="{{ '/cat/' | relative_url }}">Featured Project</a>
+    </div>
   </div>
   <div class="about-hero-chips">
     <span class="about-chip">Trustworthy AI</span>
@@ -34,15 +41,18 @@ redirect_from:
     <span class="about-chip">Safety</span>
     <span class="about-chip">Faithfulness</span>
   </div>
+  <div class="about-hero-meta">
+    <span>Current role: JoinQuant</span>
+    <span>Representative venues: ICLR, NeurIPS, ICML, ACM MM, TMLR, ECML-PKDD</span>
+    <span>Open to collaboration in reliable ML, interpretability, and multimodal AI</span>
+  </div>
 </div>
 
-I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a> in China, supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>. I was also an RA at HKUST@AI Thrust & INFO Hub, supervised by Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>.
+I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a>, where I was supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>. I later worked as a research assistant at HKUST(GZ) AI Thrust & INFO Hub under Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>.
 
-My primary research interest lies in the domain of <strong>Trustworthy AI</strong> <span class="icon-emoji">🤖</span>, encompassing <strong>explainability</strong> <span class="icon-emoji">🔍</span>, <strong>robustness</strong> <span class="icon-emoji">🛡️</span>, <strong>faithfulness</strong> <span class="icon-emoji">✅</span>, and <strong>safety</strong> <span class="icon-emoji">🔒</span> of AI. Specifically, I have focused extensively on <strong>Concept Bottleneck Models (CBMs)</strong> within the realm of explainability. My past research includes an investigation into the robustness and generalization of CBMs in unsupervised settings <a href="https://openreview.net/forum?id=rp0EdI8X4e">(ICLR 2024)</a>, application of CBMs in multimodal contexts for unsupervised tasks (Under Review), pioneering work on continual learning with CBMs <a href="https://arxiv.org/pdf/2411.17471">(ACM MM 2025)</a>, as well as the first exploration of CBMs in the context of security, particularly backdoor attacks <a href="https://openreview.net/forum?id=bntZBG9fBY">(TMLR 2026)</a>. Furthermore, my research has extended to applying CBMs in medical fields <a href="https://arxiv.org/abs/2410.21494">(NeurIPS 2024;</a> <a href="https://arxiv.org/pdf/2506.05286">ECML 2025</a>) and autonomous driving applications <a href="https://arxiv.org/pdf/2409.10330">(ICRA 2025)</a>.
+My research centers on <strong>trustworthy AI</strong>, especially <strong>concept bottleneck models (CBMs)</strong>, with recent work on multimodal interpretability, concept-level security, continual learning, medical AI, autonomous driving, reliable time-series forecasting, and LLM interpretability. Representative papers appeared at <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>, <a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>, <a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>, <a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>, <a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a>, and <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>.
 
-Beyond my work with CBMs, I have also explored issues related to robustness and faithfulness in time series (<a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=gRXN-rMAAAAJ&sortby=pubdate&citation_for_view=gRXN-rMAAAAJ:blknAaTinKkC">ICML 2025</a>; <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-TW&user=gRXN-rMAAAAJ&citation_for_view=gRXN-rMAAAAJ:KlAtU1dfN6UC">ACM MM 2025</a>, <a href="https://arxiv.org/pdf/2503.19656">ICASSP 2026</a>), continual learning <a href="https://arxiv.org/pdf/2412.10834">(ACM MM 2025)</a> and explainability for LLMs (<a href="https://arxiv.org/pdf/2510.07896">ICLR 2026</a>). Prior to these endeavors, my research efforts were directed towards computer vision (<a href="https://www.sciencedirect.com/science/article/pii/S0262885623002081">Image and Vision Computing</a>; <a href="https://arxiv.org/pdf/2409.03192">ICASSP 2025</a>), multimodal sentiment analysis (<a href="https://arxiv.org/pdf/2305.08473">IJCNN 2024</a>; <a href="https://www.sciencedirect.com/science/article/abs/pii/S0141938223001968">Displays</a>), and community detection (<a href="https://arxiv.org/pdf/2309.11798">Neurocomputing</a>).
-
-
+Beyond CBMs, I have also worked on robustness and faithfulness in time series forecasting, continual learning, computer vision, multimodal sentiment analysis, and graph learning. The common thread is to build learning systems that remain reliable, inspectable, and useful when deployed in open-world settings.
 
 If you are interested in any aspect of me, I would love to chat and collaborate. Please email me at <em>lais0328eee@gmail.com</em>.
 
@@ -73,7 +83,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 <div class="news-scroll-container">
 
 <div class="news-toolbar">
-  <button id="news-toggle-btn" class="news-toggle-btn" type="button" aria-expanded="false">Show full news archive</button>
+  <button id="news-toggle-btn" class="news-toggle-btn" type="button" aria-expanded="false">Expand news archive</button>
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
@@ -299,7 +309,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='complete-publications'></span>
-# 📚 Complete Publications
+# Publication List
 
 <div class="publication-stats" id="publication-stats">
 <strong>Publication Statistics:</strong> <span id="stats-content">正在加载...</span>
@@ -319,22 +329,20 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h2>2025</h2>
 <ul class="publication-list">
-<li data-tags="ccf-a core-a-star">Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models, <strong>Songning Lai</strong>, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*) <BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will appear in the main proceedings>.</li>
+<li data-tags="ccf-a core-a-star">Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models, <strong>Songning Lai</strong>, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*; BNI papers are considered outstanding ACM MM full papers and appear in the main proceedings).</li>
 
 <li data-tags="ccf-a core-a-star">From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve, <strong>Songning Lai</strong>, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Hang Zhao, Xuming Hu, Yutao Yue, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-b core-a-star">DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving, <strong>Songning Lai</strong>, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Hang Zhao, Xuming Hu, Yutao Yue, <strong>ICRA 2025</strong> (CCF B, Core A*).</li>
 <li data-tags="ccf-b core-a">Stable Vision Concept Transformers for Medical Diagnosis, Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua†, Jingfeng Zhang, Pan Zhou, Di Wang, <strong>ECML-PKDD 2025</strong> (CCF B, Core A).</li>
 <li data-tags="ccf-b core-b">PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning, Bowen Tian†, <strong>Songning Lai†</strong>, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue, <strong>ICASSP 2025</strong> (CCF B, Core B).</li>
 <li data-tags="ccf-a core-a-star">IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction, Zhangyi Hu, Jiemin Wu, Hua Xu, Minqian Liao, Ninghui Feng, Bo Gao, <strong>Songning Lai</strong>, Yutao Yue, <strong>ICML 2025</strong> (CCF A, Core A*).</li>
-<li data-tags="ccf-a core-a-star">Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction, Jia Haozhe, Wenshuo Chen, Huang Zhihui, Lei Wang, Hongru Xiao, Jia Nanqian, Keming Wu, <strong>Songning Lai</strong>, Bowen Tian, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*) <BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will appear in the main proceedings>.</li>
-<li data-tags="ccf-a core-a-star">Can Audio Language Models Listen Between the Lines? A Study on Metaphorical Reasoning via Unspoken, Hongru Xiao, Xiang Li, Duyi Pan, Longfei Zhang, ZhixueSong, Jiale Han, <strong>Songning Lai</strong>, Wenshuo Chen, Jing Tang, Benyou Wang, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*) <BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will appear in the main proceedings>.</li>
-<li data-tags="ccf-a core-a-star">IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction, Zhangyi Hu, Jiemin Wu, Hua Xu, Minqian Liao, Ninghui Feng, Bo Gao, <strong>Songning Lai</strong>, Yutao Yue, <strong>ICML 2025</strong> (CCF A, Core A*).</li>
+<li data-tags="ccf-a core-a-star">Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction, Jia Haozhe, Wenshuo Chen, Huang Zhihui, Lei Wang, Hongru Xiao, Jia Nanqian, Keming Wu, <strong>Songning Lai</strong>, Bowen Tian, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*; BNI papers are considered outstanding ACM MM full papers and appear in the main proceedings).</li>
+<li data-tags="ccf-a core-a-star">Can Audio Language Models Listen Between the Lines? A Study on Metaphorical Reasoning via Unspoken, Hongru Xiao, Xiang Li, Duyi Pan, Longfei Zhang, ZhixueSong, Jiale Han, <strong>Songning Lai</strong>, Wenshuo Chen, Jing Tang, Benyou Wang, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*; BNI papers are considered outstanding ACM MM full papers and appear in the main proceedings).</li>
 <li data-tags="ccf-a core-a-star">ANT: Adaptive Neural Temporal-Aware Text-to-Motion Model, Wenshuo Chen, Kuimou Yu, Jia Haozhe, Kaishen Yuan, Zexu Huang, Bowen Tian, <strong>Songning Lai</strong>, Hongru Xiao, Erhang Zhang, Lei Wang, Yutao Yue, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-a core-a-star">Text2Weight: Bridging Natural Language and Neural Network Weight Spaces, Bowen Tian, Wenshuo Chen, Zexi Li, <strong>Songning Lai</strong>, Jiemin Wu, Yutao Yue, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-a core-a-star">CFSSeg: Closed-Form Solution for Class-Incremental Semantic Segmentation of 2D Images and 3D Point Clouds, Jiaxu Li, Rui Li, Jianyu Qi, <strong>Songning Lai</strong>, Linpu Lv, Kejia Fan, Jianheng Tang, Yutao Yue, Dongzhan Zhou, Yunhuai Liu, Huiping Zhuang, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-a core-a-star">Beyond Patterns: Harnessing Causal Logic for Autonomous Driving Trajectory Prediction, Bonan Wang, Haicheng Liao, Chengyue Wang, Bin Rao, Yanchen Guan, Guyang Yu, Jiaxun Zhang, <strong>Songning Lai</strong>, Chengzhong Xu, Zhenning Li, <strong>IJCAI 2025</strong> (CCF A, Core A*).</li>
-<li data-tags="jcr-q1 ccf-c">Boosting Expertise and Efficiency in LLM: A Knowledge-Enhanced Framework for Construction Support, Bin Yang, Hongru Xiao, Zixuan Zenga, <strong>Songning Lai</strong>, Jiale Han, Yanke Tana and Yiqing Ni, <strong>Expert Systems With Applications</strong> (JCR Q1, IF:8.4, CCF C).</li>
-<li data-tags="jcr-q1">Boosting Expertise and Efficiency in LLM: A Knowledge-Enhanced Framework for Construction Support, Hongru Xiao, ..., <strong>Songning Lai</strong>, <strong>Alexandria Engineering Journal</strong> (JCR Q1, IF: 6.8)!</li>
+<li data-tags="jcr-q1">Boosting Expertise and Efficiency in LLM: A Knowledge-Enhanced Framework for Construction Support, Bin Yang, Hongru Xiao, Zixuan Zeng, <strong>Songning Lai</strong>, Jiale Han, Yanke Tan and Yiqing Ni, <strong>Alexandria Engineering Journal</strong> (JCR Q1, IF: 6.8).</li>
 <li data-tags="jcr-q1 ccf-b">Generative Knowledge-Guided Review System for Construction Disclosure Documents, Hongru Xiao, Jiankun Zhuanga, Bin Yanga, Jiale Hanb, Yantao Yu and <strong>Songning Lai</strong>, <strong>Advanced engineering informatics</strong> (JCR Q1, IF: 9.9, CCF B).</li>
 <li data-tags="jcr-q1">Automated Detection of Complex Construction Scenes Using a Lightweight Transformer-based Method, Hongru Xiao, Bin Yang, Yujie Lu, Wenshuo Chen, <strong>Songning Lai</strong>, Biaoli Gao, <strong>Automation in Construction</strong> (JCR Q1, IF:9.6).</li>
 <li data-tags="jcr-q1 ccf-c">Enhancing domain adaptation for plant diseases detection through Masked Image Consistency in Multi-Granularity Alignment, Guinan Guo, <strong>Songning Lai</strong>, Qingyang Wu, Yuntao Shou, Wenxu Shi, <strong>Expert Systems With Applications</strong> (JCR Q1, IF:8.4, CCF C).</li>
@@ -346,7 +354,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <ul class="publication-list">
 <li data-tags="iclr">Faithful Vision-Language Interpretation via Concept Bottleneck Models, <strong>Songning Lai</strong>, Lijie Hu, Junxiao Wang, Laure Berti and Di Wang, The Twelfth International Conference on Learning Representations <strong>ICLR 2024</strong>(CCF A).</li>
 <li data-tags="ccf-a">Towards Multi-dimensional Explanation Alignment for Medical Classification, Lijie Hu†, <strong>Songning Lai†</strong>, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang, The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</strong>(CCF A).</li>
-<li data-tags="ccf-c">Shared and private information learning in multimodal sentiment analysis with deep modal alignment and self-supervised multi-task learning, <strong>Songning La†</strong>, Jiakang Li, Guinan Guo, Xifeng Hu, Yulong Li, Yuan Tan, Zichen Song, Yutong Liu, Zhaoxia Ren~, Chun Wang~, Danmin Miao~ and Zhi Liu~, International Joint Conference on Neural Networks <strong>IJCNN 2024</strong>(CCF C).</li>
+<li data-tags="ccf-c">Shared and private information learning in multimodal sentiment analysis with deep modal alignment and self-supervised multi-task learning, <strong>Songning Lai†</strong>, Jiakang Li, Guinan Guo, Xifeng Hu, Yulong Li, Yuan Tan, Zichen Song, Yutong Liu, Zhaoxia Ren~, Chun Wang~, Danmin Miao~ and Zhi Liu~, International Joint Conference on Neural Networks <strong>IJCNN 2024</strong>(CCF C).</li>
 <li data-tags="jcr-q1 ccf-c">A Comprehensive Review of Community Detection in Graphs, Jiakang Li†, <strong>Songning Lai†</strong>, Zhihao Shuai, Yuan Tan, Yifan Jia, Mianyang Yu, Zichen Song, Xiaokang Peng, Ziyang Xu, Yongxin Ni, Haifeng Qiu, Jiayu Yang, Yutong Liu, Yonggang Lu~, <strong>Neurocomputing</strong> (JCR Q1 (IF: 6.0) CCF C).</li>
 <li data-tags="jcr-q1">Multimodal Sentiment Analysis: A Survey, <strong>Songning Lai</strong>, Haoxuan Xu, Xifeng Hu, Zhaoxia Ren~ and Zhi Liu~, <strong>Displays</strong> (JCR Q1 (IF: 4.3)).</li>
 <li data-tags="jcr-q1 ccf-c">Cross-domain car detection model with integrated convolutional block attention mechanism, Haoxuan Xu†, <strong>Songning Lai†</strong> and Yang Yang~, <strong>Image and Vision Computing</strong> (JCR Q1 (IF:4.7) CCF C).</li>
@@ -364,7 +372,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='honors-and-awards'></span>
-# 🎖 Honors and Awards
+# Honors and Awards
 
 <div class="honors-container">
 <div class="honor-card">
@@ -461,7 +469,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='educations'></span>
-# 📖 Educations and Experiences
+# Education and Research Experience
 
 <div class="timeline-container">
 <div class="timeline-item">
@@ -496,7 +504,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='internships'></span>
-# 💻 Internships
+# Service and Leadership
 
 <div class="internship-container">
 <div class="internship-card">
@@ -543,7 +551,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-# 🧑‍🤝‍🧑 <span data-i18n="sections.friends">Friends</span>
+# Collaborators
 
 <div class="friends-container">
 <div class="friend-card">
@@ -565,7 +573,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="friend-card">
 <div class="friend-avatar">👨‍💻</div>
 <div class="friend-info">
-<div class="friend-name"><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scholar.google.com.hk/citations%3Fuser%3DINre9KUAAAAJ%26hl%3Den&ved=2ahUKEwjax_-Wi62QAxXrslYBHf-_FkYQFnoECBYQAQ&usg=AOvVaw1jkqmPpNIt9Xn1q4vXBmPX">Jiemin Wu</a></div>
+<div class="friend-name"><a href="https://scholar.google.com.hk/citations?user=INre9KUAAAAJ&hl=en">Jiemin Wu</a></div>
 <div class="friend-desc">Research Collaborator</div>
 </div>
 </div>
@@ -581,7 +589,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="friend-card">
 <div class="friend-avatar">👨‍💻</div>
 <div class="friend-info">
-<div class="friend-name"><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://scholar.google.com/citations%3Fuser%3DpD_SnqMAAAAJ%26hl%3Dzh-CN&ved=2ahUKEwidqfWsj62QAxVsZvUHHf9qKQQQFnoECB8QAQ&usg=AOvVaw0FEvdkonT5WHbpJD9UimpQ">Xinmin Li</a></div>
+<div class="friend-name"><a href="https://scholar.google.com/citations?user=pD_SnqMAAAAJ&hl=zh-CN">Xinmin Li</a></div>
 <div class="friend-desc">Research Collaborator</div>
 </div>
 </div>
@@ -598,28 +606,17 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 ---
 
 <span class='anchor' id='guestbook'></span>
-## 💬 留言板 / Guestbook
-
-<div class="like-section">
-  <div class="like-counter">
-    <button id="like-btn" class="like-btn" aria-label="点赞">
-      <span class="like-icon">❤️</span>
-      <span class="like-text">点赞</span>
-      <span class="like-count" id="like-count">0</span>
-    </button>
-    <div class="like-message" id="like-message"></div>
-  </div>
-</div>
+## Guestbook
 
 <div class="guestbook-intro">
-  <p>欢迎留下你的想法、建议或祝福！你可以：</p>
+  <p>欢迎留下你的想法、建议或合作意向。You are welcome to leave a note in the guestbook.</p>
   <ul>
     <li>💬 分享你的想法和反馈</li>
     <li>🎉 留下祝福和鼓励</li>
     <li>🤝 提出合作或交流建议</li>
     <li>📝 分享你的学术见解</li>
   </ul>
-  <p><strong>注意</strong>：留言功能需要 GitHub 账号登录。如果你还没有启用 GitHub Discussions，请按照下面的说明进行配置。</p>
+  <p><strong>Note</strong>: the guestbook uses GitHub Discussions and therefore requires GitHub login.</p>
 </div>
 
 <div class="giscus-container">

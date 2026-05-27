@@ -9,6 +9,7 @@
         emailLinks.forEach(link => {
             // 检查是否在侧边栏中，如果是，使用不同的处理方式
             const isInSidebar = link.closest('.sidebar, .author__urls, .author__urls_sm');
+            const isInHeroActions = link.closest('.about-hero-actions');
             
             if (isInSidebar) {
                 // 侧边栏中的邮箱链接：在链接文本后添加复制图标
@@ -80,29 +81,55 @@
                 // 非侧边栏中的邮箱链接：使用原来的按钮方式
                 const copyBtn = document.createElement('button');
                 copyBtn.className = 'copy-email-btn';
-                copyBtn.innerHTML = '📋';
+                copyBtn.innerHTML = '⎘';
                 copyBtn.title = '复制邮箱地址';
-                copyBtn.style.cssText = `
-                    display: inline-block;
+                copyBtn.style.cssText = isInHeroActions ? `
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 2.85rem;
+                    min-width: 2.85rem;
+                    height: 2.85rem;
+                    margin-left: 0;
+                    padding: 0;
+                    background: rgba(255, 255, 255, 0.72);
+                    border: 1px solid rgba(29, 45, 68, 0.12);
+                    border-radius: 999px;
+                    color: #1d2d44;
+                    cursor: pointer;
+                    font-size: 1rem;
+                    line-height: 1;
+                    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+                    vertical-align: middle;
+                ` : `
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
                     margin-left: 8px;
                     padding: 4px 8px;
-                    background: rgba(30, 136, 229, 0.1);
-                    border: 1px solid rgba(30, 136, 229, 0.3);
-                    border-radius: 4px;
+                    background: rgba(255, 255, 255, 0.72);
+                    border: 1px solid rgba(29, 45, 68, 0.14);
+                    border-radius: 999px;
+                    color: #1d2d44;
                     cursor: pointer;
-                    font-size: 14px;
-                    transition: all 0.3s ease;
+                    font-size: 0.95rem;
+                    line-height: 1;
+                    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
                     vertical-align: middle;
                 `;
                 
                 copyBtn.addEventListener('mouseenter', () => {
-                    copyBtn.style.background = 'rgba(30, 136, 229, 0.2)';
-                    copyBtn.style.transform = 'scale(1.1)';
+                    copyBtn.style.background = 'rgba(255, 255, 255, 0.96)';
+                    copyBtn.style.borderColor = 'rgba(138, 106, 63, 0.28)';
+                    copyBtn.style.boxShadow = '0 14px 26px rgba(29, 45, 68, 0.08)';
+                    copyBtn.style.transform = 'translateY(-1px)';
                 });
                 
                 copyBtn.addEventListener('mouseleave', () => {
-                    copyBtn.style.background = 'rgba(30, 136, 229, 0.1)';
-                    copyBtn.style.transform = 'scale(1)';
+                    copyBtn.style.background = isInHeroActions ? 'rgba(255, 255, 255, 0.72)' : 'rgba(255, 255, 255, 0.72)';
+                    copyBtn.style.borderColor = 'rgba(29, 45, 68, 0.12)';
+                    copyBtn.style.boxShadow = 'none';
+                    copyBtn.style.transform = 'translateY(0)';
                 });
                 
                 copyBtn.addEventListener('click', async (e) => {
@@ -115,13 +142,15 @@
                         await navigator.clipboard.writeText(email);
                         const originalText = copyBtn.innerHTML;
                         copyBtn.innerHTML = '✓';
-                        copyBtn.style.background = 'rgba(67, 160, 71, 0.2)';
-                        copyBtn.style.borderColor = 'rgba(67, 160, 71, 0.5)';
+                        copyBtn.style.background = 'rgba(86, 111, 102, 0.14)';
+                        copyBtn.style.borderColor = 'rgba(86, 111, 102, 0.28)';
+                        copyBtn.style.color = '#365247';
                         
                         setTimeout(() => {
                             copyBtn.innerHTML = originalText;
-                            copyBtn.style.background = 'rgba(30, 136, 229, 0.1)';
-                            copyBtn.style.borderColor = 'rgba(30, 136, 229, 0.3)';
+                            copyBtn.style.background = 'rgba(255, 255, 255, 0.72)';
+                            copyBtn.style.borderColor = 'rgba(29, 45, 68, 0.12)';
+                            copyBtn.style.color = '#1d2d44';
                         }, 2000);
                     } catch (err) {
                         const textarea = document.createElement('textarea');
@@ -134,8 +163,10 @@
                         document.body.removeChild(textarea);
                         
                         copyBtn.innerHTML = '✓';
+                        copyBtn.style.color = '#365247';
                         setTimeout(() => {
-                            copyBtn.innerHTML = '📋';
+                            copyBtn.innerHTML = '⎘';
+                            copyBtn.style.color = '#1d2d44';
                         }, 2000);
                     }
                 });
