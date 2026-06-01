@@ -19,7 +19,6 @@ redirect_from:
 
 <div class="about-hero-card">
   <div class="about-hero-main">
-    <p class="about-hero-greeting">Hi, I'm</p>
     <h1 class="about-hero-name">Songning Lai <span>(Sony)</span></h1>
     <p class="about-hero-role">
       <span class="about-hero-role-line">Quant Researcher at <a href="https://www.joinquant.com"><strong>JoinQuant</strong></a></span>
@@ -75,7 +74,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
-<li><em>06.2026</em>  🎉 Our paper <a href="images/FixCBM_ICANN2026.pdf">"Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation"</a> has been accepted at <strong>ICANN 2026</strong>, where I serve as corresponding author!</li>
+<li><em>06.2026</em>  🎉 Our paper <a href="images/FixCBM_ICANN2026.pdf">"Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation"</a> has been accepted at <strong>ICANN 2026</strong> (CCF C), where I serve as corresponding author!</li>
 <li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been <strong>accepted at TMLR 2026</strong>. <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong> <strong><a href="https://github.com/xll0328/CAT_CBM-Backdoor">[Code]</a></strong></li>
 <li><em>03.2026</em>  🏆 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" won the <strong><a href="https://time.griffith.edu.au/workshop/time2026/pages/media.html">Best Paper Runner-Up Award</a></strong> at <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong>!</li>
 <li><em>01.2026</em>  🎉 Our paper "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall" has been accepted at <strong>ICLR 2026</strong>. (CCF A)!</li>
@@ -308,7 +307,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h2>2026</h2>
 <ul class="publication-list">
-<li data-tags="">Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation, Yayue Mai, <strong>Songning Lai~</strong>, International Conference on Artificial Neural Networks <strong>ICANN 2026</strong> (Accepted). <strong><a href="images/FixCBM_ICANN2026.pdf">Paper</a></strong></li>
+<li data-tags="ccf-c">Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation, Yayue Mai, <strong>Songning Lai~</strong>, International Conference on Artificial Neural Networks <strong>ICANN 2026</strong> (CCF C, Accepted). <strong><a href="images/FixCBM_ICANN2026.pdf">Paper</a></strong></li>
 <li data-tags="tmlr">Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models, <strong>Songning Lai</strong>, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue, <strong>TMLR 2026</strong> (Accepted).</li>
 <li data-tags="iclr">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall, Jiayu Yang†, Yuxuan Fan†, <strong>Songning Lai†</strong>, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue, <strong>ICLR 2026</strong> (CCF A).</li>
 <li data-tags="ccf-b core-a">TOWARDS RELIABLE TIME SERIES FORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS, Ninghui Feng†, <strong>Songning Lai†</strong>, Xin Zou, ...,Hang Zhao, <strong>ICASSP 2026</strong> (CCF B).</li>
