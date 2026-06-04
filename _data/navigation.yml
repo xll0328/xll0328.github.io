@@ -14,6 +14,3 @@ main:
 
   - title: "Guestbook"
     url: "/guestbook/"
-
-  - title: "CAT"
-    url: "/cat/"
