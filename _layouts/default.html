@@ -9,7 +9,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="academic-refresh {% if page.permalink and page.permalink != '/' %}project-page{% else %}home-page{% endif %} page{{ page.permalink | replace: '/', '-' }}">
+  <body class="academic-refresh {% if page.project_page %}project-page{% elsif page.permalink == '/' %}home-page{% else %}content-page{% endif %} page{{ page.permalink | replace: '/', '-' }}">
 
     {% include browser-upgrade.html %}
 

@@ -3235,6 +3235,58 @@ body.project-page .project-tldr p:last-child {
     line-height: 1.62;
 }
 
+body.project-page .project-poster-section {
+    margin: 1.35rem 0;
+    padding: 0;
+}
+
+body.project-page .project-poster-section h2 {
+    margin: 0 0 0.55rem;
+    font-size: 1.12rem;
+    line-height: 1.35;
+    color: #0f172a;
+}
+
+body.project-page .project-poster-section p,
+body.project-page .project-poster-section li {
+    color: #334155;
+    line-height: 1.68;
+}
+
+body.project-page .project-meta {
+    padding: 0.85rem 0;
+    border-top: 1px solid rgba(15, 23, 42, 0.1);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.1);
+}
+
+body.project-page .project-meta p {
+    margin: 0.25rem 0;
+}
+
+body.project-page .project-key-points {
+    margin-top: 0.3rem;
+}
+
+body.project-page .project-poster-image {
+    width: 100%;
+    max-height: 560px;
+    object-fit: contain;
+    border: 1px solid rgba(15, 23, 42, 0.1);
+    border-radius: 6px;
+    background: #fff;
+}
+
+body.project-page .project-figure-caption {
+    margin-top: 0.45rem;
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+body.project-page .project-links {
+    padding-top: 0.8rem;
+    border-top: 1px solid rgba(15, 23, 42, 0.1);
+}
+
 body.project-page .project-hero-figure {
     width: 100%;
     max-height: 390px;
@@ -3300,6 +3352,76 @@ body.project-page .project-hero-figure {
     color: #155e75;
     font-size: 0.78em;
     font-weight: 600;
+}
+
+.home-action-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin: 1.15rem 0 0.35rem;
+}
+
+.home-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.35rem;
+    padding: 0.52rem 0.9rem;
+    border-radius: 6px;
+    border: 1px solid rgba(15, 23, 42, 0.14);
+    background: #0f172a;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 0.86rem;
+    text-decoration: none !important;
+}
+
+.home-action.secondary {
+    background: #fff;
+    color: #0f172a !important;
+}
+
+.home-footnote {
+    margin-top: 1rem;
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+body.home-page .paper-description {
+    color: #475569;
+    line-height: 1.58;
+}
+
+body.home-page .news-scroll-container {
+    animation: none;
+    box-shadow: none;
+}
+
+body.home-page .section-divider {
+    animation: none;
+}
+
+body.content-page #main {
+    display: block;
+    max-width: 980px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+body.content-page .page,
+body.content-page .page__inner-wrap,
+body.content-page .page__content {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+}
+
+body.content-page .page__content h1 {
+    font-size: clamp(1.8rem, 3vw, 2.55rem);
+}
+
+body.content-page .page__content h2 {
+    margin-top: 1.6rem;
 }
 
 .news-toolbar {

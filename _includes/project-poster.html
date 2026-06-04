@@ -1,0 +1,55 @@
+{% assign project = page.project %}
+
+<div class="project-hero">
+  <div class="project-hero-copy">
+    <p class="project-kicker">{{ project.kicker }}</p>
+    <h1>{{ project.heading }}</h1>
+    <p class="project-subtitle">{{ project.subtitle | default: "Official project page" }}</p>
+    <div class="project-hero-actions">
+      {% if project.paper_url %}<a class="project-btn primary" href="{{ project.paper_url }}">Paper</a>{% endif %}
+      {% if project.code_url %}<a class="project-btn secondary" href="{{ project.code_url }}">Code</a>{% endif %}
+      {% if project.dataset_url %}<a class="project-btn secondary" href="{{ project.dataset_url }}">Dataset</a>{% endif %}
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ project.image | relative_url }}" alt="{{ project.image_alt | default: project.heading | escape }}">
+</div>
+
+<div class="project-tldr">
+  <p class="project-tldr-label">TL;DR</p>
+  <p>{{ project.tldr }}</p>
+</div>
+
+<section class="project-poster-section project-meta">
+  <p><strong>Authors:</strong> {{ project.authors }}</p>
+  <p><strong>Venue:</strong> {{ project.venue }}</p>
+</section>
+
+<section class="project-poster-section">
+  <h2>Abstract</h2>
+  {{ project.abstract | markdownify }}
+</section>
+
+<section class="project-poster-section">
+  <h2>Key Idea</h2>
+  <ul class="project-key-points">
+    {% for point in project.key_points %}
+      <li>{{ point }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="project-poster-section">
+  <h2>Poster Figure</h2>
+  <img class="project-poster-image" src="{{ project.figure | default: project.image | relative_url }}" alt="{{ project.figure_alt | default: project.heading | escape }}">
+  {% if project.figure_caption %}<p class="project-figure-caption">{{ project.figure_caption }}</p>{% endif %}
+</section>
+
+<section class="project-poster-section project-links">
+  <h2>Links</h2>
+  <p>
+    {% if project.paper_url %}<a href="{{ project.paper_url }}">Paper</a>{% endif %}
+    {% if project.code_url %} · <a href="{{ project.code_url }}">Code</a>{% endif %}
+    {% if project.dataset_url %} · <a href="{{ project.dataset_url }}">Dataset</a>{% endif %}
+    · <a href="{{ '/' | relative_url }}">Home</a>
+  </p>
+</section>

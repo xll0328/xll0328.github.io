@@ -9,11 +9,11 @@ main:
   - title: "Publications"
     url: "/#publications"
 
-  - title: "Honors"
-    url: "/#honors-and-awards"
+  - title: "CV"
+    url: "/cv/"
 
-  - title: "Experience"
-    url: "/#educations"
+  - title: "Guestbook"
+    url: "/guestbook/"
 
   - title: "CAT"
     url: "/cat/"

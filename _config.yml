@@ -8,6 +8,8 @@
 # Site Settings
 title                    : "Songning Lai（赖颂宁）"
 description              : "Quant Researcher | Trustworthy AI, Concept Bottleneck Models, Reliable ML"
+url                      : "https://xll0328.github.io"
+baseurl                  : ""
 repository               : "xll0328/xll0328.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Songning Lai"
-  avatar           : "images/zhaopian.png"
+  avatar           : "images/optimized/profile.jpg"
   bio              : "Quant Researcher<br>JoinQuant"
   location         : "Beijing, China"
   employer         : "JoinQuant"
