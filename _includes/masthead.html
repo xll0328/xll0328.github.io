@@ -8,6 +8,7 @@
       <nav id="academic-nav" class="greedy-nav">
         <button aria-label="Toggle navigation menu"><div class="navicon"></div></button>
         <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}" target="_self">Homepage</a></li>
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}" target="_self">{{ link.title }}</a></li>
           {% endfor %}

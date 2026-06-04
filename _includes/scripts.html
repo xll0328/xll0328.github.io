@@ -4,21 +4,16 @@
 
 <!-- 站点通用轻量增强 -->
 <script src="{{ '/assets/js/back-to-top.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/image-zoom.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/copy-email.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/smooth-scroll-enhance.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/touch-optimize.js' | relative_url }}" defer></script>
-<script src="{{ '/assets/js/site-pet.js' | relative_url }}" defer></script>
 
 {% if page.permalink == '/' %}
 <!-- 首页轻量增强 -->
 <script src="{{ '/assets/js/news-collapse.js' | relative_url }}" defer></script>
-{% endif %}
-
-{% if page.show_publication_stats %}
 <script src="{{ '/assets/js/publication-stats.js' | relative_url }}" defer></script>
 {% endif %}
 
 {% include analytics.html %}
-{% if page.permalink == '/' %}
 {% include fetch_google_scholar_stats.html %}
-{% endif %}
