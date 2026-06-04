@@ -3,11 +3,11 @@
 
     const storageKey = 'site-pet-hidden';
     const messages = [
-        'Paper trail looks tidy today.',
-        'Tiny break. Then back to research.',
-        'Trustworthy AI needs steady notes.',
-        'Project pages are poster-clean now.',
-        'Good ideas like clear figures.'
+        'Reading mode.',
+        'Clear figures, careful claims.',
+        'Research notes stay organized.',
+        'Poster pages stay concise.',
+        'Back to the evidence.'
     ];
 
     function initSitePet() {
@@ -37,9 +37,6 @@
 
         button && button.addEventListener('click', function () {
             messageIndex = (messageIndex + 1) % messages.length;
-            pet.classList.remove('is-pouncing');
-            void pet.offsetWidth;
-            pet.classList.add('is-pouncing');
             showBubble(messages[messageIndex]);
         });
 
@@ -48,9 +45,9 @@
             if (window.localStorage) localStorage.setItem(storageKey, 'true');
         });
 
-        window.setTimeout(function () {
+        button && button.addEventListener('mouseenter', function () {
             showBubble(messages[0]);
-        }, 900);
+        }, { once: true });
     }
 
     if (document.readyState === 'loading') {

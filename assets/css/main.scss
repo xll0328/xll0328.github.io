@@ -3674,6 +3674,388 @@ body.project-page .page .page__content em {
     }
 }
 
+@import "guolz-refresh";
+
+/* ==========================================================================
+   Researcher polish: restrained academic tone
+   ========================================================================== */
+
+body.academic-refresh {
+    color: #1f2933;
+    background: #ffffff;
+}
+
+body.academic-refresh #main {
+    max-width: 1060px;
+}
+
+body.academic-refresh.home-page #main {
+    display: block;
+    max-width: 980px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+body.academic-refresh.home-page .sidebar {
+    display: none !important;
+}
+
+body.academic-refresh.home-page .page,
+body.academic-refresh.home-page .page__inner-wrap,
+body.academic-refresh.home-page .page__content {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+}
+
+body.academic-refresh .page__content h1,
+body.academic-refresh .page__content h2,
+body.academic-refresh .page__content h3 {
+    color: #111827;
+    letter-spacing: 0;
+}
+
+body.academic-refresh .page__content h1 {
+    font-size: clamp(1.7rem, 2.9vw, 2.5rem);
+}
+
+body.academic-refresh .page__content h2 {
+    margin-top: 1.65rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+body.academic-refresh .about-hero-card,
+body.academic-refresh .research-focus-card,
+body.academic-refresh .news-scroll-container,
+body.academic-refresh .publications-scroll-container,
+body.academic-refresh .complete-publications-container,
+body.academic-refresh .honor-card,
+body.academic-refresh .timeline-content,
+body.academic-refresh .internship-card,
+body.academic-refresh .friend-card,
+body.academic-refresh .publication-stats,
+body.academic-refresh .giscus-container {
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    box-shadow: none;
+    backdrop-filter: none;
+}
+
+body.academic-refresh .about-hero-card {
+    padding: 1.05rem 0;
+    border-width: 0 0 1px;
+    border-radius: 0;
+}
+
+body.academic-refresh .about-hero-name {
+    color: #111827;
+}
+
+body.academic-refresh .about-hero-role,
+body.academic-refresh .paper-description,
+body.academic-refresh .page__content p,
+body.academic-refresh .page__content li {
+    color: #374151;
+}
+
+body.academic-refresh .about-chip,
+body.academic-refresh .tag,
+body.academic-refresh .honor-badge,
+body.academic-refresh .internship-badge,
+body.academic-refresh .stat-badge {
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    background: #f9fafb !important;
+    color: #374151 !important;
+    box-shadow: none;
+}
+
+body.academic-refresh .section-divider {
+    height: 1px;
+    margin: 1.65rem 0;
+    background: #e5e7eb;
+}
+
+body.academic-refresh .section-divider::before,
+body.academic-refresh .section-divider::after,
+body.academic-refresh .giscus-container::before {
+    display: none;
+}
+
+body.academic-refresh .home-action {
+    border-radius: 6px;
+    border-color: #111827;
+    background: #111827;
+    box-shadow: none;
+}
+
+body.academic-refresh .home-action.secondary {
+    border-color: #d1d5db;
+    background: #ffffff;
+    color: #111827 !important;
+}
+
+body.academic-refresh .home-action:hover,
+body.academic-refresh .news-toggle-btn:hover,
+body.academic-refresh .project-btn:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+body.academic-refresh .honor-icon,
+body.academic-refresh .timeline-icon,
+body.academic-refresh .internship-icon,
+body.academic-refresh .friend-avatar,
+body.academic-refresh .icon-emoji {
+    animation: none !important;
+    background: #f3f4f6 !important;
+    color: #374151 !important;
+    box-shadow: none;
+}
+
+body.academic-refresh .paper-box,
+body.academic-refresh .honor-card,
+body.academic-refresh .timeline-item,
+body.academic-refresh .internship-card,
+body.academic-refresh .friend-card,
+body.academic-refresh .floating-icon,
+body.academic-refresh .section-divider,
+body.academic-refresh .news-scroll-container {
+    animation: none !important;
+}
+
+body.academic-refresh.project-page {
+    --project-accent: #334155;
+    --project-accent-2: #0f766e;
+    --project-accent-3: #64748b;
+}
+
+body.academic-refresh.project-page .page .page__content > p:first-of-type,
+body.academic-refresh.project-page .page .page__content > p:nth-of-type(2),
+body.academic-refresh.project-page .page .page__content blockquote,
+body.academic-refresh.project-page .page .page__content th {
+    background: #f8fafc;
+}
+
+body.academic-refresh.project-page .project-btn.primary {
+    background: #111827;
+}
+
+body.academic-refresh.project-page .project-hero,
+body.academic-refresh.project-page .project-tldr,
+body.academic-refresh.project-page .project-meta,
+body.academic-refresh.project-page .project-links {
+    border-color: #e5e7eb;
+}
+
+body.academic-refresh.project-page .project-hero-figure,
+body.academic-refresh.project-page .project-poster-image,
+body.academic-refresh.project-page .page .page__content img {
+    border-radius: 6px;
+    border-color: #e5e7eb;
+    box-shadow: none;
+}
+
+.site-pet {
+    right: 0.95rem;
+    bottom: 0.95rem;
+    opacity: 0.86;
+}
+
+.site-pet:hover,
+.site-pet:focus-within {
+    opacity: 1;
+}
+
+.site-pet__button {
+    width: 3.35rem;
+    height: 3.35rem;
+    border-color: #d1d5db;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.site-pet__button:hover {
+    transform: none;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.1);
+}
+
+.site-pet__bubble {
+    max-width: 12.5rem;
+    border-color: #d1d5db;
+    color: #374151;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.site-pet.is-pouncing .site-pet__button {
+    animation: none;
+}
+
+.site-pet__face,
+.site-pet__ear,
+.site-pet__muzzle,
+.site-pet__whisker {
+    stroke: #334155;
+}
+
+.site-pet__tail {
+    stroke: #64748b;
+}
+
+@media (max-width: 768px) {
+    body.academic-refresh.home-page #main,
+    body.academic-refresh.content-page #main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    body.academic-refresh,
+    body.academic-refresh * {
+        box-sizing: border-box;
+    }
+
+    body.academic-refresh #main,
+    body.academic-refresh .page,
+    body.academic-refresh .page__inner-wrap,
+    body.academic-refresh .page__content,
+    body.academic-refresh .about-hero-card,
+    body.academic-refresh .research-focus-card,
+    body.academic-refresh .paper-box {
+        min-width: 0 !important;
+        max-width: 100% !important;
+    }
+
+    body.academic-refresh .page__inner-wrap {
+        overflow: visible;
+    }
+
+    body.academic-refresh .page__content,
+    body.academic-refresh .page__content p,
+    body.academic-refresh .page__content li,
+    body.academic-refresh .page__content a,
+    body.academic-refresh .page__content strong,
+    body.academic-refresh .about-chip,
+    body.academic-refresh .home-action {
+        overflow-wrap: anywhere;
+        word-break: normal;
+    }
+
+    body.academic-refresh .page__content p {
+        text-align: left;
+    }
+
+    body.academic-refresh .masthead__inner-wrap,
+    body.academic-refresh .greedy-nav .visible-links {
+        overflow: visible;
+    }
+
+    body.academic-refresh .greedy-nav .visible-links {
+        flex-wrap: wrap !important;
+    }
+
+    body.academic-refresh .greedy-nav .visible-links .masthead__menu-item {
+        display: block !important;
+    }
+
+    body.academic-refresh .home-action-row,
+    body.academic-refresh .about-hero-chips {
+        max-width: 100%;
+    }
+
+    .site-pet__button {
+        width: 2.9rem;
+        height: 2.9rem;
+    }
+}
+
+@media (max-width: 640px) {
+    body.academic-refresh .greedy-nav .visible-links .masthead__menu-home-item,
+    body.academic-refresh .greedy-nav .visible-links .masthead__menu-item:nth-last-child(-n + 2) {
+        display: block !important;
+    }
+
+    body.academic-refresh .home-action {
+        flex: 0 1 auto;
+        max-width: 100%;
+        white-space: normal;
+    }
+
+    body.academic-refresh .about-chip {
+        flex: 0 1 auto;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 768px) {
+    body.academic-refresh.home-page #main,
+    body.academic-refresh.content-page #main,
+    body.academic-refresh.project-page #main {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+        overflow: visible !important;
+    }
+
+    body.academic-refresh.home-page .page,
+    body.academic-refresh.home-page .page__inner-wrap,
+    body.academic-refresh.home-page .page__content,
+    body.academic-refresh.content-page .page,
+    body.academic-refresh.content-page .page__inner-wrap,
+    body.academic-refresh.content-page .page__content,
+    body.academic-refresh.project-page .page,
+    body.academic-refresh.project-page .page__inner-wrap,
+    body.academic-refresh.project-page .page__content {
+        display: block !important;
+        float: none !important;
+        width: calc(100vw - 2rem) !important;
+        max-width: calc(100vw - 2rem) !important;
+        min-width: 0 !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        overflow: visible !important;
+    }
+
+    body.academic-refresh .about-hero-card,
+    body.academic-refresh .research-focus-grid,
+    body.academic-refresh .research-focus-card,
+    body.academic-refresh .news-scroll-container,
+    body.academic-refresh .publications-scroll-container,
+    body.academic-refresh .complete-publications-container {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: visible !important;
+    }
+
+    body.academic-refresh .page__content p,
+    body.academic-refresh .about-hero-main,
+    body.academic-refresh .about-hero-role,
+    body.academic-refresh .about-hero-role-line,
+    body.academic-refresh .about-hero-chips,
+    body.academic-refresh .home-action-row {
+        width: 100% !important;
+        max-width: 100% !important;
+        white-space: normal !important;
+    }
+
+    body.academic-refresh .about-hero-chips,
+    body.academic-refresh .home-action-row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        overflow: visible !important;
+    }
+
+    body.academic-refresh .about-chip,
+    body.academic-refresh .home-action {
+        max-width: 100% !important;
+        min-width: 0 !important;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
         animation-duration: 0.01ms !important;
@@ -3687,5 +4069,3 @@ body.project-page .page .page__content em {
         animation: none !important;
     }
 }
-
-@import "guolz-refresh";

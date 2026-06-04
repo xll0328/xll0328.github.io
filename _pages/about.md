@@ -2,7 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
@@ -43,7 +43,8 @@ Please email me at <em>lais0328eee@gmail.com</em> for research discussions or co
 
 <p class="home-action-row">
   <a class="home-action" href="{{ '/cv/' | relative_url }}">Full CV and publications</a>
-  <a class="home-action secondary" href="{{ '/guestbook/' | relative_url }}">Guestbook</a>
+  <a class="home-action secondary" href="{{ site.author.googlescholar }}">Google Scholar</a>
+  <a class="home-action secondary" href="https://github.com/{{ site.author.github }}">GitHub</a>
 </p>
 
 <span class='anchor' id='research'></span>
