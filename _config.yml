@@ -71,6 +71,8 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .jekyll-cache
+  - .jekyll-metadata
   - .jekyll-assets-cache
   - .sass-cache
   - .github
@@ -89,6 +91,10 @@ exclude:
   - log
   - node_modules
   - package.json
+  - push_to_github.sh
+  - run_server.sh
+  - setup_jekyll.sh
+  - start_server.sh
   - tmp
   - vendor
 keep_files:

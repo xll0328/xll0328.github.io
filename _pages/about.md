@@ -165,6 +165,8 @@ The Conference on <strong>ICASSP 2026</strong> <span class="venue-badge ccf-b">C
 
 <p class="paper-description">We propose a dual rejection framework combining ambiguity rejection (using prediction error variance) and novelty rejection (leveraging VAEs and Mahalanobis distance) to enhance time series forecasting reliability by abstaining from low-confidence predictions and detecting distribution shifts, effectively reducing errors in dynamic environments. This approach addresses underfitting and out-of-distribution challenges without requiring future ground truth, advancing robust forecasting in complex real-world scenarios.</p>
 
+<strong><a href="https://xll0328.github.io/reliable-ts/">Project Page</a></strong>
+
 </div>
 </div>
 
@@ -251,6 +253,8 @@ Bowen Tian†, <strong>Songning Lai†</strong>, Lujundong Li, Zhihao Shuai, Run
 The Conference on <strong>ICASSP 2025</strong> <span class="venue-badge ccf-b">CCF B</span> <span class="venue-badge core-b">Core B</span>.
 
 <p class="paper-description">We introduce Precision-Enhanced Pseudo-Labeling (PEPL), a semi-supervised learning approach for fine-grained image classification that generates and refines pseudo-labels using Class Activation Maps (CAMs) to capture essential details, significantly improving accuracy and robustness over existing methods on benchmark datasets. The approach consists of initial and semantic-mixed pseudo-label generation phases to enhance the quality of labels and has been open-sourced for public use.</p>
+
+<strong><a href="https://xll0328.github.io/pepl/">Project Page</a></strong>
 
 </div>
 </div>

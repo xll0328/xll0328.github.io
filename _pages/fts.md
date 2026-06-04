@@ -2,17 +2,20 @@
 permalink: /fts/
 title: "FTS: From Guesswork to Guarantee — Faithful Multimedia Web Forecasting with TimeSieve"
 excerpt: "ACM MM 2025 — Official project page and code"
-author_profile: true
+author_profile: false
 ---
 
 <div class="project-hero">
-<p class="project-kicker">ACM MM 2025 · CCF A · Core A*</p>
-<h1>FTS: From Guesswork to Guarantee — Faithful Multimedia Web Forecasting with TimeSieve</h1>
-<p class="project-subtitle">Official project page</p>
-<div class="project-hero-actions">
-<a class="project-btn primary" href="https://dl.acm.org/doi/10.1145/3746027.3754963">Paper</a>
-<a class="project-btn secondary" href="https://github.com/xll0328/MM25-FTS">Code</a>
-</div>
+  <div class="project-hero-copy">
+    <p class="project-kicker">ACM MM 2025 · CCF A · Core A*</p>
+    <h1>FTS: From Guesswork to Guarantee — Faithful Multimedia Web Forecasting with TimeSieve</h1>
+    <p class="project-subtitle">Official project page</p>
+    <div class="project-hero-actions">
+      <a class="project-btn primary" href="https://dl.acm.org/doi/10.1145/3746027.3754963">Paper</a>
+      <a class="project-btn secondary" href="https://github.com/xll0328/MM25-FTS">Code</a>
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ '/images/fts/framework.png' | relative_url }}" alt="FTS framework">
 </div>
 
 <div class="project-tldr">

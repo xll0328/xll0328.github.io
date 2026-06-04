@@ -2910,31 +2910,36 @@ body.project-page {
     --project-surface: #f3f7ff;
     --project-border: rgba(22, 34, 68, 0.14);
 
-    background:
-        radial-gradient(circle at 12% 10%, rgba(14, 165, 233, 0.16), transparent 36%),
-        radial-gradient(circle at 88% 18%, rgba(20, 184, 166, 0.14), transparent 34%),
-        radial-gradient(circle at 50% 100%, rgba(245, 158, 11, 0.12), transparent 40%),
-        linear-gradient(170deg, #f7fbff 0%, #f4f6fd 45%, #fbf7ef 100%);
-    background-attachment: fixed;
+    background: #ffffff;
+}
+
+body.project-page #main {
+    max-width: 1120px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+
+body.project-page .sidebar {
+    display: none !important;
 }
 
 body.project-page .page {
-    margin-top: 0.8em;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 body.project-page .page .page__inner-wrap {
-    background: linear-gradient(160deg, rgba(255, 255, 255, 0.9), rgba(252, 252, 255, 0.96));
-    border: 1px solid var(--project-border);
-    border-radius: 20px;
-    box-shadow:
-        0 20px 50px rgba(22, 34, 68, 0.12),
-        0 6px 14px rgba(22, 34, 68, 0.06),
-        inset 0 1px 0 rgba(255, 255, 255, 0.9);
-    overflow: hidden;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: visible;
 }
 
 body.project-page .page .page__content {
-    padding: 1.8rem 2rem 2.4rem;
+    padding: 0.5rem 0 2.4rem;
     color: var(--project-ink);
 }
 
@@ -3056,97 +3061,89 @@ body.project-page.page-cat- {
     --project-accent: #ef4444;
     --project-accent-2: #f97316;
     --project-accent-3: #facc15;
-    background:
-        radial-gradient(circle at 10% 12%, rgba(239, 68, 68, 0.16), transparent 36%),
-        radial-gradient(circle at 86% 16%, rgba(249, 115, 22, 0.14), transparent 34%),
-        linear-gradient(165deg, #fff7f7 0%, #fff5ee 52%, #fff8e8 100%);
+    background: #ffffff;
 }
 
 body.project-page.page-ace- {
     --project-accent: #2563eb;
     --project-accent-2: #06b6d4;
     --project-accent-3: #a78bfa;
-    background:
-        radial-gradient(circle at 12% 12%, rgba(37, 99, 235, 0.17), transparent 34%),
-        radial-gradient(circle at 86% 16%, rgba(6, 182, 212, 0.14), transparent 33%),
-        linear-gradient(168deg, #f4f8ff 0%, #eef6ff 48%, #f5f2ff 100%);
+    background: #ffffff;
 }
 
 body.project-page.page-concil- {
     --project-accent: #0f766e;
     --project-accent-2: #14b8a6;
     --project-accent-3: #84cc16;
-    background:
-        radial-gradient(circle at 10% 14%, rgba(15, 118, 110, 0.16), transparent 36%),
-        radial-gradient(circle at 88% 18%, rgba(132, 204, 22, 0.14), transparent 35%),
-        linear-gradient(170deg, #f1fcf9 0%, #effaf7 50%, #f6fce9 100%);
+    background: #ffffff;
 }
 
 body.project-page.page-drive- {
     --project-accent: #7c3aed;
     --project-accent-2: #2563eb;
     --project-accent-3: #22d3ee;
-    background:
-        radial-gradient(circle at 14% 10%, rgba(124, 58, 237, 0.18), transparent 34%),
-        radial-gradient(circle at 85% 18%, rgba(37, 99, 235, 0.16), transparent 34%),
-        linear-gradient(170deg, #f7f5ff 0%, #f3f6ff 50%, #eef9ff 100%);
+    background: #ffffff;
 }
 
 body.project-page.page-fts- {
     --project-accent: #0369a1;
     --project-accent-2: #0f766e;
     --project-accent-3: #f59e0b;
-    background:
-        radial-gradient(circle at 11% 11%, rgba(3, 105, 161, 0.18), transparent 35%),
-        radial-gradient(circle at 86% 17%, rgba(245, 158, 11, 0.15), transparent 34%),
-        linear-gradient(167deg, #f2f9ff 0%, #edf8f6 49%, #fff8ec 100%);
+    background: #ffffff;
 }
 
 body.project-page.page-fvlc- {
     --project-accent: #0d9488;
     --project-accent-2: #3b82f6;
     --project-accent-3: #f97316;
-    background:
-        radial-gradient(circle at 12% 10%, rgba(13, 148, 136, 0.18), transparent 36%),
-        radial-gradient(circle at 84% 20%, rgba(59, 130, 246, 0.14), transparent 34%),
-        linear-gradient(168deg, #f0fffc 0%, #eef7ff 52%, #fff5ec 100%);
+    background: #ffffff;
 }
 
 body.project-page.page-medmicn- {
     --project-accent: #059669;
     --project-accent-2: #0ea5e9;
     --project-accent-3: #eab308;
-    background:
-        radial-gradient(circle at 9% 13%, rgba(5, 150, 105, 0.18), transparent 35%),
-        radial-gradient(circle at 88% 16%, rgba(14, 165, 233, 0.14), transparent 34%),
-        linear-gradient(166deg, #effdf6 0%, #eef9ff 50%, #fffbe9 100%);
+    background: #ffffff;
 }
 
 body.project-page.page-svct- {
     --project-accent: #0284c7;
     --project-accent-2: #0891b2;
     --project-accent-3: #22c55e;
-    background:
-        radial-gradient(circle at 12% 11%, rgba(2, 132, 199, 0.18), transparent 35%),
-        radial-gradient(circle at 85% 17%, rgba(34, 197, 94, 0.14), transparent 34%),
-        linear-gradient(169deg, #eff9ff 0%, #eefbff 48%, #f0fdf4 100%);
+    background: #ffffff;
+}
+
+body.project-page.page-reliable-ts- {
+    --project-accent: #0f766e;
+    --project-accent-2: #0369a1;
+    --project-accent-3: #f59e0b;
+}
+
+body.project-page.page-pepl- {
+    --project-accent: #7c3aed;
+    --project-accent-2: #db2777;
+    --project-accent-3: #f97316;
 }
 
 /* Project hero and actions */
 body.project-page .project-hero {
     position: relative;
-    margin: 0.2em 0 1.6em;
-    padding: 1.2em 1.25em 1.3em;
-    border-radius: 16px;
-    border: 1px solid rgba(22, 34, 68, 0.16);
-    background:
-        linear-gradient(130deg, rgba(255, 255, 255, 0.92), rgba(246, 250, 255, 0.92));
-    box-shadow: 0 8px 20px rgba(22, 34, 68, 0.1);
+    margin: 0.2em auto 1.7em;
+    padding: 1.7em 0 1.8em;
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+    align-items: center;
+    gap: 1.7rem;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+body.project-page .project-hero-copy {
+    min-width: 0;
 }
 
 body.project-page .project-kicker {
     margin: 0 0 0.4em;
-    font-size: 0.82em;
+    font-size: 0.78em;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     font-weight: 700;
@@ -3155,9 +3152,10 @@ body.project-page .project-kicker {
 
 body.project-page .project-hero h1 {
     margin: 0;
-    font-size: 1.55em;
-    line-height: 1.25;
+    font-size: clamp(1.75rem, 3.4vw, 3.05rem);
+    line-height: 1.12;
     color: #0f172a;
+    overflow-wrap: anywhere;
 }
 
 body.project-page .project-subtitle {
@@ -3177,8 +3175,9 @@ body.project-page .project-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    min-height: 2.25rem;
     padding: 0.52em 0.95em;
-    border-radius: 999px;
+    border-radius: 6px;
     font-size: 0.86em;
     font-weight: 700;
     border: 1px solid rgba(15, 23, 42, 0.16);
@@ -3213,11 +3212,12 @@ body.project-page .project-btn:hover {
 }
 
 body.project-page .project-tldr {
-    margin: 0.2em 0 1.3em;
-    padding: 0.85em 1em;
-    border-radius: 12px;
-    border: 1px dashed rgba(22, 34, 68, 0.18);
-    background: rgba(255, 255, 255, 0.72);
+    margin: 0.2em auto 1.6em;
+    padding: 0.95em 0;
+    border-top: 1px solid rgba(15, 23, 42, 0.12);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.12);
+    border-radius: 0;
+    background: transparent;
 }
 
 body.project-page .project-tldr-label {
@@ -3233,6 +3233,17 @@ body.project-page .project-tldr p:last-child {
     margin: 0;
     color: #374151;
     line-height: 1.62;
+}
+
+body.project-page .project-hero-figure {
+    width: 100%;
+    max-height: 390px;
+    object-fit: contain;
+    object-position: center;
+    background: #ffffff;
+    border: 1px solid rgba(15, 23, 42, 0.1);
+    border-radius: 6px;
+    box-shadow: none;
 }
 
 .about-hero-card {
@@ -3325,11 +3336,52 @@ body.project-page .page .page__content img {
     display: block;
 }
 
+body.project-page .page .page__content .project-hero-figure {
+    max-width: 100%;
+    margin: 0;
+}
+
+body.academic-refresh.project-page #main {
+    display: block;
+    max-width: 1120px;
+}
+
+body.academic-refresh.project-page .page,
+body.academic-refresh.project-page .page__inner-wrap,
+body.academic-refresh.project-page .page__content {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+}
+
 body.project-page .page .page__content em {
     color: #475569;
 }
 
 @media (max-width: 768px) {
+    body.project-page .project-hero {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding-top: 0.7em;
+    }
+
+    body.project-page .project-kicker {
+        letter-spacing: 0.04em;
+    }
+
+    body.project-page .project-hero-actions {
+        gap: 0.45em;
+    }
+
+    body.project-page .project-btn {
+        flex: 1 1 auto;
+        min-width: 7.4rem;
+    }
+
+    body.project-page .project-hero-figure {
+        max-height: 240px;
+    }
+
     .about-hero-card {
         padding: 0.9em 0.9em 0.85em;
         border-radius: 12px;

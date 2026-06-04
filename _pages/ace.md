@@ -2,17 +2,20 @@
 permalink: /ace/
 title: "ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall"
 excerpt: "ICLR 2026 — Official project page and code"
-author_profile: true
+author_profile: false
 ---
 
 <div class="project-hero">
-<p class="project-kicker">ICLR 2026 · CCF A · Core A*</p>
-<h1>ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall</h1>
-<p class="project-subtitle">Official project page</p>
-<div class="project-hero-actions">
-<a class="project-btn primary" href="https://arxiv.org/pdf/2510.07896?">Paper</a>
-<a class="project-btn secondary" href="https://github.com/xll0328/ICLR26-ACE">Code</a>
-</div>
+  <div class="project-hero-copy">
+    <p class="project-kicker">ICLR 2026 · CCF A · Core A*</p>
+    <h1>ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall</h1>
+    <p class="project-subtitle">Official project page</p>
+    <div class="project-hero-actions">
+      <a class="project-btn primary" href="https://arxiv.org/pdf/2510.07896?">Paper</a>
+      <a class="project-btn secondary" href="https://github.com/xll0328/ICLR26-ACE">Code</a>
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ '/images/ace/main.png' | relative_url }}" alt="ACE framework">
 </div>
 
 <div class="project-tldr">

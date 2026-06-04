@@ -1,4 +1,11 @@
 _site/
-push.sh
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/
+node_modules/
+
 .DS_Store
+push.sh
 assets/css/style.scss

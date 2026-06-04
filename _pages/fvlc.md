@@ -2,17 +2,20 @@
 permalink: /fvlc/
 title: "FVLC: Faithful Vision-Language Interpretation via Concept Bottleneck Models"
 excerpt: "ICLR 2024 — Official project page and code"
-author_profile: true
+author_profile: false
 ---
 
 <div class="project-hero">
-<p class="project-kicker">ICLR 2024 · CCF A</p>
-<h1>FVLC: Faithful Vision-Language Interpretation via Concept Bottleneck Models</h1>
-<p class="project-subtitle">Official project page</p>
-<div class="project-hero-actions">
-<a class="project-btn primary" href="https://openreview.net/pdf?id=rp0EdI8X4e">Paper</a>
-<a class="project-btn secondary" href="https://github.com/xll0328/FVLC">Code</a>
-</div>
+  <div class="project-hero-copy">
+    <p class="project-kicker">ICLR 2024 · CCF A</p>
+    <h1>FVLC: Faithful Vision-Language Interpretation via Concept Bottleneck Models</h1>
+    <p class="project-subtitle">Official project page</p>
+    <div class="project-hero-actions">
+      <a class="project-btn primary" href="https://openreview.net/pdf?id=rp0EdI8X4e">Paper</a>
+      <a class="project-btn secondary" href="https://github.com/xll0328/FVLC">Code</a>
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ '/images/fvlc/view_1_0926_01.png' | relative_url }}" alt="FVLC Places365 example">
 </div>
 
 <div class="project-tldr">

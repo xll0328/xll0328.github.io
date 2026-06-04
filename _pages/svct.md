@@ -2,17 +2,20 @@
 permalink: /svct/
 title: "SVCT: Stable Vision Concept Transformers for Medical Diagnosis"
 excerpt: "ECML-PKDD 2025 — Official project page and code"
-author_profile: true
+author_profile: false
 ---
 
 <div class="project-hero">
-<p class="project-kicker">ECML-PKDD 2025 · CCF B</p>
-<h1>SVCT: Stable Vision Concept Transformers for Medical Diagnosis</h1>
-<p class="project-subtitle">Official project page</p>
-<div class="project-hero-actions">
-<a class="project-btn primary" href="https://arxiv.org/pdf/2506.05286">Paper</a>
-<a class="project-btn secondary" href="https://github.com/xll0328/-ECML-2025-SVCT">Code</a>
-</div>
+  <div class="project-hero-copy">
+    <p class="project-kicker">ECML-PKDD 2025 · CCF B</p>
+    <h1>SVCT: Stable Vision Concept Transformers for Medical Diagnosis</h1>
+    <p class="project-subtitle">Official project page</p>
+    <div class="project-hero-actions">
+      <a class="project-btn primary" href="https://arxiv.org/pdf/2506.05286">Paper</a>
+      <a class="project-btn secondary" href="https://github.com/xll0328/-ECML-2025-SVCT">Code</a>
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ '/images/svct/intro-figure.png' | relative_url }}" alt="VCT example with and without perturbation">
 </div>
 
 <div class="project-tldr">

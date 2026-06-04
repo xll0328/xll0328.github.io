@@ -2,17 +2,20 @@
 permalink: /concil/
 title: "CONCIL: Continual Learning for Multimodal Concept Bottleneck Models"
 excerpt: "ACM MM 2025 — Official project page and code"
-author_profile: true
+author_profile: false
 ---
 
 <div class="project-hero">
-<p class="project-kicker">ACM MM 2025 · BNI Track · Oral</p>
-<h1>CONCIL: Continual Learning for Multimodal Concept Bottleneck Models</h1>
-<p class="project-subtitle">Official project page</p>
-<div class="project-hero-actions">
-<a class="project-btn primary" href="https://arxiv.org/pdf/2411.17471">Paper</a>
-<a class="project-btn secondary" href="https://github.com/xll0328/CONCIL---ACM-MM-2025-BNI-Track-">Code</a>
-</div>
+  <div class="project-hero-copy">
+    <p class="project-kicker">ACM MM 2025 · BNI Track · Oral</p>
+    <h1>CONCIL: Continual Learning for Multimodal Concept Bottleneck Models</h1>
+    <p class="project-subtitle">Official project page</p>
+    <div class="project-hero-actions">
+      <a class="project-btn primary" href="https://arxiv.org/pdf/2411.17471">Paper</a>
+      <a class="project-btn secondary" href="https://github.com/xll0328/CONCIL---ACM-MM-2025-BNI-Track-">Code</a>
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ '/images/concil/intro-figure.png' | relative_url }}" alt="CICIL task definition">
 </div>
 
 <div class="project-tldr">

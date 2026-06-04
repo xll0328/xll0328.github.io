@@ -2,18 +2,20 @@
 permalink: /cat/
 title: "CAT: Concept-Level Backdoor Attacks on Concept Bottleneck Models"
 excerpt: "TMLR 2026 — Official project page"
-author_profile: true
+author_profile: false
 ---
 
 <div class="project-hero">
-<p class="project-kicker">TMLR 2026 · Accepted</p>
-<h1>Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models</h1>
-<p class="project-subtitle">Official project page</p>
-<div class="project-hero-actions">
-<a class="project-btn primary" href="https://openreview.net/forum?id=bntZBG9fBY">Paper</a>
-<a class="project-btn secondary" href="https://github.com/xll0328/CAT_CBM-Backdoor">Code</a>
-<a class="project-btn secondary" href="https://xll0328.github.io/cat/">Project Page</a>
-</div>
+  <div class="project-hero-copy">
+    <p class="project-kicker">TMLR 2026 · Accepted</p>
+    <h1>Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models</h1>
+    <p class="project-subtitle">Official project page</p>
+    <div class="project-hero-actions">
+      <a class="project-btn primary" href="https://openreview.net/forum?id=bntZBG9fBY">Paper</a>
+      <a class="project-btn secondary" href="https://github.com/xll0328/CAT_CBM-Backdoor">Code</a>
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ '/images/cat/introduce.png' | relative_url }}" alt="CAT overview">
 </div>
 
 <div class="project-tldr">

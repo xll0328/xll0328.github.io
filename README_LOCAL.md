@@ -25,13 +25,8 @@ bash run_server.sh
 ```bash
 cd /Users/sony/Desktop/xll0328.github.io
 
-# 如果使用 VPN，先设置代理（可选）
-export https_proxy=your_proxy_address
-export http_proxy=your_proxy_address
-export all_proxy=your_proxy_address
-
 # 启动服务器
-bundle exec jekyll serve --livereload
+BUNDLE_IGNORE_CONFIG=1 BUNDLE_PATH=/tmp/xll0328_bundle bundle exec jekyll serve --livereload
 ```
 
 ## 📝 访问网站
@@ -58,8 +53,11 @@ bundle exec jekyll serve --livereload
 
 ## 🔧 常见问题
 
-### 1. 如果遇到编码错误
-已经创建了 `assets/css/style.scss` 文件来解决这个问题。
+### 1. 如果依赖路径异常或构建很慢
+不要使用仓库内的 `vendor/bundle`。先运行：
+```bash
+BUNDLE_IGNORE_CONFIG=1 BUNDLE_PATH=/tmp/xll0328_bundle bundle install
+```
 
 ### 2. 如果依赖安装失败
 运行以下命令重新安装：
@@ -88,7 +86,7 @@ GitHub Pages 会自动部署你的更改（通常需要几分钟）。
 ## ⚠️ 注意事项
 
 1. **不会影响原项目**: 本地预览不会影响 GitHub 上的项目，只有当你 `git push` 时才会更新
-2. **vendor/bundle 目录**: 这个目录包含安装的依赖，不需要提交到 Git（已在 .gitignore 中）
+2. **vendor/bundle 目录**: 这是本地依赖缓存，不需要提交到 Git（已在 .gitignore 中）
 3. **_site 目录**: 这是 Jekyll 生成的静态文件，也不需要提交到 Git
 
 ## 🎉 开始使用

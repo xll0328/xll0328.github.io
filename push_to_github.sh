@@ -1,21 +1,17 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
+
 cd "$(dirname "$0")"
-echo "=== 当前目录 ==="
-pwd
-echo ""
-echo "=== Git 状态 ==="
-git status
-echo ""
-echo "=== 添加所有文件 ==="
-git add -A
-echo ""
-echo "=== 暂存区状态 ==="
+
+if [ "$#" -eq 0 ]; then
+  echo "Usage: $0 \"commit message\""
+  exit 1
+fi
+
+export BUNDLE_IGNORE_CONFIG="${BUNDLE_IGNORE_CONFIG:-1}"
+export BUNDLE_PATH="${BUNDLE_PATH:-/tmp/xll0328_bundle}"
+bundle exec jekyll build --trace
 git status --short
-echo ""
-echo "=== 提交更改 ==="
-git commit -m "完整更新：背景音乐《小星星》、音效系统、交互功能等所有更改"
-echo ""
-echo "=== 推送到GitHub ==="
+git add -A
+git commit -m "$1"
 git push origin main
-echo ""
-echo "=== 完成 ==="

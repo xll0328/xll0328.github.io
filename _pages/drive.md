@@ -2,18 +2,21 @@
 permalink: /drive/
 title: "DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving"
 excerpt: "ICRA 2025 — Official project page and code"
-author_profile: true
+author_profile: false
 ---
 
 <div class="project-hero">
-<p class="project-kicker">ICRA 2025 · CCF B · Core A*</p>
-<h1>DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving</h1>
-<p class="project-subtitle">Official project page</p>
-<div class="project-hero-actions">
-<a class="project-btn primary" href="https://arxiv.org/abs/2409.10330">Paper</a>
-<a class="project-btn secondary" href="https://github.com/xll0328/ICRA25-DRIVE">Code</a>
-<a class="project-btn secondary" href="https://github.com/commaai/comma2k19">Dataset</a>
-</div>
+  <div class="project-hero-copy">
+    <p class="project-kicker">ICRA 2025 · CCF B · Core A*</p>
+    <h1>DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving</h1>
+    <p class="project-subtitle">Official project page</p>
+    <div class="project-hero-actions">
+      <a class="project-btn primary" href="https://arxiv.org/abs/2409.10330">Paper</a>
+      <a class="project-btn secondary" href="https://github.com/xll0328/ICRA25-DRIVE">Code</a>
+      <a class="project-btn secondary" href="https://github.com/commaai/comma2k19">Dataset</a>
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ '/images/WechatIMG169.jpg' | relative_url }}" alt="DRIVE teaser">
 </div>
 
 <div class="project-tldr">

@@ -2,17 +2,20 @@
 permalink: /medmicn/
 title: "Med-MICN: Towards Multi-dimensional Explanation Alignment for Medical Classification"
 excerpt: "NeurIPS 2024 — Official project page and code"
-author_profile: true
+author_profile: false
 ---
 
 <div class="project-hero">
-<p class="project-kicker">NeurIPS 2024 · CCF A</p>
-<h1>Med-MICN: Towards Multi-dimensional Explanation Alignment for Medical Classification</h1>
-<p class="project-subtitle">Official project page</p>
-<div class="project-hero-actions">
-<a class="project-btn primary" href="https://arxiv.org/abs/2410.21494">Paper</a>
-<a class="project-btn secondary" href="https://github.com/xll0328/NeurIPS24-Med_MICN">Code</a>
-</div>
+  <div class="project-hero-copy">
+    <p class="project-kicker">NeurIPS 2024 · CCF A</p>
+    <h1>Med-MICN: Towards Multi-dimensional Explanation Alignment for Medical Classification</h1>
+    <p class="project-subtitle">Official project page</p>
+    <div class="project-hero-actions">
+      <a class="project-btn primary" href="https://arxiv.org/abs/2410.21494">Paper</a>
+      <a class="project-btn secondary" href="https://github.com/xll0328/NeurIPS24-Med_MICN">Code</a>
+    </div>
+  </div>
+  <img class="project-hero-figure" src="{{ '/images/medmicn/framework.jpg' | relative_url }}" alt="Med-MICN framework">
 </div>
 
 <div class="project-tldr">

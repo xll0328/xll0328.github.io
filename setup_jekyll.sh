@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
 # Jekyll 本地环境设置脚本
 # 这个脚本会安装 Jekyll 和所有依赖，用于本地预览
@@ -17,8 +18,8 @@ echo ""
 
 # 检查 Bundler
 if ! command -v bundle &> /dev/null; then
-    echo "⚠️  未找到 Bundler，正在安装..."
-    sudo gem install bundler
+    echo "Bundler not found. Installing bundler..."
+    gem install bundler
 else
     echo "✅ Bundler 已安装: $(bundle --version)"
 fi
@@ -27,25 +28,11 @@ echo ""
 echo "📦 正在安装项目依赖（这可能需要几分钟）..."
 echo ""
 
-# 安装依赖到本地目录，避免权限问题
-bundle config set --local path 'vendor/bundle'
+export BUNDLE_IGNORE_CONFIG="${BUNDLE_IGNORE_CONFIG:-1}"
+export BUNDLE_PATH="${BUNDLE_PATH:-/tmp/xll0328_bundle}"
 bundle install
 
-if [ $? -eq 0 ]; then
-    echo ""
-    echo "✅ 依赖安装完成！"
-    echo ""
-    echo "🎉 设置完成！现在你可以运行以下命令启动本地服务器："
-    echo ""
-    echo "   cd $(pwd)"
-    echo "   bundle exec jekyll serve"
-    echo ""
-    echo "   或者直接运行:"
-    echo "   bash run_server.sh"
-    echo ""
-    echo "   然后在浏览器中打开: http://127.0.0.1:4000"
-else
-    echo ""
-    echo "❌ 安装失败，请检查错误信息"
-    exit 1
-fi
+echo ""
+echo "Dependencies installed."
+echo "Run: bash start_server.sh"
+echo "Open: http://127.0.0.1:4000"
