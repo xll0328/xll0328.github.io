@@ -74,7 +74,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
-<li><em>06.2026</em>  🎉 Our paper "SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models" has been provisionally accepted at <strong>MICCAI 2026</strong> (CCF B), where I serve as the last and corresponding author!</li>
+<li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/sant-cbm/">"SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models"</a> has been provisionally accepted at <strong>MICCAI 2026</strong> (CCF B), where I serve as the last and corresponding author!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="images/FixCBM_ICANN2026.pdf">"Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation"</a> has been accepted at <strong>ICANN 2026</strong> (CCF C), where I serve as corresponding author!</li>
 <li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been <strong>accepted at TMLR 2026</strong>. <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong> <strong><a href="https://github.com/xll0328/CAT_CBM-Backdoor">[Code]</a></strong></li>
 <li><em>03.2026</em>  🏆 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" won the <strong><a href="https://time.griffith.edu.au/workshop/time2026/pages/media.html">Best Paper Runner-Up Award</a></strong> at <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong>!</li>
@@ -125,13 +125,15 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2026</div><img src='images/SANT-CBM.png' alt="SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<strong>SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models</strong>
+<strong><a href="https://xll0328.github.io/sant-cbm/">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models</a></strong>
 
 HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>
 
 Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> <span class="venue-badge ccf-b">CCF B</span>. Provisionally accepted.
 
 <p class="paper-description">We propose SANT-CBM, a semi-supervised Concept Bottleneck Model for medical image classification. It uses GMM-based dynamic weighting to reduce noisy pseudo-label supervision and a structural consistency loss to align predicted concept correlations with clinical priors, improving label-efficient and interpretable diagnosis on dermatology datasets.</p>
+
+<strong><a href="https://xll0328.github.io/sant-cbm/">Project Page</a></strong>
 
 </div>
 </div>
@@ -326,7 +328,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h2>2026</h2>
 <ul class="publication-list">
-<li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Provisionally Accepted).</li>
+<li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Provisionally Accepted). <strong><a href="https://xll0328.github.io/sant-cbm/">Project Page</a></strong></li>
 <li data-tags="ccf-c">Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation, Yayue Mai, <strong>Songning Lai~</strong>, International Conference on Artificial Neural Networks <strong>ICANN 2026</strong> (CCF C, Accepted). <strong><a href="images/FixCBM_ICANN2026.pdf">Paper</a></strong></li>
 <li data-tags="tmlr">Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models, <strong>Songning Lai</strong>, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue, <strong>TMLR 2026</strong> (Accepted).</li>
 <li data-tags="iclr">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall, Jiayu Yang†, Yuxuan Fan†, <strong>Songning Lai†</strong>, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue, <strong>ICLR 2026</strong> (CCF A).</li>
