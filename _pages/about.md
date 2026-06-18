@@ -125,7 +125,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 <div class="publications-scroll-container">
 
 <h2>2026</h2>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/dynamic-v2c/framework.png' alt="Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/dynamic-v2c/pipeline.png' alt="Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <strong><a href="https://xll0328.github.io/dynamic-v2c/">Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions</a></strong>

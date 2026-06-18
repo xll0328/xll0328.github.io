@@ -16,7 +16,7 @@ author_profile: false
       <a class="project-btn secondary" href="#results">Results</a>
     </div>
   </div>
-  <img class="project-hero-figure" src="{{ '/images/dynamic-v2c/framework.png' | relative_url }}" alt="Dynamic-V2C framework">
+  <img class="project-hero-figure" src="{{ '/images/dynamic-v2c/pipeline.png' | relative_url }}" alt="Dynamic-V2C overview pipeline">
 </div>
 
 <div class="project-tldr">
