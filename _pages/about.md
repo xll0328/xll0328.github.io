@@ -28,16 +28,16 @@ redirect_from:
   <div class="about-hero-chips">
     <span class="about-chip">Trustworthy AI</span>
     <span class="about-chip">Concept Bottleneck Models</span>
+    <span class="about-chip">Editable CBMs</span>
+    <span class="about-chip">Continual Learning</span>
     <span class="about-chip">Explainability</span>
     <span class="about-chip">Robustness</span>
-    <span class="about-chip">Safety</span>
-    <span class="about-chip">Faithfulness</span>
   </div>
 </div>
 
 I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a>, where I was supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>. I later worked as a research assistant at HKUST(GZ) AI Thrust & INFO Hub under Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>.
 
-My research centers on <strong>trustworthy AI</strong>, especially <strong>concept bottleneck models (CBMs)</strong>, with recent work on multimodal interpretability, concept-level security, continual learning, medical AI, autonomous driving, reliable time-series forecasting, and LLM interpretability. Representative papers appeared at <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>, <a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>, <a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>, <a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>, <strong>MICCAI 2026</strong>, <a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a>, and <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>.
+My research centers on <strong>trustworthy AI</strong>, especially <strong>concept bottleneck models (CBMs)</strong>, with recent work on editable and continual CBMs, multimodal interpretability, concept-level security, medical AI, autonomous driving, reliable time-series forecasting, and LLM interpretability. Representative papers appeared at <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>, <a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>, <a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>, <a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>, <strong>ECCV 2026</strong>, <strong>MICCAI 2026</strong>, <a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a>, and <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>.
 
 Beyond CBMs, I have also worked on robustness and faithfulness in time series forecasting, continual learning, computer vision, multimodal sentiment analysis, and graph learning. The common thread is to build learning systems that remain reliable, inspectable, and useful when deployed in open-world settings.
 
@@ -54,7 +54,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
   </div>
   <div class="research-focus-card">
     <h3>Concept Bottleneck Models</h3>
-    <p>Reliable concept-level interfaces for vision, language, multimodal, medical, autonomous-driving, and security settings.</p>
+    <p>Editable, continual, and secure concept-level interfaces for vision, language, multimodal, medical, and autonomous-driving settings.</p>
   </div>
   <div class="research-focus-card">
     <h3>Reliable Time Series</h3>
@@ -74,6 +74,9 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
+<li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> has been accepted at <strong>ECCV 2026</strong>, where I serve as the first author!</li>
+<li><em>06.2026</em>  🎉 Our paper "AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization in Personalized Federated Learning" has been accepted at <strong>ECCV 2026</strong>!</li>
+<li><em>06.2026</em>  🏆 Our team <strong>Nexus Robotics Lab</strong> won <strong>1st place</strong> in <a href="images/wbcd-icra-2026.jpg">Logistics Picking (Shanghai)</a> at <strong>What Bimanuals Can Do (WBCD)</strong>, held with <strong>ICRA 2026</strong>!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/sant-cbm/">"SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models"</a> has been provisionally accepted at <strong>MICCAI 2026</strong> (CCF B), where I serve as the last and corresponding author!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="images/FixCBM_ICANN2026.pdf">"Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation"</a> has been accepted at <strong>ICANN 2026</strong> (CCF C), where I serve as corresponding author!</li>
 <li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been <strong>accepted at TMLR 2026</strong>. <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong> <strong><a href="https://github.com/xll0328/CAT_CBM-Backdoor">[Code]</a></strong></li>
@@ -122,6 +125,36 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 <div class="publications-scroll-container">
 
 <h2>2026</h2>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/dynamic-v2c/framework.png' alt="Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong><a href="https://xll0328.github.io/dynamic-v2c/">Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions</a></strong>
+
+<strong>Songning Lai</strong>, Shaofeng Liang, Jiayu Yang, Ninghui Feng, Yuxuan Fan, Wenshuo Chen
+
+European Conference on Computer Vision <strong>ECCV 2026</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
+
+<p class="paper-description">We introduce Dynamic-V2C, an editable and continual Vision-to-Concept Bottleneck Model that combines visually grounded V2C tokenization with an influence-function engine for retraining-free model editing, spurious concept debugging, data unlearning, and continual concept expansion.</p>
+
+<strong><a href="https://xll0328.github.io/dynamic-v2c/">Project Page</a></strong>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/AnaPFL.png' alt="AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization in Personalized Federated Learning" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong>AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization in Personalized Federated Learning</strong>
+
+Kejia Fan, Jianheng Tang, Zhirui Yang, Feijiang Han, Yajiang Huang, Run He, Jiaxu Li, <strong>Songning Lai</strong>, Anfeng Liu, Houbing Herbert Song, Yunhuai Liu, Huiping Zhuang
+
+European Conference on Computer Vision <strong>ECCV 2026</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
+
+<p class="paper-description">AnaPFL studies personalized federated learning from an analytic perspective, connecting closed-form solutions with the generalization and personalization needs of heterogeneous federated clients.</p>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2026</div><img src='images/SANT-CBM.png' alt="SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -328,6 +361,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h2>2026</h2>
 <ul class="publication-list">
+<li data-tags="ccf-b">Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions, <strong>Songning Lai</strong>, Shaofeng Liang, Jiayu Yang, Ninghui Feng, Yuxuan Fan, Wenshuo Chen, European Conference on Computer Vision <strong>ECCV 2026</strong> (CCF B, Accepted). <strong><a href="https://xll0328.github.io/dynamic-v2c/">Project Page</a></strong></li>
+<li data-tags="ccf-b">AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization in Personalized Federated Learning, Kejia Fan, Jianheng Tang, Zhirui Yang, Feijiang Han, Yajiang Huang, Run He, Jiaxu Li, <strong>Songning Lai</strong>, Anfeng Liu, Houbing Herbert Song, Yunhuai Liu, Huiping Zhuang, European Conference on Computer Vision <strong>ECCV 2026</strong> (CCF B, Accepted).</li>
 <li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Provisionally Accepted). <strong><a href="https://xll0328.github.io/sant-cbm/">Project Page</a></strong></li>
 <li data-tags="ccf-c">Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation, Yayue Mai, <strong>Songning Lai~</strong>, International Conference on Artificial Neural Networks <strong>ICANN 2026</strong> (CCF C, Accepted). <strong><a href="images/FixCBM_ICANN2026.pdf">Paper</a></strong></li>
 <li data-tags="tmlr">Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models, <strong>Songning Lai</strong>, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue, <strong>TMLR 2026</strong> (Accepted).</li>
@@ -386,6 +421,14 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 # Honors and Awards
 
 <div class="honors-container">
+<div class="honor-card highlight">
+<span class="honor-icon">🥇</span>
+<div class="honor-content">
+<strong><a href="images/wbcd-icra-2026.jpg">1st Place in What Bimanuals Can Do (WBCD), Logistics Picking (Shanghai)</a></strong>
+<span class="honor-badge best-paper">ICRA 2026 Competition</span>
+</div>
+</div>
+
 <div class="honor-card">
 <span class="honor-icon">🏆</span>
 <div class="honor-content">
