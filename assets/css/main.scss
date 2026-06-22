@@ -4298,3 +4298,311 @@ body.project-page .page .page__content .notice--info {
         padding: 0.85rem 0.9rem;
     }
 }
+
+/* Collaborator index and final layout polish */
+.academic-refresh .section-divider {
+    margin: 2.4rem 0 1.6rem;
+    border-top: 1px solid rgba(18, 53, 95, 0.1);
+}
+
+.academic-refresh .page__content > h1 {
+    margin-top: 1.9rem;
+}
+
+.academic-refresh .timeline-container,
+.academic-refresh .internship-container,
+.academic-refresh .honors-container,
+.academic-refresh .educations-container {
+    padding: 1rem;
+}
+
+.academic-refresh .friend-card.collaborator-card {
+    display: grid;
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 0.78rem;
+    align-items: center;
+    min-height: 88px;
+    padding: 0.82rem;
+    color: var(--layout-text);
+    text-align: left;
+    text-decoration: none;
+    background: #ffffff;
+    border: 1px solid rgba(18, 53, 95, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(18, 53, 95, 0.045);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.academic-refresh .friends-container.collaborator-index {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(228px, 1fr));
+    gap: 0.82rem;
+    margin: 1rem 0 1.7rem;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
+.academic-refresh .friend-card.collaborator-card:hover {
+    color: var(--layout-text);
+    border-color: rgba(31, 111, 178, 0.28);
+    box-shadow: 0 14px 30px rgba(18, 53, 95, 0.09);
+    transform: translateY(-2px);
+}
+
+.academic-refresh .friend-avatar.collaborator-photo-wrap {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 58px;
+    height: 58px;
+    margin: 0;
+    overflow: hidden;
+    color: var(--layout-ink);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0;
+    background: linear-gradient(135deg, rgba(31, 111, 178, 0.12), rgba(15, 118, 110, 0.1));
+    border: 1px solid rgba(18, 53, 95, 0.08);
+    border-radius: 50%;
+    filter: none;
+    animation: none;
+    transition: none;
+}
+
+.academic-refresh .friend-card.collaborator-card:hover .friend-avatar {
+    transform: none;
+    filter: none;
+    animation: none;
+}
+
+.academic-refresh .collaborator-initials {
+    position: relative;
+    z-index: 1;
+}
+
+.academic-refresh .collaborator-photo {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    border: 0;
+    border-radius: 50%;
+}
+
+.academic-refresh .collaborator-photo-wrap.is-fallback .collaborator-initials {
+    display: grid;
+    place-items: center;
+}
+
+.academic-refresh .collaborator-card .friend-info {
+    display: grid;
+    gap: 0.14rem;
+    min-width: 0;
+    width: 100%;
+}
+
+.academic-refresh .collaborator-card .friend-name,
+.academic-refresh .collaborator-card .friend-desc,
+.academic-refresh .collaborator-card .friend-meta {
+    display: block;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.academic-refresh .collaborator-card .friend-name {
+    color: var(--layout-ink);
+    font-size: 0.98rem;
+    font-weight: 800;
+    line-height: 1.28;
+    white-space: nowrap;
+}
+
+.academic-refresh .collaborator-card .friend-desc {
+    color: var(--layout-blue);
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.25;
+    white-space: nowrap;
+}
+
+.academic-refresh .collaborator-card .friend-meta {
+    color: var(--layout-muted);
+    font-size: 0.75rem;
+    line-height: 1.3;
+    white-space: nowrap;
+}
+
+.academic-refresh .internship-container {
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    gap: 0.9rem;
+    margin: 1rem 0 1.8rem;
+}
+
+.academic-refresh .internship-card {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 0.78rem;
+    align-items: start;
+    min-height: 0;
+    padding: 0.95rem;
+    background: #ffffff;
+    border: 1px solid rgba(18, 53, 95, 0.1);
+    border-top: 1px solid rgba(18, 53, 95, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(18, 53, 95, 0.045);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.academic-refresh .internship-card:hover {
+    border-color: rgba(31, 111, 178, 0.24);
+    box-shadow: 0 12px 28px rgba(18, 53, 95, 0.08);
+    transform: translateY(-1px);
+}
+
+.academic-refresh .internship-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    font-size: 1.55rem;
+    line-height: 1;
+    background: rgba(31, 111, 178, 0.07);
+    border: 1px solid rgba(18, 53, 95, 0.08);
+    border-radius: 8px;
+    filter: none;
+    animation: none;
+}
+
+.academic-refresh .internship-card:hover .internship-icon {
+    transform: none;
+    animation: none;
+}
+
+.academic-refresh .internship-content {
+    min-width: 0;
+}
+
+.academic-refresh .internship-content strong {
+    display: block;
+    margin: 0 0 0.58rem;
+    padding: 0;
+    color: var(--layout-ink);
+    font-size: 0.96rem;
+    line-height: 1.35;
+    background: transparent;
+}
+
+.academic-refresh .internship-tags {
+    gap: 0.42rem;
+    margin-top: 0.2rem;
+}
+
+.academic-refresh .tag {
+    padding: 0.24rem 0.52rem;
+    color: var(--layout-blue);
+    font-size: 0.73rem;
+    font-weight: 650;
+    line-height: 1.2;
+    background: rgba(31, 111, 178, 0.07);
+    border: 1px solid rgba(31, 111, 178, 0.18);
+    border-radius: 6px;
+    transition: none;
+}
+
+.academic-refresh .tag:hover {
+    background: rgba(31, 111, 178, 0.1);
+    box-shadow: none;
+    transform: none;
+}
+
+.academic-refresh .internship-badges {
+    gap: 0.42rem;
+    margin-top: 0.2rem;
+}
+
+.academic-refresh .internship-badge {
+    padding: 0.36rem 0.64rem;
+    color: #8a2f3d;
+    font-size: 0.78rem;
+    line-height: 1.25;
+    background: rgba(206, 91, 105, 0.08);
+    border: 1px solid rgba(206, 91, 105, 0.18);
+    border-radius: 6px;
+    box-shadow: none;
+    transition: none;
+}
+
+.academic-refresh .internship-badge.highlight {
+    background: rgba(206, 91, 105, 0.1);
+}
+
+.academic-refresh .internship-badge:hover {
+    box-shadow: none;
+    transform: none;
+}
+
+.academic-refresh .internship-stats {
+    margin-top: 0.1rem;
+    gap: 0.5rem;
+    color: var(--layout-text);
+}
+
+.academic-refresh .stat-badge {
+    padding: 0.34rem 0.66rem;
+    background: var(--layout-ink);
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 0.78rem;
+}
+
+@media (max-width: 640px) {
+    .academic-refresh .section-divider {
+        margin: 2rem 0 1.35rem;
+    }
+
+    .academic-refresh .timeline-container,
+    .academic-refresh .internship-container,
+    .academic-refresh .honors-container,
+    .academic-refresh .educations-container {
+        padding: 0.78rem;
+    }
+
+    .academic-refresh .friends-container.collaborator-index {
+        grid-template-columns: 1fr;
+        gap: 0.66rem;
+    }
+
+    .academic-refresh .friend-card.collaborator-card {
+        grid-template-columns: 52px minmax(0, 1fr);
+        min-height: 76px;
+        padding: 0.72rem;
+    }
+
+    .academic-refresh .friend-avatar.collaborator-photo-wrap {
+        width: 52px;
+        height: 52px;
+    }
+
+    .academic-refresh .internship-container {
+        grid-template-columns: 1fr;
+        gap: 0.72rem;
+    }
+
+    .academic-refresh .internship-card {
+        grid-template-columns: 40px minmax(0, 1fr);
+        padding: 0.82rem;
+    }
+
+    .academic-refresh .internship-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.42rem;
+    }
+}

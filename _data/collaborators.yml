@@ -1,0 +1,96 @@
+- name: Yutao Yue
+  initials: YY
+  url: https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue
+  role_en: Faculty Collaborator
+  role_zh: 合作导师
+  meta_en: AI Thrust · HKUST(GZ)
+  meta_zh: AI Thrust · 香港科技大学（广州）
+
+- name: Lijie Hu
+  initials: LH
+  url: https://mbzuai.ac.ae/study/faculty/lijie-hu/
+  image: /assets/images/collaborators/lijie-hu.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Trustworthy medical AI · MBZUAI
+  meta_zh: 可信医疗 AI · MBZUAI
+
+- name: Jiayu Yang
+  initials: JY
+  url: https://yjywdzh.github.io/
+  image: /assets/images/collaborators/jiayu-yang.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: LLM interpretability · HKUST(GZ)
+  meta_zh: 大模型可解释性 · 香港科技大学（广州）
+
+- name: Wenshuo Chen
+  initials: WC
+  url: https://chatonz.github.io/
+  image: /assets/images/collaborators/wenshuo-chen.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Generative models · XAI
+  meta_zh: 生成模型 · 可解释 AI
+
+- name: Hang Zhao
+  initials: HZ
+  url: https://hangzhaomit.github.io/
+  image: /assets/images/collaborators/hang-zhao.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Multimodal systems
+  meta_zh: 多模态系统
+
+- name: Xuming Hu
+  initials: XH
+  url: https://xuminghu.github.io/
+  image: /assets/images/collaborators/xuming-hu.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Multimodal foundation models
+  meta_zh: 多模态基础模型
+
+- name: Di Wang
+  initials: DW
+  url: https://shao3wangdi.github.io/
+  image: /assets/images/collaborators/di-wang.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Responsible AI · KAUST
+  meta_zh: 负责任 AI · KAUST
+
+- name: Hua Xu
+  initials: HX
+  url: https://hxu129.github.io/
+  image: /assets/images/collaborators/hua-xu.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Time series · HKUST(GZ)
+  meta_zh: 时间序列 · 香港科技大学（广州）
+
+- name: Weilin Ruan
+  initials: WR
+  url: https://rwlinno.github.io/
+  image: /assets/images/collaborators/weilin-ruan.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Time series · data mining
+  meta_zh: 时间序列 · 数据挖掘
+
+- name: Jiakang Li
+  initials: JL
+  url: https://jiakanglee.github.io/
+  image: /assets/images/collaborators/jiakang-li.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Graph learning · Rutgers
+  meta_zh: 图学习 · Rutgers
+
+- name: Benyou Wang
+  initials: BW
+  url: https://wabyking.github.io/
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Large language models · CUHK-Shenzhen
+  meta_zh: 大语言模型 · 香港中文大学（深圳）

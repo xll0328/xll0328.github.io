@@ -412,16 +412,9 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-# 合作者
+<h1 id="collaborators">合作者</h1>
 
-<div class="friends-container">
-<div class="friend-card"><div class="friend-avatar">👨‍💻</div><div class="friend-info"><div class="friend-name"><a href="https://yjywdzh.github.io/">Jiayu Yang</a></div><div class="friend-desc">科研合作者</div></div></div>
-<div class="friend-card"><div class="friend-avatar">👨‍💻</div><div class="friend-info"><div class="friend-name"><a href="https://chatonz.github.io">Wenshuo Chen</a></div><div class="friend-desc">科研合作者</div></div></div>
-<div class="friend-card"><div class="friend-avatar">👨‍💻</div><div class="friend-info"><div class="friend-name"><a href="https://scholar.google.com.hk/citations?user=INre9KUAAAAJ&hl=en">Jiemin Wu</a></div><div class="friend-desc">科研合作者</div></div></div>
-<div class="friend-card"><div class="friend-avatar">👨‍💻</div><div class="friend-info"><div class="friend-name"><a href="https://rwlinno.github.io">Weilin Ruan</a></div><div class="friend-desc">科研合作者</div></div></div>
-<div class="friend-card"><div class="friend-avatar">👨‍💻</div><div class="friend-info"><div class="friend-name"><a href="https://scholar.google.com/citations?user=pD_SnqMAAAAJ&hl=zh-CN">Xinmin Li</a></div><div class="friend-desc">科研合作者</div></div></div>
-<div class="friend-card"><div class="friend-avatar">👨‍💻</div><div class="friend-info"><div class="friend-name"><a href="https://jiakanglee.github.io">Jiakang Li</a></div><div class="friend-desc">科研合作者</div></div></div>
-</div>
+{% include collaborators-grid.html %}
 
 ---
 

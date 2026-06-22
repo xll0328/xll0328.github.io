@@ -1,0 +1,25 @@
+{% assign page_lang = page.lang | default: "en" %}
+<div class="friends-container collaborator-index" role="list">
+  {% for person in site.data.collaborators %}
+    {% assign collaborator_image = person.image %}
+    {% if collaborator_image and collaborator_image contains "://" %}
+      {% assign collaborator_image_src = collaborator_image %}
+    {% elsif collaborator_image %}
+      {% assign collaborator_image_src = collaborator_image | relative_url %}
+    {% endif %}
+    <a class="friend-card collaborator-card" href="{{ person.url }}" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="{% if page_lang == 'zh' %}访问 {{ person.name }} 的主页{% else %}Visit {{ person.name }}'s homepage{% endif %}">
+      <span class="friend-avatar collaborator-photo-wrap{% unless person.image %} is-fallback{% endunless %}" aria-hidden="true">
+        <span class="collaborator-initials">{{ person.initials }}</span>
+        {% if collaborator_image_src %}
+          <img class="collaborator-photo" src="{{ collaborator_image_src }}" alt="" loading="lazy" onerror="this.closest('.collaborator-photo-wrap').classList.add('is-fallback'); this.remove();">
+        {% endif %}
+      </span>
+      <span class="friend-info">
+        <span class="friend-name">{{ person.name }}</span>
+        <span class="friend-desc">{% if page_lang == "zh" %}{{ person.role_zh }}{% else %}{{ person.role_en }}{% endif %}</span>
+        <span class="friend-meta">{% if page_lang == "zh" %}{{ person.meta_zh }}{% else %}{{ person.meta_en }}{% endif %}</span>
+      </span>
+    </a>
+    {% assign collaborator_image_src = nil %}
+  {% endfor %}
+</div>
