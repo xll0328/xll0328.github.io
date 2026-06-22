@@ -53,7 +53,7 @@ lang: zh
 ## 主要贡献
 
 1. **机制**：在多跳事实回忆中，隐式主体作为 query neurons 顺序激活 value neurons；LLM 将语义相关知识存储在结构相似组件中，并具有一致的 Q-V 定位。
-2. **ACE**：通过神经元级归因识别关键 query 与 value layers；基于 PMET backbone 顺序编辑二者（中浅层 FFN 中的 query layers 与深层 FFN 中的 value layers）。
+2. **ACE**：通过神经元级归因识别关键 query 与 value layers；基于 PMET 骨干模型顺序编辑二者（中浅层 FFN 中的 query layers 与深层 FFN 中的 value layers）。
 3. **结果**：相较 SOTA，在 GPT-J 上 +9.44%，在 Qwen3-8B 上 +37.46%；消融显示跳过 top query layers 会造成约 16.51% 下降，跳过 value layers 会造成约 40.45% 下降。
 
 ---

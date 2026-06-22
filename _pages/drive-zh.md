@@ -73,7 +73,7 @@ lang: zh
 
 ---
 
-## Demo
+## 演示
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xll0328/xll0328_ed.github.io/main/project/DRIVE/MyVideo2_DRIVE.gif" alt="DRIVE demo" style="max-width: 85%; height: auto;" />
@@ -89,7 +89,7 @@ lang: zh
 | **论文 PDF** | [arXiv:2409.10330](https://arxiv.org/abs/2409.10330) |
 | **数据集** | [Comma2k19](https://github.com/commaai/comma2k19) |
 
-安装、数据预处理、训练（DCG → DRIVE）和脚本示例见 [repository README](https://github.com/xll0328/ICRA25-DRIVE)。
+安装、数据预处理、训练（DCG → DRIVE）和脚本示例见 [仓库 README](https://github.com/xll0328/ICRA25-DRIVE)。
 
 ---
 

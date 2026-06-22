@@ -26,7 +26,7 @@ lang: zh
 
 **作者：** HongWei Liu, Jia Liu, **Songning Lai~**  
 **会议：** Medical Image Computing and Computer Assisted Intervention (**MICCAI 2026**, CCF B), provisionally accepted  
-**说明：** `~` 表示通讯作者。论文与代码链接将在 MICCAI 公开发布和 artifact release 要求满足后补充。
+**说明：** `~` 表示通讯作者。论文与代码链接将在 MICCAI 公开发布和开源制品（artifact release）要求满足后补充。
 
 ---
 
@@ -79,19 +79,19 @@ $$
 
 SANT-CBM 在两个公开皮肤病数据集 **Fitzpatrick17k** 和 **7-point Checklist** 上评估。在 10% 有标注设置下，它相比最先进的半监督 CBM 基线提升了任务准确率。
 
-| Dataset | SSCBM Task Acc. | SANT-CBM Task Acc. | Gain |
+| 数据集 | SSCBM 任务准确率 | SANT-CBM 任务准确率 | 提升 |
 |---------|------------------|--------------------|------|
 | Fitzpatrick17k | 71.52% | **77.83%** | +6.31% |
 | 7-point Checklist | 67.52% | **73.27%** | +5.75% |
 
 ### Fitzpatrick17k 上的消融
 
-| GMM Denoising | Structural Loss | Concept Acc. | Task Acc. |
+| GMM 去噪 | 结构损失 | 概念准确率 | 任务准确率 |
 |---------------|-----------------|--------------|-----------|
 | - | - | 86.31% | 71.51% |
-| Yes | - | 87.81% | 74.38% |
-| - | Yes | 86.47% | 75.13% |
-| Yes | Yes | **88.84%** | **77.83%** |
+| 是 | - | 87.81% | 74.38% |
+| - | 是 | 86.47% | 75.13% |
+| 是 | 是 | **88.84%** | **77.83%** |
 
 ---
 
@@ -105,6 +105,6 @@ SANT-CBM 在两个公开皮肤病数据集 **Fitzpatrick17k** 和 **7-point Chec
 
 ## 发布
 
-论文已被 MICCAI 2026 临时接收。公开论文链接、引用元数据和代码仓库链接将在 camera-ready 与 MICCAI 公开发布流程完成后更新。
+论文已被 MICCAI 2026 临时接收。公开论文链接、引用元数据和代码仓库链接将在终稿（camera-ready）与 MICCAI 公开发布流程完成后更新。
 
 [← 返回首页]({{ '/zh/' | relative_url }})

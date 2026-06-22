@@ -38,7 +38,7 @@ lang: zh
 
 <img src="{{ '/images/medmicn/framework.jpg' | relative_url }}" alt="Med-MICN framework" style="max-width: 95%; height: auto;" />
 
-Med-MICN 框架包含四个主要模块：(1) **Feature Extraction Module**：用 backbone 提取图像特征。(2) **Concept Embedding Module**：将特征输入概念嵌入模块，输出概念嵌入和预测类别信息。(3) **Concept Semantic Alignment**：使用 VLM 标注图像特征并生成与预测类别对齐的概念类别标注。(4) **Neural Symbolic Layer**：将概念嵌入输入神经符号层推导概念规则。概念嵌入与原始图像嵌入拼接后输入最终分类层得到预测。
+Med-MICN 框架包含四个主要模块：(1) **特征提取模块（Feature Extraction Module）**：用骨干网络提取图像特征。(2) **概念嵌入模块（Concept Embedding Module）**：将特征输入概念嵌入模块，输出概念嵌入和预测类别信息。(3) **概念语义对齐（Concept Semantic Alignment）**：使用 VLM 标注图像特征并生成与预测类别对齐的概念类别标注。(4) **神经符号层（Neural Symbolic Layer）**：将概念嵌入输入神经符号层推导概念规则。概念嵌入与原始图像嵌入拼接后输入最终分类层得到预测。
 
 ---
 
@@ -74,7 +74,7 @@ $$f(x_m) = \Theta_b(x_m), \quad f_c(x_m), \hat{C}_m = \Theta_c(f(x_m)).$$
 
 $$\mathcal{L}_c = \mathrm{BCE}(\hat{c}, c).$$
 
-**神经符号层。** 对每个类别 \(j\)，结合概念 polarity \(I_{o,i,j}\) 与 relevance \(I_{r,i,j}\)（fuzzy logic）：
+**神经符号层。** 对每个类别 \(j\)，结合概念极性 \(I_{o,i,j}\) 与相关性 \(I_{r,i,j}\)（模糊逻辑）：
 
 $$\hat{y}_j = \land_{i=1}^{N} ( \neg I_{o, i, j} \lor I_{r, i, j} ) = \min_{i \in [N]} \{ \max\{1-I_{o, i, j} , I_{r, i, j}\} \}.$$
 
@@ -98,9 +98,9 @@ $$\mathcal{L}_{\mathrm{task}} = \mathrm{CE}(\tilde{y}, y), \quad \mathcal{L}_{\m
 
 ## 主要结果
 
-### Utility results (Acc.% / F1%)
+### 效用结果（Acc.% / F1%）
 
-| Method | Backbone | COVID-CT | DDI | Chest X-Ray | Fitzpatrick17k | Interpretability |
+| 方法 | 骨干网络 | COVID-CT | DDI | Chest X-Ray | Fitzpatrick17k | 可解释性 |
 |--------|----------|----------|-----|-------------|----------------|------------------|
 | Baseline | ResNet50 | 81.36 / 81.67 | 77.27 / 72.77 | 75.64 / 71.72 | 80.79 / 80.79 | × |
 | Baseline | VGG19 | 79.60 / 79.88 | 76.52 / 70.12 | **81.41** / **77.56** | 75.37 / 75.37 | × |
@@ -113,7 +113,7 @@ $$\mathcal{L}_{\mathrm{task}} = \mathrm{CE}(\tilde{y}, y), \quad \mathcal{L}_{\m
 
 ### 消融实验
 
-ResNet50 消融显示，同时使用 concept loss 和 neural loss 能在 COVID-CT、DDI、Chest X-Ray 和 Fitzpatrick17k 上获得最优 Acc./AUC。例如在 DDI 上，仅使用 concept loss 带来 +3.79% AUC；仅使用 neural loss 提升不明显；二者同时使用带来 +8.71% AUC。
+ResNet50 消融显示，同时使用概念损失和神经损失能在 COVID-CT、DDI、Chest X-Ray 和 Fitzpatrick17k 上获得最优 Acc./AUC。例如在 DDI 上，仅使用概念损失带来 +3.79% AUC；仅使用神经损失提升不明显；二者同时使用带来 +8.71% AUC。
 
 ---
 
@@ -124,7 +124,7 @@ ResNet50 消融显示，同时使用 concept loss 和 neural loss 能在 COVID-C
 **代码：** [https://github.com/xll0328/NeurIPS24-Med_MICN](https://github.com/xll0328/NeurIPS24-Med_MICN)
 
 ```bash
-# Training with different backbones
+# 使用不同骨干网络训练
 python train_skin_neural.py --backbone RN50
 python train_skin_neural.py --backbone DenseNet
 python train_skin_neural.py --backbone DINOv2
