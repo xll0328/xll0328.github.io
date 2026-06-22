@@ -1,17 +1,45 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <a class="site-brand" href="{{ '/' | relative_url }}" target="_self" aria-label="{{ site.title }} homepage">
+    {% assign page_lang = page.lang | default: 'en' %}
+    {% assign current_url = page.url | default: '/' %}
+    {% if page_lang == 'zh' %}
+      {% assign language_url = current_url | replace_first: '/zh', '' %}
+      {% if language_url == '' %}{% assign language_url = '/' %}{% endif %}
+      {% assign brand_text = '赖颂宁' %}
+      {% assign home_text = '首页' %}
+      {% assign language_text = 'English' %}
+      {% assign language_label = 'Switch to English' %}
+    {% else %}
+      {% if current_url == '/' %}
+        {% assign language_url = '/zh/' %}
+      {% else %}
+        {% assign language_url = '/zh' | append: current_url %}
+      {% endif %}
+      {% assign brand_text = 'Songning Lai' %}
+      {% assign home_text = 'Homepage' %}
+      {% assign language_text = '中文' %}
+      {% assign language_label = '切换到中文' %}
+    {% endif %}
+    <a class="site-brand" href="{% if page_lang == 'zh' %}{{ '/zh/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" target="_self" aria-label="{{ site.title }} homepage">
       <span class="site-brand__mark">SL</span>
-      <span class="site-brand__text">Songning Lai</span>
+      <span class="site-brand__text">{{ brand_text }}</span>
     </a>
     <div class="masthead__menu">
       <nav id="academic-nav" class="greedy-nav">
         <button aria-label="Toggle navigation menu"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}" target="_self">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{% if page_lang == 'zh' %}{{ '/zh/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" target="_self">{{ home_text }}</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}" target="_self">{{ link.title }}</a></li>
+            {% if page_lang == 'zh' %}
+              {% assign nav_title = link.title_zh | default: link.title %}
+              {% assign nav_url = link.url_zh | default: link.url %}
+            {% else %}
+              {% assign nav_title = link.title %}
+              {% assign nav_url = link.url %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ nav_url | relative_url }}" target="_self">{{ nav_title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item masthead__menu-item--language"><a class="language-switch" href="{{ language_url | relative_url }}" target="_self" aria-label="{{ language_label }}">{{ language_text }}</a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

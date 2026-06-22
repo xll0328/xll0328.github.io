@@ -3428,3 +3428,33 @@ body.project-page .page .page__content em {
 }
 
 @import "guolz-refresh";
+
+.academic-refresh .masthead__menu-item--language {
+    padding-left: 0.25rem;
+}
+
+.academic-refresh .masthead__menu-item--language .language-switch {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 3.75rem;
+    margin-left: 0.5rem;
+    padding: 0.35rem 0.7rem;
+    border: 1px solid rgba(30, 136, 229, 0.28);
+    border-radius: 999px;
+    color: var(--academic-ink);
+    font-weight: 700;
+    line-height: 1.2;
+    background: rgba(23, 63, 119, 0.06);
+}
+
+.academic-refresh .masthead__menu-item--language .language-switch:hover {
+    background: rgba(23, 63, 119, 0.12);
+    color: var(--academic-ink);
+}
+
+@media (max-width: 640px) {
+    .academic-refresh .greedy-nav .visible-links .masthead__menu-item.masthead__menu-item--language {
+        display: block !important;
+    }
+}

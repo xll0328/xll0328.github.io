@@ -41,6 +41,7 @@
     
     // 生成统计HTML，每个tag可点击
     function generateStatsHTML(tagCounts) {
+        const isZh = document.documentElement.lang.toLowerCase().startsWith('zh');
         const statsParts = [];
         
         // 按照显示顺序排列
@@ -61,7 +62,7 @@
         
         // 添加总计标签
         statsParts.push(
-            `<span class="stat-tag stat-tag-total" data-filter="all">总计: ${totalCount}</span>`
+            `<span class="stat-tag stat-tag-total" data-filter="all">${isZh ? '总计' : 'Total'}: ${totalCount}</span>`
         );
         
         return statsParts.join(' | ');

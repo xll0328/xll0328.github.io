@@ -9,6 +9,10 @@
 
         const items = Array.from(list.querySelectorAll('li'));
         const defaultVisible = 8;
+        const isZh = document.documentElement.lang.toLowerCase().startsWith('zh');
+        const labels = isZh
+            ? { full: '展开完整动态', recent: '仅显示近期亮点' }
+            : { full: 'Show full news archive', recent: 'Show recent highlights only' };
 
         if (items.length <= defaultVisible) {
             button.style.display = 'none';
@@ -22,7 +26,7 @@
             });
             list.classList.toggle('is-collapsed', collapsed);
             button.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
-            button.textContent = collapsed ? 'Show full news archive' : 'Show recent highlights only';
+            button.textContent = collapsed ? labels.full : labels.recent;
         }
 
         applyCollapsed(true);

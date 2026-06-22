@@ -2,14 +2,15 @@
 layout: compress
 ---
 
+{% assign page_lang = page.lang | default: 'en' %}
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="{% if page_lang == 'zh' %}zh-CN{% else %}en{% endif %}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body class="academic-refresh {% if page.permalink and page.permalink != '/' %}project-page{% else %}home-page{% endif %} page{{ page.permalink | replace: '/', '-' }}">
+  <body class="academic-refresh lang-{{ page_lang }} {% if page.permalink and page.permalink != '/' and page.permalink != '/zh/' %}project-page{% else %}home-page{% endif %} page{{ page.permalink | replace: '/', '-' }}">
 
     {% include browser-upgrade.html %}
 

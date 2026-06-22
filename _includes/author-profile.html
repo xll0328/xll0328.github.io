@@ -1,32 +1,48 @@
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
+{% assign page_lang = page.lang | default: 'en' %}
+{% if page_lang == 'zh' %}
+  {% assign author_name = '赖颂宁' %}
+  {% assign author_bio = '量化研究员<br>聚宽' %}
+  {% assign author_location = '北京，中国' %}
+  {% assign author_employer = '聚宽' %}
+  {% assign website_label = '个人网站' %}
+  {% assign email_label = '邮箱' %}
+{% else %}
+  {% assign author_name = author.name %}
+  {% assign author_bio = author.bio %}
+  {% assign author_location = author.location %}
+  {% assign author_employer = author.employer %}
+  {% assign website_label = 'Website' %}
+  {% assign email_label = 'Email' %}
+{% endif %}
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author_name }}">
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">{{ author_name }}</h3>
+    {% if author_bio %}<p class="author__bio">{{ author_bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% if author_location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author_location }}</li>
       {% endif %}
-      {% if author.employer %}
-        <li class="employer-item" data-employer="{{ author.employer }}"><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author.employer }}</li>
+      {% if author_employer %}
+        <li class="employer-item" data-employer="{{ author_employer }}"><i class="fa fa-fw fa-briefcase" aria-hidden="true"></i> {{ author_employer }}</li>
       {% endif %}
       {% if author.uri %}
-        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ website_label }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ email_label }}</a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>

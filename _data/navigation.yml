@@ -1,19 +1,31 @@
 # main links links
 main:
   - title: "Research"
+    title_zh: "研究方向"
     url: "/#research"
+    url_zh: "/zh/#research"
 
   - title: "News"
+    title_zh: "动态"
     url: "/#news"
+    url_zh: "/zh/#news"
 
   - title: "Publications"
+    title_zh: "论文"
     url: "/#publications"
+    url_zh: "/zh/#publications"
 
   - title: "Honors"
+    title_zh: "荣誉"
     url: "/#honors-and-awards"
+    url_zh: "/zh/#honors-and-awards"
 
   - title: "Experience"
+    title_zh: "经历"
     url: "/#educations"
+    url_zh: "/zh/#educations"
 
   - title: "CAT"
+    title_zh: "CAT"
     url: "/cat/"
+    url_zh: "/zh/cat/"
