@@ -141,20 +141,6 @@ European Conference on Computer Vision <strong>ECCV 2026</strong> <span class="v
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/AnaPFL.png' alt="AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization in Personalized Federated Learning" loading="lazy" width="400" height="300"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<strong>AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization in Personalized Federated Learning</strong>
-
-Kejia Fan, Jianheng Tang, Zhirui Yang, Feijiang Han, Yajiang Huang, Run He, Jiaxu Li, <strong>Songning Lai</strong>, Anfeng Liu, Houbing Herbert Song, Yunhuai Liu, Huiping Zhuang
-
-European Conference on Computer Vision <strong>ECCV 2026</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
-
-<p class="paper-description">AnaPFL studies personalized federated learning from an analytic perspective, connecting closed-form solutions with the generalization and personalization needs of heterogeneous federated clients.</p>
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MICCAI 2026</div><img src='images/SANT-CBM.png' alt="SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
