@@ -3456,5 +3456,15 @@ body.project-page .page .page__content em {
 @media (max-width: 640px) {
     .academic-refresh .greedy-nav .visible-links .masthead__menu-item.masthead__menu-item--language {
         display: block !important;
+        order: -1;
+    }
+
+    .academic-refresh .masthead__menu-item--language {
+        padding-left: 0;
+        padding-right: 0.35rem;
+    }
+
+    .academic-refresh .masthead__menu-item--language .language-switch {
+        margin-left: 0;
     }
 }

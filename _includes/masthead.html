@@ -11,10 +11,17 @@
       {% assign language_label = 'Switch to English' %}
     {% else %}
       {% if current_url == '/' %}
-        {% assign language_url = '/zh/' %}
+        {% assign candidate_language_url = '/zh/' %}
       {% else %}
-        {% assign language_url = '/zh' | append: current_url %}
+        {% assign candidate_language_url = '/zh' | append: current_url %}
       {% endif %}
+      {% assign language_url = '/zh/' %}
+      {% for candidate_page in site.pages %}
+        {% if candidate_page.url == candidate_language_url %}
+          {% assign language_url = candidate_language_url %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
       {% assign brand_text = 'Songning Lai' %}
       {% assign home_text = 'Homepage' %}
       {% assign language_text = '中文' %}
