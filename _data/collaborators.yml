@@ -1,10 +1,20 @@
 - name: Yutao Yue
   initials: YY
   url: https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue
+  image: /assets/images/collaborators/yutao-yue.jpg
   role_en: Faculty Collaborator
   role_zh: 合作导师
   meta_en: AI Thrust · HKUST(GZ)
   meta_zh: AI Thrust · 香港科技大学（广州）
+
+- name: Zhijiang Guo
+  initials: ZG
+  url: https://cartus.github.io/
+  image: /assets/images/collaborators/zhijiang-guo.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: LLM reasoning · HKUST(GZ)
+  meta_zh: 大模型推理 · 香港科技大学（广州）
 
 - name: Lijie Hu
   initials: LH
@@ -24,6 +34,24 @@
   meta_en: LLM interpretability · HKUST(GZ)
   meta_zh: 大模型可解释性 · 香港科技大学（广州）
 
+- name: Shengen Wu
+  initials: SW
+  url: https://shengenwu.github.io/
+  image: /assets/images/collaborators/shengen-wu.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: LLMs · HKUST(GZ)
+  meta_zh: 大语言模型 · 香港科技大学（广州）
+
+- name: Jiaqi Tang
+  initials: JT
+  url: https://jqt.me/
+  image: /assets/images/collaborators/jiaqi-tang.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Multimodal LLMs · HKUST
+  meta_zh: 多模态大模型 · 香港科技大学
+
 - name: Wenshuo Chen
   initials: WC
   url: https://chatonz.github.io/
@@ -32,6 +60,24 @@
   role_zh: 科研合作者
   meta_en: Generative models · XAI
   meta_zh: 生成模型 · 可解释 AI
+
+- name: Kaishen Yuan
+  initials: KY
+  url: https://yuankaishen2001.github.io/Kkkkkkyle/
+  image: /assets/images/collaborators/kaishen-yuan.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Computer vision · HKUST(GZ)
+  meta_zh: 计算机视觉 · 香港科技大学（广州）
+
+- name: Lei Wang
+  initials: LW
+  url: https://leiwangr.github.io/
+  image: /assets/images/collaborators/lei-wang.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Motion understanding · Griffith
+  meta_zh: 运动理解 · Griffith
 
 - name: Hang Zhao
   initials: HZ
@@ -60,6 +106,15 @@
   meta_en: Responsible AI · KAUST
   meta_zh: 负责任 AI · KAUST
 
+- name: Pan Zhou
+  initials: PZ
+  url: https://panzhous.github.io/
+  image: /assets/images/collaborators/pan-zhou.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Machine learning · SMU
+  meta_zh: 机器学习 · 新加坡管理大学
+
 - name: Hua Xu
   initials: HX
   url: https://hxu129.github.io/
@@ -87,9 +142,28 @@
   meta_en: Graph learning · Rutgers
   meta_zh: 图学习 · Rutgers
 
+- name: Rui Li
+  initials: RL
+  url: https://rui-li023.github.io/
+  image: /assets/images/collaborators/rui-li.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: 3D vision · Shanghai AI Lab
+  meta_zh: 三维视觉 · 上海人工智能实验室
+
+- name: Houbing Herbert Song
+  initials: HS
+  url: https://informationsystems.umbc.edu/home/faculty-and-staff/new-faculty-spotlights/houbing-herbert-song/
+  image: /assets/images/collaborators/houbing-song.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: AI/CPS · UMBC
+  meta_zh: AI/CPS · UMBC
+
 - name: Benyou Wang
   initials: BW
   url: https://wabyking.github.io/
+  image: /assets/images/collaborators/benyou-wang.jpg
   role_en: Research Collaborator
   role_zh: 科研合作者
   meta_en: Large language models · CUHK-Shenzhen
