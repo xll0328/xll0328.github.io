@@ -7,6 +7,14 @@
   meta_en: AI Thrust · HKUST(GZ)
   meta_zh: AI Thrust · 香港科技大学（广州）
 
+- name: Zhi Liu
+  initials: ZL
+  url: https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm
+  role_en: Undergraduate Supervisor
+  role_zh: 本科导师
+  meta_en: AI · Shandong University
+  meta_zh: 人工智能 · 山东大学
+
 - name: Zhijiang Guo
   initials: ZG
   url: https://cartus.github.io/
@@ -60,6 +68,141 @@
   role_zh: 科研合作者
   meta_en: Generative models · XAI
   meta_zh: 生成模型 · 可解释 AI
+
+- name: Mingqian Liao
+  initials: ML
+  url: https://leo-adventure.github.io/
+  image: /assets/images/collaborators/mingqian-liao.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Computer vision · Johns Hopkins
+  meta_zh: 计算机视觉 · Johns Hopkins
+
+- name: Ninghui Feng
+  initials: NF
+  url: https://feng1201.github.io/
+  image: /assets/images/collaborators/ninghui-feng.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Time series · HKUST(GZ)
+  meta_zh: 时间序列 · 香港科技大学（广州）
+
+- name: Yuxuan Fan
+  initials: YF
+  url: https://yuxuanfanorion.github.io/
+  image: /assets/images/collaborators/yuxuan-fan.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Multimodal reasoning · LLMs
+  meta_zh: 多模态推理 · 大语言模型
+
+- name: Jianheng Tang
+  initials: JT
+  url: https://squareroot3.github.io/
+  image: /assets/images/collaborators/jianheng-tang.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Data mining · HKUST
+  meta_zh: 数据挖掘 · 香港科技大学
+
+- name: Haicheng Liao
+  initials: HL
+  url: https://petrichor625.github.io/
+  image: /assets/images/collaborators/haicheng-liao.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Autonomous driving · University of Macau
+  meta_zh: 自动驾驶 · 澳门大学
+
+- name: Jiechao Gao
+  initials: JG
+  url: https://profiles.stanford.edu/jiechao-gao
+  image: /assets/images/collaborators/jiechao-gao.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Postdoc · Stanford
+  meta_zh: 博士后 · Stanford
+
+- name: Haochen Sui
+  initials: HS
+  url: https://github.com/WallaceSUI
+  image: /assets/images/collaborators/haochen-sui.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Trustworthy AI · University of Michigan
+  meta_zh: 可信 AI · 密歇根大学
+
+- name: Yuxuan Liang
+  initials: YL
+  url: https://yuxuanliang.com/
+  image: /assets/images/collaborators/yuxuan-liang.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Urban computing · HKUST(GZ)
+  meta_zh: 城市计算 · 香港科技大学（广州）
+
+- name: Boyu Wang
+  initials: BW
+  url: https://sites.google.com/site/borriewang/
+  image: /assets/images/collaborators/boyu-wang.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Machine learning · Western University
+  meta_zh: 机器学习 · Western University
+
+- name: Zhenning Li
+  initials: ZL
+  url: https://www.fst.um.edu.mo/people/zhenningli/
+  image: /assets/images/collaborators/zhenning-li.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Autonomous driving · University of Macau
+  meta_zh: 自动驾驶 · 澳门大学
+
+- name: Runwei Guan
+  initials: RG
+  url: https://github.com/GuanRunwei
+  image: /assets/images/collaborators/runwei-guan.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: 3D vision · University of Liverpool
+  meta_zh: 三维视觉 · 利物浦大学
+
+- name: Junxiao Wang
+  initials: JW
+  url: https://jxiao.wang/
+  image: /assets/images/collaborators/junxiao-wang.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Trustworthy AI · Guangzhou University
+  meta_zh: 可信 AI · 广州大学
+
+- name: Laure Berti-Equille
+  initials: LB
+  url: https://laureberti.github.io/website/
+  image: /assets/images/collaborators/laure-berti.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Data quality · IRD
+  meta_zh: 数据质量 · IRD
+
+- name: Zichen Song
+  initials: ZS
+  url: https://infolab-skku.github.io/members/zichen-song.html
+  image: /assets/images/collaborators/zichen-song.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Graph learning · SKKU
+  meta_zh: 图学习 · 成均馆大学
+
+- name: Subhas Mukhopadhyay
+  initials: SM
+  url: https://researchers.mq.edu.au/en/persons/subhas-mukhopadhyay
+  image: /assets/images/collaborators/subhas-mukhopadhyay.jpg
+  role_en: Research Collaborator
+  role_zh: 科研合作者
+  meta_en: Sensors · Macquarie University
+  meta_zh: 传感器 · 麦考瑞大学
 
 - name: Kaishen Yuan
   initials: KY
