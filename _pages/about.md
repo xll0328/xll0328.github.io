@@ -75,7 +75,8 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 
 <ul id="news-list" class="news-list is-collapsed">
 <li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> has been accepted at <strong>ECCV 2026</strong>, where I serve as the first author!</li>
-<li><em>06.2026</em>  🏆 Our team <strong>Nexus Robotics Lab</strong> won <strong>1st place</strong> in <a href="images/wbcd-icra-2026.jpg">Logistics Picking (Shanghai)</a> at <strong>What Bimanuals Can Do (WBCD)</strong>, held with <strong>ICRA 2026</strong>!</li>
+<li><em>06.2026</em>  🎉 Two collaborator papers have been accepted to the <strong>ACM MM 2026 BNI Track</strong>: <a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a> (Poster) and <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a> (Oral)!</li>
+<li><em>06.2026</em>  🏆 Our team (<strong>HKUST(GZ) Deep Robotics Team / Nexus Robotics Lab</strong>) won <strong>1st place globally</strong> in <a href="https://wbcdcompetition.github.io">Logistics Picking at What Bimanuals Can Do (WBCD) 2026</a>, held with <strong>ICRA 2026</strong>, and also placed 1st at the Shanghai site!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/sant-cbm/">"SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models"</a> has been provisionally accepted at <strong>MICCAI 2026</strong> (CCF B), where I serve as the last and corresponding author!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="images/FixCBM_ICANN2026.pdf">"Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation"</a> has been accepted at <strong>ICANN 2026</strong> (CCF C), where I serve as corresponding author!</li>
 <li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been <strong>accepted at TMLR 2026</strong>. <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong> <strong><a href="https://github.com/xll0328/CAT_CBM-Backdoor">[Code]</a></strong></li>
@@ -352,6 +353,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <li data-tags="tmlr">Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models, <strong>Songning Lai</strong>, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue, <strong>TMLR 2026</strong> (Accepted).</li>
 <li data-tags="iclr">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall, Jiayu Yang†, Yuxuan Fan†, <strong>Songning Lai†</strong>, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue, <strong>ICLR 2026</strong> (CCF A).</li>
 <li data-tags="ccf-b core-a">TOWARDS RELIABLE TIME SERIES FORECASTING UNDER FUTURE UNCERTAINTY: AMBIGUITY AND NOVELTY REJECTION MECHANISMS, Ninghui Feng†, <strong>Songning Lai†</strong>, Xin Zhou, Jiayu Yang, Kunlong Feng, Zhenxiao Yin, Fobao Zhou, Zhangyi Hu, Yutao Yue, Yuxuan Liang, Boyu Wang, Hang Zhao, <strong>ICASSP 2026</strong> (CCF B).</li>
+<li data-tags="ccf-a core-a-star">Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation, Wenshuo Chen, Haozhe Jia, <strong>Songning Lai</strong>, Lei Wang, Pengyu Yin, Shaofeng Liang, Yuqi Lin, Hongru Xiao, Lijie Hu, Yutao Yue, <strong>ACM MM 2026 Brave New Ideas Track</strong> (CCF A, Poster, Accepted). <strong><a href="https://openreview.net/forum?id=I5VSeVLEuZ">OpenReview</a></strong></li>
+<li data-tags="ccf-a core-a-star">Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models, Haosen Li, Wenshuo Chen, Lei Wang, Shaofeng Liang, Bowen Tian, <strong>Songning Lai</strong>, Yutao Yue, <strong>ACM MM 2026 Brave New Ideas Track</strong> (CCF A, Oral, Accepted). <strong><a href="https://arxiv.org/abs/2604.26503">arXiv</a></strong></li>
 <li data-tags="jcr-q1">TPTD: A Trusted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing, Yajiang Huang, ..., <strong>Songning Lai</strong>, ..., Houbing Herbert Song, <strong>Knowledge-Based Systems(KBS)</strong> (JCR Q1, IF: 7.2).</li>
 </ul>
 
@@ -408,7 +411,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="honor-card highlight">
 <span class="honor-icon">🥇</span>
 <div class="honor-content">
-<strong><a href="images/wbcd-icra-2026.jpg">1st Place in What Bimanuals Can Do (WBCD), Logistics Picking (Shanghai)</a></strong>
+<strong><a href="https://wbcdcompetition.github.io">World 1st Place in What Bimanuals Can Do (WBCD) 2026, Logistics Picking Global Rankings</a></strong>
 <span class="honor-badge best-paper">ICRA 2026 Competition</span>
 </div>
 </div>
