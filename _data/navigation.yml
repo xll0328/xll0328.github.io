@@ -15,6 +15,11 @@ main:
     url: "/#publications"
     url_zh: "/zh/#publications"
 
+  - title: "CV"
+    title_zh: "简历"
+    url: "/cv/"
+    url_zh: "/zh/cv/"
+
   - title: "Honors"
     title_zh: "荣誉"
     url: "/#honors-and-awards"

@@ -65,6 +65,7 @@ lang: zh
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
+<li><em>07.2026</em> 🎉 我们的合作论文 "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" 被 <strong>ACM MM 2026 Main Track</strong> 接收！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> 被 <strong>ECCV 2026</strong> 接收，我担任第一作者！</li>
 <li><em>06.2026</em> 🎉 两篇合作论文被 <strong>ACM MM 2026 BNI Track</strong> 接收：<a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a>（Poster）和 <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a>（Oral）！</li>
 <li><em>06.2026</em> 🏆 我们的团队（<strong>HKUST(GZ) Deep Robotics Team / Nexus Robotics Lab</strong>）在 <strong>ICRA 2026</strong> 同期举办的 <a href="https://wbcdcompetition.github.io"><strong>What Bimanuals Can Do (WBCD) 2026</strong> Logistics Picking 全球总榜</a>获得<strong>世界第一</strong>，同时获得上海赛区第一！</li>
@@ -324,6 +325,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h2>2026</h2>
 <ul class="publication-list">
+<li data-tags="ccf-a core-a-star">When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking, Shaofeng Liang, Runwei Guan, Wenshuo Chen, Jiemin Wu, Bowen Tian, Haozhe Jia, Kaishen Yuan, <strong>Songning Lai</strong>, Daizong Liu, Yutao Yue, <strong>ACM MM 2026 Main Track</strong> (CCF A, Accepted).</li>
 <li data-tags="ccf-b">Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions, <strong>Songning Lai</strong>, Shaofeng Liang, Jiayu Yang, Ninghui Feng, Yuxuan Fan, Wenshuo Chen, European Conference on Computer Vision <strong>ECCV 2026</strong> (CCF B, Accepted). <strong><a href="{{ '/zh/dynamic-v2c/' | relative_url }}">项目页</a></strong></li>
 <li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Provisionally Accepted). <strong><a href="{{ '/zh/sant-cbm/' | relative_url }}">项目页</a></strong></li>
 <li data-tags="ccf-c">Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation, Yayue Mai, <strong>Songning Lai~</strong>, International Conference on Artificial Neural Networks <strong>ICANN 2026</strong> (CCF C, Accepted). <strong><a href="{{ '/images/FixCBM_ICANN2026.pdf' | relative_url }}">论文</a></strong></li>
