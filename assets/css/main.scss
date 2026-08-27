@@ -1579,7 +1579,7 @@ html {
             }
             
             /* Comment */
-            &:has-text("JoinQuant") {
+            &:has-text("X-tech") {
                 position: relative;
                 
                 &::after {
@@ -1594,8 +1594,8 @@ html {
         }
         
         /* Comment */
-        &:has-text("JoinQuant"),
-        &:contains("JoinQuant") {
+        &:has-text("X-tech"),
+        &:contains("X-tech") {
             position: relative;
             
             &::after {
@@ -1638,8 +1638,8 @@ html {
         
         /* Comment */
         &.employer-item,
-        &[data-employer*="JoinQuant"],
-        &[data-employer*="joinquant"] {
+        &[data-employer*="X-tech"],
+        &[data-employer*="x-tech"] {
             position: relative;
             overflow: visible;
             
@@ -4315,6 +4315,54 @@ body.project-page .page .page__content .notice--info {
 .academic-refresh .honors-container,
 .academic-refresh .educations-container {
     padding: 1rem;
+}
+
+.academic-refresh .timeline-item {
+    align-items: stretch;
+}
+
+.academic-refresh .timeline-icon {
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid var(--academic-line);
+    box-shadow: 0 8px 20px rgba(23, 63, 119, 0.08);
+}
+
+.academic-refresh .timeline-item:hover .timeline-icon {
+    transform: translateY(-1px);
+}
+
+.academic-refresh .experience-logo {
+    width: 1.55rem;
+    height: 1.55rem;
+    object-fit: contain;
+    display: block;
+}
+
+.academic-refresh .experience-logo-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background: var(--academic-ink);
+    border-radius: 6px;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.academic-refresh .experience-type {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.45rem;
+    padding: 0.12rem 0.45rem;
+    border-radius: 999px;
+    color: var(--academic-ink);
+    background: var(--academic-accent-soft);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.4;
+    white-space: nowrap;
 }
 
 .academic-refresh .friend-card.collaborator-card {

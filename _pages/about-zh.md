@@ -66,6 +66,7 @@ lang: zh
 
 <ul id="news-list" class="news-list is-collapsed">
 <li><em>08.2026</em> 🎉 三篇论文被 <strong>EMNLP 2026</strong> 接收："Decomposing Visual Histories with Vision-Language Agents"（主会）、"Demystifying Hidden-State Recurrence"（Findings）和 "NUM2EVENT"（Findings，共同一作）！</li>
+<li><em>08.2026</em> 我即将加入<strong>交叉科技</strong>，担任机器学习量化算法工程师。</li>
 <li><em>07.2026</em> 🎉 我们的合作论文 "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" 被 <strong>ACM MM 2026 Main Track</strong> 接收！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> 被 <strong>ECCV 2026</strong> 接收，我担任第一作者！</li>
 <li><em>06.2026</em> 🎉 两篇合作论文被 <strong>ACM MM 2026 BNI Track</strong> 接收：<a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a>（Poster）和 <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a>（Oral）！</li>
@@ -117,39 +118,7 @@ lang: zh
 <div class="publications-scroll-container">
 
 <h2>2026</h2>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="HTGF" loading="lazy" width="400" height="300"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation</a></strong>
-
-Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun
-
-Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Main Conference</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
-
-<p class="paper-description">HTGF 将多参考图像条件生成重构为时间路由问题：语义分解器把参考图像分配到 Subject、Structure、Detail 三个轴，并在最有效的去噪窗口注入对应条件，无需训练或改动扩散模型结构。</p>
-
-<strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">OpenReview</a></strong>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='{{ "/images/ACE.png" | relative_url }}' alt="SWITCH" loading="lazy" width="400" height="300"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning</a></strong>
-
-Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo
-
-Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Findings</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
-
-<p class="paper-description">SWITCH 通过显式边界 token 进入和退出潜在推理模式，使 hidden-state recurrence latent reasoning 可以用 on-policy RL 训练，并为机制分析提供可定位、可干预的锚点。</p>
-
-<strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">OpenReview</a></strong>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='{{ "/images/time_pre.png" | relative_url }}' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='{{ "/images/num2event.png" | relative_url }}' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">NUM2EVENT: Structured Event Inference from Numerical Time-Series</a></strong>
@@ -446,12 +415,15 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='educations'></span>
-# 教育与科研经历
+# 教育与工作经历
 
 <div class="timeline-container">
-<div class="timeline-item"><div class="timeline-icon">🔬</div><div class="timeline-content"><div class="timeline-date">2024 年 4 月 - 2025 年 9 月</div><div class="timeline-title">香港科技大学（广州）- 研究助理</div><div class="timeline-desc">AI Thrust & INFO Hub</div></div></div>
-<div class="timeline-item"><div class="timeline-icon">🌍</div><div class="timeline-content"><div class="timeline-date">2023 年 4 月 - 2024 年 3 月</div><div class="timeline-title">KAUST - 访问学生</div><div class="timeline-desc">国际科研经历</div></div></div>
-<div class="timeline-item"><div class="timeline-icon">🎓</div><div class="timeline-content"><div class="timeline-date">2020 年 9 月 - 2024 年 6 月</div><div class="timeline-title">山东大学 - 理学学士</div><div class="timeline-desc">信息科学与工程学院（EECS）</div></div></div>
+<div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">XT</span></div><div class="timeline-content"><div class="timeline-date">2026 年 9 月 - 即将入职</div><div class="timeline-title">交叉科技 - 机器学习量化算法工程师</div><div class="timeline-desc"><span class="experience-type">全职</span> 量化科技部，机器学习算法与量化策略研究。</div></div></div>
+<div class="timeline-item experience-work"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="聚宽 logo"></div><div class="timeline-content"><div class="timeline-date">2026 年 1 月 - 2026 年 8 月</div><div class="timeline-title">聚宽（JoinQuant）- 量化研究 / 人工智能算法</div><div class="timeline-desc"><span class="experience-type">全职</span> 分钟级期货因子建模、自动化训练与调参流程建设。</div></div></div>
+<div class="timeline-item experience-internship"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="聚宽 logo"></div><div class="timeline-content"><div class="timeline-date">2025 年 11 月 - 2026 年 1 月</div><div class="timeline-title">聚宽（JoinQuant）- 量化投研人工智能算法实习生</div><div class="timeline-desc"><span class="experience-type">实习</span> 量化研究与 AI 算法探索。</div></div></div>
+<div class="timeline-item experience-research"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=hkust-gz.edu.cn&sz=64" alt="香港科技大学（广州）logo"></div><div class="timeline-content"><div class="timeline-date">2024 年 4 月 - 2025 年 9 月</div><div class="timeline-title">香港科技大学（广州）- 研究助理</div><div class="timeline-desc"><span class="experience-type">科研</span> AI Thrust & INFO Hub，可信 AI、CBM、鲁棒性与 LLM 可解释性。</div></div></div>
+<div class="timeline-item experience-visit"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=kaust.edu.sa&sz=64" alt="KAUST logo"></div><div class="timeline-content"><div class="timeline-date">2023 年 4 月 - 2024 年 4 月</div><div class="timeline-title">KAUST - 远程科研实习生</div><div class="timeline-desc"><span class="experience-type">访问 / 实习</span> 与 Di Wang 教授、Lijie Hu 博士合作开展可信 AI 研究。</div></div></div>
+<div class="timeline-item experience-education"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=sdu.edu.cn&sz=64" alt="山东大学 logo"></div><div class="timeline-content"><div class="timeline-date">2020 年 9 月 - 2024 年 6 月</div><div class="timeline-title">山东大学 - 理学学士</div><div class="timeline-desc"><span class="experience-type">教育</span> 信息科学与工程学院（崇新学堂 / EECS）。</div></div></div>
 </div>
 
 <div class="section-divider"></div>

@@ -75,6 +75,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 
 <ul id="news-list" class="news-list is-collapsed">
 <li><em>08.2026</em>  🎉 Three papers have been accepted to <strong>EMNLP 2026</strong>: "Decomposing Visual Histories with Vision-Language Agents" (Main Conference), "Demystifying Hidden-State Recurrence" (Findings), and "NUM2EVENT" (Findings, co-first author)!</li>
+<li><em>08.2026</em>  I will join <strong>X-tech</strong> as an incoming Machine Learning Quant Algorithm Engineer.</li>
 <li><em>07.2026</em>  🎉 Our collaborator paper "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" has been accepted to the <strong>ACM MM 2026 Main Track</strong>!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> has been accepted at <strong>ECCV 2026</strong>, where I serve as the first author!</li>
 <li><em>06.2026</em>  🎉 Two collaborator papers have been accepted to the <strong>ACM MM 2026 BNI Track</strong>: <a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a> (Poster) and <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a> (Oral)!</li>
@@ -127,39 +128,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 <div class="publications-scroll-container">
 
 <h2>2026</h2>
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='images/500x300.png' alt="Decomposing Visual Histories with Vision-Language Agents" loading="lazy" width="400" height="300"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation</a></strong>
-
-Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun
-
-Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Main Conference</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
-
-<p class="paper-description">HTGF reframes multi-reference image conditioning as temporal routing: a semantic decomposer assigns references to Subject, Structure, and Detail axes, then injects each axis in the denoising window where it has the strongest leverage, improving compositional fidelity without training or architectural changes.</p>
-
-<strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">OpenReview</a></strong>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='images/ACE.png' alt="Demystifying Hidden-State Recurrence" loading="lazy" width="400" height="300"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning</a></strong>
-
-Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo
-
-Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Findings</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
-
-<p class="paper-description">SWITCH introduces explicit boundary tokens for hidden-state-recurrence latent reasoning, making on-policy RL with GRPO well-defined while giving mechanistic analyses direct anchors for probing and causal intervention.</p>
-
-<strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">OpenReview</a></strong>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='images/time_pre.png' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='images/num2event.png' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">NUM2EVENT: Structured Event Inference from Numerical Time-Series</a></strong>
@@ -564,33 +533,60 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="section-divider"></div>
 
 <span class='anchor' id='educations'></span>
-# Education and Research Experience
+# Education and Work Experience
 
 <div class="timeline-container">
-<div class="timeline-item">
-<div class="timeline-icon">🔬</div>
+<div class="timeline-item experience-work">
+<div class="timeline-icon"><span class="experience-logo experience-logo-text">XT</span></div>
+<div class="timeline-content">
+<div class="timeline-date">Sep 2026 - Incoming</div>
+<div class="timeline-title">X-tech - Machine Learning Quant Algorithm Engineer</div>
+<div class="timeline-desc"><span class="experience-type">Full-time</span> Quantitative Technology Department. Machine learning algorithms and quantitative strategy research.</div>
+</div>
+</div>
+
+<div class="timeline-item experience-work">
+<div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="JoinQuant logo"></div>
+<div class="timeline-content">
+<div class="timeline-date">Jan 2026 - Aug 2026</div>
+<div class="timeline-title">JoinQuant - Quantitative Researcher / AI Algorithms</div>
+<div class="timeline-desc"><span class="experience-type">Full-time</span> Built factor models and automated training workflows for quantitative research.</div>
+</div>
+</div>
+
+<div class="timeline-item experience-internship">
+<div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="JoinQuant logo"></div>
+<div class="timeline-content">
+<div class="timeline-date">Nov 2025 - Jan 2026</div>
+<div class="timeline-title">JoinQuant - Artificial Intelligence Intern, Quantitative Research</div>
+<div class="timeline-desc"><span class="experience-type">Internship</span> Quantitative research and AI algorithm exploration.</div>
+</div>
+</div>
+
+<div class="timeline-item experience-research">
+<div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=hkust-gz.edu.cn&sz=64" alt="HKUST(GZ) logo"></div>
 <div class="timeline-content">
 <div class="timeline-date">Apr 2024 - Sep 2025</div>
 <div class="timeline-title">HKUST(GZ) - Research Assistant</div>
-<div class="timeline-desc">AI Thrust & INFO Hub</div>
+<div class="timeline-desc"><span class="experience-type">Research</span> AI Thrust & INFO Hub. Trustworthy AI, CBMs, robustness, and LLM interpretability.</div>
 </div>
 </div>
 
-<div class="timeline-item">
-<div class="timeline-icon">🌍</div>
+<div class="timeline-item experience-visit">
+<div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=kaust.edu.sa&sz=64" alt="KAUST logo"></div>
 <div class="timeline-content">
-<div class="timeline-date">Apr 2023 - Mar 2024</div>
-<div class="timeline-title">KAUST - Visiting Student</div>
-<div class="timeline-desc">International Research Experience</div>
+<div class="timeline-date">Apr 2023 - Apr 2024</div>
+<div class="timeline-title">KAUST - Remote Research Intern</div>
+<div class="timeline-desc"><span class="experience-type">Visiting / Internship</span> Trustworthy AI research with Prof. Di Wang and Dr. Lijie Hu.</div>
 </div>
 </div>
 
-<div class="timeline-item">
-<div class="timeline-icon">🎓</div>
+<div class="timeline-item experience-education">
+<div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=sdu.edu.cn&sz=64" alt="Shandong University logo"></div>
 <div class="timeline-content">
 <div class="timeline-date">Sep 2020 - June 2024</div>
 <div class="timeline-title">Shandong University - Bachelor of Science</div>
-<div class="timeline-desc">School of Information Science and Engineering (EECS)</div>
+<div class="timeline-desc"><span class="experience-type">Education</span> School of Information Science and Engineering (Chongxin College / EECS).</div>
 </div>
 </div>
 </div>
