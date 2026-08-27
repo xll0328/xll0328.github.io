@@ -66,7 +66,6 @@ lang: zh
 
 <ul id="news-list" class="news-list is-collapsed">
 <li><em>08.2026</em> 🎉 三篇论文被 <strong>EMNLP 2026</strong> 接收："Decomposing Visual Histories with Vision-Language Agents"（主会）、"Demystifying Hidden-State Recurrence"（Findings）和 "NUM2EVENT"（Findings，共同一作）！</li>
-<li><em>08.2026</em> 我于 8 月初从<strong>聚宽</strong>离职，并已接受<strong>交叉科技</strong>机器学习量化算法工程师 offer。</li>
 <li><em>07.2026</em> 🎉 我们的合作论文 "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" 被 <strong>ACM MM 2026 Main Track</strong> 接收！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> 被 <strong>ECCV 2026</strong> 接收，我担任第一作者！</li>
 <li><em>06.2026</em> 🎉 两篇合作论文被 <strong>ACM MM 2026 BNI Track</strong> 接收：<a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a>（Poster）和 <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a>（Oral）！</li>
