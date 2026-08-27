@@ -12,7 +12,7 @@ lang: zh
   <div class="about-hero-main">
     <h1 class="about-hero-name">赖颂宁 <span>(Sony)</span></h1>
     <p class="about-hero-role">
-      <span class="about-hero-role-line"><a href="https://www.joinquant.com"><strong>聚宽</strong></a>量化研究员</span>
+      <span class="about-hero-role-line"><strong>交叉科技</strong>准机器学习量化算法工程师</span>
       <span class="about-hero-role-line">可信 AI / 概念瓶颈模型 / 鲁棒性</span>
     </p>
   </div>
@@ -28,7 +28,7 @@ lang: zh
 
 我本科毕业于<a href="https://www.sdu.edu.cn/"><strong>山东大学</strong></a>信息科学与工程学院（<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>崇新学堂</strong></a>），导师为<a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>刘治教授</strong></a>。之后，我在香港科技大学（广州）AI Thrust 与 INFO Hub 担任研究助理，导师为<a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>岳玉涛教授</strong></a>。
 
-我的研究聚焦于<strong>可信 AI</strong>，尤其是<strong>概念瓶颈模型（CBMs）</strong>。近期工作覆盖可编辑与持续学习 CBM、多模态可解释性、概念层安全、医疗 AI、自动驾驶、可靠时间序列预测以及大语言模型可解释性。代表性论文发表于 <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>、<a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>、<a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>、<a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>、<strong>ECCV 2026</strong>、<strong>MICCAI 2026</strong>、<a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a> 与 <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>。
+我的研究聚焦于<strong>可信 AI</strong>，尤其是<strong>概念瓶颈模型（CBMs）</strong>。近期工作覆盖可编辑与持续学习 CBM、多模态可解释性、概念层安全、医疗 AI、自动驾驶、可靠时间序列预测以及大语言模型可解释性。代表性论文发表于 <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>、<a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>、<a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>、<a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>、<strong>ECCV 2026</strong>、<strong>MICCAI 2026</strong>、<strong>EMNLP 2026</strong>、<a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a> 与 <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>。
 
 除 CBM 之外，我也关注时间序列预测中的鲁棒性与忠实性、持续学习、计算机视觉、多模态情感分析和图学习。贯穿这些工作的共同目标，是构建在开放世界部署时依然可靠、可检查且有用的学习系统。
 
@@ -65,6 +65,8 @@ lang: zh
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
+<li><em>08.2026</em> 🎉 三篇论文被 <strong>EMNLP 2026</strong> 接收："Decomposing Visual Histories with Vision-Language Agents"（主会）、"Demystifying Hidden-State Recurrence"（Findings）和 "NUM2EVENT"（Findings，共同一作）！</li>
+<li><em>08.2026</em> 我于 8 月初从<strong>聚宽</strong>离职，并已接受<strong>交叉科技</strong>机器学习量化算法工程师 offer。</li>
 <li><em>07.2026</em> 🎉 我们的合作论文 "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" 被 <strong>ACM MM 2026 Main Track</strong> 接收！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> 被 <strong>ECCV 2026</strong> 接收，我担任第一作者！</li>
 <li><em>06.2026</em> 🎉 两篇合作论文被 <strong>ACM MM 2026 BNI Track</strong> 接收：<a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a>（Poster）和 <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a>（Oral）！</li>
@@ -116,6 +118,54 @@ lang: zh
 <div class="publications-scroll-container">
 
 <h2>2026</h2>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='{{ "/images/500x300.png" | relative_url }}' alt="HTGF" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation</a></strong>
+
+Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun
+
+Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Main Conference</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
+
+<p class="paper-description">HTGF 将多参考图像条件生成重构为时间路由问题：语义分解器把参考图像分配到 Subject、Structure、Detail 三个轴，并在最有效的去噪窗口注入对应条件，无需训练或改动扩散模型结构。</p>
+
+<strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">OpenReview</a></strong>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='{{ "/images/ACE.png" | relative_url }}' alt="SWITCH" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning</a></strong>
+
+Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo
+
+Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Findings</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
+
+<p class="paper-description">SWITCH 通过显式边界 token 进入和退出潜在推理模式，使 hidden-state recurrence latent reasoning 可以用 on-policy RL 训练，并为机制分析提供可定位、可干预的锚点。</p>
+
+<strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">OpenReview</a></strong>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='{{ "/images/time_pre.png" | relative_url }}' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">NUM2EVENT: Structured Event Inference from Numerical Time-Series</a></strong>
+
+Ninghui Feng†, <strong>Songning Lai†</strong>, Xinan Chen, Zheng Chu, Yiyan Qi
+
+Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Findings</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted. † 共同一作。
+
+<p class="paper-description">NUM2EVENT 研究从数值时间序列推断结构化事件假设，通过 agent-guided event extractor、基于 Hawkes process 的合成数据生成器和多阶段微调流程，生成可检查的事件表示。</p>
+
+<strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">OpenReview</a></strong>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='{{ "/images/dynamic-v2c/pipeline.png" | relative_url }}' alt="Dynamic-V2C" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -325,6 +375,9 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h2>2026</h2>
 <ul class="publication-list">
+<li data-tags="ccf-b">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation, Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun, <strong>EMNLP 2026 Main Conference</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">OpenReview</a></strong></li>
+<li data-tags="ccf-b">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning, Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">OpenReview</a></strong></li>
+<li data-tags="ccf-b">NUM2EVENT: Structured Event Inference from Numerical Time-Series, Ninghui Feng†, <strong>Songning Lai†</strong>, Xinan Chen, Zheng Chu, Yiyan Qi, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted; † 共同一作). <strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">OpenReview</a></strong></li>
 <li data-tags="ccf-a core-a-star">When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking, Shaofeng Liang, Runwei Guan, Wenshuo Chen, Jiemin Wu, Bowen Tian, Haozhe Jia, Kaishen Yuan, <strong>Songning Lai</strong>, Daizong Liu, Yutao Yue, <strong>ACM MM 2026 Main Track</strong> (CCF A, Accepted).</li>
 <li data-tags="ccf-b">Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions, <strong>Songning Lai</strong>, Shaofeng Liang, Jiayu Yang, Ninghui Feng, Yuxuan Fan, Wenshuo Chen, European Conference on Computer Vision <strong>ECCV 2026</strong> (CCF B, Accepted). <strong><a href="{{ '/zh/dynamic-v2c/' | relative_url }}">项目页</a></strong></li>
 <li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Provisionally Accepted). <strong><a href="{{ '/zh/sant-cbm/' | relative_url }}">项目页</a></strong></li>
