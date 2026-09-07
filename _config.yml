@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Songning Lai（赖颂宁）"
-description              : "Incoming ML Quant Algorithm Engineer | Trustworthy AI, Concept Bottleneck Models, Reliable ML"
+description              : "Machine Learning Quant Algorithm Engineer | Trustworthy AI, Concept Bottleneck Models, Reliable ML"
 repository               : "xll0328/xll0328.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Songning Lai"
   avatar           : "images/songninglai.jpg"
-  bio              : "Incoming ML Quant Algorithm Engineer<br>X-tech"
+  bio              : "Machine Learning Quant Algorithm Engineer<br>X-tech"
   location         : "Beijing, China"
   employer         : "X-tech"
   pubmed           : 

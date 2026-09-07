@@ -12,7 +12,7 @@ lang: zh
   <div class="about-hero-main">
     <h1 class="about-hero-name">赖颂宁 <span>(Sony)</span></h1>
     <p class="about-hero-role">
-      <span class="about-hero-role-line"><strong>交叉科技</strong>准机器学习量化算法工程师</span>
+      <span class="about-hero-role-line"><strong>交叉科技</strong>机器学习量化算法工程师</span>
       <span class="about-hero-role-line">可信 AI / 概念瓶颈模型 / 鲁棒性</span>
     </p>
   </div>
@@ -66,7 +66,7 @@ lang: zh
 
 <ul id="news-list" class="news-list is-collapsed">
 <li><em>08.2026</em> 🎉 三篇论文被 <strong>EMNLP 2026</strong> 接收："Decomposing Visual Histories with Vision-Language Agents"（主会）、"Demystifying Hidden-State Recurrence"（Findings）和 "NUM2EVENT"（Findings，共同一作）！</li>
-<li><em>08.2026</em> 我即将加入<strong>交叉科技</strong>，担任机器学习量化算法工程师。</li>
+<li><em>09.2026</em> 我已加入<strong>交叉科技</strong>，担任机器学习量化算法工程师。</li>
 <li><em>07.2026</em> 🎉 我们的合作论文 "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" 被 <strong>ACM MM 2026 Main Track</strong> 接收！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> 被 <strong>ECCV 2026</strong> 接收，我担任第一作者！</li>
 <li><em>06.2026</em> 🎉 两篇合作论文被 <strong>ACM MM 2026 BNI Track</strong> 接收：<a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a>（Poster）和 <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a>（Oral）！</li>
@@ -418,7 +418,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 # 教育与工作经历
 
 <div class="timeline-container">
-<div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">XT</span></div><div class="timeline-content"><div class="timeline-date">2026 年 9 月 - 即将入职</div><div class="timeline-title">交叉科技 - 机器学习量化算法工程师</div><div class="timeline-desc"><span class="experience-type">全职</span> 量化科技部，机器学习算法与量化策略研究。</div></div></div>
+<div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">XT</span></div><div class="timeline-content"><div class="timeline-date">2026 年 9 月 - 至今</div><div class="timeline-title">交叉科技 - 机器学习量化算法工程师</div><div class="timeline-desc"><span class="experience-type">全职</span> 量化科技部，机器学习算法与量化策略研究。</div></div></div>
 <div class="timeline-item experience-work"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="聚宽 logo"></div><div class="timeline-content"><div class="timeline-date">2026 年 1 月 - 2026 年 8 月</div><div class="timeline-title">聚宽（JoinQuant）- 量化研究 / 人工智能算法</div><div class="timeline-desc"><span class="experience-type">全职</span> 分钟级期货因子建模、自动化训练与调参流程建设。</div></div></div>
 <div class="timeline-item experience-internship"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="聚宽 logo"></div><div class="timeline-content"><div class="timeline-date">2025 年 11 月 - 2026 年 1 月</div><div class="timeline-title">聚宽（JoinQuant）- 量化投研人工智能算法实习生</div><div class="timeline-desc"><span class="experience-type">实习</span> 量化研究与 AI 算法探索。</div></div></div>
 <div class="timeline-item experience-research"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=hkust-gz.edu.cn&sz=64" alt="香港科技大学（广州）logo"></div><div class="timeline-content"><div class="timeline-date">2024 年 4 月 - 2025 年 9 月</div><div class="timeline-title">香港科技大学（广州）- 研究助理</div><div class="timeline-desc"><span class="experience-type">科研</span> AI Thrust & INFO Hub，可信 AI、CBM、鲁棒性与 LLM 可解释性。</div></div></div>

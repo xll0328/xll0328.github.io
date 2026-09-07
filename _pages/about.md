@@ -21,7 +21,7 @@ redirect_from:
   <div class="about-hero-main">
     <h1 class="about-hero-name">Songning Lai <span>(Sony)</span></h1>
     <p class="about-hero-role">
-      <span class="about-hero-role-line">Incoming ML Quant Algorithm Engineer at <strong>X-tech</strong></span>
+      <span class="about-hero-role-line">Machine Learning Quant Algorithm Engineer at <strong>X-tech</strong></span>
       <span class="about-hero-role-line">Trustworthy AI / CBM / Robustness</span>
     </p>
   </div>
@@ -75,7 +75,7 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 
 <ul id="news-list" class="news-list is-collapsed">
 <li><em>08.2026</em>  🎉 Three papers have been accepted to <strong>EMNLP 2026</strong>: "Decomposing Visual Histories with Vision-Language Agents" (Main Conference), "Demystifying Hidden-State Recurrence" (Findings), and "NUM2EVENT" (Findings, co-first author)!</li>
-<li><em>08.2026</em>  I will join <strong>X-tech</strong> as an incoming Machine Learning Quant Algorithm Engineer.</li>
+<li><em>09.2026</em>  I joined <strong>X-tech</strong> as a Machine Learning Quant Algorithm Engineer.</li>
 <li><em>07.2026</em>  🎉 Our collaborator paper "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" has been accepted to the <strong>ACM MM 2026 Main Track</strong>!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> has been accepted at <strong>ECCV 2026</strong>, where I serve as the first author!</li>
 <li><em>06.2026</em>  🎉 Two collaborator papers have been accepted to the <strong>ACM MM 2026 BNI Track</strong>: <a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a> (Poster) and <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a> (Oral)!</li>
@@ -539,7 +539,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <div class="timeline-item experience-work">
 <div class="timeline-icon"><span class="experience-logo experience-logo-text">XT</span></div>
 <div class="timeline-content">
-<div class="timeline-date">Sep 2026 - Incoming</div>
+<div class="timeline-date">Sep 2026 - Present</div>
 <div class="timeline-title">X-tech - Machine Learning Quant Algorithm Engineer</div>
 <div class="timeline-desc"><span class="experience-type">Full-time</span> Quantitative Technology Department. Machine learning algorithms and quantitative strategy research.</div>
 </div>
