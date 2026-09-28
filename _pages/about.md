@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: ""
+description: "Songning Lai's personal website: trustworthy AI, concept bottleneck models, reliable machine learning, and quantitative research."
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -14,8 +15,6 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
 
 <div class="home-hero">
   <div class="home-hero__portrait"><img src="{{ '/images/songninglai.jpg' | relative_url }}" alt="Portrait of Songning Lai" width="1080" height="1080" fetchpriority="high"></div>
@@ -33,19 +32,21 @@ redirect_from:
   </div>
 </div>
 
-<p class="home-about-label">About me</p>
+<p class="home-about-label" id="about-me">About me</p>
 
-I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a>, where I was supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>. I later worked as a research assistant at HKUST(GZ) AI Thrust & INFO Hub under Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>.
+I am currently a Machine Learning Quant Algorithm Engineer at <strong>X-tech</strong> in Beijing, working on machine learning algorithms and quantitative strategy research.
+
+Previously, I was a research assistant at HKUST(GZ) AI Thrust & INFO Hub under Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>. I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a>, where I was supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>.
 
 My research centers on <strong>trustworthy AI</strong>, especially <strong>concept bottleneck models (CBMs)</strong>, with recent work on editable and continual CBMs, multimodal interpretability, concept-level security, medical AI, autonomous driving, reliable time-series forecasting, and LLM interpretability. Representative papers appeared at <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>, <a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>, <a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>, <a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>, <strong>ECCV 2026</strong>, <strong>MICCAI 2026</strong>, <strong>EMNLP 2026</strong>, <a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a>, and <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>.
 
 Beyond CBMs, I have also worked on robustness and faithfulness in time series forecasting, continual learning, computer vision, multimodal sentiment analysis, and graph learning. The common thread is to build learning systems that remain reliable, inspectable, and useful when deployed in open-world settings.
 
-If you are interested in any aspect of me, I would love to chat and collaborate. Please email me at <em>lais0328eee@gmail.com</em>.
+If you are interested in my research or a collaboration, please email me at <em>lais0328eee@gmail.com</em>.
 
-<span class='anchor' id='research'></span>
 
-# Research
+## Research
+{: #research }
 
 <div class="research-focus-grid">
   <div class="research-focus-card">
@@ -64,8 +65,8 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='news'></span>
-# News
+## News
+{: #news }
 
 <div class="news-scroll-container">
 
@@ -122,12 +123,12 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='publications'></span>
-# Publications (Selected)
+## Publications (Selected)
+{: #publications }
 
 <div class="publications-scroll-container">
 
-<h2>2026</h2>
+<h3>2026</h3>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='images/num2event.png' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -225,7 +226,7 @@ The Conference on <strong>ICASSP 2026</strong> <span class="venue-badge ccf-b">C
 </div>
 </div>
 
-<h2>2025</h2>
+<h3>2025</h3>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='images/CONCIL.png' alt="Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -316,7 +317,7 @@ The Conference on <strong>ICASSP 2025</strong> <span class="venue-badge ccf-b">C
 
 
 
-<h2>2024</h2>
+<h3>2024</h3>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='images/FVLC.jpg' alt="Faithful Vision-Language Interpretation via Concept Bottleneck Models" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -355,8 +356,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='complete-publications'></span>
-# Publication List
+## Publication List
+{: #complete-publications }
 
 <div class="publication-stats" id="publication-stats">
 <strong>Publication Statistics:</strong> <span id="stats-content">正在加载...</span>
@@ -364,7 +365,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="complete-publications-container">
 
-<h2>2026</h2>
+<h3>2026</h3>
 <ul class="publication-list">
 <li data-tags="ccf-b">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation, Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun, <strong>EMNLP 2026 Main Conference</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">OpenReview</a></strong></li>
 <li data-tags="ccf-b">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning, Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">OpenReview</a></strong></li>
@@ -383,7 +384,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 
 
-<h2>2025</h2>
+<h3>2025</h3>
 <ul class="publication-list">
 <li data-tags="ccf-a core-a-star">Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models, <strong>Songning Lai</strong>, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*; BNI papers are considered outstanding ACM MM full papers and appear in the main proceedings).</li>
 
@@ -406,7 +407,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 </ul>
 
 
-<h2>2024</h2>
+<h3>2024</h3>
 <ul class="publication-list">
 <li data-tags="iclr">Faithful Vision-Language Interpretation via Concept Bottleneck Models, <strong>Songning Lai</strong>, Lijie Hu, Junxiao Wang, Laure Berti and Di Wang, The Twelfth International Conference on Learning Representations <strong>ICLR 2024</strong>(CCF A).</li>
 <li data-tags="ccf-a">Towards Multi-dimensional Explanation Alignment for Medical Classification, Lijie Hu†, <strong>Songning Lai†</strong>, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang, The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</strong>(CCF A).</li>
@@ -427,8 +428,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='honors-and-awards'></span>
-# Honors and Awards
+## Honors and Awards
+{: #honors-and-awards }
 
 <div class="honors-container">
 <div class="honor-card highlight">
@@ -532,8 +533,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='educations'></span>
-# Education and Work Experience
+## Education and Work Experience
+{: #educations }
 
 <div class="timeline-container">
 <div class="timeline-item experience-work">
@@ -594,8 +595,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='internships'></span>
-# Service and Leadership
+## Service and Leadership
+{: #internships }
 
 <div class="internship-container">
 <div class="internship-card">
@@ -642,14 +643,14 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<h1 id="collaborators">Collaborators</h1>
+<h2 id="collaborators">Collaborators</h2>
 
 {% include collaborators-grid.html %}
 
 ---
 
-<span class='anchor' id='guestbook'></span>
 ## Guestbook
+{: #guestbook }
 
 <div class="guestbook-intro">
   <p>欢迎留下你的想法、建议或合作意向。You are welcome to leave a note in the guestbook.</p>

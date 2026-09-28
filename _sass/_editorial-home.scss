@@ -147,7 +147,7 @@ body.academic-refresh.home-page {
   font-style: normal;
 }
 
-.academic-refresh.home-page .page__content > .anchor {
+.academic-refresh.home-page .page__content > [id] {
   scroll-margin-top: 90px;
 }
 
@@ -291,7 +291,7 @@ body.academic-refresh.home-page {
   color: #fff;
 }
 
-.academic-refresh.home-page .page__content > h1 {
+.academic-refresh.home-page .page__content > h2 {
   margin: 4rem 0 1.25rem;
   padding: 0 0 .75rem;
   border-bottom: 1px solid #dce5ed;
@@ -303,7 +303,7 @@ body.academic-refresh.home-page {
   scroll-margin-top: 90px;
 }
 
-.academic-refresh.home-page .page__content > h1::after {
+.academic-refresh.home-page .page__content > h2::after {
   display: none;
 }
 
@@ -400,8 +400,8 @@ body.academic-refresh.home-page {
   box-shadow: none;
 }
 
-.academic-refresh.home-page .publications-scroll-container h2,
-.academic-refresh.home-page .complete-publications-container h2 {
+.academic-refresh.home-page .publications-scroll-container h3,
+.academic-refresh.home-page .complete-publications-container h3 {
   display: block;
   margin: 2rem 0 1rem;
   padding: 0;
@@ -414,8 +414,8 @@ body.academic-refresh.home-page {
   letter-spacing: .05em;
 }
 
-.academic-refresh.home-page .publications-scroll-container h2::after,
-.academic-refresh.home-page .complete-publications-container h2::after {
+.academic-refresh.home-page .publications-scroll-container h3::after,
+.academic-refresh.home-page .complete-publications-container h3::after {
   display: none;
 }
 
@@ -583,7 +583,7 @@ body.academic-refresh.home-page {
     margin-top: 1.5rem;
   }
 
-  .academic-refresh.home-page .page__content > h1 {
+  .academic-refresh.home-page .page__content > h2 {
     margin-top: 3rem;
   }
 

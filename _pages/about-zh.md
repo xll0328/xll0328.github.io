@@ -1,12 +1,11 @@
 ---
 permalink: /zh/
 title: ""
+description: "赖颂宁的个人主页：可信 AI、概念瓶颈模型、可靠机器学习与量化研究。"
 excerpt: ""
 author_profile: true
 lang: zh
 ---
-
-<span class='anchor' id='about-me'></span>
 
 <div class="home-hero">
   <div class="home-hero__portrait"><img src="{{ '/images/songninglai.jpg' | relative_url }}" alt="赖颂宁的照片" width="1080" height="1080" fetchpriority="high"></div>
@@ -24,9 +23,11 @@ lang: zh
   </div>
 </div>
 
-<p class="home-about-label">关于我</p>
+<p class="home-about-label" id="about-me">关于我</p>
 
-我本科毕业于<a href="https://www.sdu.edu.cn/"><strong>山东大学</strong></a>信息科学与工程学院（<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>崇新学堂</strong></a>），导师为<a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>刘治教授</strong></a>。之后，我在香港科技大学（广州）AI Thrust 与 INFO Hub 担任研究助理，导师为<a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>岳玉涛教授</strong></a>。
+我目前在北京的<strong>交叉科技</strong>担任机器学习量化算法工程师，从事机器学习算法与量化策略研究。
+
+此前，我在香港科技大学（广州）AI Thrust 与 INFO Hub 担任研究助理，导师为<a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>岳玉涛教授</strong></a>。我本科毕业于<a href="https://www.sdu.edu.cn/"><strong>山东大学</strong></a>信息科学与工程学院（<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>崇新学堂</strong></a>），导师为<a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>刘治教授</strong></a>。
 
 我的研究聚焦于<strong>可信 AI</strong>，尤其是<strong>概念瓶颈模型（CBMs）</strong>。近期工作覆盖可编辑与持续学习 CBM、多模态可解释性、概念层安全、医疗 AI、自动驾驶、可靠时间序列预测以及大语言模型可解释性。代表性论文发表于 <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>、<a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>、<a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>、<a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>、<strong>ECCV 2026</strong>、<strong>MICCAI 2026</strong>、<strong>EMNLP 2026</strong>、<a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a> 与 <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>。
 
@@ -34,9 +35,9 @@ lang: zh
 
 如果你对我的任何研究方向感兴趣，欢迎交流与合作。可以通过 <em>lais0328eee@gmail.com</em> 联系我。
 
-<span class='anchor' id='research'></span>
 
-# 研究方向
+## 研究方向
+{: #research }
 
 <div class="research-focus-grid">
   <div class="research-focus-card">
@@ -55,8 +56,8 @@ lang: zh
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='news'></span>
-# 动态
+## 动态
+{: #news }
 
 <div class="news-scroll-container">
 
@@ -112,12 +113,12 @@ lang: zh
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='publications'></span>
-# 代表性论文
+## 代表性论文
+{: #publications }
 
 <div class="publications-scroll-container">
 
-<h2>2026</h2>
+<h3>2026</h3>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='{{ "/images/num2event.png" | relative_url }}' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -214,7 +215,7 @@ The Conference on <strong>ICASSP 2026</strong> <span class="venue-badge ccf-b">C
 </div>
 </div>
 
-<h2>2025</h2>
+<h3>2025</h3>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2025</div><img src='{{ "/images/CONCIL.png" | relative_url }}' alt="CONCIL" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -295,7 +296,7 @@ The Conference on <strong>ICASSP 2025</strong> <span class="venue-badge ccf-b">C
 </div>
 </div>
 
-<h2>2024</h2>
+<h3>2024</h3>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2024</div><img src='{{ "/images/FVLC.jpg" | relative_url }}' alt="FVLC" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -332,8 +333,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='complete-publications'></span>
-# 完整论文列表
+## 完整论文列表
+{: #complete-publications }
 
 <div class="publication-stats" id="publication-stats">
 <strong>论文统计：</strong> <span id="stats-content">正在加载...</span>
@@ -341,7 +342,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="complete-publications-container">
 
-<h2>2026</h2>
+<h3>2026</h3>
 <ul class="publication-list">
 <li data-tags="ccf-b">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation, Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun, <strong>EMNLP 2026 Main Conference</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">OpenReview</a></strong></li>
 <li data-tags="ccf-b">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning, Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">OpenReview</a></strong></li>
@@ -358,7 +359,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <li data-tags="jcr-q1">TPTD: A Trusted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing, Yajiang Huang, ..., <strong>Songning Lai</strong>, ..., Houbing Herbert Song, <strong>Knowledge-Based Systems (KBS)</strong> (JCR Q1, IF: 7.2).</li>
 </ul>
 
-<h2>2025</h2>
+<h3>2025</h3>
 <ul class="publication-list">
 <li data-tags="ccf-a core-a-star">Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models, <strong>Songning Lai</strong>, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*; BNI papers are considered outstanding ACM MM full papers and appear in the main proceedings).</li>
 <li data-tags="ccf-a core-a-star">From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve, <strong>Songning Lai</strong>, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Lijie Hu, Hang Zhao, Xuming Hu, Yutao Yue, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
@@ -379,7 +380,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <li data-tags="jcr-q1 ccf-b">Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding, Runwei Guan, ...., <strong>Songning Lai</strong>, ... ,Hui Xiong, IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY <strong>TCSVT</strong>. (IF: 11.1, JCR Q1, CCF B)</li>
 </ul>
 
-<h2>2024</h2>
+<h3>2024</h3>
 <ul class="publication-list">
 <li data-tags="iclr">Faithful Vision-Language Interpretation via Concept Bottleneck Models, <strong>Songning Lai</strong>, Lijie Hu, Junxiao Wang, Laure Berti and Di Wang, The Twelfth International Conference on Learning Representations <strong>ICLR 2024</strong> (CCF A).</li>
 <li data-tags="ccf-a">Towards Multi-dimensional Explanation Alignment for Medical Classification, Lijie Hu†, <strong>Songning Lai†</strong>, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang, The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</strong> (CCF A).</li>
@@ -394,8 +395,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='honors-and-awards'></span>
-# 荣誉与奖励
+## 荣誉与奖励
+{: #honors-and-awards }
 
 <div class="honors-container">
 <div class="honor-card highlight"><span class="honor-icon">🥇</span><div class="honor-content"><strong><a href="https://wbcdcompetition.github.io">What Bimanuals Can Do (WBCD) 2026 Logistics Picking 全球总榜世界第一</a></strong><span class="honor-badge best-paper">ICRA 2026 Competition</span></div></div>
@@ -414,8 +415,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='educations'></span>
-# 教育与工作经历
+## 教育与工作经历
+{: #educations }
 
 <div class="timeline-container">
 <div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">XT</span></div><div class="timeline-content"><div class="timeline-date">2026 年 9 月 - 至今</div><div class="timeline-title">交叉科技 - 机器学习量化算法工程师</div><div class="timeline-desc"><span class="experience-type">全职</span> 量化科技部，机器学习算法与量化策略研究。</div></div></div>
@@ -428,8 +429,8 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<span class='anchor' id='internships'></span>
-# 服务与领导力
+## 服务与领导力
+{: #internships }
 
 <div class="internship-container">
 <div class="internship-card"><span class="internship-icon">📝</span><div class="internship-content"><strong>会议与期刊审稿人</strong><div class="internship-tags"><span class="tag">ECAI2024</span><span class="tag">ICML2024</span><span class="tag">KDD2024</span><span class="tag">ICLR2025</span><span class="tag">CVPR2025</span><span class="tag">ICCV2025</span><span class="tag">NIPS2025</span><span class="tag">ACM MM 2025</span><span class="tag">IJCAI2025</span><span class="tag">Expert Systems</span><span class="tag">+ More</span></div></div></div>
@@ -439,14 +440,14 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="section-divider"></div>
 
-<h1 id="collaborators">合作者</h1>
+<h2 id="collaborators">合作者</h2>
 
 {% include collaborators-grid.html %}
 
 ---
 
-<span class='anchor' id='guestbook'></span>
 ## 留言板
+{: #guestbook }
 
 <div class="guestbook-intro">
   <p>欢迎留下你的想法、建议或合作意向。</p>
