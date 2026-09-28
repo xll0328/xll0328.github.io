@@ -17,23 +17,23 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div class="about-hero-card">
-  <div class="about-hero-main">
-    <h1 class="about-hero-name">Songning Lai <span>(Sony)</span></h1>
-    <p class="about-hero-role">
-      <span class="about-hero-role-line">Machine Learning Quant Algorithm Engineer at <strong>X-tech</strong></span>
-      <span class="about-hero-role-line">Trustworthy AI / CBM / Robustness</span>
-    </p>
+<div class="home-hero">
+  <div class="home-hero__portrait"><img src="{{ '/images/songninglai.jpg' | relative_url }}" alt="Portrait of Songning Lai" width="1080" height="1080" fetchpriority="high"></div>
+  <div class="home-hero__copy">
+    <p class="home-hero__eyebrow">Researcher · Machine Learning Engineer</p>
+    <h1 class="home-hero__name">Songning Lai <span>赖颂宁</span></h1>
+    <p class="home-hero__lead">I build AI systems that are easier to understand, edit, and trust.</p>
+    <p class="home-hero__meta">Machine Learning Quant Algorithm Engineer at <strong>X-tech</strong> · Beijing, China</p>
   </div>
-  <div class="about-hero-chips">
-    <span class="about-chip">Trustworthy AI</span>
-    <span class="about-chip">Concept Bottleneck Models</span>
-    <span class="about-chip">Editable CBMs</span>
-    <span class="about-chip">Continual Learning</span>
-    <span class="about-chip">Explainability</span>
-    <span class="about-chip">Robustness</span>
+  <div class="home-hero__links">
+    <a class="home-hero__link home-hero__link--primary" href="{{ '/#publications' | relative_url }}">Explore publications <span aria-hidden="true">↗</span></a>
+    <a class="home-hero__link" href="https://scholar.google.com/citations?user=gRXN-rMAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a>
+    <a class="home-hero__link" href="https://github.com/xll0328">GitHub <span aria-hidden="true">↗</span></a>
+    <a class="home-hero__link" href="mailto:lais0328eee@gmail.com">Email <span aria-hidden="true">↗</span></a>
   </div>
 </div>
+
+<p class="home-about-label">About me</p>
 
 I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a>, where I was supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>. I later worked as a research assistant at HKUST(GZ) AI Thrust & INFO Hub under Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>.
 
@@ -74,8 +74,8 @@ If you are interested in any aspect of me, I would love to chat and collaborate.
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
-<li><em>08.2026</em>  🎉 Three papers have been accepted to <strong>EMNLP 2026</strong>: "Decomposing Visual Histories with Vision-Language Agents" (Main Conference), "Demystifying Hidden-State Recurrence" (Findings), and "NUM2EVENT" (Findings, co-first author)!</li>
 <li><em>09.2026</em>  I joined <strong>X-tech</strong> as a Machine Learning Quant Algorithm Engineer.</li>
+<li><em>08.2026</em>  🎉 Three papers have been accepted to <strong>EMNLP 2026</strong>: "Decomposing Visual Histories with Vision-Language Agents" (Main Conference), "Demystifying Hidden-State Recurrence" (Findings), and "NUM2EVENT" (Findings, co-first author)!</li>
 <li><em>07.2026</em>  🎉 Our collaborator paper "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" has been accepted to the <strong>ACM MM 2026 Main Track</strong>!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> has been accepted at <strong>ECCV 2026</strong>, where I serve as the first author!</li>
 <li><em>06.2026</em>  🎉 Two collaborator papers have been accepted to the <strong>ACM MM 2026 BNI Track</strong>: <a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a> (Poster) and <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a> (Oral)!</li>

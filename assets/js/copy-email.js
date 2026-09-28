@@ -7,6 +7,9 @@
         const emailLinks = document.querySelectorAll('a[href^="mailto:"]');
         
         emailLinks.forEach(link => {
+            // The homepage already presents email as a complete action pill.
+            if (link.closest('.home-hero__links')) return;
+
             // 检查是否在侧边栏中，如果是，使用不同的处理方式
             const isInSidebar = link.closest('.sidebar, .author__urls, .author__urls_sm');
             const isInHeroActions = link.closest('.about-hero-actions');

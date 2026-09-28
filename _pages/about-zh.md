@@ -8,23 +8,23 @@ lang: zh
 
 <span class='anchor' id='about-me'></span>
 
-<div class="about-hero-card">
-  <div class="about-hero-main">
-    <h1 class="about-hero-name">赖颂宁 <span>(Sony)</span></h1>
-    <p class="about-hero-role">
-      <span class="about-hero-role-line"><strong>交叉科技</strong>机器学习量化算法工程师</span>
-      <span class="about-hero-role-line">可信 AI / 概念瓶颈模型 / 鲁棒性</span>
-    </p>
+<div class="home-hero">
+  <div class="home-hero__portrait"><img src="{{ '/images/songninglai.jpg' | relative_url }}" alt="赖颂宁的照片" width="1080" height="1080" fetchpriority="high"></div>
+  <div class="home-hero__copy">
+    <p class="home-hero__eyebrow">研究者 · 机器学习工程师</p>
+    <h1 class="home-hero__name">赖颂宁 <span>Songning Lai</span></h1>
+    <p class="home-hero__lead">让 AI 系统更易理解、更可编辑，也更值得信赖。</p>
+    <p class="home-hero__meta"><strong>交叉科技</strong>机器学习量化算法工程师 · 中国北京</p>
   </div>
-  <div class="about-hero-chips">
-    <span class="about-chip">可信 AI</span>
-    <span class="about-chip">概念瓶颈模型</span>
-    <span class="about-chip">可编辑 CBM</span>
-    <span class="about-chip">持续学习</span>
-    <span class="about-chip">可解释性</span>
-    <span class="about-chip">鲁棒性</span>
+  <div class="home-hero__links">
+    <a class="home-hero__link home-hero__link--primary" href="{{ '/zh/#publications' | relative_url }}">浏览论文 <span aria-hidden="true">↗</span></a>
+    <a class="home-hero__link" href="https://scholar.google.com/citations?user=gRXN-rMAAAAJ">Google Scholar <span aria-hidden="true">↗</span></a>
+    <a class="home-hero__link" href="https://github.com/xll0328">GitHub <span aria-hidden="true">↗</span></a>
+    <a class="home-hero__link" href="mailto:lais0328eee@gmail.com">邮件联系 <span aria-hidden="true">↗</span></a>
   </div>
 </div>
+
+<p class="home-about-label">关于我</p>
 
 我本科毕业于<a href="https://www.sdu.edu.cn/"><strong>山东大学</strong></a>信息科学与工程学院（<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>崇新学堂</strong></a>），导师为<a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>刘治教授</strong></a>。之后，我在香港科技大学（广州）AI Thrust 与 INFO Hub 担任研究助理，导师为<a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>岳玉涛教授</strong></a>。
 
@@ -65,8 +65,8 @@ lang: zh
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
-<li><em>08.2026</em> 🎉 三篇论文被 <strong>EMNLP 2026</strong> 接收："Decomposing Visual Histories with Vision-Language Agents"（主会）、"Demystifying Hidden-State Recurrence"（Findings）和 "NUM2EVENT"（Findings，共同一作）！</li>
 <li><em>09.2026</em> 我已加入<strong>交叉科技</strong>，担任机器学习量化算法工程师。</li>
+<li><em>08.2026</em> 🎉 三篇论文被 <strong>EMNLP 2026</strong> 接收："Decomposing Visual Histories with Vision-Language Agents"（主会）、"Demystifying Hidden-State Recurrence"（Findings）和 "NUM2EVENT"（Findings，共同一作）！</li>
 <li><em>07.2026</em> 🎉 我们的合作论文 "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" 被 <strong>ACM MM 2026 Main Track</strong> 接收！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> 被 <strong>ECCV 2026</strong> 接收，我担任第一作者！</li>
 <li><em>06.2026</em> 🎉 两篇合作论文被 <strong>ACM MM 2026 BNI Track</strong> 接收：<a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a>（Poster）和 <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a>（Oral）！</li>

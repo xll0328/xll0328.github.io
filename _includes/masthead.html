@@ -32,7 +32,7 @@
       <span class="site-brand__text">{{ brand_text }}</span>
     </a>
     <div class="masthead__menu">
-      <nav id="academic-nav" class="greedy-nav">
+      <nav id="academic-nav" class="{% if page.permalink == '/' or page.permalink == '/zh/' %}home-nav{% else %}greedy-nav{% endif %}">
         <button aria-label="Toggle navigation menu"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{% if page_lang == 'zh' %}{{ '/zh/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" target="_self">{{ home_text }}</a></li>

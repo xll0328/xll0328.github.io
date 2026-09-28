@@ -9,7 +9,7 @@
 <script src="{{ '/assets/js/smooth-scroll-enhance.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/touch-optimize.js' | relative_url }}" defer></script>
 
-{% if page.permalink == '/' %}
+{% if page.permalink == '/' or page.permalink == '/zh/' %}
 <!-- 首页轻量增强 -->
 <script src="{{ '/assets/js/news-collapse.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/publication-stats.js' | relative_url }}" defer></script>
