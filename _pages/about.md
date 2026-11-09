@@ -75,7 +75,7 @@ redirect_from:
     <p class="home-hero__eyebrow">Researcher · Machine Learning Engineer</p>
     <h1 class="home-hero__name">Songning Lai <span>赖颂宁</span></h1>
     <p class="home-hero__lead">I build AI systems that are easier to understand, edit, and trust.</p>
-    <p class="home-hero__meta">Machine Learning Engineer · Trustworthy AI · Beijing, China</p>
+    <p class="home-hero__meta">Machine Learning Quantitative Research Engineer · Trustworthy AI · Beijing, China</p>
   </div>
   <div class="home-hero__links">
     <a class="home-hero__link home-hero__link--primary" href="{{ '/#publications' | relative_url }}">Explore publications <span aria-hidden="true">↗</span></a>
@@ -87,7 +87,7 @@ redirect_from:
 
 <p class="home-about-label" id="about-me">About me</p>
 
-I work on <strong>trustworthy AI</strong> and reliable machine learning systems, with a focus on models and explanations that remain inspectable after deployment.
+I am a <strong>Machine Learning Quantitative Research Engineer</strong> working on end-to-end medium-to-high-frequency <strong>CTA research</strong>. The public profile keeps the research scope visible while withholding specific systems, datasets, and implementation details.
 
 Previously, I was a research assistant at HKUST(GZ) AI Thrust & INFO Hub under Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>. I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a>, where I was supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>.
 
@@ -131,7 +131,7 @@ If you are interested in my research or a collaboration, please email me at <em>
 
 <ul id="news-list" class="news-list is-collapsed">
 <li><em>09.2026</em>  🎉 <a href="https://neurips.cc/virtual/2026/poster/149545">"ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment"</a> appeared as a <strong>NeurIPS 2026 poster</strong>, with Wenshuo Chen and Haoxuan Xu as co-first authors, and <a href="https://jiaaqiliu.github.io/VIPER-R1/">"Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery"</a> appeared as a <strong>NeurIPS 2026 poster</strong> (second author).</li>
-<li><em>09.2026</em>  I am continuing to work on machine learning, trustworthy AI, and reliable time-series systems.</li>
+<li><em>09.2026</em>  I started a Machine Learning Quantitative Research Engineer role focused on end-to-end medium-to-high-frequency CTA research; specific work details remain confidential.</li>
 <li><em>08.2026</em>  🎉 Three papers have been accepted to <strong>EMNLP 2026</strong>: "Decomposing Visual Histories with Vision-Language Agents" (Main Conference), "Demystifying Hidden-State Recurrence" (Findings), and "NUM2EVENT" (Findings, co-first author)!</li>
 <li><em>07.2026</em>  🎉 Our collaborator paper "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" has been accepted to the <strong>ACM MM 2026 Main Track</strong>!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> has been accepted at <strong>ECCV 2026</strong>, where I serve as the first author!</li>
@@ -627,11 +627,29 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="timeline-container">
 <div class="timeline-item experience-work">
-<div class="timeline-icon"><span class="experience-logo experience-logo-text">•••</span></div>
+<div class="timeline-icon"><span class="experience-logo experience-logo-text">CTA</span></div>
 <div class="timeline-content">
-<div class="timeline-date">Public version</div>
-<div class="timeline-title">Professional experience (details withheld)</div>
-<div class="timeline-desc"><span class="experience-type">Confidential</span> ************************</div>
+<div class="timeline-date">Sep 2026 - Present</div>
+<div class="timeline-title">Machine Learning Quantitative Research Engineer · Large quantitative research organization</div>
+<div class="timeline-desc"><span class="experience-type">Full-time</span> End-to-end medium-to-high-frequency CTA research; specific systems, datasets, and implementations are withheld.</div>
+</div>
+</div>
+
+<div class="timeline-item experience-work">
+<div class="timeline-icon"><span class="experience-logo experience-logo-text">CTA</span></div>
+<div class="timeline-content">
+<div class="timeline-date">Jan 2026 - Aug 2026</div>
+<div class="timeline-title">Quantitative Research / AI Algorithms · Quantitative research organization</div>
+<div class="timeline-desc"><span class="experience-type">Full-time</span> Quantitative research and AI algorithm development; project-specific details are withheld.</div>
+</div>
+</div>
+
+<div class="timeline-item experience-internship">
+<div class="timeline-icon"><span class="experience-logo experience-logo-text">AI</span></div>
+<div class="timeline-content">
+<div class="timeline-date">Nov 2025 - Jan 2026</div>
+<div class="timeline-title">Quantitative Research / AI Algorithms Intern</div>
+<div class="timeline-desc"><span class="experience-type">Internship</span> Quantitative research and AI algorithm exploration; implementation details are withheld.</div>
 </div>
 </div>
 

@@ -8,9 +8,9 @@ lang: zh
 
 # 简历
 
-这里放置公开版中英文简历 PDF。工作经历与工作内容已按保密要求隐去。
+这里放置公开版中英文简历 PDF。公开版保留职业方向、时间和研究范围，隐去单位及工作实现细节。
 
-<div class="notice--info"><strong>公开版说明：</strong>工作经历和工作相关内容均已隐藏。</div>
+<div class="notice--info"><strong>公开版说明：</strong>保留职业方向、时间与中高频 CTA 研究范围；单位、系统、数据和实现细节不公开。</div>
 
 <p>
 <strong><a href="{{ '/files/cv/Songning_Lai_CV_CN_latest.pdf' | relative_url }}">下载中文简历</a></strong> ·

@@ -66,7 +66,7 @@ lang: zh
     <p class="home-hero__eyebrow">研究者 · 机器学习工程师</p>
     <h1 class="home-hero__name">赖颂宁 <span>Songning Lai</span></h1>
     <p class="home-hero__lead">让 AI 系统更易理解、更可编辑，也更值得信赖。</p>
-    <p class="home-hero__meta">机器学习工程师 · 可信 AI · 中国北京</p>
+    <p class="home-hero__meta">机器学习量化研究工程师 · 可信 AI · 中国北京</p>
   </div>
   <div class="home-hero__links">
     <a class="home-hero__link home-hero__link--primary" href="{{ '/zh/#publications' | relative_url }}">浏览论文 <span aria-hidden="true">↗</span></a>
@@ -78,7 +78,7 @@ lang: zh
 
 <p class="home-about-label" id="about-me">关于我</p>
 
-我主要从事<strong>可信 AI</strong>与可靠机器学习研究，关注模型在部署后的可检查性、可解释性与稳定性。
+我目前从事<strong>机器学习量化研究工程</strong>，聚焦<strong>中高频 CTA 全流程研究</strong>。公开主页仅保留研究范围，具体系统、数据与实现细节遵循保密要求。
 
 此前，我在香港科技大学（广州）AI Thrust 与 INFO Hub 担任研究助理，导师为<a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>岳玉涛教授</strong></a>。我本科毕业于<a href="https://www.sdu.edu.cn/"><strong>山东大学</strong></a>信息科学与工程学院（<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>崇新学堂</strong></a>），导师为<a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>刘治教授</strong></a>。
 
@@ -122,7 +122,7 @@ lang: zh
 
 <ul id="news-list" class="news-list is-collapsed">
 <li><em>09.2026</em> 🎉 <a href="https://neurips.cc/virtual/2026/poster/149545">"ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment"</a> 发表于 <strong>NeurIPS 2026 Poster</strong>，Wenshuo Chen 与 Haoxuan Xu 为共同一作；合作论文 <a href="https://jiaaqiliu.github.io/VIPER-R1/">"Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery"</a> 以<strong>第二作者</strong>身份发表于 <strong>NeurIPS 2026 Poster</strong>。</li>
-<li><em>09.2026</em> 我继续开展可信 AI、可靠机器学习与可靠时间序列系统相关工作。</li>
+<li><em>09.2026</em> 我开始从事机器学习量化研究工程，聚焦中高频 CTA 全流程研究；具体工作细节遵循保密要求。</li>
 <li><em>08.2026</em> 🎉 三篇论文被 <strong>EMNLP 2026</strong> 接收："Decomposing Visual Histories with Vision-Language Agents"（主会）、"Demystifying Hidden-State Recurrence"（Findings）和 "NUM2EVENT"（Findings，共同一作）！</li>
 <li><em>07.2026</em> 🎉 我们的合作论文 "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" 被 <strong>ACM MM 2026 Main Track</strong> 接收！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> 被 <strong>ECCV 2026</strong> 接收，我担任第一作者！</li>
@@ -508,7 +508,9 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 {: #educations }
 
 <div class="timeline-container">
-<div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">•••</span></div><div class="timeline-content"><div class="timeline-date">公开版</div><div class="timeline-title">工作经历（具体信息已隐去）</div><div class="timeline-desc"><span class="experience-type">保密</span> ************************</div></div></div>
+<div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">CTA</span></div><div class="timeline-content"><div class="timeline-date">2026 年 9 月 - 至今</div><div class="timeline-title">机器学习量化研究工程师 · 大型量化研究机构</div><div class="timeline-desc"><span class="experience-type">全职</span> 中高频 CTA 全流程研究；具体系统、数据与实现细节不公开。</div></div></div>
+<div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">AI</span></div><div class="timeline-content"><div class="timeline-date">2026 年 1 月 - 2026 年 8 月</div><div class="timeline-title">量化研究 / 人工智能算法 · 量化研究机构</div><div class="timeline-desc"><span class="experience-type">全职</span> 量化研究与人工智能算法开发；项目细节不公开。</div></div></div>
+<div class="timeline-item experience-internship"><div class="timeline-icon"><span class="experience-logo experience-logo-text">AI</span></div><div class="timeline-content"><div class="timeline-date">2025 年 11 月 - 2026 年 1 月</div><div class="timeline-title">量化研究 / 人工智能算法实习生</div><div class="timeline-desc"><span class="experience-type">实习</span> 量化研究与人工智能算法探索；实现细节不公开。</div></div></div>
 <div class="timeline-item experience-research"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=hkust-gz.edu.cn&sz=64" alt="香港科技大学（广州）logo"></div><div class="timeline-content"><div class="timeline-date">2024 年 4 月 - 2025 年 9 月</div><div class="timeline-title">香港科技大学（广州）- 研究助理</div><div class="timeline-desc"><span class="experience-type">科研</span> AI Thrust & INFO Hub，可信 AI、CBM、鲁棒性与 LLM 可解释性。</div></div></div>
 <div class="timeline-item experience-visit"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=kaust.edu.sa&sz=64" alt="KAUST logo"></div><div class="timeline-content"><div class="timeline-date">2023 年 4 月 - 2024 年 4 月</div><div class="timeline-title">KAUST - 远程科研实习生</div><div class="timeline-desc"><span class="experience-type">访问 / 实习</span> 与 Di Wang 教授、Lijie Hu 博士合作开展可信 AI 研究。</div></div></div>
 <div class="timeline-item experience-education"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=sdu.edu.cn&sz=64" alt="山东大学 logo"></div><div class="timeline-content"><div class="timeline-date">2020 年 9 月 - 2024 年 6 月</div><div class="timeline-title">山东大学 - 理学学士</div><div class="timeline-desc"><span class="experience-type">教育</span> 信息科学与工程学院（崇新学堂 / EECS）。</div></div></div>

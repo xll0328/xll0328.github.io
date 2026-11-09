@@ -7,9 +7,9 @@ author_profile: true
 
 # CV
 
-The public English and Chinese CV PDFs are available below. Work experience details are intentionally redacted in these public copies.
+The public English and Chinese CV PDFs are available below. Role, dates, and research scope are shown; employers and work-specific implementation details are intentionally withheld.
 
-<div class="notice--info"><strong>Public version:</strong> work history and work-specific content are withheld for confidentiality.</div>
+<div class="notice--info"><strong>Public version:</strong> role, dates, and CTA research scope are shown; employer names, systems, datasets, and implementation details are withheld.</div>
 
 <p>
 <strong><a href="{{ '/files/cv/Songning_Lai_Resume_EN_latest.pdf' | relative_url }}">Download English CV</a></strong> ·

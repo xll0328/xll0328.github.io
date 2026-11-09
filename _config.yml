@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Songning Lai（赖颂宁）"
-description              : "Machine Learning / Trustworthy AI | Concept Bottleneck Models · Reliable ML"
+description              : "Machine Learning Quantitative Research / Trustworthy AI | CTA Research"
 repository               : "xll0328/xll0328.github.io"
 url                      : "https://xll0328.github.io"
 google_scholar_stats_use_cdn : true
@@ -24,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Songning Lai"
   avatar           : "images/songninglai.jpg"
-  bio              : "Machine Learning Engineer<br>Trustworthy AI & Reliable ML"
+  bio              : "Machine Learning Quantitative Research Engineer<br>Trustworthy AI & CTA Research"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
