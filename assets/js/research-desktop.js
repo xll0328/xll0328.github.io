@@ -276,11 +276,12 @@
     });
 
     var mobile = window.matchMedia('(max-width: 760px)').matches;
-    var defaultOpen = mobile ? ['about'] : ['about', 'publications', 'news'];
+    var defaultOpen = mobile ? ['about'] : ['news', 'research', 'about'];
     windows.forEach(function (win) {
-      if (defaultOpen.indexOf(win.getAttribute('data-window')) !== -1) openWindow(win.getAttribute('data-window'), false);
-      else { win.classList.add('is-closed'); win.setAttribute('aria-hidden', 'true'); }
+      win.classList.add('is-closed');
+      win.setAttribute('aria-hidden', 'true');
     });
+    defaultOpen.forEach(function (id) { openWindow(id, false); });
 
     document.querySelectorAll('[data-open-window]').forEach(function (button) {
       var linkedWindow = findWindow(button.getAttribute('data-open-window'));
