@@ -10,7 +10,7 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="academic-refresh lang-{{ page_lang }} {% if page.permalink and page.permalink != '/' and page.permalink != '/zh/' %}project-page{% else %}home-page{% endif %} page{{ page.permalink | replace: '/', '-' }}">
+  <body class="academic-refresh lang-{{ page_lang }} {% if page.permalink and page.permalink != '/' and page.permalink != '/zh/' %}project-page{% else %}home-page research-desktop-home{% endif %} page{{ page.permalink | replace: '/', '-' }}">
 
     {% include browser-upgrade.html %}
 

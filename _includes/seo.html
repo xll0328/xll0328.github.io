@@ -24,7 +24,7 @@
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if page_lang == "zh" and seo_description == blank %}
-  {% assign seo_description = "赖颂宁的个人主页，展示可信 AI、概念瓶颈模型、可靠机器学习和量化研究相关工作。" %}
+  {% assign seo_description = "赖颂宁的个人主页，展示可信 AI、概念瓶颈模型、可靠机器学习与可解释性研究。" %}
 {% endif %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}

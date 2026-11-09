@@ -8,7 +8,7 @@ lang: zh
 
 <div class="project-hero">
   <div class="project-hero-copy">
-    <p class="project-kicker">MICCAI 2026 · CCF B · Provisionally Accepted</p>
+    <p class="project-kicker">MICCAI 2026 · CCF B · Accepted</p>
     <h1>SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models</h1>
     <p class="project-subtitle">中文项目页</p>
     <div class="project-hero-actions">
@@ -24,9 +24,10 @@ lang: zh
 <p>SANT-CBM 通过 GMM 动态加权降低噪声伪标签影响，并用结构一致性约束临床上合理的概念相关关系，从而改进皮肤病诊断中的半监督 CBM。</p>
 </div>
 
-**作者：** HongWei Liu, Jia Liu, **Songning Lai~**  
-**会议：** Medical Image Computing and Computer Assisted Intervention (**MICCAI 2026**, CCF B), provisionally accepted  
-**说明：** `~` 表示通讯作者。论文与代码链接将在 MICCAI 公开发布和开源制品（artifact release）要求满足后补充。
+**作者：** Hongwei Liu, Jia Liu, **Songning Lai~**<br>
+**会议：** Medical Image Computing and Computer Assisted Intervention (**MICCAI 2026**, CCF B)，正式接收<br>
+**论文：** [MICCAI Open Access](https://papers.miccai.org/miccai-2026/0919-Paper4448.html) · [PDF](https://papers.miccai.org/miccai-2026/paper/4448_paper.pdf)<br>
+**说明：** `~` 表示通讯作者。
 
 ---
 
@@ -105,6 +106,6 @@ SANT-CBM 在两个公开皮肤病数据集 **Fitzpatrick17k** 和 **7-point Chec
 
 ## 发布
 
-论文已被 MICCAI 2026 临时接收。公开论文链接、引用元数据和代码仓库链接将在终稿（camera-ready）与 MICCAI 公开发布流程完成后更新。
+论文已被 MICCAI 2026 正式接收，官方开放获取页面与 PDF 链接见上方。
 
 [← 返回首页]({{ '/zh/' | relative_url }})

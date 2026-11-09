@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-description: "Songning Lai's personal website: trustworthy AI, concept bottleneck models, reliable machine learning, and quantitative research."
+description: "Songning Lai's personal website: trustworthy AI, concept bottleneck models, reliable machine learning, and interpretability."
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -16,13 +16,66 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<div class="research-desktop-shell" data-locale="en" data-home-url="{{ '/' | relative_url }}" data-language-url="{{ '/zh/' | relative_url }}" aria-label="Songning Lai research desktop">
+  <div class="research-desktop-wallpaper" aria-hidden="true">
+    <div class="research-desktop-orbit research-desktop-orbit--one"></div>
+    <div class="research-desktop-orbit research-desktop-orbit--two"></div>
+    <div class="research-desktop-grid"></div>
+    <span class="research-desktop-star research-desktop-star--one"></span>
+    <span class="research-desktop-star research-desktop-star--two"></span>
+    <span class="research-desktop-star research-desktop-star--three"></span>
+  </div>
+
+  <header class="research-desktop-topbar">
+    <a class="research-desktop-brand" href="{{ '/' | relative_url }}" aria-label="Songning Lai home">
+      <span class="research-desktop-brand__mark">SL</span>
+      <span class="research-desktop-brand__name">songning<span>.os</span></span>
+    </a>
+    <div class="research-desktop-status"><span class="research-desktop-status__dot"></span><span>Research workspace</span></div>
+    <div class="research-desktop-tray">
+      <span class="research-desktop-clock" data-research-clock aria-label="Beijing time"></span>
+      <a class="research-desktop-tray__link" href="{{ '/zh/' | relative_url }}" target="_self">中文</a>
+      <button class="research-desktop-tray__button" type="button" data-wallpaper-toggle aria-label="Change desktop accent" title="Change desktop accent">◐</button>
+    </div>
+  </header>
+
+  <nav class="research-desktop-launcher" aria-label="Research desktop applications">
+    <button type="button" data-open-window="about" aria-controls="research-window-about"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--profile">SL</span><span>About</span></button>
+    <button type="button" data-open-window="research" aria-controls="research-window-research"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--research">∿</span><span>Research</span></button>
+    <button type="button" data-open-window="news" aria-controls="research-window-news"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--news">✦</span><span>News</span></button>
+    <button type="button" data-open-window="publications" aria-controls="research-window-publications"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--paper">▤</span><span>Papers</span></button>
+    <button type="button" data-open-window="publication-list" aria-controls="research-window-publication-list"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--archive">≡</span><span>Archive</span></button>
+    <button type="button" data-open-window="experience" aria-controls="research-window-experience"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--experience">⌁</span><span>Experience</span></button>
+    <button type="button" data-open-window="honors" aria-controls="research-window-honors"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--honors">★</span><span>Honors</span></button>
+    <button type="button" data-open-window="internships" aria-controls="research-window-internships"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--service">✎</span><span>Service</span></button>
+    <a href="{{ '/cv/' | relative_url }}" target="_self"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--cv">CV</span><span>CV</span></a>
+    <button type="button" data-open-window="collaborators" aria-controls="research-window-collaborators"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--collaborators">◎</span><span>People</span></button>
+    <button type="button" data-open-window="guestbook" aria-controls="research-window-guestbook"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--contact">@</span><span>Contact</span></button>
+  </nav>
+
+  <nav class="research-desktop-quickbar" aria-label="Quick links">
+    <button type="button" data-open-window="about">About</button>
+    <button type="button" data-open-window="publications">Papers</button>
+    <a href="{{ '/cv/' | relative_url }}" target="_self">CV</a>
+    <button type="button" data-open-window="guestbook">Contact</button>
+  </nav>
+
+  <p class="research-desktop-hint"><span>Select an app</span> to explore the research archive</p>
+  <div class="research-desktop-workspace" data-research-workspace role="application" aria-label="Songning Lai research workspace"></div>
+  <div class="research-desktop-dockbar" data-research-dock>
+    <div class="research-desktop-dockbar__apps" data-research-dock-apps aria-label="Open windows"></div>
+    <div class="research-desktop-dockbar__status"><span class="research-desktop-dock__pulse"></span><span>Local preview · public content only</span></div>
+    <button class="research-desktop-dockbar__close" type="button" data-dock-close-all>Close all</button>
+  </div>
+</div>
+
 <div class="home-hero">
   <div class="home-hero__portrait"><img src="{{ '/images/songninglai.jpg' | relative_url }}" alt="Portrait of Songning Lai" width="1080" height="1080" fetchpriority="high"></div>
   <div class="home-hero__copy">
     <p class="home-hero__eyebrow">Researcher · Machine Learning Engineer</p>
     <h1 class="home-hero__name">Songning Lai <span>赖颂宁</span></h1>
     <p class="home-hero__lead">I build AI systems that are easier to understand, edit, and trust.</p>
-    <p class="home-hero__meta">Machine Learning Quant Algorithm Engineer at <strong>X-tech</strong> · Beijing, China</p>
+    <p class="home-hero__meta">Machine Learning Engineer · Trustworthy AI · Beijing, China</p>
   </div>
   <div class="home-hero__links">
     <a class="home-hero__link home-hero__link--primary" href="{{ '/#publications' | relative_url }}">Explore publications <span aria-hidden="true">↗</span></a>
@@ -34,11 +87,13 @@ redirect_from:
 
 <p class="home-about-label" id="about-me">About me</p>
 
-I am currently a Machine Learning Quant Algorithm Engineer at <strong>X-tech</strong> in Beijing, working on machine learning algorithms and quantitative strategy research.
+I work on <strong>trustworthy AI</strong> and reliable machine learning systems, with a focus on models and explanations that remain inspectable after deployment.
 
 Previously, I was a research assistant at HKUST(GZ) AI Thrust & INFO Hub under Prof. <a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>Yutao Yue</strong></a>. I received my undergraduate degree from the School of Information Science and Engineering (<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>Chongxin College</strong></a>), <a href="https://www.sdu.edu.cn/"><strong>Shandong University</strong></a>, where I was supervised by Prof. <a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>Zhi Liu</strong></a>.
 
-My research centers on <strong>trustworthy AI</strong>, especially <strong>concept bottleneck models (CBMs)</strong>, with recent work on editable and continual CBMs, multimodal interpretability, concept-level security, medical AI, autonomous driving, reliable time-series forecasting, and LLM interpretability. Representative papers appeared at <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>, <a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>, <a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>, <a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>, <strong>ECCV 2026</strong>, <strong>MICCAI 2026</strong>, <strong>EMNLP 2026</strong>, <a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a>, and <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>.
+My research centers on <strong>trustworthy AI</strong>, especially <strong>concept bottleneck models (CBMs)</strong>, with recent work on editable and continual CBMs, multimodal interpretability, concept-level security, medical AI, autonomous driving, reliable time-series forecasting, and LLM interpretability. Representative papers appeared at <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>, <a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>, <a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>, <a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>, <strong>NeurIPS 2026</strong>, <strong>ECCV 2026</strong>, <strong>MICCAI 2026</strong>, <strong>EMNLP 2026</strong>, <a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a>, and <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>.
+
+A current <a href="https://scholar.google.com/citations?user=gRXN-rMAAAAJ"><strong>Google Scholar</strong></a> snapshot reports <strong>886 citations</strong>, an <strong>h-index of 13</strong>, and an <strong>i10-index of 20</strong>.
 
 Beyond CBMs, I have also worked on robustness and faithfulness in time series forecasting, continual learning, computer vision, multimodal sentiment analysis, and graph learning. The common thread is to build learning systems that remain reliable, inspectable, and useful when deployed in open-world settings.
 
@@ -75,13 +130,14 @@ If you are interested in my research or a collaboration, please email me at <em>
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
-<li><em>09.2026</em>  I joined <strong>X-tech</strong> as a Machine Learning Quant Algorithm Engineer.</li>
+<li><em>09.2026</em>  🎉 <a href="https://neurips.cc/virtual/2026/poster/149545">"ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment"</a> appeared as a <strong>NeurIPS 2026 poster</strong>, with Wenshuo Chen and Haoxuan Xu as co-first authors, and <a href="https://jiaaqiliu.github.io/VIPER-R1/">"Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery"</a> appeared as a <strong>NeurIPS 2026 poster</strong> (second author).</li>
+<li><em>09.2026</em>  I am continuing to work on machine learning, trustworthy AI, and reliable time-series systems.</li>
 <li><em>08.2026</em>  🎉 Three papers have been accepted to <strong>EMNLP 2026</strong>: "Decomposing Visual Histories with Vision-Language Agents" (Main Conference), "Demystifying Hidden-State Recurrence" (Findings), and "NUM2EVENT" (Findings, co-first author)!</li>
 <li><em>07.2026</em>  🎉 Our collaborator paper "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" has been accepted to the <strong>ACM MM 2026 Main Track</strong>!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> has been accepted at <strong>ECCV 2026</strong>, where I serve as the first author!</li>
 <li><em>06.2026</em>  🎉 Two collaborator papers have been accepted to the <strong>ACM MM 2026 BNI Track</strong>: <a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a> (Poster) and <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a> (Oral)!</li>
 <li><em>06.2026</em>  🏆 Our team (<strong>HKUST(GZ) Deep Robotics Team / Nexus Robotics Lab</strong>) won <strong>1st place globally</strong> in <a href="https://wbcdcompetition.github.io">Logistics Picking at What Bimanuals Can Do (WBCD) 2026</a>, held with <strong>ICRA 2026</strong>, and also placed 1st at the Shanghai site!</li>
-<li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/sant-cbm/">"SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models"</a> has been provisionally accepted at <strong>MICCAI 2026</strong> (CCF B), where I serve as the last and corresponding author!</li>
+<li><em>06.2026</em>  🎉 Our paper <a href="https://xll0328.github.io/sant-cbm/">"SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models"</a> has been accepted at <strong>MICCAI 2026</strong> (CCF B), where I serve as the last and corresponding author!</li>
 <li><em>06.2026</em>  🎉 Our paper <a href="images/FixCBM_ICANN2026.pdf">"Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation"</a> has been accepted at <strong>ICANN 2026</strong> (CCF C), where I serve as corresponding author!</li>
 <li><em>03.2026</em>  📝 Our paper <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> has been <strong>accepted at TMLR 2026</strong>. <strong><a href="https://xll0328.github.io/cat/">[Project Page]</a></strong> <strong><a href="https://github.com/xll0328/CAT_CBM-Backdoor">[Code]</a></strong></li>
 <li><em>03.2026</em>  🏆 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" won the <strong><a href="https://time.griffith.edu.au/workshop/time2026/pages/media.html">Best Paper Runner-Up Award</a></strong> at <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong>!</li>
@@ -91,7 +147,6 @@ If you are interested in my research or a collaboration, please email me at <em>
 <li><em>01.2026</em>  🎉 Our paper "Towards Better Evaluation Metrics for Text-to-Motion Generation" has been accepted at <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong>!</li>
 <li><em>01.2026</em>  🎉 Our paper "TPTD: A Trusted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing" has been accepted at Knowledge-Based Systems <strong>KBS</strong>. (IF: 7.2, JCR Q1, CCF C)!</li>
 <li><em>12.2025</em>  🎉 Our paper "Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding" has been accepted at IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY <strong>TCSVT</strong>. (IF: 11.1, JCR Q1, CCF B)!</li>
-<li><em>10.2025</em>: 🎉 Our paper "Mimicking the Physicist's Eye : A VLM-centric Approach for Physics Formula Discovery" has been accepted at <strong>NeurIPS 2025 Workshop on Efficient Reasoning</strong> with <strong>spotlight</strong>!</li>
 <li><em>10.2025</em>: 🎉 Our paper "Orientation-Aware Detection System for Real-Time Monitoring of Cracks in Steel Structures" has been accepted at <strong>Expert Systems With Applications</strong> (JCR Q1, IF: 7.5)!</li>
 <li><em>09.2025</em>：🎉 Our paper "Boosting Expertise and Efficiency in LLM: A Knowledge-Enhanced Framework for Construction Support" has been accepted at <strong>Alexandria Engineering Journal</strong> (JCR Q1, IF: 6.8)!</li>
 <li><em>08.2025</em>: 🎉 Our 3 papers have been accepted at <strong>ACM MM 2025 BNI Track</strong> (CCF A, oral, BNI Papers are considered outstanding ACM MM full papers, and accepted BNI papers will appear in the main proceedings)! ("Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models"; "Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction"; "Can Audio Language Models Listen Between the Lines? A Study on Metaphorical Reasoning via Unspoken")</li>
@@ -129,10 +184,42 @@ If you are interested in my research or a collaboration, please email me at <em>
 <div class="publications-scroll-container">
 
 <h3>2026</h3>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026 Poster</div><img src='images/clinstab.png' alt="ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong><a href="https://neurips.cc/virtual/2026/poster/149545">ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment</a></strong>
+
+Wenshuo Chen<sup>†</sup>, Haoxuan Xu<sup>†</sup>, Yi Liu, <strong>Songning Lai</strong>, Ninghui Feng, Jiayu Yang, Haoang Li, Yutao Yue
+
+The Conference on Neural Information Processing Systems <strong>NeurIPS 2026</strong> <span class="venue-badge ccf-a">CCF A</span>. Poster. Wenshuo Chen and Haoxuan Xu contributed equally.
+
+<p class="paper-description">ClinStab studies stability-oriented learning for EEG and ECG classification by combining channel-aware dual-stream interaction with perturbation-aware optimization, while reporting clean/robustness trade-offs across four public datasets.</p>
+
+<strong><a href="https://neurips.cc/virtual/2026/poster/149545">NeurIPS page</a></strong>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026 Poster</div><img src='images/viper-r1.png' alt="Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong><a href="https://jiaaqiliu.github.io/VIPER-R1/">Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery</a></strong>
+
+Jiaqi Liu, <strong>Songning Lai</strong>, Pengze Li, Di Yu, Wenjie Zhou, Yiyang Zhou, Peng Xia, Zijun Wang, Xi Chen, Shixiang Tang, Lei Bai, Wanli Ouyang, Mingyu Ding, Huaxiu Yao, Aoran Wang
+
+The Conference on Neural Information Processing Systems <strong>NeurIPS 2026</strong> <span class="venue-badge ccf-a">CCF A</span>. Poster. Second author.
+
+<p class="paper-description">VIPER-R1 combines visual motion evidence with structure-aware symbolic calibration for interpretable formula discovery in focused low-dimensional dynamics.</p>
+
+<strong><a href="https://jiaaqiliu.github.io/VIPER-R1/">Project Page</a></strong> · <strong><a href="https://arxiv.org/abs/2508.17380">arXiv</a></strong>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='images/num2event.png' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">NUM2EVENT: Structured Event Inference from Numerical Time-Series</a></strong>
+<strong><a href="https://aclanthology.org/2026.findings-emnlp.1536/">NUM2EVENT: Structured Event Inference from Numerical Time-Series</a></strong>
 
 Ninghui Feng†, <strong>Songning Lai†</strong>, Xinan Chen, Zheng Chu, Yiyan Qi
 
@@ -140,7 +227,7 @@ Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Findings</st
 
 <p class="paper-description">NUM2EVENT studies number-to-event reasoning, generating structured and inspectable event hypotheses from numerical time-series through an agent-guided event extractor, Hawkes-process synthetic data generation, and a multi-stage fine-tuning pipeline.</p>
 
-<strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">OpenReview</a></strong>
+<strong><a href="https://aclanthology.org/2026.findings-emnlp.1536/">ACL Anthology</a></strong>
 
 </div>
 </div>
@@ -166,9 +253,9 @@ European Conference on Computer Vision <strong>ECCV 2026</strong> <span class="v
 
 <strong><a href="https://xll0328.github.io/sant-cbm/">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models</a></strong>
 
-HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>
+Hongwei Liu, Jia Liu, <strong>Songning Lai~</strong>
 
-Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> <span class="venue-badge ccf-b">CCF B</span>. Provisionally accepted.
+Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
 
 <p class="paper-description">We propose SANT-CBM, a semi-supervised Concept Bottleneck Model for medical image classification. It uses GMM-based dynamic weighting to reduce noisy pseudo-label supervision and a structural consistency loss to align predicted concept correlations with clinical priors, improving label-efficient and interpretable diagnosis on dermatology datasets.</p>
 
@@ -286,7 +373,7 @@ The Conference on <strong>ICRA 2025</strong> <span class="venue-badge ccf-b">CCF
   
 <strong><a href="https://arxiv.org/pdf/2506.05286">Stable Vision Concept Transformers for Medical Diagnosis</a></strong>
 
-Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua, Shu Yang, Jingfeng Zhang, Di Wang
+Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua†, Shu Yang, Jingfeng Zhang, Di Wang
 
 The Conference on <strong>ECML-PKDD 2025</strong> <span class="venue-badge ccf-b">CCF B</span> <span class="venue-badge core-a">Core A</span>.
 
@@ -367,12 +454,14 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h3>2026</h3>
 <ul class="publication-list">
-<li data-tags="ccf-b">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation, Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun, <strong>EMNLP 2026 Main Conference</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">OpenReview</a></strong></li>
-<li data-tags="ccf-b">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning, Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">OpenReview</a></strong></li>
-<li data-tags="ccf-b">NUM2EVENT: Structured Event Inference from Numerical Time-Series, Ninghui Feng†, <strong>Songning Lai†</strong>, Xinan Chen, Zheng Chu, Yiyan Qi, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted; † equal contribution). <strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">OpenReview</a></strong></li>
+<li data-tags="ccf-a">ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment, Wenshuo Chen<sup>†</sup>, Haoxuan Xu<sup>†</sup>, Yi Liu, <strong>Songning Lai</strong>, Ninghui Feng, Jiayu Yang, Haoang Li, Yutao Yue, <strong>NeurIPS 2026</strong> (Poster; Wenshuo Chen and Haoxuan Xu co-first authors). <strong><a href="https://neurips.cc/virtual/2026/poster/149545">NeurIPS page</a></strong></li>
+<li data-tags="ccf-a">Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery, Jiaqi Liu, <strong>Songning Lai</strong>, Pengze Li, Di Yu, Wenjie Zhou, Yiyang Zhou, Peng Xia, Zijun Wang, Xi Chen, Shixiang Tang, Lei Bai, Wanli Ouyang, Mingyu Ding, Huaxiu Yao, Aoran Wang, <strong>NeurIPS 2026</strong> (Poster; Second author). <strong><a href="https://jiaaqiliu.github.io/VIPER-R1/">Project Page</a></strong> · <strong><a href="https://arxiv.org/abs/2508.17380">arXiv</a></strong></li>
+<li data-tags="ccf-b">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation, Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun, <strong>EMNLP 2026 Main Conference</strong> (CCF B, Accepted). <strong><a href="https://aclanthology.org/2026.emnlp-main.607/">ACL Anthology</a></strong></li>
+<li data-tags="ccf-b">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning, Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted). <strong><a href="https://aclanthology.org/2026.findings-emnlp.457/">ACL Anthology</a></strong></li>
+<li data-tags="ccf-b">NUM2EVENT: Structured Event Inference from Numerical Time-Series, Ninghui Feng†, <strong>Songning Lai†</strong>, Xinan Chen, Zheng Chu, Yiyan Qi, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted; † equal contribution). <strong><a href="https://aclanthology.org/2026.findings-emnlp.1536/">ACL Anthology</a></strong></li>
 <li data-tags="ccf-a core-a-star">When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking, Shaofeng Liang, Runwei Guan, Wenshuo Chen, Jiemin Wu, Bowen Tian, Haozhe Jia, Kaishen Yuan, <strong>Songning Lai</strong>, Daizong Liu, Yutao Yue, <strong>ACM MM 2026 Main Track</strong> (CCF A, Accepted).</li>
 <li data-tags="ccf-b">Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions, <strong>Songning Lai</strong>, Shaofeng Liang, Jiayu Yang, Ninghui Feng, Yuxuan Fan, Wenshuo Chen, European Conference on Computer Vision <strong>ECCV 2026</strong> (CCF B, Accepted). <strong><a href="https://xll0328.github.io/dynamic-v2c/">Project Page</a></strong></li>
-<li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Provisionally Accepted). <strong><a href="https://xll0328.github.io/sant-cbm/">Project Page</a></strong></li>
+<li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, Hongwei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Accepted). <strong><a href="https://xll0328.github.io/sant-cbm/">Project Page</a></strong></li>
 <li data-tags="ccf-c">Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation, Yayue Mai, <strong>Songning Lai~</strong>, International Conference on Artificial Neural Networks <strong>ICANN 2026</strong> (CCF C, Accepted). <strong><a href="images/FixCBM_ICANN2026.pdf">Paper</a></strong></li>
 <li data-tags="tmlr">Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models, <strong>Songning Lai</strong>, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue, <strong>TMLR 2026</strong> (Accepted).</li>
 <li data-tags="iclr">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall, Jiayu Yang†, Yuxuan Fan†, <strong>Songning Lai†</strong>, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue, <strong>ICLR 2026</strong> (CCF A).</li>
@@ -390,7 +479,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <li data-tags="ccf-a core-a-star">From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve, <strong>Songning Lai</strong>, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Lijie Hu, Hang Zhao, Xuming Hu, Yutao Yue, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-b core-a-star">DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving, <strong>Songning Lai</strong>, Tianlang Xue, Hongru Xiao, Lijie Hu, Jiemin Wu, Ninghui Feng, Runwei Guan, Haicheng Liao, Zhenning Li, Yutao Yue, <strong>ICRA 2025</strong> (CCF B, Core A*).</li>
-<li data-tags="ccf-b core-a">Stable Vision Concept Transformers for Medical Diagnosis, Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua†, Jingfeng Zhang, Pan Zhou, Di Wang, <strong>ECML-PKDD 2025</strong> (CCF B, Core A).</li>
+<li data-tags="ccf-b core-a">Stable Vision Concept Transformers for Medical Diagnosis, Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua†, Shu Yang, Jingfeng Zhang, Di Wang, <strong>ECML-PKDD 2025</strong> (CCF B, Core A).</li>
 <li data-tags="ccf-b core-b">PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning, Bowen Tian†, <strong>Songning Lai†</strong>, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue, <strong>ICASSP 2025</strong> (CCF B, Core B).</li>
 <li data-tags="ccf-a core-a-star">IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction, Zhangyi Hu, Jiemin Wu, Hua Xu, Mingqian Liao, Ninghui Feng, Bo Gao, <strong>Songning Lai</strong>, Yutao Yue, <strong>ICML 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-a core-a-star">Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction, Jia Haozhe, Wenshuo Chen, Huang Zhihui, Lei Wang, Hongru Xiao, Jia Nanqian, Keming Wu, <strong>Songning Lai</strong>, Bowen Tian, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*; BNI papers are considered outstanding ACM MM full papers and appear in the main proceedings).</li>
@@ -413,7 +502,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <li data-tags="ccf-a">Towards Multi-dimensional Explanation Alignment for Medical Classification, Lijie Hu†, <strong>Songning Lai†</strong>, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang, The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</strong>(CCF A).</li>
 <li data-tags="ccf-c">Shared and private information learning in multimodal sentiment analysis with deep modal alignment and self-supervised multi-task learning, <strong>Songning Lai†</strong>, Jiakang Li, Guinan Guo, Xifeng Hu, Yulong Li, Yuan Tan, Zichen Song, Yutong Liu, Zhaoxia Ren~, Chun Wang~, Danmin Miao~ and Zhi Liu~, International Joint Conference on Neural Networks <strong>IJCNN 2024</strong>(CCF C).</li>
 <li data-tags="jcr-q1 ccf-c">A Comprehensive Review of Community Detection in Graphs, Jiakang Li†, <strong>Songning Lai†</strong>, Zhihao Shuai, Yuan Tan, Yifan Jia, Mianyang Yu, Zichen Song, Xiaokang Peng, Ziyang Xu, Yongxin Ni, Haifeng Qiu, Jiayu Yang, Yutong Liu, Yonggang Lu~, <strong>Neurocomputing</strong> (JCR Q1 (IF: 6.0) CCF C).</li>
-<li data-tags="jcr-q1">Multimodal Sentiment Analysis: A Survey, <strong>Songning Lai</strong>, Haoxuan Xu, Xifeng Hu, Zhaoxia Ren~ and Zhi Liu~, <strong>Displays</strong> (JCR Q1 (IF: 4.3)).</li>
+<li data-tags="jcr-q1">Multimodal Sentiment Analysis: A Survey, <strong>Songning Lai</strong>, Xifeng Hu, Haoxuan Xu, Zhaoxia Ren~ and Zhi Liu~, <strong>Displays</strong> (JCR Q1 (IF: 4.3)).</li>
 <li data-tags="jcr-q1 ccf-c">Cross-domain car detection model with integrated convolutional block attention mechanism, Haoxuan Xu†, <strong>Songning Lai†</strong> and Yang Yang~, <strong>Image and Vision Computing</strong> (JCR Q1 (IF:4.7) CCF C).</li>
 <li data-tags="">Predicting Lysine Phosphoglycerylation Sites using Bidirectional Encoder Representations with Transformers & Protein Feature Extraction and Selection, <strong>Songning Lai</strong>, Xifeng Hu, Jing Han, Chun Wang, Subhas Mukhopadhyay, Zhi Liu~ and Lan Ye~, 2022 15th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics <strong>CISP-BMEI 2022</strong>(Tsinghua B).</li>
 </ul>
@@ -538,29 +627,11 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <div class="timeline-container">
 <div class="timeline-item experience-work">
-<div class="timeline-icon"><span class="experience-logo experience-logo-text">XT</span></div>
+<div class="timeline-icon"><span class="experience-logo experience-logo-text">•••</span></div>
 <div class="timeline-content">
-<div class="timeline-date">Sep 2026 - Present</div>
-<div class="timeline-title">X-tech - Machine Learning Quant Algorithm Engineer</div>
-<div class="timeline-desc"><span class="experience-type">Full-time</span> Quantitative Technology Department. Machine learning algorithms and quantitative strategy research.</div>
-</div>
-</div>
-
-<div class="timeline-item experience-work">
-<div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="JoinQuant logo"></div>
-<div class="timeline-content">
-<div class="timeline-date">Jan 2026 - Aug 2026</div>
-<div class="timeline-title">JoinQuant - Quantitative Researcher / AI Algorithms</div>
-<div class="timeline-desc"><span class="experience-type">Full-time</span> Built factor models and automated training workflows for quantitative research.</div>
-</div>
-</div>
-
-<div class="timeline-item experience-internship">
-<div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="JoinQuant logo"></div>
-<div class="timeline-content">
-<div class="timeline-date">Nov 2025 - Jan 2026</div>
-<div class="timeline-title">JoinQuant - Artificial Intelligence Intern, Quantitative Research</div>
-<div class="timeline-desc"><span class="experience-type">Internship</span> Quantitative research and AI algorithm exploration.</div>
+<div class="timeline-date">Public version</div>
+<div class="timeline-title">Professional experience (details withheld)</div>
+<div class="timeline-desc"><span class="experience-type">Confidential</span> ************************</div>
 </div>
 </div>
 

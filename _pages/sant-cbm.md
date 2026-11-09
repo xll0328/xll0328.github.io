@@ -7,7 +7,7 @@ author_profile: false
 
 <div class="project-hero">
   <div class="project-hero-copy">
-    <p class="project-kicker">MICCAI 2026 · CCF B · Provisionally Accepted</p>
+    <p class="project-kicker">MICCAI 2026 · CCF B · Accepted</p>
     <h1>SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models</h1>
     <p class="project-subtitle">Project page</p>
     <div class="project-hero-actions">
@@ -23,9 +23,10 @@ author_profile: false
 <p>SANT-CBM improves semi-supervised Concept Bottleneck Models for dermatology diagnosis by down-weighting noisy pseudo-labels with GMM-based dynamic weighting and enforcing clinically plausible concept correlations through structural consistency.</p>
 </div>
 
-**Authors:** HongWei Liu, Jia Liu, **Songning Lai~**  
-**Venue:** Medical Image Computing and Computer Assisted Intervention (**MICCAI 2026**, CCF B), provisionally accepted  
-**Note:** `~` denotes corresponding author. Paper and code links will be added after the applicable MICCAI public-release and artifact-release requirements are satisfied.
+**Authors:** Hongwei Liu, Jia Liu, **Songning Lai~**<br>
+**Venue:** Medical Image Computing and Computer Assisted Intervention (**MICCAI 2026**, CCF B), accepted<br>
+**Paper:** [MICCAI Open Access](https://papers.miccai.org/miccai-2026/0919-Paper4448.html) · [PDF](https://papers.miccai.org/miccai-2026/paper/4448_paper.pdf)<br>
+**Note:** `~` denotes corresponding author.
 
 ---
 
@@ -104,6 +105,6 @@ The qualitative analysis shows that SANT-CBM better matches the reference concep
 
 ## Release
 
-The paper is provisionally accepted to MICCAI 2026. Public paper links, citation metadata, and repository links will be updated after the camera-ready and MICCAI public-release process is finalized.
+The paper is accepted to MICCAI 2026. The official open-access page and PDF are linked above.
 
 [← Back to Home]({{ '/' | relative_url }})

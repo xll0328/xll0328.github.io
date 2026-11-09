@@ -1,11 +1,64 @@
 ---
 permalink: /zh/
 title: ""
-description: "赖颂宁的个人主页：可信 AI、概念瓶颈模型、可靠机器学习与量化研究。"
+description: "赖颂宁的个人主页：可信 AI、概念瓶颈模型、可靠机器学习与可解释性研究。"
 excerpt: ""
 author_profile: true
 lang: zh
 ---
+
+<div class="research-desktop-shell" data-locale="zh" data-home-url="{{ '/zh/' | relative_url }}" data-language-url="{{ '/' | relative_url }}" aria-label="赖颂宁研究桌面">
+  <div class="research-desktop-wallpaper" aria-hidden="true">
+    <div class="research-desktop-orbit research-desktop-orbit--one"></div>
+    <div class="research-desktop-orbit research-desktop-orbit--two"></div>
+    <div class="research-desktop-grid"></div>
+    <span class="research-desktop-star research-desktop-star--one"></span>
+    <span class="research-desktop-star research-desktop-star--two"></span>
+    <span class="research-desktop-star research-desktop-star--three"></span>
+  </div>
+
+  <header class="research-desktop-topbar">
+    <a class="research-desktop-brand" href="{{ '/zh/' | relative_url }}" aria-label="赖颂宁主页">
+      <span class="research-desktop-brand__mark">赖</span>
+      <span class="research-desktop-brand__name">songning<span>.os</span></span>
+    </a>
+    <div class="research-desktop-status"><span class="research-desktop-status__dot"></span><span>研究工作区</span></div>
+    <div class="research-desktop-tray">
+      <span class="research-desktop-clock" data-research-clock aria-label="北京时间"></span>
+      <a class="research-desktop-tray__link" href="{{ '/' | relative_url }}" target="_self">English</a>
+      <button class="research-desktop-tray__button" type="button" data-wallpaper-toggle aria-label="切换桌面配色" title="切换桌面配色">◐</button>
+    </div>
+  </header>
+
+  <nav class="research-desktop-launcher" aria-label="研究桌面应用">
+    <button type="button" data-open-window="about" aria-controls="research-window-about"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--profile">赖</span><span>关于我</span></button>
+    <button type="button" data-open-window="research" aria-controls="research-window-research"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--research">∿</span><span>研究方向</span></button>
+    <button type="button" data-open-window="news" aria-controls="research-window-news"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--news">✦</span><span>动态</span></button>
+    <button type="button" data-open-window="publications" aria-controls="research-window-publications"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--paper">▤</span><span>论文</span></button>
+    <button type="button" data-open-window="publication-list" aria-controls="research-window-publication-list"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--archive">≡</span><span>论文档案</span></button>
+    <button type="button" data-open-window="experience" aria-controls="research-window-experience"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--experience">⌁</span><span>经历</span></button>
+    <button type="button" data-open-window="honors" aria-controls="research-window-honors"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--honors">★</span><span>荣誉</span></button>
+    <button type="button" data-open-window="internships" aria-controls="research-window-internships"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--service">✎</span><span>服务</span></button>
+    <a href="{{ '/zh/cv/' | relative_url }}" target="_self"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--cv">CV</span><span>简历</span></a>
+    <button type="button" data-open-window="collaborators" aria-controls="research-window-collaborators"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--collaborators">◎</span><span>伙伴</span></button>
+    <button type="button" data-open-window="guestbook" aria-controls="research-window-guestbook"><span class="research-desktop-launcher__icon research-desktop-launcher__icon--contact">@</span><span>联系</span></button>
+  </nav>
+
+  <nav class="research-desktop-quickbar" aria-label="快捷入口">
+    <button type="button" data-open-window="about">关于我</button>
+    <button type="button" data-open-window="publications">论文</button>
+    <a href="{{ '/zh/cv/' | relative_url }}" target="_self">简历</a>
+    <button type="button" data-open-window="guestbook">联系</button>
+  </nav>
+
+  <p class="research-desktop-hint"><span>选择应用</span>，浏览研究与作品档案</p>
+  <div class="research-desktop-workspace" data-research-workspace role="application" aria-label="赖颂宁研究工作区"></div>
+  <div class="research-desktop-dockbar" data-research-dock>
+    <div class="research-desktop-dockbar__apps" data-research-dock-apps aria-label="已打开窗口"></div>
+    <div class="research-desktop-dockbar__status"><span class="research-desktop-dock__pulse"></span><span>本地预览 · 仅展示公开内容</span></div>
+    <button class="research-desktop-dockbar__close" type="button" data-dock-close-all>关闭全部</button>
+  </div>
+</div>
 
 <div class="home-hero">
   <div class="home-hero__portrait"><img src="{{ '/images/songninglai.jpg' | relative_url }}" alt="赖颂宁的照片" width="1080" height="1080" fetchpriority="high"></div>
@@ -13,7 +66,7 @@ lang: zh
     <p class="home-hero__eyebrow">研究者 · 机器学习工程师</p>
     <h1 class="home-hero__name">赖颂宁 <span>Songning Lai</span></h1>
     <p class="home-hero__lead">让 AI 系统更易理解、更可编辑，也更值得信赖。</p>
-    <p class="home-hero__meta"><strong>交叉科技</strong>机器学习量化算法工程师 · 中国北京</p>
+    <p class="home-hero__meta">机器学习工程师 · 可信 AI · 中国北京</p>
   </div>
   <div class="home-hero__links">
     <a class="home-hero__link home-hero__link--primary" href="{{ '/zh/#publications' | relative_url }}">浏览论文 <span aria-hidden="true">↗</span></a>
@@ -25,11 +78,13 @@ lang: zh
 
 <p class="home-about-label" id="about-me">关于我</p>
 
-我目前在北京的<strong>交叉科技</strong>担任机器学习量化算法工程师，从事机器学习算法与量化策略研究。
+我主要从事<strong>可信 AI</strong>与可靠机器学习研究，关注模型在部署后的可检查性、可解释性与稳定性。
 
 此前，我在香港科技大学（广州）AI Thrust 与 INFO Hub 担任研究助理，导师为<a href="https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YUE-Yutao/yutaoyue"><strong>岳玉涛教授</strong></a>。我本科毕业于<a href="https://www.sdu.edu.cn/"><strong>山东大学</strong></a>信息科学与工程学院（<a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%E5%B4%87%E6%96%B0%E5%AD%A6%E5%A0%82/20809738?fr=aladdin"><strong>崇新学堂</strong></a>），导师为<a href="https://faculty.sdu.edu.cn/liuzhi1/zh_CN/index.htm"><strong>刘治教授</strong></a>。
 
-我的研究聚焦于<strong>可信 AI</strong>，尤其是<strong>概念瓶颈模型（CBMs）</strong>。近期工作覆盖可编辑与持续学习 CBM、多模态可解释性、概念层安全、医疗 AI、自动驾驶、可靠时间序列预测以及大语言模型可解释性。代表性论文发表于 <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>、<a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>、<a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>、<a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>、<strong>ECCV 2026</strong>、<strong>MICCAI 2026</strong>、<strong>EMNLP 2026</strong>、<a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a> 与 <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>。
+我的研究聚焦于<strong>可信 AI</strong>，尤其是<strong>概念瓶颈模型（CBMs）</strong>。近期工作覆盖可编辑与持续学习 CBM、多模态可解释性、概念层安全、医疗 AI、自动驾驶、可靠时间序列预测以及大语言模型可解释性。代表性论文发表于 <a href="https://openreview.net/forum?id=rp0EdI8X4e"><strong>ICLR 2024</strong></a>、<a href="https://arxiv.org/abs/2410.21494"><strong>NeurIPS 2024</strong></a>、<a href="https://arxiv.org/pdf/2411.17471"><strong>ACM MM 2025</strong></a>、<a href="https://openreview.net/forum?id=bntZBG9fBY"><strong>TMLR 2026</strong></a>、<strong>NeurIPS 2026</strong>、<strong>ECCV 2026</strong>、<strong>MICCAI 2026</strong>、<strong>EMNLP 2026</strong>、<a href="https://arxiv.org/pdf/2506.05286"><strong>ECML-PKDD 2025</strong></a> 与 <a href="https://arxiv.org/pdf/2503.19656"><strong>ICASSP 2026</strong></a>。
+
+当前 <a href="https://scholar.google.com/citations?user=gRXN-rMAAAAJ"><strong>Google Scholar</strong></a> 快照显示：引用 <strong>886</strong> 次，h 指数 <strong>13</strong>，i10 指数 <strong>20</strong>。
 
 除 CBM 之外，我也关注时间序列预测中的鲁棒性与忠实性、持续学习、计算机视觉、多模态情感分析和图学习。贯穿这些工作的共同目标，是构建在开放世界部署时依然可靠、可检查且有用的学习系统。
 
@@ -66,13 +121,14 @@ lang: zh
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
-<li><em>09.2026</em> 我已加入<strong>交叉科技</strong>，担任机器学习量化算法工程师。</li>
+<li><em>09.2026</em> 🎉 <a href="https://neurips.cc/virtual/2026/poster/149545">"ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment"</a> 发表于 <strong>NeurIPS 2026 Poster</strong>，Wenshuo Chen 与 Haoxuan Xu 为共同一作；合作论文 <a href="https://jiaaqiliu.github.io/VIPER-R1/">"Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery"</a> 以<strong>第二作者</strong>身份发表于 <strong>NeurIPS 2026 Poster</strong>。</li>
+<li><em>09.2026</em> 我继续开展可信 AI、可靠机器学习与可靠时间序列系统相关工作。</li>
 <li><em>08.2026</em> 🎉 三篇论文被 <strong>EMNLP 2026</strong> 接收："Decomposing Visual Histories with Vision-Language Agents"（主会）、"Demystifying Hidden-State Recurrence"（Findings）和 "NUM2EVENT"（Findings，共同一作）！</li>
 <li><em>07.2026</em> 🎉 我们的合作论文 "When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking" 被 <strong>ACM MM 2026 Main Track</strong> 接收！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/dynamic-v2c/">"Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions"</a> 被 <strong>ECCV 2026</strong> 接收，我担任第一作者！</li>
 <li><em>06.2026</em> 🎉 两篇合作论文被 <strong>ACM MM 2026 BNI Track</strong> 接收：<a href="https://openreview.net/forum?id=I5VSeVLEuZ">"Free-T2M: Frequency-Aware Coarse-to-Fine Text-to-Motion Generation"</a>（Poster）和 <a href="https://arxiv.org/abs/2604.26503">"Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models"</a>（Oral）！</li>
 <li><em>06.2026</em> 🏆 我们的团队（<strong>HKUST(GZ) Deep Robotics Team / Nexus Robotics Lab</strong>）在 <strong>ICRA 2026</strong> 同期举办的 <a href="https://wbcdcompetition.github.io"><strong>What Bimanuals Can Do (WBCD) 2026</strong> Logistics Picking 全球总榜</a>获得<strong>世界第一</strong>，同时获得上海赛区第一！</li>
-<li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/sant-cbm/">"SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models"</a> 被 <strong>MICCAI 2026</strong>（CCF B）临时接收，我担任末位及通讯作者！</li>
+<li><em>06.2026</em> 🎉 我们的论文 <a href="https://xll0328.github.io/zh/sant-cbm/">"SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models"</a> 被 <strong>MICCAI 2026</strong>（CCF B）正式接收，我担任末位及通讯作者！</li>
 <li><em>06.2026</em> 🎉 我们的论文 <a href="{{ '/images/FixCBM_ICANN2026.pdf' | relative_url }}">"Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation"</a> 被 <strong>ICANN 2026</strong>（CCF C）接收，我担任通讯作者！</li>
 <li><em>03.2026</em> 📝 我们的论文 <a href="https://openreview.net/forum?id=bntZBG9fBY">"Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models"</a> 被 <strong>TMLR 2026</strong> 接收。<strong><a href="https://xll0328.github.io/zh/cat/">[项目页]</a></strong> <strong><a href="https://github.com/xll0328/CAT_CBM-Backdoor">[代码]</a></strong></li>
 <li><em>03.2026</em> 🏆 我们的论文 "Towards Better Evaluation Metrics for Text-to-Motion Generation" 获得 <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong> <strong><a href="https://time.griffith.edu.au/workshop/time2026/pages/media.html">最佳论文亚军奖</a></strong>！</li>
@@ -81,7 +137,6 @@ lang: zh
 <li><em>01.2026</em> 🎉 我们的论文 "Towards Better Evaluation Metrics for Text-to-Motion Generation" 被 <strong>ACM TheWebConf 2026 (WWW2026) Workshop TIME</strong> 接收！</li>
 <li><em>01.2026</em> 🎉 我们的论文 "TPTD: A Trusted Privacy-Preserving Truth Discovery Scheme for Quality Enhancement in Team-based Mobile Crowd Sensing" 被 <strong>Knowledge-Based Systems (KBS)</strong> 接收（IF: 7.2, JCR Q1, CCF C）！</li>
 <li><em>12.2025</em> 🎉 我们的论文 "Da Yu: Towards USV-Based Image Captioning for Waterway Surveillance and Scene Understanding" 被 <strong>IEEE TCSVT</strong> 接收（IF: 11.1, JCR Q1, CCF B）！</li>
-<li><em>10.2025</em> 🎉 我们的论文 "Mimicking the Physicist's Eye : A VLM-centric Approach for Physics Formula Discovery" 被 <strong>NeurIPS 2025 Workshop on Efficient Reasoning</strong> 接收并获 <strong>spotlight</strong>！</li>
 <li><em>10.2025</em> 🎉 我们的论文 "Orientation-Aware Detection System for Real-Time Monitoring of Cracks in Steel Structures" 被 <strong>Expert Systems With Applications</strong> 接收（JCR Q1, IF: 7.5）！</li>
 <li><em>09.2025</em> 🎉 我们的论文 "Boosting Expertise and Efficiency in LLM: A Knowledge-Enhanced Framework for Construction Support" 被 <strong>Alexandria Engineering Journal</strong> 接收（JCR Q1, IF: 6.8）！</li>
 <li><em>08.2025</em> 🎉 我们 3 篇论文被 <strong>ACM MM 2025 BNI Track</strong> 接收（CCF A, oral，BNI 论文视为优秀 ACM MM full paper 并进入主会论文集）！</li>
@@ -119,10 +174,42 @@ lang: zh
 <div class="publications-scroll-container">
 
 <h3>2026</h3>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026 Poster</div><img src='{{ "/images/clinstab.png" | relative_url }}' alt="ClinStab" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong><a href="https://neurips.cc/virtual/2026/poster/149545">ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment</a></strong>
+
+Wenshuo Chen<sup>†</sup>, Haoxuan Xu<sup>†</sup>, Yi Liu, <strong>Songning Lai</strong>, Ninghui Feng, Jiayu Yang, Haoang Li, Yutao Yue
+
+The Conference on Neural Information Processing Systems <strong>NeurIPS 2026</strong> <span class="venue-badge ccf-a">CCF A</span>. Poster。Wenshuo Chen 与 Haoxuan Xu 共同一作。
+
+<p class="paper-description">ClinStab 面向 EEG 与 ECG 分类研究稳定性导向学习，将通道感知的双流交互与扰动感知优化结合，并在四个公开数据集上报告准确率与鲁棒性之间的权衡。</p>
+
+<strong><a href="https://neurips.cc/virtual/2026/poster/149545">NeurIPS 页面</a></strong>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026 Poster</div><img src='{{ "/images/viper-r1.png" | relative_url }}' alt="Mimicking the Physicist's Eye" loading="lazy" width="400" height="300"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<strong><a href="https://jiaaqiliu.github.io/VIPER-R1/">Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery</a></strong>
+
+Jiaqi Liu, <strong>Songning Lai</strong>, Pengze Li, Di Yu, Wenjie Zhou, Yiyang Zhou, Peng Xia, Zijun Wang, Xi Chen, Shixiang Tang, Lei Bai, Wanli Ouyang, Mingyu Ding, Huaxiu Yao, Aoran Wang
+
+The Conference on Neural Information Processing Systems <strong>NeurIPS 2026</strong> <span class="venue-badge ccf-a">CCF A</span>. Poster. 第二作者。
+
+<p class="paper-description">VIPER-R1 将视觉运动证据与结构感知的符号校准结合，用于低维动力学中的可解释物理公式发现。</p>
+
+<strong><a href="https://jiaaqiliu.github.io/VIPER-R1/">项目页</a></strong> · <strong><a href="https://arxiv.org/abs/2508.17380">arXiv</a></strong>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Findings</div><img src='{{ "/images/num2event.png" | relative_url }}' alt="NUM2EVENT" loading="lazy" width="400" height="300"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">NUM2EVENT: Structured Event Inference from Numerical Time-Series</a></strong>
+<strong><a href="https://aclanthology.org/2026.findings-emnlp.1536/">NUM2EVENT: Structured Event Inference from Numerical Time-Series</a></strong>
 
 Ninghui Feng†, <strong>Songning Lai†</strong>, Xinan Chen, Zheng Chu, Yiyan Qi
 
@@ -130,7 +217,7 @@ Empirical Methods in Natural Language Processing <strong>EMNLP 2026 Findings</st
 
 <p class="paper-description">NUM2EVENT 研究从数值时间序列推断结构化事件假设，通过 agent-guided event extractor、基于 Hawkes process 的合成数据生成器和多阶段微调流程，生成可检查的事件表示。</p>
 
-<strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">OpenReview</a></strong>
+<strong><a href="https://aclanthology.org/2026.findings-emnlp.1536/">ACL Anthology</a></strong>
 
 </div>
 </div>
@@ -156,9 +243,9 @@ European Conference on Computer Vision <strong>ECCV 2026</strong> <span class="v
 
 <strong><a href="{{ '/zh/sant-cbm/' | relative_url }}">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models</a></strong>
 
-HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>
+Hongwei Liu, Jia Liu, <strong>Songning Lai~</strong>
 
-Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> <span class="venue-badge ccf-b">CCF B</span>. Provisionally accepted.
+Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> <span class="venue-badge ccf-b">CCF B</span>. Accepted.
 
 <p class="paper-description">SANT-CBM 面向医学图像分类中的半监督概念瓶颈模型，通过 GMM 动态加权降低噪声伪标签影响，并用结构一致性损失对齐临床先验中的概念相关关系。</p>
 
@@ -269,7 +356,7 @@ The Conference on <strong>ICRA 2025</strong> <span class="venue-badge ccf-b">CCF
 
 <strong><a href="https://arxiv.org/pdf/2506.05286">Stable Vision Concept Transformers for Medical Diagnosis</a></strong>
 
-Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua, Shu Yang, Jingfeng Zhang, Di Wang
+Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua†, Shu Yang, Jingfeng Zhang, Di Wang
 
 The Conference on <strong>ECML-PKDD 2025</strong> <span class="venue-badge ccf-b">CCF B</span> <span class="venue-badge core-a">Core A</span>.
 
@@ -344,12 +431,14 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 
 <h3>2026</h3>
 <ul class="publication-list">
-<li data-tags="ccf-b">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation, Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun, <strong>EMNLP 2026 Main Conference</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=UaivkZ8Zil">OpenReview</a></strong></li>
-<li data-tags="ccf-b">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning, Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted). <strong><a href="https://openreview.net/forum?id=KZbhfTtIqj">OpenReview</a></strong></li>
-<li data-tags="ccf-b">NUM2EVENT: Structured Event Inference from Numerical Time-Series, Ninghui Feng†, <strong>Songning Lai†</strong>, Xinan Chen, Zheng Chu, Yiyan Qi, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted; † 共同一作). <strong><a href="https://openreview.net/forum?id=MMDyQMfuuJ">OpenReview</a></strong></li>
+<li data-tags="ccf-a">ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment, Wenshuo Chen<sup>†</sup>、Haoxuan Xu<sup>†</sup>、Yi Liu、<strong>Songning Lai</strong>、Ninghui Feng、Jiayu Yang、Haoang Li、Yutao Yue，<strong>NeurIPS 2026</strong>（Poster；Wenshuo Chen、Haoxuan Xu 共同一作）。<strong><a href="https://neurips.cc/virtual/2026/poster/149545">NeurIPS 页面</a></strong></li>
+<li data-tags="ccf-a">Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery, Jiaqi Liu, <strong>Songning Lai</strong>, Pengze Li, Di Yu, Wenjie Zhou, Yiyang Zhou, Peng Xia, Zijun Wang, Xi Chen, Shixiang Tang, Lei Bai, Wanli Ouyang, Mingyu Ding, Huaxiu Yao, Aoran Wang, <strong>NeurIPS 2026</strong>（Poster；第二作者）。<strong><a href="https://jiaaqiliu.github.io/VIPER-R1/">项目页</a></strong> · <strong><a href="https://arxiv.org/abs/2508.17380">arXiv</a></strong></li>
+<li data-tags="ccf-b">Decomposing Visual Histories with Vision-Language Agents: Hierarchical Temporal Guidance for Compositional Image Generation, Lujundong Li, Mingxu Zhang, <strong>Songning Lai</strong>, Jiayu Yang, Yuxuan Fan, Ziwei Xie, Feng Liu, Changwang Zhang, Jun Wang, Dazhong Shen, Ying Sun, <strong>EMNLP 2026 Main Conference</strong> (CCF B, Accepted). <strong><a href="https://aclanthology.org/2026.emnlp-main.607/">ACL Anthology</a></strong></li>
+<li data-tags="ccf-b">Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning, Jiayu Yang, Chao Chen, Shengen Wu, Yinhong Liu, Yuxuan Fan, Lujundong Li, <strong>Songning Lai</strong>, Chengwei Qin, Zhijiang Guo, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted). <strong><a href="https://aclanthology.org/2026.findings-emnlp.457/">ACL Anthology</a></strong></li>
+<li data-tags="ccf-b">NUM2EVENT: Structured Event Inference from Numerical Time-Series, Ninghui Feng†, <strong>Songning Lai†</strong>, Xinan Chen, Zheng Chu, Yiyan Qi, <strong>EMNLP 2026 Findings</strong> (CCF B, Accepted; † 共同一作). <strong><a href="https://aclanthology.org/2026.findings-emnlp.1536/">ACL Anthology</a></strong></li>
 <li data-tags="ccf-a core-a-star">When Efficiency Becomes Fragility: Exploiting Dynamic Routing Vulnerabilities in Adaptive UAV Tracking, Shaofeng Liang, Runwei Guan, Wenshuo Chen, Jiemin Wu, Bowen Tian, Haozhe Jia, Kaishen Yuan, <strong>Songning Lai</strong>, Daizong Liu, Yutao Yue, <strong>ACM MM 2026 Main Track</strong> (CCF A, Accepted).</li>
 <li data-tags="ccf-b">Dynamic-V2C: Editable and Continual Vision-to-Concept Bottleneck Models via Influence Functions, <strong>Songning Lai</strong>, Shaofeng Liang, Jiayu Yang, Ninghui Feng, Yuxuan Fan, Wenshuo Chen, European Conference on Computer Vision <strong>ECCV 2026</strong> (CCF B, Accepted). <strong><a href="{{ '/zh/dynamic-v2c/' | relative_url }}">项目页</a></strong></li>
-<li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, HongWei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Provisionally Accepted). <strong><a href="{{ '/zh/sant-cbm/' | relative_url }}">项目页</a></strong></li>
+<li data-tags="ccf-b">SANT-CBM: Structurally-Aware and Noise-Tolerant Semi-supervised Concept Bottleneck Models, Hongwei Liu, Jia Liu, <strong>Songning Lai~</strong>, Medical Image Computing and Computer Assisted Intervention <strong>MICCAI 2026</strong> (CCF B, Accepted). <strong><a href="{{ '/zh/sant-cbm/' | relative_url }}">项目页</a></strong></li>
 <li data-tags="ccf-c">Concept-Consistent Semi-Supervised Learning for Concept Bottleneck Models via Confidence-Guided Pseudo-Label Propagation, Yayue Mai, <strong>Songning Lai~</strong>, International Conference on Artificial Neural Networks <strong>ICANN 2026</strong> (CCF C, Accepted). <strong><a href="{{ '/images/FixCBM_ICANN2026.pdf' | relative_url }}">论文</a></strong></li>
 <li data-tags="tmlr">Multimodal Deception in Explainable AI: Concept-Level Backdoor Attacks on Concept Bottleneck Models, <strong>Songning Lai</strong>, Jiayu Yang, Yu Huang, Lijie Hu, Tianlang Xue, Zhangyi Hu, Jiaxu Li, Haicheng Liao, Zongyang Liu, Yutao Yue, <strong>TMLR 2026</strong> (Accepted).</li>
 <li data-tags="iclr">ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall, Jiayu Yang†, Yuxuan Fan†, <strong>Songning Lai†</strong>, Shengen Wu, Jiaqi Tang, Chun Kang, Zhijiang Guo, Yutao Yue, <strong>ICLR 2026</strong> (CCF A).</li>
@@ -364,7 +453,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <li data-tags="ccf-a core-a-star">Learning New Concepts, Remembering the Old: Continual Learning for Multimodal Concept Bottleneck Models, <strong>Songning Lai</strong>, Mingqian Liao, Zhangyi Hu, Jiayu Yang, Wenshuo Chen, Hongru Xiao, Jianheng Tang, Haicheng Liao, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*; BNI papers are considered outstanding ACM MM full papers and appear in the main proceedings).</li>
 <li data-tags="ccf-a core-a-star">From Guesswork to Guarantee: Towards Faithful Multimedia Web Forecasting with TimeSieve, <strong>Songning Lai</strong>, Ninghui Feng, Jiechao Gao, Hao Wang, Haochen Sui, Xin Zou, Jiayu Yang, Wenshuo Chen, Lijie Hu, Hang Zhao, Xuming Hu, Yutao Yue, <strong>ACM MM 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-b core-a-star">DRIVE: Dependable Robust Interpretable Visionary Ensemble Framework in Autonomous Driving, <strong>Songning Lai</strong>, Tianlang Xue, Hongru Xiao, Lijie Hu, Jiemin Wu, Ninghui Feng, Runwei Guan, Haicheng Liao, Zhenning Li, Yutao Yue, <strong>ICRA 2025</strong> (CCF B, Core A*).</li>
-<li data-tags="ccf-b core-a">Stable Vision Concept Transformers for Medical Diagnosis, Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua†, Jingfeng Zhang, Pan Zhou, Di Wang, <strong>ECML-PKDD 2025</strong> (CCF B, Core A).</li>
+<li data-tags="ccf-b core-a">Stable Vision Concept Transformers for Medical Diagnosis, Lijie Hu†, <strong>Songning Lai†</strong>, Yuan Hua†, Shu Yang, Jingfeng Zhang, Di Wang, <strong>ECML-PKDD 2025</strong> (CCF B, Core A).</li>
 <li data-tags="ccf-b core-b">PEPL: Precision-Enhanced Pseudo-Labeling for Fine-Grained Image Classification in Semi-Supervised Learning, Bowen Tian†, <strong>Songning Lai†</strong>, Lujundong Li, Zhihao Shuai, Runwei Guan, Tian Wu, Yutao Yue, <strong>ICASSP 2025</strong> (CCF B, Core B).</li>
 <li data-tags="ccf-a core-a-star">IMTS is Worth Time X Channel Patches: Visual Masked Autoencoders for Irregular Multivariate Time Series Prediction, Zhangyi Hu, Jiemin Wu, Hua Xu, Mingqian Liao, Ninghui Feng, Bo Gao, <strong>Songning Lai</strong>, Yutao Yue, <strong>ICML 2025</strong> (CCF A, Core A*).</li>
 <li data-tags="ccf-a core-a-star">Physics-Informed Representation Alignment for Sparse Radio-Map Reconstruction, Jia Haozhe, Wenshuo Chen, Huang Zhihui, Lei Wang, Hongru Xiao, Jia Nanqian, Keming Wu, <strong>Songning Lai</strong>, Bowen Tian, Yutao Yue, <strong>ACM MM 2025 Brave New Idea Track</strong> (CCF A, Core A*).</li>
@@ -386,7 +475,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 <li data-tags="ccf-a">Towards Multi-dimensional Explanation Alignment for Medical Classification, Lijie Hu†, <strong>Songning Lai†</strong>, Wenshuo Chen†, Hongru Xiao, Hongbin Lin, Lu Yu, Jingfeng Zhang, and Di Wang, The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</strong> (CCF A).</li>
 <li data-tags="ccf-c">Shared and private information learning in multimodal sentiment analysis with deep modal alignment and self-supervised multi-task learning, <strong>Songning Lai†</strong>, Jiakang Li, Guinan Guo, Xifeng Hu, Yulong Li, Yuan Tan, Zichen Song, Yutong Liu, Zhaoxia Ren~, Chun Wang~, Danmin Miao~ and Zhi Liu~, International Joint Conference on Neural Networks <strong>IJCNN 2024</strong> (CCF C).</li>
 <li data-tags="jcr-q1 ccf-c">A Comprehensive Review of Community Detection in Graphs, Jiakang Li†, <strong>Songning Lai†</strong>, Zhihao Shuai, Yuan Tan, Yifan Jia, Mianyang Yu, Zichen Song, Xiaokang Peng, Ziyang Xu, Yongxin Ni, Haifeng Qiu, Jiayu Yang, Yutong Liu, Yonggang Lu~, <strong>Neurocomputing</strong> (JCR Q1 (IF: 6.0) CCF C).</li>
-<li data-tags="jcr-q1">Multimodal Sentiment Analysis: A Survey, <strong>Songning Lai</strong>, Haoxuan Xu, Xifeng Hu, Zhaoxia Ren~ and Zhi Liu~, <strong>Displays</strong> (JCR Q1 (IF: 4.3)).</li>
+<li data-tags="jcr-q1">Multimodal Sentiment Analysis: A Survey, <strong>Songning Lai</strong>, Xifeng Hu, Haoxuan Xu, Zhaoxia Ren~ and Zhi Liu~, <strong>Displays</strong> (JCR Q1 (IF: 4.3)).</li>
 <li data-tags="jcr-q1 ccf-c">Cross-domain car detection model with integrated convolutional block attention mechanism, Haoxuan Xu†, <strong>Songning Lai†</strong> and Yang Yang~, <strong>Image and Vision Computing</strong> (JCR Q1 (IF: 4.7) CCF C).</li>
 <li data-tags="">Predicting Lysine Phosphoglycerylation Sites using Bidirectional Encoder Representations with Transformers & Protein Feature Extraction and Selection, <strong>Songning Lai</strong>, Xifeng Hu, Jing Han, Chun Wang, Subhas Mukhopadhyay, Zhi Liu~ and Lan Ye~, 2022 15th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics <strong>CISP-BMEI 2022</strong> (Tsinghua B).</li>
 </ul>
@@ -419,9 +508,7 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 {: #educations }
 
 <div class="timeline-container">
-<div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">XT</span></div><div class="timeline-content"><div class="timeline-date">2026 年 9 月 - 至今</div><div class="timeline-title">交叉科技 - 机器学习量化算法工程师</div><div class="timeline-desc"><span class="experience-type">全职</span> 量化科技部，机器学习算法与量化策略研究。</div></div></div>
-<div class="timeline-item experience-work"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="聚宽 logo"></div><div class="timeline-content"><div class="timeline-date">2026 年 1 月 - 2026 年 8 月</div><div class="timeline-title">聚宽（JoinQuant）- 量化研究 / 人工智能算法</div><div class="timeline-desc"><span class="experience-type">全职</span> 分钟级期货因子建模、自动化训练与调参流程建设。</div></div></div>
-<div class="timeline-item experience-internship"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=joinquant.com&sz=64" alt="聚宽 logo"></div><div class="timeline-content"><div class="timeline-date">2025 年 11 月 - 2026 年 1 月</div><div class="timeline-title">聚宽（JoinQuant）- 量化投研人工智能算法实习生</div><div class="timeline-desc"><span class="experience-type">实习</span> 量化研究与 AI 算法探索。</div></div></div>
+<div class="timeline-item experience-work"><div class="timeline-icon"><span class="experience-logo experience-logo-text">•••</span></div><div class="timeline-content"><div class="timeline-date">公开版</div><div class="timeline-title">工作经历（具体信息已隐去）</div><div class="timeline-desc"><span class="experience-type">保密</span> ************************</div></div></div>
 <div class="timeline-item experience-research"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=hkust-gz.edu.cn&sz=64" alt="香港科技大学（广州）logo"></div><div class="timeline-content"><div class="timeline-date">2024 年 4 月 - 2025 年 9 月</div><div class="timeline-title">香港科技大学（广州）- 研究助理</div><div class="timeline-desc"><span class="experience-type">科研</span> AI Thrust & INFO Hub，可信 AI、CBM、鲁棒性与 LLM 可解释性。</div></div></div>
 <div class="timeline-item experience-visit"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=kaust.edu.sa&sz=64" alt="KAUST logo"></div><div class="timeline-content"><div class="timeline-date">2023 年 4 月 - 2024 年 4 月</div><div class="timeline-title">KAUST - 远程科研实习生</div><div class="timeline-desc"><span class="experience-type">访问 / 实习</span> 与 Di Wang 教授、Lijie Hu 博士合作开展可信 AI 研究。</div></div></div>
 <div class="timeline-item experience-education"><div class="timeline-icon"><img class="experience-logo" src="https://www.google.com/s2/favicons?domain=sdu.edu.cn&sz=64" alt="山东大学 logo"></div><div class="timeline-content"><div class="timeline-date">2020 年 9 月 - 2024 年 6 月</div><div class="timeline-title">山东大学 - 理学学士</div><div class="timeline-desc"><span class="experience-type">教育</span> 信息科学与工程学院（崇新学堂 / EECS）。</div></div></div>

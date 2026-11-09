@@ -7,7 +7,9 @@ author_profile: true
 
 # CV
 
-The latest English and Chinese CV PDFs are available below.
+The public English and Chinese CV PDFs are available below. Work experience details are intentionally redacted in these public copies.
+
+<div class="notice--info"><strong>Public version:</strong> work history and work-specific content are withheld for confidentiality.</div>
 
 <p>
 <strong><a href="{{ '/files/cv/Songning_Lai_Resume_EN_latest.pdf' | relative_url }}">Download English CV</a></strong> ·
