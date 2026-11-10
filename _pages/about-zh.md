@@ -17,6 +17,13 @@ lang: zh
     <span class="research-desktop-star research-desktop-star--three"></span>
   </div>
 
+  <aside class="research-desktop-hiroshi" data-hiroshi-card data-hiroshi-images="{{ '/images/hiroshi/yygz1.jpg' | relative_url }},{{ '/images/hiroshi/yygz2.jpg' | relative_url }},{{ '/images/hiroshi/yygz3.jpg' | relative_url }}" aria-label="野原广志彩蛋">
+    <button type="button" class="research-desktop-hiroshi__image-button" data-hiroshi-next aria-label="切换野原广志图片">
+      <img src="{{ '/images/hiroshi/yygz1.jpg' | relative_url }}" data-hiroshi-image alt="野原广志插画" loading="lazy">
+    </button>
+    <div class="research-desktop-hiroshi__caption"><span>广志的角落</span><small>野原广志 · after hours</small></div>
+  </aside>
+
   <header class="research-desktop-topbar">
     <a class="research-desktop-brand" href="{{ '/zh/' | relative_url }}" aria-label="赖颂宁主页">
       <span class="research-desktop-brand__mark">赖</span>

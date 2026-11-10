@@ -26,6 +26,13 @@ redirect_from:
     <span class="research-desktop-star research-desktop-star--three"></span>
   </div>
 
+  <aside class="research-desktop-hiroshi" data-hiroshi-card data-hiroshi-images="{{ '/images/hiroshi/yygz1.jpg' | relative_url }},{{ '/images/hiroshi/yygz2.jpg' | relative_url }},{{ '/images/hiroshi/yygz3.jpg' | relative_url }}" aria-label="Hiroshi Nohara easter egg">
+    <button type="button" class="research-desktop-hiroshi__image-button" data-hiroshi-next aria-label="Cycle Hiroshi image">
+      <img src="{{ '/images/hiroshi/yygz1.jpg' | relative_url }}" data-hiroshi-image alt="Hiroshi Nohara illustration" loading="lazy">
+    </button>
+    <div class="research-desktop-hiroshi__caption"><span>Hiroshi's corner</span><small>野原广志 · after hours</small></div>
+  </aside>
+
   <header class="research-desktop-topbar">
     <a class="research-desktop-brand" href="{{ '/' | relative_url }}" aria-label="Songning Lai home">
       <span class="research-desktop-brand__mark">SL</span>

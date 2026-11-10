@@ -35,6 +35,10 @@
 
     var dockApps = shell.querySelector('[data-research-dock-apps]');
     var dockCloseAll = shell.querySelector('[data-dock-close-all]');
+    var hiroshiCard = shell.querySelector('[data-hiroshi-card]');
+    var hiroshiImage = shell.querySelector('[data-hiroshi-image]');
+    var hiroshiNext = shell.querySelector('[data-hiroshi-next]');
+    var hiroshiImages = hiroshiCard ? (hiroshiCard.getAttribute('data-hiroshi-images') || '').split(',').filter(Boolean) : [];
 
     var sourceNodes = Array.prototype.slice.call(pageContent.children).filter(function (node) {
       return node !== shell;
@@ -358,6 +362,14 @@
         button.title = themeNames[themeIndex];
       });
     });
+
+    if (hiroshiImage && hiroshiNext) {
+      var hiroshiIndex = 0;
+      hiroshiNext.addEventListener('click', function () {
+        hiroshiIndex = (hiroshiIndex + 1) % hiroshiImages.length;
+        hiroshiImage.src = hiroshiImages[hiroshiIndex];
+      });
+    }
 
     document.body.classList.add('research-desktop-ready');
     refreshDock();

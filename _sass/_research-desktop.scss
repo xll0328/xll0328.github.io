@@ -43,6 +43,10 @@ body.research-desktop-home:not(.research-desktop-ready) .research-desktop-worksp
   display: none;
 }
 
+body.research-desktop-home:not(.research-desktop-ready) .research-desktop-hiroshi {
+  display: none;
+}
+
 body.research-desktop-home:not(.research-desktop-ready) .research-desktop-topbar {
   display: flex;
   min-height: 30px;
@@ -132,6 +136,72 @@ body.research-desktop-ready .page__content > :not(.research-desktop-shell) {
   background-image: radial-gradient(rgba(201, 246, 245, .45) .7px, transparent .7px);
   background-size: 19px 19px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent 84%);
+}
+
+.research-desktop-hiroshi {
+  position: absolute;
+  z-index: 3;
+  right: 28px;
+  bottom: 72px;
+  width: 148px;
+  padding: 6px;
+  opacity: .82;
+  background: rgba(7, 18, 29, .42);
+  border: 1px solid rgba(233, 255, 252, .18);
+  border-radius: 14px;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, .25), inset 0 1px 0 rgba(255, 255, 255, .16);
+  transform: rotate(2deg);
+  transition: opacity .25s ease, transform .25s ease, box-shadow .25s ease;
+  backdrop-filter: blur(8px);
+}
+
+.research-desktop-hiroshi:hover,
+.research-desktop-hiroshi:focus-within {
+  opacity: 1;
+  box-shadow: 0 18px 46px rgba(0, 0, 0, .35), 0 0 28px rgba(239, 106, 67, .12);
+  transform: rotate(0deg) translateY(-3px);
+}
+
+.research-desktop-hiroshi__image-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  background: #112536;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.research-desktop-hiroshi__image-button img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  filter: saturate(.86) contrast(1.04);
+  transition: transform .45s ease, filter .25s ease;
+}
+
+.research-desktop-hiroshi__image-button:hover img,
+.research-desktop-hiroshi__image-button:focus-visible img {
+  filter: saturate(1.08) contrast(1.05);
+  transform: scale(1.04);
+}
+
+.research-desktop-hiroshi__caption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 7px 3px 2px;
+  color: rgba(239, 250, 249, .82);
+  font-size: .65rem;
+  letter-spacing: .04em;
+}
+
+.research-desktop-hiroshi__caption small {
+  color: rgba(239, 250, 249, .46);
+  font-size: .56rem;
+  letter-spacing: .02em;
 }
 
 .research-desktop-shell.is-sunrise .research-desktop-wallpaper {
@@ -790,6 +860,10 @@ body.research-desktop-ready .page__content > :not(.research-desktop-shell) {
   body.research-desktop-ready .research-desktop-quickbar button,
   body.research-desktop-ready .research-desktop-quickbar a { flex: 0 0 auto; min-height: 28px; padding: .26rem .65rem; color: rgba(245, 251, 252, .88) !important; font-size: .66rem; }
   body.research-desktop-ready .research-desktop-hint { display: none; }
+  body.research-desktop-ready .research-desktop-hiroshi { position: relative; right: auto; bottom: auto; display: flex; width: auto; max-width: 250px; align-items: center; gap: .55rem; margin: .45rem .75rem .15rem auto; padding: .28rem; opacity: .9; transform: none; }
+  body.research-desktop-ready .research-desktop-hiroshi__image-button { width: 44px; flex: 0 0 44px; border-radius: 8px; }
+  body.research-desktop-ready .research-desktop-hiroshi__caption { padding: 0 .25rem; font-size: .61rem; }
+  body.research-desktop-ready .research-desktop-hiroshi__caption small { font-size: .52rem; }
   body.research-desktop-ready .research-desktop-dockbar { position: relative; right: auto; bottom: auto; display: flex; flex-wrap: wrap; justify-content: center; max-width: none; margin: 0 .75rem 1rem; padding: .35rem; transform: none; border-radius: 10px; }
   body.research-desktop-ready .research-desktop-dockbar__apps { max-width: 100%; overflow-x: auto; }
   body.research-desktop-ready .research-desktop-dockbar__status { order: 3; flex: 1 0 100%; justify-content: center; padding: .25rem 0 0; font-size: .61rem; }
