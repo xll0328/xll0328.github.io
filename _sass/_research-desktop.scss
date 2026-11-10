@@ -140,12 +140,12 @@ body.research-desktop-ready .page__content > :not(.research-desktop-shell) {
 
 .research-desktop-hiroshi {
   position: absolute;
-  z-index: 3;
-  right: 28px;
-  bottom: 72px;
-  width: 148px;
+  z-index: 45;
+  right: 12px;
+  bottom: 78px;
+  width: 132px;
   padding: 6px;
-  opacity: .82;
+  opacity: .94;
   background: rgba(7, 18, 29, .42);
   border: 1px solid rgba(233, 255, 252, .18);
   border-radius: 14px;
@@ -193,7 +193,7 @@ body.research-desktop-ready .page__content > :not(.research-desktop-shell) {
   flex-direction: column;
   gap: 2px;
   padding: 7px 3px 2px;
-  color: rgba(239, 250, 249, .82);
+  color: rgba(239, 250, 249, .9);
   font-size: .65rem;
   letter-spacing: .04em;
 }
