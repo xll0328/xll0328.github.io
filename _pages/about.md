@@ -137,6 +137,7 @@ If you are interested in my research or a collaboration, please email me at <em>
 </div>
 
 <ul id="news-list" class="news-list is-collapsed">
+<li><em>11.2026</em>  🎉 Our paper “FinOPD: On-Policy Distillation for Self-Evolving Financial Multi-Agent Systems” was accepted for poster presentation at the <strong>KDD 2027 AI for Sciences Track</strong> (Cycle 1).</li>
 <li><em>09.2026</em>  🎉 <a href="https://neurips.cc/virtual/2026/poster/149545">"ClinStab: Stability-Oriented Learning for Medical Time Series via Dual-Stream Alignment"</a> appeared as a <strong>NeurIPS 2026 poster</strong>, with Wenshuo Chen and Haoxuan Xu as co-first authors, and <a href="https://jiaaqiliu.github.io/VIPER-R1/">"Mimicking the Physicist's Eye: A VLM-centric Approach for Physics Formula Discovery"</a> appeared as a <strong>NeurIPS 2026 poster</strong> (second author).</li>
 <li><em>09.2026</em>  I started a Machine Learning Quantitative Research Engineer role focused on end-to-end medium-to-high-frequency CTA research; specific work details remain confidential.</li>
 <li><em>08.2026</em>  🎉 Three papers have been accepted to <strong>EMNLP 2026</strong>: "Decomposing Visual Histories with Vision-Language Agents" (Main Conference), "Demystifying Hidden-State Recurrence" (Findings), and "NUM2EVENT" (Findings, co-first author)!</li>
@@ -458,6 +459,11 @@ The Conference on Neural Information Processing Systems <strong>NeurIPS 2024</st
 </div>
 
 <div class="complete-publications-container">
+
+<h3>2027</h3>
+<ul class="publication-list">
+<li data-tags="ccf-a">FinOPD: On-Policy Distillation for Self-Evolving Financial Multi-Agent Systems, Weilin Ruan, Yiyao Peng, Ziyu Zhou, <strong>Songning Lai</strong>, Fan Liu, Yuxuan Liang, James Cheng, <strong>KDD 2027 AI for Sciences Track</strong> (Cycle 1, Accepted as Poster).</li>
+</ul>
 
 <h3>2026</h3>
 <ul class="publication-list">
