@@ -7,7 +7,6 @@
         'ccf-a': 'CCF A',
         'ccf-b': 'CCF B',
         'ccf-c': 'CCF C',
-        'iclr': 'ICLR',
         'core-a-star': 'Core A*',
         'core-a': 'Core A',
         'core-b': 'Core B',
@@ -45,7 +44,7 @@
         const statsParts = [];
         
         // 按照显示顺序排列
-        const displayOrder = ['ccf-a', 'iclr', 'ccf-b', 'ccf-c', 'jcr-q1'];
+        const displayOrder = ['ccf-a', 'ccf-b', 'ccf-c', 'jcr-q1'];
         
         displayOrder.forEach(tag => {
             if (tagCounts[tag] > 0) {
